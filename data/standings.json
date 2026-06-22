@@ -1,0 +1,1906 @@
+{
+  "lastUpdated": "2026-06-22T09:58:26.287Z",
+  "source": "API-Football (api-sports.io)",
+  "season": 2026,
+  "leagueId": 1,
+  "groupStageComplete": false,
+  "knockoutsStarted": false,
+  "prizes": {
+    "total": 240,
+    "currency": "GBP",
+    "breakdown": [
+      {
+        "name": "Winner",
+        "pct": 50,
+        "amount": 120
+      },
+      {
+        "name": "Runner-up",
+        "pct": 20,
+        "amount": 48
+      },
+      {
+        "name": "Most Goals Conceded (Group)",
+        "pct": 10,
+        "amount": 24
+      },
+      {
+        "name": "Most Red Cards (Group)",
+        "pct": 10,
+        "amount": 24
+      },
+      {
+        "name": "Most Own Goals (Group)",
+        "pct": 10,
+        "amount": 24
+      }
+    ]
+  },
+  "banner": {
+    "nextFixture": null,
+    "lastFinished": null
+  },
+  "champion": null,
+  "runnerUp": null,
+  "players": [
+    {
+      "name": "Adam Wright",
+      "teams": [
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "iso2": "ES",
+          "pot": 1,
+          "odds": "9/2",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "iso2": "ZA",
+          "pot": 2,
+          "odds": "1000/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Ali Taylor",
+      "teams": [
+        {
+          "code": "MOR",
+          "name": "Morocco",
+          "iso2": "MA",
+          "pot": 1,
+          "odds": "50/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "iso2": "EG",
+          "pot": 2,
+          "odds": "300/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Bob Gibson",
+      "teams": [
+        {
+          "code": "NLD",
+          "name": "Netherlands",
+          "iso2": "NL",
+          "pot": 1,
+          "odds": "20/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "ALG",
+          "name": "Algeria",
+          "iso2": "DZ",
+          "pot": 2,
+          "odds": "400/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Elizabeth Swords",
+      "teams": [
+        {
+          "code": "SWI",
+          "name": "Switzerland",
+          "iso2": "CH",
+          "pot": 1,
+          "odds": "80/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "KOR",
+          "name": "South Korea",
+          "iso2": "KR",
+          "pot": 2,
+          "odds": "500/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Flora Curry",
+      "teams": [
+        {
+          "code": "USA",
+          "name": "USA",
+          "iso2": "US",
+          "pot": 1,
+          "odds": "66/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "KSA",
+          "name": "Saudi Arabia",
+          "iso2": "SA",
+          "pot": 2,
+          "odds": "1000/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Frank Dunn",
+      "teams": [
+        {
+          "code": "ECU",
+          "name": "Ecuador",
+          "iso2": "EC",
+          "pot": 1,
+          "odds": "100/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "QAT",
+          "name": "Qatar",
+          "iso2": "QA",
+          "pot": 2,
+          "odds": "1000/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Fred Dunn",
+      "teams": [
+        {
+          "code": "BEL",
+          "name": "Belgium",
+          "iso2": "BE",
+          "pot": 1,
+          "odds": "33/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "CUW",
+          "name": "Curacao",
+          "iso2": "CW",
+          "pot": 2,
+          "odds": "2000/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Guy Curry",
+      "teams": [
+        {
+          "code": "POR",
+          "name": "Portugal",
+          "iso2": "PT",
+          "pot": 1,
+          "odds": "10/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "CPV",
+          "name": "Cape Verde",
+          "iso2": "CV",
+          "pot": 2,
+          "odds": "2000/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Jess Forshaw",
+      "teams": [
+        {
+          "code": "GER",
+          "name": "Germany",
+          "iso2": "DE",
+          "pot": 1,
+          "odds": "14/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "IRN",
+          "name": "Iran",
+          "iso2": "IR",
+          "pot": 2,
+          "odds": "500/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Jimena Barillas",
+      "teams": [
+        {
+          "code": "NOR",
+          "name": "Norway",
+          "iso2": "NO",
+          "pot": 1,
+          "odds": "25/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "UZB",
+          "name": "Uzbekistan",
+          "iso2": "UZ",
+          "pot": 2,
+          "odds": "1500/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Joe Clayton",
+      "teams": [
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "iso2": "CA",
+          "pot": 1,
+          "odds": "150/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "JOR",
+          "name": "Jordan",
+          "iso2": "JO",
+          "pot": 2,
+          "odds": "2500/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Laura Harrison",
+      "teams": [
+        {
+          "code": "TUR",
+          "name": "Turkey",
+          "iso2": "TR",
+          "pot": 1,
+          "odds": "80/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "CZE",
+          "name": "Czechia",
+          "iso2": "CZ",
+          "pot": 2,
+          "odds": "300/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Madi Farrow-Dunn",
+      "teams": [
+        {
+          "code": "SWE",
+          "name": "Sweden",
+          "iso2": "SE",
+          "pot": 1,
+          "odds": "125/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "NZL",
+          "name": "New Zealand",
+          "iso2": "NZ",
+          "pot": 2,
+          "odds": "1500/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Matt Deacock",
+      "teams": [
+        {
+          "code": "COL",
+          "name": "Colombia",
+          "iso2": "CO",
+          "pot": 1,
+          "odds": "33/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "GHA",
+          "name": "Ghana",
+          "iso2": "GH",
+          "pot": 2,
+          "odds": "400/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Me Julie",
+      "teams": [
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "iso2": "BR",
+          "pot": 1,
+          "odds": "8/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "PAN",
+          "name": "Panama",
+          "iso2": "PA",
+          "pot": 2,
+          "odds": "1500/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Nick Foulkes",
+      "teams": [
+        {
+          "code": "JAP",
+          "name": "Japan",
+          "iso2": "JP",
+          "pot": 1,
+          "odds": "50/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "DRC",
+          "name": "DR Congo",
+          "iso2": "CD",
+          "pot": 2,
+          "odds": "750/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Paul Mitchell",
+      "teams": [
+        {
+          "code": "AUT",
+          "name": "Austria",
+          "iso2": "AT",
+          "pot": 1,
+          "odds": "150/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "SCO",
+          "name": "Scotland",
+          "iso2": "GB-SCT",
+          "pot": 2,
+          "odds": "250/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Robbie Godowski",
+      "teams": [
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "iso2": "MX",
+          "pot": 1,
+          "odds": "80/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "CIV",
+          "name": "Ivory Coast",
+          "iso2": "CI",
+          "pot": 2,
+          "odds": "300/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Robin Parish",
+      "teams": [
+        {
+          "code": "CRO",
+          "name": "Croatia",
+          "iso2": "HR",
+          "pot": 1,
+          "odds": "80/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "PAR",
+          "name": "Paraguay",
+          "iso2": "PY",
+          "pot": 2,
+          "odds": "150/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Sam King",
+      "teams": [
+        {
+          "code": "FRA",
+          "name": "France",
+          "iso2": "FR",
+          "pot": 1,
+          "odds": "5/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "TUN",
+          "name": "Tunisia",
+          "iso2": "TN",
+          "pot": 2,
+          "odds": "500/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Sam Lowerson",
+      "teams": [
+        {
+          "code": "SEN",
+          "name": "Senegal",
+          "iso2": "SN",
+          "pot": 1,
+          "odds": "125/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "BIH",
+          "name": "Bosnia-Herzegovina",
+          "iso2": "BA",
+          "pot": 2,
+          "odds": "250/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Scott Rossetter",
+      "teams": [
+        {
+          "code": "ENG",
+          "name": "England",
+          "iso2": "GB-ENG",
+          "pot": 1,
+          "odds": "6/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "IRQ",
+          "name": "Iraq",
+          "iso2": "IQ",
+          "pot": 2,
+          "odds": "1500/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Tom Clayton",
+      "teams": [
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "iso2": "AR",
+          "pot": 1,
+          "odds": "8/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "HTI",
+          "name": "Haiti",
+          "iso2": "HT",
+          "pot": 2,
+          "odds": "3000/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    },
+    {
+      "name": "Tom Gibbons",
+      "teams": [
+        {
+          "code": "URY",
+          "name": "Uruguay",
+          "iso2": "UY",
+          "pot": 1,
+          "odds": "66/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "iso2": "AU",
+          "pot": 2,
+          "odds": "500/1",
+          "matched": false,
+          "status": "Yet to kick off",
+          "statusKind": "group",
+          "alive": true,
+          "group": null,
+          "goalsConceded": 0,
+          "redCards": 0,
+          "ownGoals": 0
+        }
+      ]
+    }
+  ],
+  "leaderboards": {
+    "goalsConceded": [
+      {
+        "code": "ALG",
+        "name": "Algeria",
+        "iso2": "DZ",
+        "player": "Bob Gibson",
+        "value": 0
+      },
+      {
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
+        "player": "Tom Clayton",
+        "value": 0
+      },
+      {
+        "code": "AUS",
+        "name": "Australia",
+        "iso2": "AU",
+        "player": "Tom Gibbons",
+        "value": 0
+      },
+      {
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT",
+        "player": "Paul Mitchell",
+        "value": 0
+      },
+      {
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE",
+        "player": "Fred Dunn",
+        "value": 0
+      },
+      {
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "player": "Sam Lowerson",
+        "value": 0
+      },
+      {
+        "code": "BRA",
+        "name": "Brazil",
+        "iso2": "BR",
+        "player": "Me Julie",
+        "value": 0
+      },
+      {
+        "code": "CAN",
+        "name": "Canada",
+        "iso2": "CA",
+        "player": "Joe Clayton",
+        "value": 0
+      },
+      {
+        "code": "CPV",
+        "name": "Cape Verde",
+        "iso2": "CV",
+        "player": "Guy Curry",
+        "value": 0
+      },
+      {
+        "code": "COL",
+        "name": "Colombia",
+        "iso2": "CO",
+        "player": "Matt Deacock",
+        "value": 0
+      },
+      {
+        "code": "CRO",
+        "name": "Croatia",
+        "iso2": "HR",
+        "player": "Robin Parish",
+        "value": 0
+      },
+      {
+        "code": "CUW",
+        "name": "Curacao",
+        "iso2": "CW",
+        "player": "Fred Dunn",
+        "value": 0
+      },
+      {
+        "code": "CZE",
+        "name": "Czechia",
+        "iso2": "CZ",
+        "player": "Laura Harrison",
+        "value": 0
+      },
+      {
+        "code": "DRC",
+        "name": "DR Congo",
+        "iso2": "CD",
+        "player": "Nick Foulkes",
+        "value": 0
+      },
+      {
+        "code": "ECU",
+        "name": "Ecuador",
+        "iso2": "EC",
+        "player": "Frank Dunn",
+        "value": 0
+      },
+      {
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "player": "Ali Taylor",
+        "value": 0
+      },
+      {
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG",
+        "player": "Scott Rossetter",
+        "value": 0
+      },
+      {
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR",
+        "player": "Sam King",
+        "value": 0
+      },
+      {
+        "code": "GER",
+        "name": "Germany",
+        "iso2": "DE",
+        "player": "Jess Forshaw",
+        "value": 0
+      },
+      {
+        "code": "GHA",
+        "name": "Ghana",
+        "iso2": "GH",
+        "player": "Matt Deacock",
+        "value": 0
+      },
+      {
+        "code": "HTI",
+        "name": "Haiti",
+        "iso2": "HT",
+        "player": "Tom Clayton",
+        "value": 0
+      },
+      {
+        "code": "IRN",
+        "name": "Iran",
+        "iso2": "IR",
+        "player": "Jess Forshaw",
+        "value": 0
+      },
+      {
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "player": "Scott Rossetter",
+        "value": 0
+      },
+      {
+        "code": "CIV",
+        "name": "Ivory Coast",
+        "iso2": "CI",
+        "player": "Robbie Godowski",
+        "value": 0
+      },
+      {
+        "code": "JAP",
+        "name": "Japan",
+        "iso2": "JP",
+        "player": "Nick Foulkes",
+        "value": 0
+      },
+      {
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
+        "value": 0
+      },
+      {
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX",
+        "player": "Robbie Godowski",
+        "value": 0
+      },
+      {
+        "code": "MOR",
+        "name": "Morocco",
+        "iso2": "MA",
+        "player": "Ali Taylor",
+        "value": 0
+      },
+      {
+        "code": "NLD",
+        "name": "Netherlands",
+        "iso2": "NL",
+        "player": "Bob Gibson",
+        "value": 0
+      },
+      {
+        "code": "NZL",
+        "name": "New Zealand",
+        "iso2": "NZ",
+        "player": "Madi Farrow-Dunn",
+        "value": 0
+      },
+      {
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO",
+        "player": "Jimena Barillas",
+        "value": 0
+      },
+      {
+        "code": "PAN",
+        "name": "Panama",
+        "iso2": "PA",
+        "player": "Me Julie",
+        "value": 0
+      },
+      {
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "player": "Robin Parish",
+        "value": 0
+      },
+      {
+        "code": "POR",
+        "name": "Portugal",
+        "iso2": "PT",
+        "player": "Guy Curry",
+        "value": 0
+      },
+      {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
+        "value": 0
+      },
+      {
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "iso2": "SA",
+        "player": "Flora Curry",
+        "value": 0
+      },
+      {
+        "code": "SCO",
+        "name": "Scotland",
+        "iso2": "GB-SCT",
+        "player": "Paul Mitchell",
+        "value": 0
+      },
+      {
+        "code": "SEN",
+        "name": "Senegal",
+        "iso2": "SN",
+        "player": "Sam Lowerson",
+        "value": 0
+      },
+      {
+        "code": "ZAF",
+        "name": "South Africa",
+        "iso2": "ZA",
+        "player": "Adam Wright",
+        "value": 0
+      },
+      {
+        "code": "KOR",
+        "name": "South Korea",
+        "iso2": "KR",
+        "player": "Elizabeth Swords",
+        "value": 0
+      },
+      {
+        "code": "ESP",
+        "name": "Spain",
+        "iso2": "ES",
+        "player": "Adam Wright",
+        "value": 0
+      },
+      {
+        "code": "SWE",
+        "name": "Sweden",
+        "iso2": "SE",
+        "player": "Madi Farrow-Dunn",
+        "value": 0
+      },
+      {
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH",
+        "player": "Elizabeth Swords",
+        "value": 0
+      },
+      {
+        "code": "TUN",
+        "name": "Tunisia",
+        "iso2": "TN",
+        "player": "Sam King",
+        "value": 0
+      },
+      {
+        "code": "TUR",
+        "name": "Turkey",
+        "iso2": "TR",
+        "player": "Laura Harrison",
+        "value": 0
+      },
+      {
+        "code": "URY",
+        "name": "Uruguay",
+        "iso2": "UY",
+        "player": "Tom Gibbons",
+        "value": 0
+      },
+      {
+        "code": "USA",
+        "name": "USA",
+        "iso2": "US",
+        "player": "Flora Curry",
+        "value": 0
+      },
+      {
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "iso2": "UZ",
+        "player": "Jimena Barillas",
+        "value": 0
+      }
+    ],
+    "redCards": [
+      {
+        "code": "ALG",
+        "name": "Algeria",
+        "iso2": "DZ",
+        "player": "Bob Gibson",
+        "value": 0
+      },
+      {
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
+        "player": "Tom Clayton",
+        "value": 0
+      },
+      {
+        "code": "AUS",
+        "name": "Australia",
+        "iso2": "AU",
+        "player": "Tom Gibbons",
+        "value": 0
+      },
+      {
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT",
+        "player": "Paul Mitchell",
+        "value": 0
+      },
+      {
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE",
+        "player": "Fred Dunn",
+        "value": 0
+      },
+      {
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "player": "Sam Lowerson",
+        "value": 0
+      },
+      {
+        "code": "BRA",
+        "name": "Brazil",
+        "iso2": "BR",
+        "player": "Me Julie",
+        "value": 0
+      },
+      {
+        "code": "CAN",
+        "name": "Canada",
+        "iso2": "CA",
+        "player": "Joe Clayton",
+        "value": 0
+      },
+      {
+        "code": "CPV",
+        "name": "Cape Verde",
+        "iso2": "CV",
+        "player": "Guy Curry",
+        "value": 0
+      },
+      {
+        "code": "COL",
+        "name": "Colombia",
+        "iso2": "CO",
+        "player": "Matt Deacock",
+        "value": 0
+      },
+      {
+        "code": "CRO",
+        "name": "Croatia",
+        "iso2": "HR",
+        "player": "Robin Parish",
+        "value": 0
+      },
+      {
+        "code": "CUW",
+        "name": "Curacao",
+        "iso2": "CW",
+        "player": "Fred Dunn",
+        "value": 0
+      },
+      {
+        "code": "CZE",
+        "name": "Czechia",
+        "iso2": "CZ",
+        "player": "Laura Harrison",
+        "value": 0
+      },
+      {
+        "code": "DRC",
+        "name": "DR Congo",
+        "iso2": "CD",
+        "player": "Nick Foulkes",
+        "value": 0
+      },
+      {
+        "code": "ECU",
+        "name": "Ecuador",
+        "iso2": "EC",
+        "player": "Frank Dunn",
+        "value": 0
+      },
+      {
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "player": "Ali Taylor",
+        "value": 0
+      },
+      {
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG",
+        "player": "Scott Rossetter",
+        "value": 0
+      },
+      {
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR",
+        "player": "Sam King",
+        "value": 0
+      },
+      {
+        "code": "GER",
+        "name": "Germany",
+        "iso2": "DE",
+        "player": "Jess Forshaw",
+        "value": 0
+      },
+      {
+        "code": "GHA",
+        "name": "Ghana",
+        "iso2": "GH",
+        "player": "Matt Deacock",
+        "value": 0
+      },
+      {
+        "code": "HTI",
+        "name": "Haiti",
+        "iso2": "HT",
+        "player": "Tom Clayton",
+        "value": 0
+      },
+      {
+        "code": "IRN",
+        "name": "Iran",
+        "iso2": "IR",
+        "player": "Jess Forshaw",
+        "value": 0
+      },
+      {
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "player": "Scott Rossetter",
+        "value": 0
+      },
+      {
+        "code": "CIV",
+        "name": "Ivory Coast",
+        "iso2": "CI",
+        "player": "Robbie Godowski",
+        "value": 0
+      },
+      {
+        "code": "JAP",
+        "name": "Japan",
+        "iso2": "JP",
+        "player": "Nick Foulkes",
+        "value": 0
+      },
+      {
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
+        "value": 0
+      },
+      {
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX",
+        "player": "Robbie Godowski",
+        "value": 0
+      },
+      {
+        "code": "MOR",
+        "name": "Morocco",
+        "iso2": "MA",
+        "player": "Ali Taylor",
+        "value": 0
+      },
+      {
+        "code": "NLD",
+        "name": "Netherlands",
+        "iso2": "NL",
+        "player": "Bob Gibson",
+        "value": 0
+      },
+      {
+        "code": "NZL",
+        "name": "New Zealand",
+        "iso2": "NZ",
+        "player": "Madi Farrow-Dunn",
+        "value": 0
+      },
+      {
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO",
+        "player": "Jimena Barillas",
+        "value": 0
+      },
+      {
+        "code": "PAN",
+        "name": "Panama",
+        "iso2": "PA",
+        "player": "Me Julie",
+        "value": 0
+      },
+      {
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "player": "Robin Parish",
+        "value": 0
+      },
+      {
+        "code": "POR",
+        "name": "Portugal",
+        "iso2": "PT",
+        "player": "Guy Curry",
+        "value": 0
+      },
+      {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
+        "value": 0
+      },
+      {
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "iso2": "SA",
+        "player": "Flora Curry",
+        "value": 0
+      },
+      {
+        "code": "SCO",
+        "name": "Scotland",
+        "iso2": "GB-SCT",
+        "player": "Paul Mitchell",
+        "value": 0
+      },
+      {
+        "code": "SEN",
+        "name": "Senegal",
+        "iso2": "SN",
+        "player": "Sam Lowerson",
+        "value": 0
+      },
+      {
+        "code": "ZAF",
+        "name": "South Africa",
+        "iso2": "ZA",
+        "player": "Adam Wright",
+        "value": 0
+      },
+      {
+        "code": "KOR",
+        "name": "South Korea",
+        "iso2": "KR",
+        "player": "Elizabeth Swords",
+        "value": 0
+      },
+      {
+        "code": "ESP",
+        "name": "Spain",
+        "iso2": "ES",
+        "player": "Adam Wright",
+        "value": 0
+      },
+      {
+        "code": "SWE",
+        "name": "Sweden",
+        "iso2": "SE",
+        "player": "Madi Farrow-Dunn",
+        "value": 0
+      },
+      {
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH",
+        "player": "Elizabeth Swords",
+        "value": 0
+      },
+      {
+        "code": "TUN",
+        "name": "Tunisia",
+        "iso2": "TN",
+        "player": "Sam King",
+        "value": 0
+      },
+      {
+        "code": "TUR",
+        "name": "Turkey",
+        "iso2": "TR",
+        "player": "Laura Harrison",
+        "value": 0
+      },
+      {
+        "code": "URY",
+        "name": "Uruguay",
+        "iso2": "UY",
+        "player": "Tom Gibbons",
+        "value": 0
+      },
+      {
+        "code": "USA",
+        "name": "USA",
+        "iso2": "US",
+        "player": "Flora Curry",
+        "value": 0
+      },
+      {
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "iso2": "UZ",
+        "player": "Jimena Barillas",
+        "value": 0
+      }
+    ],
+    "ownGoals": [
+      {
+        "code": "ALG",
+        "name": "Algeria",
+        "iso2": "DZ",
+        "player": "Bob Gibson",
+        "value": 0
+      },
+      {
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
+        "player": "Tom Clayton",
+        "value": 0
+      },
+      {
+        "code": "AUS",
+        "name": "Australia",
+        "iso2": "AU",
+        "player": "Tom Gibbons",
+        "value": 0
+      },
+      {
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT",
+        "player": "Paul Mitchell",
+        "value": 0
+      },
+      {
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE",
+        "player": "Fred Dunn",
+        "value": 0
+      },
+      {
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "player": "Sam Lowerson",
+        "value": 0
+      },
+      {
+        "code": "BRA",
+        "name": "Brazil",
+        "iso2": "BR",
+        "player": "Me Julie",
+        "value": 0
+      },
+      {
+        "code": "CAN",
+        "name": "Canada",
+        "iso2": "CA",
+        "player": "Joe Clayton",
+        "value": 0
+      },
+      {
+        "code": "CPV",
+        "name": "Cape Verde",
+        "iso2": "CV",
+        "player": "Guy Curry",
+        "value": 0
+      },
+      {
+        "code": "COL",
+        "name": "Colombia",
+        "iso2": "CO",
+        "player": "Matt Deacock",
+        "value": 0
+      },
+      {
+        "code": "CRO",
+        "name": "Croatia",
+        "iso2": "HR",
+        "player": "Robin Parish",
+        "value": 0
+      },
+      {
+        "code": "CUW",
+        "name": "Curacao",
+        "iso2": "CW",
+        "player": "Fred Dunn",
+        "value": 0
+      },
+      {
+        "code": "CZE",
+        "name": "Czechia",
+        "iso2": "CZ",
+        "player": "Laura Harrison",
+        "value": 0
+      },
+      {
+        "code": "DRC",
+        "name": "DR Congo",
+        "iso2": "CD",
+        "player": "Nick Foulkes",
+        "value": 0
+      },
+      {
+        "code": "ECU",
+        "name": "Ecuador",
+        "iso2": "EC",
+        "player": "Frank Dunn",
+        "value": 0
+      },
+      {
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "player": "Ali Taylor",
+        "value": 0
+      },
+      {
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG",
+        "player": "Scott Rossetter",
+        "value": 0
+      },
+      {
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR",
+        "player": "Sam King",
+        "value": 0
+      },
+      {
+        "code": "GER",
+        "name": "Germany",
+        "iso2": "DE",
+        "player": "Jess Forshaw",
+        "value": 0
+      },
+      {
+        "code": "GHA",
+        "name": "Ghana",
+        "iso2": "GH",
+        "player": "Matt Deacock",
+        "value": 0
+      },
+      {
+        "code": "HTI",
+        "name": "Haiti",
+        "iso2": "HT",
+        "player": "Tom Clayton",
+        "value": 0
+      },
+      {
+        "code": "IRN",
+        "name": "Iran",
+        "iso2": "IR",
+        "player": "Jess Forshaw",
+        "value": 0
+      },
+      {
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "player": "Scott Rossetter",
+        "value": 0
+      },
+      {
+        "code": "CIV",
+        "name": "Ivory Coast",
+        "iso2": "CI",
+        "player": "Robbie Godowski",
+        "value": 0
+      },
+      {
+        "code": "JAP",
+        "name": "Japan",
+        "iso2": "JP",
+        "player": "Nick Foulkes",
+        "value": 0
+      },
+      {
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
+        "value": 0
+      },
+      {
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX",
+        "player": "Robbie Godowski",
+        "value": 0
+      },
+      {
+        "code": "MOR",
+        "name": "Morocco",
+        "iso2": "MA",
+        "player": "Ali Taylor",
+        "value": 0
+      },
+      {
+        "code": "NLD",
+        "name": "Netherlands",
+        "iso2": "NL",
+        "player": "Bob Gibson",
+        "value": 0
+      },
+      {
+        "code": "NZL",
+        "name": "New Zealand",
+        "iso2": "NZ",
+        "player": "Madi Farrow-Dunn",
+        "value": 0
+      },
+      {
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO",
+        "player": "Jimena Barillas",
+        "value": 0
+      },
+      {
+        "code": "PAN",
+        "name": "Panama",
+        "iso2": "PA",
+        "player": "Me Julie",
+        "value": 0
+      },
+      {
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "player": "Robin Parish",
+        "value": 0
+      },
+      {
+        "code": "POR",
+        "name": "Portugal",
+        "iso2": "PT",
+        "player": "Guy Curry",
+        "value": 0
+      },
+      {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
+        "value": 0
+      },
+      {
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "iso2": "SA",
+        "player": "Flora Curry",
+        "value": 0
+      },
+      {
+        "code": "SCO",
+        "name": "Scotland",
+        "iso2": "GB-SCT",
+        "player": "Paul Mitchell",
+        "value": 0
+      },
+      {
+        "code": "SEN",
+        "name": "Senegal",
+        "iso2": "SN",
+        "player": "Sam Lowerson",
+        "value": 0
+      },
+      {
+        "code": "ZAF",
+        "name": "South Africa",
+        "iso2": "ZA",
+        "player": "Adam Wright",
+        "value": 0
+      },
+      {
+        "code": "KOR",
+        "name": "South Korea",
+        "iso2": "KR",
+        "player": "Elizabeth Swords",
+        "value": 0
+      },
+      {
+        "code": "ESP",
+        "name": "Spain",
+        "iso2": "ES",
+        "player": "Adam Wright",
+        "value": 0
+      },
+      {
+        "code": "SWE",
+        "name": "Sweden",
+        "iso2": "SE",
+        "player": "Madi Farrow-Dunn",
+        "value": 0
+      },
+      {
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH",
+        "player": "Elizabeth Swords",
+        "value": 0
+      },
+      {
+        "code": "TUN",
+        "name": "Tunisia",
+        "iso2": "TN",
+        "player": "Sam King",
+        "value": 0
+      },
+      {
+        "code": "TUR",
+        "name": "Turkey",
+        "iso2": "TR",
+        "player": "Laura Harrison",
+        "value": 0
+      },
+      {
+        "code": "URY",
+        "name": "Uruguay",
+        "iso2": "UY",
+        "player": "Tom Gibbons",
+        "value": 0
+      },
+      {
+        "code": "USA",
+        "name": "USA",
+        "iso2": "US",
+        "player": "Flora Curry",
+        "value": 0
+      },
+      {
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "iso2": "UZ",
+        "player": "Jimena Barillas",
+        "value": 0
+      }
+    ]
+  },
+  "meta": {
+    "offline": true
+  }
+}

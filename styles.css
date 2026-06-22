@@ -1,0 +1,129 @@
+/* The Blair Mitch Project — WC2026 sweepstake dashboard */
+:root {
+  --pitch: #0b6e2e;
+  --pitch-dark: #074d20;
+  --ink: #0e1a13;
+  --paper: #f4f7f2;
+  --card: #ffffff;
+  --line: #dfe6dc;
+  --muted: #5d6b60;
+  --gold: #e8b430;
+  --gold-deep: #b8860b;
+  --silver: #9aa7b0;
+  --alive: #0b6e2e;
+  --dead: #b0392b;
+  --shadow: 0 1px 3px rgba(0,0,0,.08), 0 6px 18px rgba(0,0,0,.05);
+  --radius: 14px;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.45;
+}
+.wrap { width: 100%; max-width: 1000px; margin: 0 auto; padding: 0 16px; }
+
+/* Header */
+.site-header {
+  background:
+    radial-gradient(1200px 300px at 50% -150px, rgba(255,255,255,.18), transparent),
+    linear-gradient(160deg, var(--pitch), var(--pitch-dark));
+  color: #fff;
+  padding: 28px 0 22px;
+  border-bottom: 4px solid var(--gold);
+}
+.kicker { margin: 0; font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
+.site-header h1 { margin: 4px 0 16px; font-size: clamp(1.6rem, 6vw, 2.6rem); line-height: 1.05; }
+.prize-pot { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; }
+.prize-pot li {
+  background: rgba(255,255,255,.12);
+  border: 1px solid rgba(255,255,255,.22);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: .82rem;
+  display: flex; gap: 6px; align-items: baseline;
+}
+.prize-pot li b { color: var(--gold); }
+
+/* Banner */
+.banner {
+  margin: 18px 0 6px;
+  display: grid; gap: 12px;
+  grid-template-columns: 1fr 1fr;
+}
+.banner .b-card {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 14px 16px; box-shadow: var(--shadow);
+}
+.banner .b-label { font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 6px; }
+.banner .b-match { display: flex; align-items: center; gap: 8px; font-weight: 600; flex-wrap: wrap; }
+.banner .b-round { color: var(--muted); font-weight: 500; font-size: .8rem; }
+.banner .b-score { font-variant-numeric: tabular-nums; background: var(--ink); color: #fff; border-radius: 6px; padding: 1px 8px; }
+.banner .b-countdown { font-variant-numeric: tabular-nums; color: var(--gold-deep); font-weight: 700; }
+
+.updated { color: var(--muted); font-size: .82rem; margin: 14px 0 4px; }
+
+/* Sections */
+.section { margin: 26px 0; }
+.section h2 { font-size: 1.25rem; margin: 0 0 4px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.note { color: var(--muted); font-size: .86rem; margin: 0 0 14px; }
+.lock { font-size: .72rem; font-weight: 600; padding: 2px 9px; border-radius: 999px; background: #eef3ec; color: var(--muted); }
+.lock.frozen { background: #2a2a2a; color: #fff; }
+
+/* Players grid */
+.players-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.player-card {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 14px; box-shadow: var(--shadow); position: relative; overflow: hidden;
+}
+.player-card.in-hunt { border-color: var(--gold); }
+.player-card.in-hunt::before {
+  content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--gold);
+}
+.player-card.is-champion { border-color: var(--gold); box-shadow: 0 0 0 2px var(--gold), var(--shadow); }
+.player-name { font-weight: 700; margin: 0 0 10px; font-size: 1rem; }
+.team-row { display: flex; align-items: center; gap: 8px; padding: 7px 0; border-top: 1px dashed var(--line); }
+.team-row:first-of-type { border-top: 0; }
+.flag { font-size: 1.3rem; line-height: 1; width: 1.5em; text-align: center; flex: none; }
+.team-meta { min-width: 0; flex: 1; }
+.team-name { font-weight: 600; }
+.team-name .pot { color: var(--muted); font-weight: 400; font-size: .75rem; }
+.team-status { font-size: .8rem; color: var(--muted); }
+.badge { font-size: .72rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; white-space: nowrap; flex: none; }
+.badge.alive { background: #e3f3e8; color: var(--alive); }
+.badge.dead { background: #f8e7e4; color: var(--dead); }
+.badge.champion { background: var(--gold); color: #3a2c00; }
+.badge.runnerup { background: #e8edf1; color: #44525c; }
+
+/* Leaderboards */
+.boards { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.board { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+.board h3 { margin: 0; padding: 12px 14px; font-size: .98rem; background: #f0f4ee; border-bottom: 1px solid var(--line); display: flex; align-items: center; gap: 8px; }
+.board h3 .amt { margin-left: auto; color: var(--gold-deep); font-weight: 700; font-size: .85rem; }
+.board ol { list-style: none; margin: 0; padding: 4px 0; }
+.board li { display: flex; align-items: center; gap: 8px; padding: 7px 14px; font-size: .9rem; }
+.board li.leader { background: linear-gradient(90deg, rgba(232,180,48,.16), transparent); }
+.board li .rank { width: 1.4em; color: var(--muted); font-variant-numeric: tabular-nums; flex: none; text-align: right; }
+.board li .who { min-width: 0; flex: 1; }
+.board li .who .pl { color: var(--muted); font-size: .78rem; }
+.board li .val { font-weight: 800; font-variant-numeric: tabular-nums; }
+.board li.zero { color: var(--muted); }
+.board .empty { padding: 14px; color: var(--muted); font-size: .85rem; }
+.crown { filter: saturate(1.2); }
+
+/* status / loading */
+.status { text-align: center; color: var(--muted); padding: 20px; }
+.status.error { color: var(--dead); }
+
+/* footer */
+.site-footer { border-top: 1px solid var(--line); margin-top: 30px; padding: 20px 0 40px; }
+.site-footer p { margin: 4px 0; font-size: .8rem; color: var(--muted); }
+.muted { color: var(--muted); }
+
+@media (max-width: 560px) {
+  .banner { grid-template-columns: 1fr; }
+}

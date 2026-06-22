@@ -1,0 +1,3 @@
+# The builder writes fixtures.json, standings.json, events.json and state.json here.
+# These ARE committed by the workflow so the cache persists between runs (this is
+# what keeps API usage near zero). Do not add cache/ to .gitignore.

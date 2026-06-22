@@ -1,0 +1,14 @@
+{
+  "name": "blair-mitch-wc2026-sweepstake",
+  "version": "1.0.0",
+  "description": "Live standings dashboard for The Blair Mitch Project World Cup 2026 sweepstake.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "npx --yes serve ."
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
