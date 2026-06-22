@@ -1,0 +1,2734 @@
+{
+  "fetchedAt": "2026-06-22T12:35:04.489281+00:00",
+  "source": "SofaScore",
+  "season": 2026,
+  "uniqueTournament": 16,
+  "seasonId": "58210",
+  "matches": [
+    {
+      "id": 15186904,
+      "round": "Group Stage",
+      "startTimestamp": 1781478000,
+      "status": "finished",
+      "home": {
+        "name": "Côte d'Ivoire",
+        "score": 1,
+        "winner": true
+      },
+      "away": {
+        "name": "Ecuador",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186951,
+      "round": "Group Stage",
+      "startTimestamp": 1781488800,
+      "status": "finished",
+      "home": {
+        "name": "Sweden",
+        "score": 5,
+        "winner": true
+      },
+      "away": {
+        "name": "Tunisia",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186783,
+      "round": "Group Stage",
+      "startTimestamp": 1781539200,
+      "status": "finished",
+      "home": {
+        "name": "Spain",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "name": "Cabo Verde",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186837,
+      "round": "Group Stage",
+      "startTimestamp": 1781550000,
+      "status": "finished",
+      "home": {
+        "name": "Belgium",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Egypt",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Egypt": 1
+      },
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186811,
+      "round": "Group Stage",
+      "startTimestamp": 1781560800,
+      "status": "finished",
+      "home": {
+        "name": "Saudi Arabia",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Uruguay",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186832,
+      "round": "Group Stage",
+      "startTimestamp": 1781571600,
+      "status": "finished",
+      "home": {
+        "name": "Iran",
+        "score": 2,
+        "winner": false
+      },
+      "away": {
+        "name": "New Zealand",
+        "score": 2,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186501,
+      "round": "Group Stage",
+      "startTimestamp": 1781636400,
+      "status": "finished",
+      "home": {
+        "name": "France",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "name": "Senegal",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186773,
+      "round": "Group Stage",
+      "startTimestamp": 1781647200,
+      "status": "finished",
+      "home": {
+        "name": "Iraq",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Norway",
+        "score": 4,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Iraq": 1
+      },
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186854,
+      "round": "Group Stage",
+      "startTimestamp": 1781658000,
+      "status": "finished",
+      "home": {
+        "name": "Argentina",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "name": "Algeria",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186751,
+      "round": "Group Stage",
+      "startTimestamp": 1781668800,
+      "status": "finished",
+      "home": {
+        "name": "Austria",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "name": "Jordan",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Jordan": 1
+      },
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186709,
+      "round": "Group Stage",
+      "startTimestamp": 1781715600,
+      "status": "finished",
+      "home": {
+        "name": "Portugal",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "DR Congo",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186504,
+      "round": "Group Stage",
+      "startTimestamp": 1781726400,
+      "status": "finished",
+      "home": {
+        "name": "England",
+        "score": 4,
+        "winner": true
+      },
+      "away": {
+        "name": "Croatia",
+        "score": 2,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186687,
+      "round": "Group Stage",
+      "startTimestamp": 1781737200,
+      "status": "finished",
+      "home": {
+        "name": "Ghana",
+        "score": 1,
+        "winner": true
+      },
+      "away": {
+        "name": "Panama",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186722,
+      "round": "Group Stage",
+      "startTimestamp": 1781748000,
+      "status": "finished",
+      "home": {
+        "name": "Uzbekistan",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Colombia",
+        "score": 3,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186731,
+      "round": "Group Stage",
+      "startTimestamp": 1781798400,
+      "status": "finished",
+      "home": {
+        "name": "Czechia",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "South Africa",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186806,
+      "round": "Group Stage",
+      "startTimestamp": 1781809200,
+      "status": "finished",
+      "home": {
+        "name": "Switzerland",
+        "score": 4,
+        "winner": true
+      },
+      "away": {
+        "name": "Bosnia & Herzegovina",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {
+        "Bosnia & Herzegovina": 1
+      },
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186798,
+      "round": "Group Stage",
+      "startTimestamp": 1781820000,
+      "status": "finished",
+      "home": {
+        "name": "Canada",
+        "score": 6,
+        "winner": true
+      },
+      "away": {
+        "name": "Qatar",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {
+        "Qatar": 2
+      },
+      "ownGoals": {
+        "Qatar": 1
+      },
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186490,
+      "round": "Group Stage",
+      "startTimestamp": 1781830800,
+      "status": "finished",
+      "home": {
+        "name": "Mexico",
+        "score": 1,
+        "winner": true
+      },
+      "away": {
+        "name": "South Korea",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186878,
+      "round": "Group Stage",
+      "startTimestamp": 1781895600,
+      "status": "finished",
+      "home": {
+        "name": "USA",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "name": "Australia",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Australia": 1
+      },
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186859,
+      "round": "Group Stage",
+      "startTimestamp": 1781906400,
+      "status": "finished",
+      "home": {
+        "name": "Scotland",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "name": "Morocco",
+        "score": 1,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186856,
+      "round": "Group Stage",
+      "startTimestamp": 1781915400,
+      "status": "finished",
+      "home": {
+        "name": "Brazil",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "name": "Haiti",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186879,
+      "round": "Group Stage",
+      "startTimestamp": 1781924400,
+      "status": "finished",
+      "home": {
+        "name": "Türkiye",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "name": "Paraguay",
+        "score": 1,
+        "winner": true
+      },
+      "redCards": {
+        "Paraguay": 1
+      },
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186957,
+      "round": "Group Stage",
+      "startTimestamp": 1781974800,
+      "status": "finished",
+      "home": {
+        "name": "Netherlands",
+        "score": 5,
+        "winner": true
+      },
+      "away": {
+        "name": "Sweden",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186905,
+      "round": "Group Stage",
+      "startTimestamp": 1781985600,
+      "status": "finished",
+      "home": {
+        "name": "Germany",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "name": "Côte d'Ivoire",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186906,
+      "round": "Group Stage",
+      "startTimestamp": 1782000000,
+      "status": "finished",
+      "home": {
+        "name": "Ecuador",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "name": "Curaçao",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186963,
+      "round": "Group Stage",
+      "startTimestamp": 1782014400,
+      "status": "finished",
+      "home": {
+        "name": "Tunisia",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "name": "Japan",
+        "score": 4,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186840,
+      "round": "Group Stage",
+      "startTimestamp": 1782057600,
+      "status": "finished",
+      "home": {
+        "name": "Spain",
+        "score": 4,
+        "winner": true
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Saudi Arabia": 1
+      },
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186499,
+      "round": "Group Stage",
+      "startTimestamp": 1782068400,
+      "status": "finished",
+      "home": {
+        "name": "Belgium",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "name": "Iran",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {
+        "Belgium": 1
+      },
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186800,
+      "round": "Group Stage",
+      "startTimestamp": 1782079200,
+      "status": "finished",
+      "home": {
+        "name": "Uruguay",
+        "score": 2,
+        "winner": false
+      },
+      "away": {
+        "name": "Cabo Verde",
+        "score": 2,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186827,
+      "round": "Group Stage",
+      "startTimestamp": 1782090000,
+      "status": "finished",
+      "home": {
+        "name": "New Zealand",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Egypt",
+        "score": 3,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186710,
+      "round": "Group Stage",
+      "startTimestamp": 1781204400,
+      "status": "finished",
+      "home": {
+        "name": "Mexico",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "name": "South Africa",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {
+        "Mexico": 1,
+        "South Africa": 2
+      },
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186720,
+      "round": "Group Stage",
+      "startTimestamp": 1781229600,
+      "status": "finished",
+      "home": {
+        "name": "South Korea",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "name": "Czechia",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186836,
+      "round": "Group Stage",
+      "startTimestamp": 1781290800,
+      "status": "finished",
+      "home": {
+        "name": "Canada",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Bosnia & Herzegovina",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186873,
+      "round": "Group Stage",
+      "startTimestamp": 1781312400,
+      "status": "finished",
+      "home": {
+        "name": "USA",
+        "score": 4,
+        "winner": true
+      },
+      "away": {
+        "name": "Paraguay",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Paraguay": 1
+      },
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186526,
+      "round": "Group Stage",
+      "startTimestamp": 1781377200,
+      "status": "finished",
+      "home": {
+        "name": "Qatar",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Switzerland",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Switzerland": 1
+      },
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186850,
+      "round": "Group Stage",
+      "startTimestamp": 1781388000,
+      "status": "finished",
+      "home": {
+        "name": "Brazil",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Morocco",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186853,
+      "round": "Group Stage",
+      "startTimestamp": 1781398800,
+      "status": "finished",
+      "home": {
+        "name": "Haiti",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "name": "Scotland",
+        "score": 1,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186874,
+      "round": "Group Stage",
+      "startTimestamp": 1781409600,
+      "status": "finished",
+      "home": {
+        "name": "Australia",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "name": "Türkiye",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186899,
+      "round": "Group Stage",
+      "startTimestamp": 1781456400,
+      "status": "finished",
+      "home": {
+        "name": "Germany",
+        "score": 7,
+        "winner": true
+      },
+      "away": {
+        "name": "Curaçao",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186945,
+      "round": "Group Stage",
+      "startTimestamp": 1781467200,
+      "status": "finished",
+      "home": {
+        "name": "Netherlands",
+        "score": 2,
+        "winner": false
+      },
+      "away": {
+        "name": "Japan",
+        "score": 2,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186502,
+      "round": "Group Stage",
+      "startTimestamp": 1782147600,
+      "status": "notstarted",
+      "home": {
+        "name": "Argentina",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Austria",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186769,
+      "round": "Group Stage",
+      "startTimestamp": 1782162000,
+      "status": "notstarted",
+      "home": {
+        "name": "France",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Iraq",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186770,
+      "round": "Group Stage",
+      "startTimestamp": 1782172800,
+      "status": "notstarted",
+      "home": {
+        "name": "Norway",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Senegal",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186740,
+      "round": "Group Stage",
+      "startTimestamp": 1782183600,
+      "status": "notstarted",
+      "home": {
+        "name": "Jordan",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Algeria",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186858,
+      "round": "Group Stage",
+      "startTimestamp": 1782234000,
+      "status": "notstarted",
+      "home": {
+        "name": "Portugal",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Uzbekistan",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186672,
+      "round": "Group Stage",
+      "startTimestamp": 1782244800,
+      "status": "notstarted",
+      "home": {
+        "name": "England",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Ghana",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186520,
+      "round": "Group Stage",
+      "startTimestamp": 1782255600,
+      "status": "notstarted",
+      "home": {
+        "name": "Panama",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Croatia",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186713,
+      "round": "Group Stage",
+      "startTimestamp": 1782266400,
+      "status": "notstarted",
+      "home": {
+        "name": "Colombia",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "DR Congo",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186821,
+      "round": "Group Stage",
+      "startTimestamp": 1782327600,
+      "status": "notstarted",
+      "home": {
+        "name": "Switzerland",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Canada",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186829,
+      "round": "Group Stage",
+      "startTimestamp": 1782327600,
+      "status": "notstarted",
+      "home": {
+        "name": "Bosnia & Herzegovina",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Qatar",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186861,
+      "round": "Group Stage",
+      "startTimestamp": 1782338400,
+      "status": "notstarted",
+      "home": {
+        "name": "Scotland",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Brazil",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186864,
+      "round": "Group Stage",
+      "startTimestamp": 1782338400,
+      "status": "notstarted",
+      "home": {
+        "name": "Morocco",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Haiti",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186732,
+      "round": "Group Stage",
+      "startTimestamp": 1782349200,
+      "status": "notstarted",
+      "home": {
+        "name": "Czechia",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Mexico",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186744,
+      "round": "Group Stage",
+      "startTimestamp": 1782349200,
+      "status": "notstarted",
+      "home": {
+        "name": "South Africa",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "South Korea",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186907,
+      "round": "Group Stage",
+      "startTimestamp": 1782417600,
+      "status": "notstarted",
+      "home": {
+        "name": "Ecuador",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Germany",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186908,
+      "round": "Group Stage",
+      "startTimestamp": 1782417600,
+      "status": "notstarted",
+      "home": {
+        "name": "Curaçao",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Côte d'Ivoire",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186973,
+      "round": "Group Stage",
+      "startTimestamp": 1782428400,
+      "status": "notstarted",
+      "home": {
+        "name": "Tunisia",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Netherlands",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186972,
+      "round": "Group Stage",
+      "startTimestamp": 1782428400,
+      "status": "notstarted",
+      "home": {
+        "name": "Japan",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Sweden",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186887,
+      "round": "Group Stage",
+      "startTimestamp": 1782439200,
+      "status": "notstarted",
+      "home": {
+        "name": "Türkiye",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "USA",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186891,
+      "round": "Group Stage",
+      "startTimestamp": 1782439200,
+      "status": "notstarted",
+      "home": {
+        "name": "Paraguay",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Australia",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186537,
+      "round": "Group Stage",
+      "startTimestamp": 1782500400,
+      "status": "notstarted",
+      "home": {
+        "name": "Norway",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "France",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186771,
+      "round": "Group Stage",
+      "startTimestamp": 1782500400,
+      "status": "notstarted",
+      "home": {
+        "name": "Senegal",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Iraq",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186841,
+      "round": "Group Stage",
+      "startTimestamp": 1782518400,
+      "status": "notstarted",
+      "home": {
+        "name": "Uruguay",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Spain",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186803,
+      "round": "Group Stage",
+      "startTimestamp": 1782518400,
+      "status": "notstarted",
+      "home": {
+        "name": "Cabo Verde",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186828,
+      "round": "Group Stage",
+      "startTimestamp": 1782529200,
+      "status": "notstarted",
+      "home": {
+        "name": "Egypt",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Iran",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186822,
+      "round": "Group Stage",
+      "startTimestamp": 1782529200,
+      "status": "notstarted",
+      "home": {
+        "name": "New Zealand",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Belgium",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186676,
+      "round": "Group Stage",
+      "startTimestamp": 1782594000,
+      "status": "notstarted",
+      "home": {
+        "name": "Panama",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "England",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186624,
+      "round": "Group Stage",
+      "startTimestamp": 1782594000,
+      "status": "notstarted",
+      "home": {
+        "name": "Croatia",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Ghana",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186696,
+      "round": "Group Stage",
+      "startTimestamp": 1782603000,
+      "status": "notstarted",
+      "home": {
+        "name": "Colombia",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Portugal",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186717,
+      "round": "Group Stage",
+      "startTimestamp": 1782603000,
+      "status": "notstarted",
+      "home": {
+        "name": "DR Congo",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Uzbekistan",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186734,
+      "round": "Group Stage",
+      "startTimestamp": 1782612000,
+      "status": "notstarted",
+      "home": {
+        "name": "Jordan",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Argentina",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186747,
+      "round": "Group Stage",
+      "startTimestamp": 1782612000,
+      "status": "notstarted",
+      "home": {
+        "name": "Algeria",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "Austria",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813000,
+      "round": "Round of 32",
+      "startTimestamp": 1782673200,
+      "status": "notstarted",
+      "home": {
+        "name": "2A",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "2B",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813012,
+      "round": "Round of 32",
+      "startTimestamp": 1782752400,
+      "status": "notstarted",
+      "home": {
+        "name": "1C",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "2F",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813014,
+      "round": "Round of 32",
+      "startTimestamp": 1782765000,
+      "status": "notstarted",
+      "home": {
+        "name": "Germany",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "3A/3B/3C/3D/3F",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12812998,
+      "round": "Round of 32",
+      "startTimestamp": 1782781200,
+      "status": "notstarted",
+      "home": {
+        "name": "1F",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "2C",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12812989,
+      "round": "Round of 32",
+      "startTimestamp": 1782838800,
+      "status": "notstarted",
+      "home": {
+        "name": "2E",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "2I",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12812995,
+      "round": "Round of 32",
+      "startTimestamp": 1782853200,
+      "status": "notstarted",
+      "home": {
+        "name": "1I",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "3C/3D/3F/3G/3H",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813001,
+      "round": "Round of 32",
+      "startTimestamp": 1782867600,
+      "status": "notstarted",
+      "home": {
+        "name": "Mexico",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "3C/3E/3F/3H/3I",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813020,
+      "round": "Round of 32",
+      "startTimestamp": 1782921600,
+      "status": "notstarted",
+      "home": {
+        "name": "1L",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "3E/3H/3I/3J/3K",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813013,
+      "round": "Round of 32",
+      "startTimestamp": 1782936000,
+      "status": "notstarted",
+      "home": {
+        "name": "G1",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "3A/3E/3H/3I/3J",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12812992,
+      "round": "Round of 32",
+      "startTimestamp": 1782950400,
+      "status": "notstarted",
+      "home": {
+        "name": "USA",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "3B/3E/3F/3I/3J",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813004,
+      "round": "Round of 32",
+      "startTimestamp": 1783018800,
+      "status": "notstarted",
+      "home": {
+        "name": "H1",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "2J",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12812997,
+      "round": "Round of 32",
+      "startTimestamp": 1783033200,
+      "status": "notstarted",
+      "home": {
+        "name": "2K",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "2L",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813019,
+      "round": "Round of 32",
+      "startTimestamp": 1783047600,
+      "status": "notstarted",
+      "home": {
+        "name": "1B",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "3E/3F/3G/3I/3J",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813018,
+      "round": "Round of 32",
+      "startTimestamp": 1783101600,
+      "status": "notstarted",
+      "home": {
+        "name": "2D",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "G2",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12812999,
+      "round": "Round of 32",
+      "startTimestamp": 1783116000,
+      "status": "notstarted",
+      "home": {
+        "name": "1J",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "H2",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813011,
+      "round": "Round of 32",
+      "startTimestamp": 1783128600,
+      "status": "notstarted",
+      "home": {
+        "name": "1K",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "3D/3E/3I/3J/3L",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813009,
+      "round": "Round of 16",
+      "startTimestamp": 1783184400,
+      "status": "notstarted",
+      "home": {
+        "name": "W73",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "W75",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813010,
+      "round": "Round of 16",
+      "startTimestamp": 1783198800,
+      "status": "notstarted",
+      "home": {
+        "name": "W74",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "W77",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813006,
+      "round": "Round of 16",
+      "startTimestamp": 1783281600,
+      "status": "notstarted",
+      "home": {
+        "name": "W76",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "W78",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813007,
+      "round": "Round of 16",
+      "startTimestamp": 1783296000,
+      "status": "notstarted",
+      "home": {
+        "name": "W79",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "W80",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12812990,
+      "round": "Round of 16",
+      "startTimestamp": 1783364400,
+      "status": "notstarted",
+      "home": {
+        "name": "W83",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "W84",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813002,
+      "round": "Round of 16",
+      "startTimestamp": 1783382400,
+      "status": "notstarted",
+      "home": {
+        "name": "W81",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "W82",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12812993,
+      "round": "Round of 16",
+      "startTimestamp": 1783440000,
+      "status": "notstarted",
+      "home": {
+        "name": "W86",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "W88",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12812991,
+      "round": "Round of 16",
+      "startTimestamp": 1783454400,
+      "status": "notstarted",
+      "home": {
+        "name": "W85",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "W87",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813016,
+      "round": "Quarter-finals",
+      "startTimestamp": 1783627200,
+      "status": "notstarted",
+      "home": {
+        "name": "W89",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "W90",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12812994,
+      "round": "Quarter-finals",
+      "startTimestamp": 1783710000,
+      "status": "notstarted",
+      "home": {
+        "name": "W93",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "W94",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813017,
+      "round": "Quarter-finals",
+      "startTimestamp": 1783803600,
+      "status": "notstarted",
+      "home": {
+        "name": "W91",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "W92",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813015,
+      "round": "Quarter-finals",
+      "startTimestamp": 1783818000,
+      "status": "notstarted",
+      "home": {
+        "name": "W95",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "W96",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813008,
+      "round": "Semi-finals",
+      "startTimestamp": 1784055600,
+      "status": "notstarted",
+      "home": {
+        "name": "W97",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "W98",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12812996,
+      "round": "Semi-finals",
+      "startTimestamp": 1784142000,
+      "status": "notstarted",
+      "home": {
+        "name": "W99",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "W100",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813003,
+      "round": "3rd Place Play-off",
+      "startTimestamp": 1784408400,
+      "status": "notstarted",
+      "home": {
+        "name": "L101",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "L102",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
+      "id": 12813005,
+      "round": "Final",
+      "startTimestamp": 1784487600,
+      "status": "notstarted",
+      "home": {
+        "name": "W101",
+        "score": null,
+        "winner": null
+      },
+      "away": {
+        "name": "W102",
+        "score": null,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    }
+  ],
+  "standings": [
+    {
+      "team": "Mexico",
+      "group": "Group A",
+      "rank": 1,
+      "played": 2,
+      "w": 2,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 0,
+      "pts": 6
+    },
+    {
+      "team": "South Korea",
+      "group": "Group A",
+      "rank": 2,
+      "played": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 2,
+      "ga": 2,
+      "pts": 3
+    },
+    {
+      "team": "Czechia",
+      "group": "Group A",
+      "rank": 3,
+      "played": 2,
+      "w": 0,
+      "d": 1,
+      "l": 1,
+      "gf": 2,
+      "ga": 3,
+      "pts": 1
+    },
+    {
+      "team": "South Africa",
+      "group": "Group A",
+      "rank": 4,
+      "played": 2,
+      "w": 0,
+      "d": 1,
+      "l": 1,
+      "gf": 1,
+      "ga": 3,
+      "pts": 1
+    },
+    {
+      "team": "Canada",
+      "group": "Group B",
+      "rank": 1,
+      "played": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 7,
+      "ga": 1,
+      "pts": 4
+    },
+    {
+      "team": "Switzerland",
+      "group": "Group B",
+      "rank": 2,
+      "played": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 5,
+      "ga": 2,
+      "pts": 4
+    },
+    {
+      "team": "Bosnia & Herzegovina",
+      "group": "Group B",
+      "rank": 3,
+      "played": 2,
+      "w": 0,
+      "d": 1,
+      "l": 1,
+      "gf": 2,
+      "ga": 5,
+      "pts": 1
+    },
+    {
+      "team": "Qatar",
+      "group": "Group B",
+      "rank": 4,
+      "played": 2,
+      "w": 0,
+      "d": 1,
+      "l": 1,
+      "gf": 1,
+      "ga": 7,
+      "pts": 1
+    },
+    {
+      "team": "Brazil",
+      "group": "Group C",
+      "rank": 1,
+      "played": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 4,
+      "ga": 1,
+      "pts": 4
+    },
+    {
+      "team": "Morocco",
+      "group": "Group C",
+      "rank": 2,
+      "played": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 2,
+      "ga": 1,
+      "pts": 4
+    },
+    {
+      "team": "Scotland",
+      "group": "Group C",
+      "rank": 3,
+      "played": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 1,
+      "pts": 3
+    },
+    {
+      "team": "Haiti",
+      "group": "Group C",
+      "rank": 4,
+      "played": 2,
+      "w": 0,
+      "d": 0,
+      "l": 2,
+      "gf": 0,
+      "ga": 4,
+      "pts": 0
+    },
+    {
+      "team": "USA",
+      "group": "Group D",
+      "rank": 1,
+      "played": 2,
+      "w": 2,
+      "d": 0,
+      "l": 0,
+      "gf": 6,
+      "ga": 1,
+      "pts": 6
+    },
+    {
+      "team": "Australia",
+      "group": "Group D",
+      "rank": 2,
+      "played": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 2,
+      "ga": 2,
+      "pts": 3
+    },
+    {
+      "team": "Paraguay",
+      "group": "Group D",
+      "rank": 3,
+      "played": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 2,
+      "ga": 4,
+      "pts": 3
+    },
+    {
+      "team": "Türkiye",
+      "group": "Group D",
+      "rank": 4,
+      "played": 2,
+      "w": 0,
+      "d": 0,
+      "l": 2,
+      "gf": 0,
+      "ga": 3,
+      "pts": 0
+    },
+    {
+      "team": "Germany",
+      "group": "Group E",
+      "rank": 1,
+      "played": 2,
+      "w": 2,
+      "d": 0,
+      "l": 0,
+      "gf": 9,
+      "ga": 2,
+      "pts": 6
+    },
+    {
+      "team": "Côte d'Ivoire",
+      "group": "Group E",
+      "rank": 2,
+      "played": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 2,
+      "ga": 2,
+      "pts": 3
+    },
+    {
+      "team": "Ecuador",
+      "group": "Group E",
+      "rank": 3,
+      "played": 2,
+      "w": 0,
+      "d": 1,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "pts": 1
+    },
+    {
+      "team": "Curaçao",
+      "group": "Group E",
+      "rank": 4,
+      "played": 2,
+      "w": 0,
+      "d": 1,
+      "l": 1,
+      "gf": 1,
+      "ga": 7,
+      "pts": 1
+    },
+    {
+      "team": "Netherlands",
+      "group": "Group F",
+      "rank": 1,
+      "played": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 7,
+      "ga": 3,
+      "pts": 4
+    },
+    {
+      "team": "Japan",
+      "group": "Group F",
+      "rank": 2,
+      "played": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 6,
+      "ga": 2,
+      "pts": 4
+    },
+    {
+      "team": "Sweden",
+      "group": "Group F",
+      "rank": 3,
+      "played": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 6,
+      "ga": 6,
+      "pts": 3
+    },
+    {
+      "team": "Tunisia",
+      "group": "Group F",
+      "rank": 4,
+      "played": 2,
+      "w": 0,
+      "d": 0,
+      "l": 2,
+      "gf": 1,
+      "ga": 9,
+      "pts": 0
+    },
+    {
+      "team": "Egypt",
+      "group": "Group G",
+      "rank": 1,
+      "played": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 4,
+      "ga": 2,
+      "pts": 4
+    },
+    {
+      "team": "Iran",
+      "group": "Group G",
+      "rank": 2,
+      "played": 2,
+      "w": 0,
+      "d": 2,
+      "l": 0,
+      "gf": 2,
+      "ga": 2,
+      "pts": 2
+    },
+    {
+      "team": "Belgium",
+      "group": "Group G",
+      "rank": 3,
+      "played": 2,
+      "w": 0,
+      "d": 2,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 2
+    },
+    {
+      "team": "New Zealand",
+      "group": "Group G",
+      "rank": 4,
+      "played": 2,
+      "w": 0,
+      "d": 1,
+      "l": 1,
+      "gf": 3,
+      "ga": 5,
+      "pts": 1
+    },
+    {
+      "team": "Spain",
+      "group": "Group H",
+      "rank": 1,
+      "played": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 4,
+      "ga": 0,
+      "pts": 4
+    },
+    {
+      "team": "Uruguay",
+      "group": "Group H",
+      "rank": 2,
+      "played": 2,
+      "w": 0,
+      "d": 2,
+      "l": 0,
+      "gf": 3,
+      "ga": 3,
+      "pts": 2
+    },
+    {
+      "team": "Cabo Verde",
+      "group": "Group H",
+      "rank": 3,
+      "played": 2,
+      "w": 0,
+      "d": 2,
+      "l": 0,
+      "gf": 2,
+      "ga": 2,
+      "pts": 2
+    },
+    {
+      "team": "Saudi Arabia",
+      "group": "Group H",
+      "rank": 4,
+      "played": 2,
+      "w": 0,
+      "d": 1,
+      "l": 1,
+      "gf": 1,
+      "ga": 5,
+      "pts": 1
+    },
+    {
+      "team": "Norway",
+      "group": "Group I",
+      "rank": 1,
+      "played": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 4,
+      "ga": 1,
+      "pts": 3
+    },
+    {
+      "team": "France",
+      "group": "Group I",
+      "rank": 2,
+      "played": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 1,
+      "pts": 3
+    },
+    {
+      "team": "Senegal",
+      "group": "Group I",
+      "rank": 3,
+      "played": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 3,
+      "pts": 0
+    },
+    {
+      "team": "Iraq",
+      "group": "Group I",
+      "rank": 4,
+      "played": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 4,
+      "pts": 0
+    },
+    {
+      "team": "Argentina",
+      "group": "Group J",
+      "rank": 1,
+      "played": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 0,
+      "pts": 3
+    },
+    {
+      "team": "Austria",
+      "group": "Group J",
+      "rank": 2,
+      "played": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 1,
+      "pts": 3
+    },
+    {
+      "team": "Jordan",
+      "group": "Group J",
+      "rank": 3,
+      "played": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 3,
+      "pts": 0
+    },
+    {
+      "team": "Algeria",
+      "group": "Group J",
+      "rank": 4,
+      "played": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 3,
+      "pts": 0
+    },
+    {
+      "team": "Colombia",
+      "group": "Group K",
+      "rank": 1,
+      "played": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 1,
+      "pts": 3
+    },
+    {
+      "team": "DR Congo",
+      "group": "Group K",
+      "rank": 2,
+      "played": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 1
+    },
+    {
+      "team": "Portugal",
+      "group": "Group K",
+      "rank": 3,
+      "played": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 1
+    },
+    {
+      "team": "Uzbekistan",
+      "group": "Group K",
+      "rank": 4,
+      "played": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 3,
+      "pts": 0
+    },
+    {
+      "team": "England",
+      "group": "Group L",
+      "rank": 1,
+      "played": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 4,
+      "ga": 2,
+      "pts": 3
+    },
+    {
+      "team": "Ghana",
+      "group": "Group L",
+      "rank": 2,
+      "played": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 1,
+      "ga": 0,
+      "pts": 3
+    },
+    {
+      "team": "Panama",
+      "group": "Group L",
+      "rank": 3,
+      "played": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "pts": 0
+    },
+    {
+      "team": "Croatia",
+      "group": "Group L",
+      "rank": 4,
+      "played": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 2,
+      "ga": 4,
+      "pts": 0
+    },
+    {
+      "team": "Sweden",
+      "group": "Third-placed teams",
+      "rank": 1,
+      "played": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 6,
+      "ga": 6,
+      "pts": 3
+    },
+    {
+      "team": "Scotland",
+      "group": "Third-placed teams",
+      "rank": 2,
+      "played": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 1,
+      "pts": 3
+    },
+    {
+      "team": "Paraguay",
+      "group": "Third-placed teams",
+      "rank": 3,
+      "played": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 2,
+      "ga": 4,
+      "pts": 3
+    },
+    {
+      "team": "Cabo Verde",
+      "group": "Third-placed teams",
+      "rank": 4,
+      "played": 2,
+      "w": 0,
+      "d": 2,
+      "l": 0,
+      "gf": 2,
+      "ga": 2,
+      "pts": 2
+    },
+    {
+      "team": "Belgium",
+      "group": "Third-placed teams",
+      "rank": 5,
+      "played": 2,
+      "w": 0,
+      "d": 2,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 2
+    },
+    {
+      "team": "Portugal",
+      "group": "Third-placed teams",
+      "rank": 6,
+      "played": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 1
+    },
+    {
+      "team": "Czechia",
+      "group": "Third-placed teams",
+      "rank": 7,
+      "played": 2,
+      "w": 0,
+      "d": 1,
+      "l": 1,
+      "gf": 2,
+      "ga": 3,
+      "pts": 1
+    },
+    {
+      "team": "Ecuador",
+      "group": "Third-placed teams",
+      "rank": 8,
+      "played": 2,
+      "w": 0,
+      "d": 1,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "pts": 1
+    },
+    {
+      "team": "Bosnia & Herzegovina",
+      "group": "Third-placed teams",
+      "rank": 9,
+      "played": 2,
+      "w": 0,
+      "d": 1,
+      "l": 1,
+      "gf": 2,
+      "ga": 5,
+      "pts": 1
+    },
+    {
+      "team": "Panama",
+      "group": "Third-placed teams",
+      "rank": 10,
+      "played": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "pts": 0
+    },
+    {
+      "team": "Senegal",
+      "group": "Third-placed teams",
+      "rank": 11,
+      "played": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 3,
+      "pts": 0
+    },
+    {
+      "team": "Jordan",
+      "group": "Third-placed teams",
+      "rank": 12,
+      "played": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 3,
+      "pts": 0
+    }
+  ]
+}

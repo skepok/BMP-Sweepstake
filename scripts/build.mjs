@@ -132,9 +132,24 @@ async function main() {
   }
   const resolveCode = (apiName) => codeByName.get(normaliseName(apiName)) || null;
 
+  // ---- PRIMARY SOURCE: SofaScore scrape (cache/raw_matches.json) ----------
+  // scripts/scrape.py writes this. If present, build entirely from it (no API).
+  const rawPath = path.join(CACHE_DIR, 'raw_matches.json');
+  const raw = await readJson(rawPath);
+  if (raw && Array.isArray(raw.matches)) {
+    log(`Building from SofaScore data (${raw.matches.length} matches, scraped ${raw.fetchedAt || '?'}).`);
+    const { fixtures, standings, events } = adaptSofaScore(raw, resolveCode);
+    await writeStandings({
+      players, teamByCode, fixtures, standings, events,
+      source: 'SofaScore', season: raw.season || SEASON,
+      meta: { source: 'SofaScore', matches: raw.matches.length, scrapedAt: raw.fetchedAt || null },
+    });
+    return;
+  }
+
   // ---- OFFLINE / skeleton mode -------------------------------------------
   if (!API_KEY) {
-    log('No API_FOOTBALL_KEY set — writing skeleton standings.json (no network).');
+    log('No SofaScore data and no API key — writing skeleton standings.json (no network).');
     await writeStandings({ players, teamByCode, fixtures: [], standings: [], events: {}, meta: { offline: true } });
     return;
   }
@@ -258,7 +273,59 @@ function summariseEvents(events, resolveCode) {
 }
 
 /** Compute the full standings.json payload and write it. */
-async function writeStandings({ players, teamByCode, fixtures, standings, events, meta }) {
+/**
+ * Convert the normalised SofaScore payload (cache/raw_matches.json, written by
+ * scripts/scrape.py) into the internal shapes writeStandings already understands:
+ * API-Football-style `fixtures`, `standings`, and an `events` map keyed by fixture
+ * id -> { red: {CODE:n}, own: {CODE:n} }. This lets the whole tested standings
+ * engine run unchanged regardless of where the data came from.
+ */
+function adaptSofaScore(raw, resolveCode) {
+  const fixtures = (raw.matches || []).map((m) => ({
+    fixture: {
+      id: m.id,
+      timestamp: m.startTimestamp || 0,                       // seconds
+      date: m.startTimestamp ? iso(m.startTimestamp * 1000) : null,
+      status: { short: m.status === 'finished' ? 'FT' : m.status === 'inprogress' ? '1H' : 'NS' },
+    },
+    league: { round: m.round || '' },
+    teams: {
+      home: { name: m.home?.name, winner: m.home?.winner ?? null },
+      away: { name: m.away?.name, winner: m.away?.winner ?? null },
+    },
+    goals: { home: m.home?.score ?? null, away: m.away?.score ?? null },
+  }));
+
+  // Group tables -> API-Football standings shape (one table; each row carries its group).
+  const rows = (raw.standings || []).map((s) => ({
+    rank: s.rank ?? null,
+    team: { name: s.team },
+    points: s.pts ?? 0,
+    group: s.group || null,
+    all: { played: s.played ?? 0, win: s.w ?? 0, draw: s.d ?? 0, lose: s.l ?? 0, goals: { for: s.gf ?? 0, against: s.ga ?? 0 } },
+  }));
+  const standings = rows.length ? [{ league: { standings: [rows] } }] : [];
+
+  // Per-match red cards / own goals (by team name) -> events map keyed by id, by code.
+  const events = {};
+  const unmatched = new Set();
+  for (const m of raw.matches || []) {
+    if (!m.incidentsFetched) continue;
+    const red = {}; const own = {};
+    for (const [name, n] of Object.entries(m.redCards || {})) {
+      const code = resolveCode(name); if (code && n) red[code] = (red[code] || 0) + n; else if (n) unmatched.add(name);
+    }
+    for (const [name, n] of Object.entries(m.ownGoals || {})) {
+      const code = resolveCode(name); if (code && n) own[code] = (own[code] || 0) + n; else if (n) unmatched.add(name);
+    }
+    events[String(m.id)] = { red, own };
+  }
+  if (unmatched.size) log('(unmatched team names — add aliases in players.json):', [...unmatched].join(', '));
+
+  return { fixtures, standings, events };
+}
+
+async function writeStandings({ players, teamByCode, fixtures, standings, events, meta, source, season }) {
   // ---- group tables: code -> { group, rank, played, w,d,l, gf, ga, pts } -
   const groupByCode = new Map();
   for (const block of standings) {
@@ -316,7 +383,7 @@ async function writeStandings({ players, teamByCode, fixtures, standings, events
   const hasFixtures = enriched.length > 0;
   const statusByCode = new Map();
   for (const code of teamByCode.keys()) {
-    statusByCode.set(code, computeTeamStatus(code, enriched, groupByCode, koFixturesExist, champion, runnerUp, hasFixtures));
+    statusByCode.set(code, computeTeamStatus(code, enriched, groupByCode, koFixturesExist, groupStageComplete, champion, runnerUp, hasFixtures));
   }
 
   // ---- assemble players ---------------------------------------------------
@@ -363,8 +430,8 @@ async function writeStandings({ players, teamByCode, fixtures, standings, events
 
   const payload = {
     lastUpdated: iso(nowMs()),
-    source: 'API-Football (api-sports.io)',
-    season: SEASON, leagueId: LEAGUE_ID,
+    source: source || 'API-Football (api-sports.io)',
+    season: season || SEASON, leagueId: LEAGUE_ID,
     groupStageComplete, knockoutsStarted,
     prizes: players.prizes,
     banner,
@@ -383,7 +450,7 @@ async function writeStandings({ players, teamByCode, fixtures, standings, events
 }
 
 // --- status logic ---------------------------------------------------------
-function computeTeamStatus(code, enriched, groupByCode, koFixturesExist, champion, runnerUp, hasFixtures) {
+function computeTeamStatus(code, enriched, groupByCode, koFixturesExist, groupStageComplete, champion, runnerUp, hasFixtures) {
   if (champion && champion.code === code) return { label: 'Champion 🏆', kind: 'champion', alive: true };
   if (runnerUp && runnerUp.code === code) return { label: 'Runner-up 🥈', kind: 'runnerup', alive: false };
 
@@ -396,38 +463,39 @@ function computeTeamStatus(code, enriched, groupByCode, koFixturesExist, champio
 
   const koFx = teamFx.filter((f) => f.cls.kind === 'ko' || f.cls.kind === 'third');
 
-  // If the knockout bracket is published and this team isn't in it -> out at groups.
-  if (koFixturesExist && koFx.length === 0) {
-    return { label: 'Eliminated — Group Stage', kind: 'eliminated', alive: false };
+  // 1) A finished knockout match is authoritative (KO only happens after groups).
+  const playedKo = koFx.filter((f) => f.finished).sort((a, b) => b.cls.idx - a.cls.idx);
+  const latest = playedKo[0];
+  if (latest) {
+    const side = latest.home.code === code ? latest.home : latest.away;
+    const won = side.winner === true;
+    // 3rd-place play-off: reaching it means the semi was already lost -> out of the title race.
+    if (latest.cls.kind === 'third') {
+      return won
+        ? { label: '3rd place 🥉', kind: 'eliminated', alive: false }
+        : { label: '4th place', kind: 'eliminated', alive: false };
+    }
+    if (won) {
+      const nextKo = koFx.filter((f) => !f.finished).sort((a, b) => a.cls.idx - b.cls.idx)[0];
+      if (nextKo) return { label: `Into the ${nextKo.cls.label}`, kind: 'through', alive: true };
+      return { label: `Won ${latest.cls.label} — awaiting next round`, kind: 'through', alive: true };
+    }
+    // Finished a knockout match without winning -> out.
+    return { label: `Eliminated — ${latest.cls.label}`, kind: 'eliminated', alive: false };
   }
 
-  if (koFx.length > 0) {
-    const playedKo = koFx.filter((f) => f.finished).sort((a, b) => b.cls.idx - a.cls.idx);
-    const latest = playedKo[0];
-    if (latest) {
-      const side = latest.home.code === code ? latest.home : latest.away;
-      const won = side.winner === true;
-      // 3rd-place play-off: reaching it means the semi was already lost -> out of the title race.
-      if (latest.cls.kind === 'third') {
-        return won
-          ? { label: '3rd place 🥉', kind: 'eliminated', alive: false }
-          : { label: '4th place', kind: 'eliminated', alive: false };
-      }
-      if (won) {
-        const nextKo = koFx.filter((f) => !f.finished).sort((a, b) => a.cls.idx - b.cls.idx)[0];
-        if (nextKo) return { label: `Into the ${nextKo.cls.label}`, kind: 'through', alive: true };
-        return { label: `Won ${latest.cls.label} — awaiting next round`, kind: 'through', alive: true };
-      }
-      // Finished a knockout match without winning (real KO games are decided by
-      // ET/pens, so anything other than a win means they're out).
-      return { label: `Eliminated — ${latest.cls.label}`, kind: 'eliminated', alive: false };
-    }
-    // Has KO fixtures but none finished yet -> qualified, awaiting next KO match.
+  // 2) No knockout match played yet. Only judge group survival once the group
+  //    stage is ACTUALLY complete — SofaScore publishes the KO bracket early
+  //    (partly filled as teams clinch), so we must not treat "not yet in the
+  //    bracket" as eliminated while group games are still being played.
+  if (groupStageComplete) {
     const nextKo = koFx.filter((f) => !f.finished).sort((a, b) => a.cls.idx - b.cls.idx)[0];
     if (nextKo) return { label: `Into the ${nextKo.cls.label}`, kind: 'through', alive: true };
+    if (koFixturesExist) return { label: 'Eliminated — Group Stage', kind: 'eliminated', alive: false };
+    // groups done but bracket not published yet -> hold on the group view below.
   }
 
-  // Still in the group stage.
+  // 3) Group stage still in progress (or bracket not out yet) -> show group position; everyone alive.
   const g = groupByCode.get(code);
   if (g) return { label: `Group ${g.group ? g.group.replace(/group\s*/i, '') : '?'} — ${ordinal(g.rank)} (${g.pts} pts)`, kind: 'group', alive: true };
   return { label: 'Group Stage', kind: 'group', alive: true };

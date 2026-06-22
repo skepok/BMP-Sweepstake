@@ -1,47 +1,39 @@
-name: Update standings
+name: Rebuild standings
 
-# Runs the fixture-aware builder. Most runs make ZERO API calls; only runs
-# shortly after a match finishes spend a request or two. Well under 100/day.
+# Data is scraped + committed from your local machine (scripts/scrape.py via cron).
+# This workflow is just a manual convenience: rebuild data/standings.json from the
+# already-committed cache/raw_matches.json — e.g. after editing data/players.json.
+# It does NOT scrape (SofaScore blocks GitHub's datacenter IPs) and needs no secret.
 on:
-  schedule:
-    - cron: '*/30 * * * *'   # every 30 minutes (UTC)
-  workflow_dispatch: {}       # manual "Run workflow" button
+  workflow_dispatch: {}
 
-# Let one run finish before the next starts; don't cancel a run mid-fetch.
 concurrency:
-  group: update-standings
+  group: rebuild-standings
   cancel-in-progress: false
 
 permissions:
-  contents: write             # needed to commit the refreshed data back
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Node
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '22'
 
-      - name: Build standings
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-          LEAGUE_ID: '1'
-          SEASON: '2026'
+      - name: Rebuild standings from committed data
         run: node scripts/build.mjs
 
-      - name: Commit updated data
+      - name: Commit if changed
         run: |
           git config user.name  "blair-mitch-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/standings.json cache/
+          git add data/standings.json
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: update standings"
+            git commit -m "chore: rebuild standings"
             git push
           fi

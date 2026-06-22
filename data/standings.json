@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-22T09:58:26.287Z",
-  "source": "API-Football (api-sports.io)",
+  "lastUpdated": "2026-06-22T12:35:19.467Z",
+  "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
   "groupStageComplete": false,
@@ -37,8 +37,40 @@
     ]
   },
   "banner": {
-    "nextFixture": null,
-    "lastFinished": null
+    "nextFixture": {
+      "round": "Group Stage",
+      "kickoff": "2026-06-22T17:00:00.000Z",
+      "kickoffUnix": 1782147600000,
+      "status": "NS",
+      "home": {
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR"
+      },
+      "away": {
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT"
+      }
+    },
+    "lastFinished": {
+      "round": "Group Stage",
+      "kickoff": "2026-06-22T01:00:00.000Z",
+      "kickoffUnix": 1782090000000,
+      "status": "FT",
+      "home": {
+        "code": "NZL",
+        "name": "New Zealand",
+        "iso2": "NZ",
+        "goals": 1
+      },
+      "away": {
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "goals": 3
+      }
+    }
   },
   "champion": null,
   "runnerUp": null,
@@ -52,11 +84,21 @@
           "iso2": "ES",
           "pot": 1,
           "odds": "9/2",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group H — 1st (4 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
+          "group": {
+            "group": "Group H",
+            "rank": 1,
+            "played": 2,
+            "w": 1,
+            "d": 1,
+            "l": 0,
+            "gf": 4,
+            "ga": 0,
+            "pts": 4
+          },
           "goalsConceded": 0,
           "redCards": 0,
           "ownGoals": 0
@@ -67,13 +109,23 @@
           "iso2": "ZA",
           "pot": 2,
           "odds": "1000/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group A — 4th (1 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
-          "redCards": 0,
+          "group": {
+            "group": "Group A",
+            "rank": 4,
+            "played": 2,
+            "w": 0,
+            "d": 1,
+            "l": 1,
+            "gf": 1,
+            "ga": 3,
+            "pts": 1
+          },
+          "goalsConceded": 3,
+          "redCards": 2,
           "ownGoals": 0
         }
       ]
@@ -87,12 +139,22 @@
           "iso2": "MA",
           "pot": 1,
           "odds": "50/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group C — 2nd (4 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group C",
+            "rank": 2,
+            "played": 2,
+            "w": 1,
+            "d": 1,
+            "l": 0,
+            "gf": 2,
+            "ga": 1,
+            "pts": 4
+          },
+          "goalsConceded": 1,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -102,14 +164,24 @@
           "iso2": "EG",
           "pot": 2,
           "odds": "300/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group G — 1st (4 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group G",
+            "rank": 1,
+            "played": 2,
+            "w": 1,
+            "d": 1,
+            "l": 0,
+            "gf": 4,
+            "ga": 2,
+            "pts": 4
+          },
+          "goalsConceded": 2,
           "redCards": 0,
-          "ownGoals": 0
+          "ownGoals": 1
         }
       ]
     },
@@ -122,12 +194,22 @@
           "iso2": "NL",
           "pot": 1,
           "odds": "20/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group F — 1st (4 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group F",
+            "rank": 1,
+            "played": 2,
+            "w": 1,
+            "d": 1,
+            "l": 0,
+            "gf": 7,
+            "ga": 3,
+            "pts": 4
+          },
+          "goalsConceded": 3,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -137,12 +219,22 @@
           "iso2": "DZ",
           "pot": 2,
           "odds": "400/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group J — 4th (0 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group J",
+            "rank": 4,
+            "played": 1,
+            "w": 0,
+            "d": 0,
+            "l": 1,
+            "gf": 0,
+            "ga": 3,
+            "pts": 0
+          },
+          "goalsConceded": 3,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -157,14 +249,24 @@
           "iso2": "CH",
           "pot": 1,
           "odds": "80/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group B — 2nd (4 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group B",
+            "rank": 2,
+            "played": 2,
+            "w": 1,
+            "d": 1,
+            "l": 0,
+            "gf": 5,
+            "ga": 2,
+            "pts": 4
+          },
+          "goalsConceded": 2,
           "redCards": 0,
-          "ownGoals": 0
+          "ownGoals": 1
         },
         {
           "code": "KOR",
@@ -172,12 +274,22 @@
           "iso2": "KR",
           "pot": 2,
           "odds": "500/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group A — 2nd (3 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group A",
+            "rank": 2,
+            "played": 2,
+            "w": 1,
+            "d": 0,
+            "l": 1,
+            "gf": 2,
+            "ga": 2,
+            "pts": 3
+          },
+          "goalsConceded": 2,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -192,12 +304,22 @@
           "iso2": "US",
           "pot": 1,
           "odds": "66/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group D — 1st (6 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group D",
+            "rank": 1,
+            "played": 2,
+            "w": 2,
+            "d": 0,
+            "l": 0,
+            "gf": 6,
+            "ga": 1,
+            "pts": 6
+          },
+          "goalsConceded": 1,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -207,14 +329,24 @@
           "iso2": "SA",
           "pot": 2,
           "odds": "1000/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group H — 4th (1 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group H",
+            "rank": 4,
+            "played": 2,
+            "w": 0,
+            "d": 1,
+            "l": 1,
+            "gf": 1,
+            "ga": 5,
+            "pts": 1
+          },
+          "goalsConceded": 5,
           "redCards": 0,
-          "ownGoals": 0
+          "ownGoals": 1
         }
       ]
     },
@@ -227,12 +359,22 @@
           "iso2": "EC",
           "pot": 1,
           "odds": "100/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group Third-placed teams — 8th (1 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Third-placed teams",
+            "rank": 8,
+            "played": 2,
+            "w": 0,
+            "d": 1,
+            "l": 1,
+            "gf": 0,
+            "ga": 1,
+            "pts": 1
+          },
+          "goalsConceded": 1,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -242,14 +384,24 @@
           "iso2": "QA",
           "pot": 2,
           "odds": "1000/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group B — 4th (1 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
-          "redCards": 0,
-          "ownGoals": 0
+          "group": {
+            "group": "Group B",
+            "rank": 4,
+            "played": 2,
+            "w": 0,
+            "d": 1,
+            "l": 1,
+            "gf": 1,
+            "ga": 7,
+            "pts": 1
+          },
+          "goalsConceded": 7,
+          "redCards": 2,
+          "ownGoals": 1
         }
       ]
     },
@@ -262,13 +414,23 @@
           "iso2": "BE",
           "pot": 1,
           "odds": "33/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group Third-placed teams — 5th (2 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
-          "redCards": 0,
+          "group": {
+            "group": "Third-placed teams",
+            "rank": 5,
+            "played": 2,
+            "w": 0,
+            "d": 2,
+            "l": 0,
+            "gf": 1,
+            "ga": 1,
+            "pts": 2
+          },
+          "goalsConceded": 1,
+          "redCards": 1,
           "ownGoals": 0
         },
         {
@@ -277,12 +439,22 @@
           "iso2": "CW",
           "pot": 2,
           "odds": "2000/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group E — 4th (1 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group E",
+            "rank": 4,
+            "played": 2,
+            "w": 0,
+            "d": 1,
+            "l": 1,
+            "gf": 1,
+            "ga": 7,
+            "pts": 1
+          },
+          "goalsConceded": 7,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -297,12 +469,22 @@
           "iso2": "PT",
           "pot": 1,
           "odds": "10/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group Third-placed teams — 6th (1 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Third-placed teams",
+            "rank": 6,
+            "played": 1,
+            "w": 0,
+            "d": 1,
+            "l": 0,
+            "gf": 1,
+            "ga": 1,
+            "pts": 1
+          },
+          "goalsConceded": 1,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -312,12 +494,22 @@
           "iso2": "CV",
           "pot": 2,
           "odds": "2000/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group Third-placed teams — 4th (2 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Third-placed teams",
+            "rank": 4,
+            "played": 2,
+            "w": 0,
+            "d": 2,
+            "l": 0,
+            "gf": 2,
+            "ga": 2,
+            "pts": 2
+          },
+          "goalsConceded": 2,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -332,12 +524,22 @@
           "iso2": "DE",
           "pot": 1,
           "odds": "14/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group E — 1st (6 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group E",
+            "rank": 1,
+            "played": 2,
+            "w": 2,
+            "d": 0,
+            "l": 0,
+            "gf": 9,
+            "ga": 2,
+            "pts": 6
+          },
+          "goalsConceded": 2,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -347,12 +549,22 @@
           "iso2": "IR",
           "pot": 2,
           "odds": "500/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group G — 2nd (2 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group G",
+            "rank": 2,
+            "played": 2,
+            "w": 0,
+            "d": 2,
+            "l": 0,
+            "gf": 2,
+            "ga": 2,
+            "pts": 2
+          },
+          "goalsConceded": 2,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -367,12 +579,22 @@
           "iso2": "NO",
           "pot": 1,
           "odds": "25/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group I — 1st (3 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group I",
+            "rank": 1,
+            "played": 1,
+            "w": 1,
+            "d": 0,
+            "l": 0,
+            "gf": 4,
+            "ga": 1,
+            "pts": 3
+          },
+          "goalsConceded": 1,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -382,12 +604,22 @@
           "iso2": "UZ",
           "pot": 2,
           "odds": "1500/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group K — 4th (0 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group K",
+            "rank": 4,
+            "played": 1,
+            "w": 0,
+            "d": 0,
+            "l": 1,
+            "gf": 1,
+            "ga": 3,
+            "pts": 0
+          },
+          "goalsConceded": 3,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -402,12 +634,22 @@
           "iso2": "CA",
           "pot": 1,
           "odds": "150/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group B — 1st (4 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group B",
+            "rank": 1,
+            "played": 2,
+            "w": 1,
+            "d": 1,
+            "l": 0,
+            "gf": 7,
+            "ga": 1,
+            "pts": 4
+          },
+          "goalsConceded": 1,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -417,14 +659,24 @@
           "iso2": "JO",
           "pot": 2,
           "odds": "2500/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group Third-placed teams — 12th (0 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Third-placed teams",
+            "rank": 12,
+            "played": 1,
+            "w": 0,
+            "d": 0,
+            "l": 1,
+            "gf": 1,
+            "ga": 3,
+            "pts": 0
+          },
+          "goalsConceded": 3,
           "redCards": 0,
-          "ownGoals": 0
+          "ownGoals": 1
         }
       ]
     },
@@ -437,12 +689,22 @@
           "iso2": "TR",
           "pot": 1,
           "odds": "80/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group D — 4th (0 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group D",
+            "rank": 4,
+            "played": 2,
+            "w": 0,
+            "d": 0,
+            "l": 2,
+            "gf": 0,
+            "ga": 3,
+            "pts": 0
+          },
+          "goalsConceded": 3,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -452,12 +714,22 @@
           "iso2": "CZ",
           "pot": 2,
           "odds": "300/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group Third-placed teams — 7th (1 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Third-placed teams",
+            "rank": 7,
+            "played": 2,
+            "w": 0,
+            "d": 1,
+            "l": 1,
+            "gf": 2,
+            "ga": 3,
+            "pts": 1
+          },
+          "goalsConceded": 3,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -472,12 +744,22 @@
           "iso2": "SE",
           "pot": 1,
           "odds": "125/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group Third-placed teams — 1st (3 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Third-placed teams",
+            "rank": 1,
+            "played": 2,
+            "w": 1,
+            "d": 0,
+            "l": 1,
+            "gf": 6,
+            "ga": 6,
+            "pts": 3
+          },
+          "goalsConceded": 6,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -487,12 +769,22 @@
           "iso2": "NZ",
           "pot": 2,
           "odds": "1500/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group G — 4th (1 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group G",
+            "rank": 4,
+            "played": 2,
+            "w": 0,
+            "d": 1,
+            "l": 1,
+            "gf": 3,
+            "ga": 5,
+            "pts": 1
+          },
+          "goalsConceded": 5,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -507,12 +799,22 @@
           "iso2": "CO",
           "pot": 1,
           "odds": "33/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group K — 1st (3 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group K",
+            "rank": 1,
+            "played": 1,
+            "w": 1,
+            "d": 0,
+            "l": 0,
+            "gf": 3,
+            "ga": 1,
+            "pts": 3
+          },
+          "goalsConceded": 1,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -522,11 +824,21 @@
           "iso2": "GH",
           "pot": 2,
           "odds": "400/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group L — 2nd (3 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
+          "group": {
+            "group": "Group L",
+            "rank": 2,
+            "played": 1,
+            "w": 1,
+            "d": 0,
+            "l": 0,
+            "gf": 1,
+            "ga": 0,
+            "pts": 3
+          },
           "goalsConceded": 0,
           "redCards": 0,
           "ownGoals": 0
@@ -542,12 +854,22 @@
           "iso2": "BR",
           "pot": 1,
           "odds": "8/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group C — 1st (4 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group C",
+            "rank": 1,
+            "played": 2,
+            "w": 1,
+            "d": 1,
+            "l": 0,
+            "gf": 4,
+            "ga": 1,
+            "pts": 4
+          },
+          "goalsConceded": 1,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -557,12 +879,22 @@
           "iso2": "PA",
           "pot": 2,
           "odds": "1500/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group Third-placed teams — 10th (0 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Third-placed teams",
+            "rank": 10,
+            "played": 1,
+            "w": 0,
+            "d": 0,
+            "l": 1,
+            "gf": 0,
+            "ga": 1,
+            "pts": 0
+          },
+          "goalsConceded": 1,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -577,12 +909,22 @@
           "iso2": "JP",
           "pot": 1,
           "odds": "50/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group F — 2nd (4 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group F",
+            "rank": 2,
+            "played": 2,
+            "w": 1,
+            "d": 1,
+            "l": 0,
+            "gf": 6,
+            "ga": 2,
+            "pts": 4
+          },
+          "goalsConceded": 2,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -592,12 +934,22 @@
           "iso2": "CD",
           "pot": 2,
           "odds": "750/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group K — 2nd (1 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group K",
+            "rank": 2,
+            "played": 1,
+            "w": 0,
+            "d": 1,
+            "l": 0,
+            "gf": 1,
+            "ga": 1,
+            "pts": 1
+          },
+          "goalsConceded": 1,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -612,12 +964,22 @@
           "iso2": "AT",
           "pot": 1,
           "odds": "150/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group J — 2nd (3 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group J",
+            "rank": 2,
+            "played": 1,
+            "w": 1,
+            "d": 0,
+            "l": 0,
+            "gf": 3,
+            "ga": 1,
+            "pts": 3
+          },
+          "goalsConceded": 1,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -627,12 +989,22 @@
           "iso2": "GB-SCT",
           "pot": 2,
           "odds": "250/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group Third-placed teams — 2nd (3 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Third-placed teams",
+            "rank": 2,
+            "played": 2,
+            "w": 1,
+            "d": 0,
+            "l": 1,
+            "gf": 1,
+            "ga": 1,
+            "pts": 3
+          },
+          "goalsConceded": 1,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -647,13 +1019,23 @@
           "iso2": "MX",
           "pot": 1,
           "odds": "80/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group A — 1st (6 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
+          "group": {
+            "group": "Group A",
+            "rank": 1,
+            "played": 2,
+            "w": 2,
+            "d": 0,
+            "l": 0,
+            "gf": 3,
+            "ga": 0,
+            "pts": 6
+          },
           "goalsConceded": 0,
-          "redCards": 0,
+          "redCards": 1,
           "ownGoals": 0
         },
         {
@@ -662,12 +1044,22 @@
           "iso2": "CI",
           "pot": 2,
           "odds": "300/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group E — 2nd (3 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group E",
+            "rank": 2,
+            "played": 2,
+            "w": 1,
+            "d": 0,
+            "l": 1,
+            "gf": 2,
+            "ga": 2,
+            "pts": 3
+          },
+          "goalsConceded": 2,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -682,12 +1074,22 @@
           "iso2": "HR",
           "pot": 1,
           "odds": "80/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group L — 4th (0 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group L",
+            "rank": 4,
+            "played": 1,
+            "w": 0,
+            "d": 0,
+            "l": 1,
+            "gf": 2,
+            "ga": 4,
+            "pts": 0
+          },
+          "goalsConceded": 4,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -697,14 +1099,24 @@
           "iso2": "PY",
           "pot": 2,
           "odds": "150/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group Third-placed teams — 3rd (3 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
-          "redCards": 0,
-          "ownGoals": 0
+          "group": {
+            "group": "Third-placed teams",
+            "rank": 3,
+            "played": 2,
+            "w": 1,
+            "d": 0,
+            "l": 1,
+            "gf": 2,
+            "ga": 4,
+            "pts": 3
+          },
+          "goalsConceded": 4,
+          "redCards": 1,
+          "ownGoals": 1
         }
       ]
     },
@@ -717,12 +1129,22 @@
           "iso2": "FR",
           "pot": 1,
           "odds": "5/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group I — 2nd (3 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group I",
+            "rank": 2,
+            "played": 1,
+            "w": 1,
+            "d": 0,
+            "l": 0,
+            "gf": 3,
+            "ga": 1,
+            "pts": 3
+          },
+          "goalsConceded": 1,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -732,12 +1154,22 @@
           "iso2": "TN",
           "pot": 2,
           "odds": "500/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group F — 4th (0 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group F",
+            "rank": 4,
+            "played": 2,
+            "w": 0,
+            "d": 0,
+            "l": 2,
+            "gf": 1,
+            "ga": 9,
+            "pts": 0
+          },
+          "goalsConceded": 9,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -752,12 +1184,22 @@
           "iso2": "SN",
           "pot": 1,
           "odds": "125/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group Third-placed teams — 11th (0 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Third-placed teams",
+            "rank": 11,
+            "played": 1,
+            "w": 0,
+            "d": 0,
+            "l": 1,
+            "gf": 1,
+            "ga": 3,
+            "pts": 0
+          },
+          "goalsConceded": 3,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -767,13 +1209,23 @@
           "iso2": "BA",
           "pot": 2,
           "odds": "250/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group Third-placed teams — 9th (1 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
-          "redCards": 0,
+          "group": {
+            "group": "Third-placed teams",
+            "rank": 9,
+            "played": 2,
+            "w": 0,
+            "d": 1,
+            "l": 1,
+            "gf": 2,
+            "ga": 5,
+            "pts": 1
+          },
+          "goalsConceded": 5,
+          "redCards": 1,
           "ownGoals": 0
         }
       ]
@@ -787,12 +1239,22 @@
           "iso2": "GB-ENG",
           "pot": 1,
           "odds": "6/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group L — 1st (3 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group L",
+            "rank": 1,
+            "played": 1,
+            "w": 1,
+            "d": 0,
+            "l": 0,
+            "gf": 4,
+            "ga": 2,
+            "pts": 3
+          },
+          "goalsConceded": 2,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -802,14 +1264,24 @@
           "iso2": "IQ",
           "pot": 2,
           "odds": "1500/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group I — 4th (0 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group I",
+            "rank": 4,
+            "played": 1,
+            "w": 0,
+            "d": 0,
+            "l": 1,
+            "gf": 1,
+            "ga": 4,
+            "pts": 0
+          },
+          "goalsConceded": 4,
           "redCards": 0,
-          "ownGoals": 0
+          "ownGoals": 1
         }
       ]
     },
@@ -822,11 +1294,21 @@
           "iso2": "AR",
           "pot": 1,
           "odds": "8/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group J — 1st (3 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
+          "group": {
+            "group": "Group J",
+            "rank": 1,
+            "played": 1,
+            "w": 1,
+            "d": 0,
+            "l": 0,
+            "gf": 3,
+            "ga": 0,
+            "pts": 3
+          },
           "goalsConceded": 0,
           "redCards": 0,
           "ownGoals": 0
@@ -837,12 +1319,22 @@
           "iso2": "HT",
           "pot": 2,
           "odds": "3000/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group C — 4th (0 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group C",
+            "rank": 4,
+            "played": 2,
+            "w": 0,
+            "d": 0,
+            "l": 2,
+            "gf": 0,
+            "ga": 4,
+            "pts": 0
+          },
+          "goalsConceded": 4,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -857,12 +1349,22 @@
           "iso2": "UY",
           "pot": 1,
           "odds": "66/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group H — 2nd (2 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group H",
+            "rank": 2,
+            "played": 2,
+            "w": 0,
+            "d": 2,
+            "l": 0,
+            "gf": 3,
+            "ga": 3,
+            "pts": 2
+          },
+          "goalsConceded": 3,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -872,14 +1374,24 @@
           "iso2": "AU",
           "pot": 2,
           "odds": "500/1",
-          "matched": false,
-          "status": "Yet to kick off",
+          "matched": true,
+          "status": "Group D — 2nd (3 pts)",
           "statusKind": "group",
           "alive": true,
-          "group": null,
-          "goalsConceded": 0,
+          "group": {
+            "group": "Group D",
+            "rank": 2,
+            "played": 2,
+            "w": 1,
+            "d": 0,
+            "l": 1,
+            "gf": 2,
+            "ga": 2,
+            "pts": 3
+          },
+          "goalsConceded": 2,
           "redCards": 0,
-          "ownGoals": 0
+          "ownGoals": 1
         }
       ]
     }
@@ -887,136 +1399,318 @@
   "leaderboards": {
     "goalsConceded": [
       {
-        "code": "ALG",
-        "name": "Algeria",
-        "iso2": "DZ",
-        "player": "Bob Gibson",
-        "value": 0
-      },
-      {
-        "code": "ARG",
-        "name": "Argentina",
-        "iso2": "AR",
-        "player": "Tom Clayton",
-        "value": 0
-      },
-      {
-        "code": "AUS",
-        "name": "Australia",
-        "iso2": "AU",
-        "player": "Tom Gibbons",
-        "value": 0
-      },
-      {
-        "code": "AUT",
-        "name": "Austria",
-        "iso2": "AT",
-        "player": "Paul Mitchell",
-        "value": 0
-      },
-      {
-        "code": "BEL",
-        "name": "Belgium",
-        "iso2": "BE",
-        "player": "Fred Dunn",
-        "value": 0
-      },
-      {
-        "code": "BIH",
-        "name": "Bosnia-Herzegovina",
-        "iso2": "BA",
-        "player": "Sam Lowerson",
-        "value": 0
-      },
-      {
-        "code": "BRA",
-        "name": "Brazil",
-        "iso2": "BR",
-        "player": "Me Julie",
-        "value": 0
-      },
-      {
-        "code": "CAN",
-        "name": "Canada",
-        "iso2": "CA",
-        "player": "Joe Clayton",
-        "value": 0
-      },
-      {
-        "code": "CPV",
-        "name": "Cape Verde",
-        "iso2": "CV",
-        "player": "Guy Curry",
-        "value": 0
-      },
-      {
-        "code": "COL",
-        "name": "Colombia",
-        "iso2": "CO",
-        "player": "Matt Deacock",
-        "value": 0
-      },
-      {
-        "code": "CRO",
-        "name": "Croatia",
-        "iso2": "HR",
-        "player": "Robin Parish",
-        "value": 0
+        "code": "TUN",
+        "name": "Tunisia",
+        "iso2": "TN",
+        "player": "Sam King",
+        "value": 9
       },
       {
         "code": "CUW",
         "name": "Curacao",
         "iso2": "CW",
         "player": "Fred Dunn",
-        "value": 0
+        "value": 7
+      },
+      {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
+        "value": 7
+      },
+      {
+        "code": "SWE",
+        "name": "Sweden",
+        "iso2": "SE",
+        "player": "Madi Farrow-Dunn",
+        "value": 6
+      },
+      {
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "player": "Sam Lowerson",
+        "value": 5
+      },
+      {
+        "code": "NZL",
+        "name": "New Zealand",
+        "iso2": "NZ",
+        "player": "Madi Farrow-Dunn",
+        "value": 5
+      },
+      {
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "iso2": "SA",
+        "player": "Flora Curry",
+        "value": 5
+      },
+      {
+        "code": "CRO",
+        "name": "Croatia",
+        "iso2": "HR",
+        "player": "Robin Parish",
+        "value": 4
+      },
+      {
+        "code": "HTI",
+        "name": "Haiti",
+        "iso2": "HT",
+        "player": "Tom Clayton",
+        "value": 4
+      },
+      {
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "player": "Scott Rossetter",
+        "value": 4
+      },
+      {
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "player": "Robin Parish",
+        "value": 4
+      },
+      {
+        "code": "ALG",
+        "name": "Algeria",
+        "iso2": "DZ",
+        "player": "Bob Gibson",
+        "value": 3
       },
       {
         "code": "CZE",
         "name": "Czechia",
         "iso2": "CZ",
         "player": "Laura Harrison",
-        "value": 0
+        "value": 3
       },
       {
-        "code": "DRC",
-        "name": "DR Congo",
-        "iso2": "CD",
-        "player": "Nick Foulkes",
-        "value": 0
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
+        "value": 3
       },
       {
-        "code": "ECU",
-        "name": "Ecuador",
-        "iso2": "EC",
-        "player": "Frank Dunn",
-        "value": 0
+        "code": "NLD",
+        "name": "Netherlands",
+        "iso2": "NL",
+        "player": "Bob Gibson",
+        "value": 3
+      },
+      {
+        "code": "SEN",
+        "name": "Senegal",
+        "iso2": "SN",
+        "player": "Sam Lowerson",
+        "value": 3
+      },
+      {
+        "code": "ZAF",
+        "name": "South Africa",
+        "iso2": "ZA",
+        "player": "Adam Wright",
+        "value": 3
+      },
+      {
+        "code": "TUR",
+        "name": "Turkey",
+        "iso2": "TR",
+        "player": "Laura Harrison",
+        "value": 3
+      },
+      {
+        "code": "URY",
+        "name": "Uruguay",
+        "iso2": "UY",
+        "player": "Tom Gibbons",
+        "value": 3
+      },
+      {
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "iso2": "UZ",
+        "player": "Jimena Barillas",
+        "value": 3
+      },
+      {
+        "code": "AUS",
+        "name": "Australia",
+        "iso2": "AU",
+        "player": "Tom Gibbons",
+        "value": 2
+      },
+      {
+        "code": "CPV",
+        "name": "Cape Verde",
+        "iso2": "CV",
+        "player": "Guy Curry",
+        "value": 2
       },
       {
         "code": "EGY",
         "name": "Egypt",
         "iso2": "EG",
         "player": "Ali Taylor",
-        "value": 0
+        "value": 2
       },
       {
         "code": "ENG",
         "name": "England",
         "iso2": "GB-ENG",
         "player": "Scott Rossetter",
-        "value": 0
-      },
-      {
-        "code": "FRA",
-        "name": "France",
-        "iso2": "FR",
-        "player": "Sam King",
-        "value": 0
+        "value": 2
       },
       {
         "code": "GER",
         "name": "Germany",
         "iso2": "DE",
         "player": "Jess Forshaw",
+        "value": 2
+      },
+      {
+        "code": "IRN",
+        "name": "Iran",
+        "iso2": "IR",
+        "player": "Jess Forshaw",
+        "value": 2
+      },
+      {
+        "code": "CIV",
+        "name": "Ivory Coast",
+        "iso2": "CI",
+        "player": "Robbie Godowski",
+        "value": 2
+      },
+      {
+        "code": "JAP",
+        "name": "Japan",
+        "iso2": "JP",
+        "player": "Nick Foulkes",
+        "value": 2
+      },
+      {
+        "code": "KOR",
+        "name": "South Korea",
+        "iso2": "KR",
+        "player": "Elizabeth Swords",
+        "value": 2
+      },
+      {
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH",
+        "player": "Elizabeth Swords",
+        "value": 2
+      },
+      {
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT",
+        "player": "Paul Mitchell",
+        "value": 1
+      },
+      {
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE",
+        "player": "Fred Dunn",
+        "value": 1
+      },
+      {
+        "code": "BRA",
+        "name": "Brazil",
+        "iso2": "BR",
+        "player": "Me Julie",
+        "value": 1
+      },
+      {
+        "code": "CAN",
+        "name": "Canada",
+        "iso2": "CA",
+        "player": "Joe Clayton",
+        "value": 1
+      },
+      {
+        "code": "COL",
+        "name": "Colombia",
+        "iso2": "CO",
+        "player": "Matt Deacock",
+        "value": 1
+      },
+      {
+        "code": "DRC",
+        "name": "DR Congo",
+        "iso2": "CD",
+        "player": "Nick Foulkes",
+        "value": 1
+      },
+      {
+        "code": "ECU",
+        "name": "Ecuador",
+        "iso2": "EC",
+        "player": "Frank Dunn",
+        "value": 1
+      },
+      {
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR",
+        "player": "Sam King",
+        "value": 1
+      },
+      {
+        "code": "MOR",
+        "name": "Morocco",
+        "iso2": "MA",
+        "player": "Ali Taylor",
+        "value": 1
+      },
+      {
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO",
+        "player": "Jimena Barillas",
+        "value": 1
+      },
+      {
+        "code": "PAN",
+        "name": "Panama",
+        "iso2": "PA",
+        "player": "Me Julie",
+        "value": 1
+      },
+      {
+        "code": "POR",
+        "name": "Portugal",
+        "iso2": "PT",
+        "player": "Guy Curry",
+        "value": 1
+      },
+      {
+        "code": "SCO",
+        "name": "Scotland",
+        "iso2": "GB-SCT",
+        "player": "Paul Mitchell",
+        "value": 1
+      },
+      {
+        "code": "USA",
+        "name": "USA",
+        "iso2": "US",
+        "player": "Flora Curry",
+        "value": 1
+      },
+      {
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
+        "player": "Tom Clayton",
         "value": 0
       },
       {
@@ -1027,143 +1721,10 @@
         "value": 0
       },
       {
-        "code": "HTI",
-        "name": "Haiti",
-        "iso2": "HT",
-        "player": "Tom Clayton",
-        "value": 0
-      },
-      {
-        "code": "IRN",
-        "name": "Iran",
-        "iso2": "IR",
-        "player": "Jess Forshaw",
-        "value": 0
-      },
-      {
-        "code": "IRQ",
-        "name": "Iraq",
-        "iso2": "IQ",
-        "player": "Scott Rossetter",
-        "value": 0
-      },
-      {
-        "code": "CIV",
-        "name": "Ivory Coast",
-        "iso2": "CI",
-        "player": "Robbie Godowski",
-        "value": 0
-      },
-      {
-        "code": "JAP",
-        "name": "Japan",
-        "iso2": "JP",
-        "player": "Nick Foulkes",
-        "value": 0
-      },
-      {
-        "code": "JOR",
-        "name": "Jordan",
-        "iso2": "JO",
-        "player": "Joe Clayton",
-        "value": 0
-      },
-      {
         "code": "MEX",
         "name": "Mexico",
         "iso2": "MX",
         "player": "Robbie Godowski",
-        "value": 0
-      },
-      {
-        "code": "MOR",
-        "name": "Morocco",
-        "iso2": "MA",
-        "player": "Ali Taylor",
-        "value": 0
-      },
-      {
-        "code": "NLD",
-        "name": "Netherlands",
-        "iso2": "NL",
-        "player": "Bob Gibson",
-        "value": 0
-      },
-      {
-        "code": "NZL",
-        "name": "New Zealand",
-        "iso2": "NZ",
-        "player": "Madi Farrow-Dunn",
-        "value": 0
-      },
-      {
-        "code": "NOR",
-        "name": "Norway",
-        "iso2": "NO",
-        "player": "Jimena Barillas",
-        "value": 0
-      },
-      {
-        "code": "PAN",
-        "name": "Panama",
-        "iso2": "PA",
-        "player": "Me Julie",
-        "value": 0
-      },
-      {
-        "code": "PAR",
-        "name": "Paraguay",
-        "iso2": "PY",
-        "player": "Robin Parish",
-        "value": 0
-      },
-      {
-        "code": "POR",
-        "name": "Portugal",
-        "iso2": "PT",
-        "player": "Guy Curry",
-        "value": 0
-      },
-      {
-        "code": "QAT",
-        "name": "Qatar",
-        "iso2": "QA",
-        "player": "Frank Dunn",
-        "value": 0
-      },
-      {
-        "code": "KSA",
-        "name": "Saudi Arabia",
-        "iso2": "SA",
-        "player": "Flora Curry",
-        "value": 0
-      },
-      {
-        "code": "SCO",
-        "name": "Scotland",
-        "iso2": "GB-SCT",
-        "player": "Paul Mitchell",
-        "value": 0
-      },
-      {
-        "code": "SEN",
-        "name": "Senegal",
-        "iso2": "SN",
-        "player": "Sam Lowerson",
-        "value": 0
-      },
-      {
-        "code": "ZAF",
-        "name": "South Africa",
-        "iso2": "ZA",
-        "player": "Adam Wright",
-        "value": 0
-      },
-      {
-        "code": "KOR",
-        "name": "South Korea",
-        "iso2": "KR",
-        "player": "Elizabeth Swords",
         "value": 0
       },
       {
@@ -1172,58 +1733,51 @@
         "iso2": "ES",
         "player": "Adam Wright",
         "value": 0
-      },
-      {
-        "code": "SWE",
-        "name": "Sweden",
-        "iso2": "SE",
-        "player": "Madi Farrow-Dunn",
-        "value": 0
-      },
-      {
-        "code": "SWI",
-        "name": "Switzerland",
-        "iso2": "CH",
-        "player": "Elizabeth Swords",
-        "value": 0
-      },
-      {
-        "code": "TUN",
-        "name": "Tunisia",
-        "iso2": "TN",
-        "player": "Sam King",
-        "value": 0
-      },
-      {
-        "code": "TUR",
-        "name": "Turkey",
-        "iso2": "TR",
-        "player": "Laura Harrison",
-        "value": 0
-      },
-      {
-        "code": "URY",
-        "name": "Uruguay",
-        "iso2": "UY",
-        "player": "Tom Gibbons",
-        "value": 0
-      },
-      {
-        "code": "USA",
-        "name": "USA",
-        "iso2": "US",
-        "player": "Flora Curry",
-        "value": 0
-      },
-      {
-        "code": "UZB",
-        "name": "Uzbekistan",
-        "iso2": "UZ",
-        "player": "Jimena Barillas",
-        "value": 0
       }
     ],
     "redCards": [
+      {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
+        "value": 2
+      },
+      {
+        "code": "ZAF",
+        "name": "South Africa",
+        "iso2": "ZA",
+        "player": "Adam Wright",
+        "value": 2
+      },
+      {
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE",
+        "player": "Fred Dunn",
+        "value": 1
+      },
+      {
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "player": "Sam Lowerson",
+        "value": 1
+      },
+      {
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX",
+        "player": "Robbie Godowski",
+        "value": 1
+      },
+      {
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "player": "Robin Parish",
+        "value": 1
+      },
       {
         "code": "ALG",
         "name": "Algeria",
@@ -1250,20 +1804,6 @@
         "name": "Austria",
         "iso2": "AT",
         "player": "Paul Mitchell",
-        "value": 0
-      },
-      {
-        "code": "BEL",
-        "name": "Belgium",
-        "iso2": "BE",
-        "player": "Fred Dunn",
-        "value": 0
-      },
-      {
-        "code": "BIH",
-        "name": "Bosnia-Herzegovina",
-        "iso2": "BA",
-        "player": "Sam Lowerson",
         "value": 0
       },
       {
@@ -1407,13 +1947,6 @@
         "value": 0
       },
       {
-        "code": "MEX",
-        "name": "Mexico",
-        "iso2": "MX",
-        "player": "Robbie Godowski",
-        "value": 0
-      },
-      {
         "code": "MOR",
         "name": "Morocco",
         "iso2": "MA",
@@ -1449,24 +1982,10 @@
         "value": 0
       },
       {
-        "code": "PAR",
-        "name": "Paraguay",
-        "iso2": "PY",
-        "player": "Robin Parish",
-        "value": 0
-      },
-      {
         "code": "POR",
         "name": "Portugal",
         "iso2": "PT",
         "player": "Guy Curry",
-        "value": 0
-      },
-      {
-        "code": "QAT",
-        "name": "Qatar",
-        "iso2": "QA",
-        "player": "Frank Dunn",
         "value": 0
       },
       {
@@ -1488,13 +2007,6 @@
         "name": "Senegal",
         "iso2": "SN",
         "player": "Sam Lowerson",
-        "value": 0
-      },
-      {
-        "code": "ZAF",
-        "name": "South Africa",
-        "iso2": "ZA",
-        "player": "Adam Wright",
         "value": 0
       },
       {
@@ -1563,6 +2075,62 @@
     ],
     "ownGoals": [
       {
+        "code": "AUS",
+        "name": "Australia",
+        "iso2": "AU",
+        "player": "Tom Gibbons",
+        "value": 1
+      },
+      {
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "player": "Ali Taylor",
+        "value": 1
+      },
+      {
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "player": "Scott Rossetter",
+        "value": 1
+      },
+      {
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
+        "value": 1
+      },
+      {
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "player": "Robin Parish",
+        "value": 1
+      },
+      {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
+        "value": 1
+      },
+      {
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "iso2": "SA",
+        "player": "Flora Curry",
+        "value": 1
+      },
+      {
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH",
+        "player": "Elizabeth Swords",
+        "value": 1
+      },
+      {
         "code": "ALG",
         "name": "Algeria",
         "iso2": "DZ",
@@ -1574,13 +2142,6 @@
         "name": "Argentina",
         "iso2": "AR",
         "player": "Tom Clayton",
-        "value": 0
-      },
-      {
-        "code": "AUS",
-        "name": "Australia",
-        "iso2": "AU",
-        "player": "Tom Gibbons",
         "value": 0
       },
       {
@@ -1668,13 +2229,6 @@
         "value": 0
       },
       {
-        "code": "EGY",
-        "name": "Egypt",
-        "iso2": "EG",
-        "player": "Ali Taylor",
-        "value": 0
-      },
-      {
         "code": "ENG",
         "name": "England",
         "iso2": "GB-ENG",
@@ -1717,13 +2271,6 @@
         "value": 0
       },
       {
-        "code": "IRQ",
-        "name": "Iraq",
-        "iso2": "IQ",
-        "player": "Scott Rossetter",
-        "value": 0
-      },
-      {
         "code": "CIV",
         "name": "Ivory Coast",
         "iso2": "CI",
@@ -1735,13 +2282,6 @@
         "name": "Japan",
         "iso2": "JP",
         "player": "Nick Foulkes",
-        "value": 0
-      },
-      {
-        "code": "JOR",
-        "name": "Jordan",
-        "iso2": "JO",
-        "player": "Joe Clayton",
         "value": 0
       },
       {
@@ -1787,31 +2327,10 @@
         "value": 0
       },
       {
-        "code": "PAR",
-        "name": "Paraguay",
-        "iso2": "PY",
-        "player": "Robin Parish",
-        "value": 0
-      },
-      {
         "code": "POR",
         "name": "Portugal",
         "iso2": "PT",
         "player": "Guy Curry",
-        "value": 0
-      },
-      {
-        "code": "QAT",
-        "name": "Qatar",
-        "iso2": "QA",
-        "player": "Frank Dunn",
-        "value": 0
-      },
-      {
-        "code": "KSA",
-        "name": "Saudi Arabia",
-        "iso2": "SA",
-        "player": "Flora Curry",
         "value": 0
       },
       {
@@ -1857,13 +2376,6 @@
         "value": 0
       },
       {
-        "code": "SWI",
-        "name": "Switzerland",
-        "iso2": "CH",
-        "player": "Elizabeth Swords",
-        "value": 0
-      },
-      {
         "code": "TUN",
         "name": "Tunisia",
         "iso2": "TN",
@@ -1901,6 +2413,8 @@
     ]
   },
   "meta": {
-    "offline": true
+    "source": "SofaScore",
+    "matches": 104,
+    "scrapedAt": "2026-06-22T12:35:04.489281+00:00"
   }
 }
