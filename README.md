@@ -1,4 +1,4 @@
-# The Blair Mitch Project — WC 2026 Sweepstake Dashboard
+# The Blair Mitch Project — WC 2026 Sweepstake Dashboard App
 
 A free, self-updating dashboard for our 24-player World Cup 2026 sweepstake. Hosted on
 **GitHub Pages**, updated automatically after every match by a **GitHub Actions** job that
