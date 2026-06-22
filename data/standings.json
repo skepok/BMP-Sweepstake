@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T15:05:59.182Z",
+  "lastUpdated": "2026-06-22T18:00:07.622Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Group Stage",
       "kickoff": "2026-06-22T17:00:00.000Z",
       "kickoffUnix": 1782147600000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "ARG",
         "name": "Argentina",
@@ -971,15 +971,15 @@
           "group": {
             "group": "Group J",
             "rank": 2,
-            "played": 1,
+            "played": 2,
             "w": 1,
             "d": 0,
-            "l": 0,
+            "l": 1,
             "gf": 3,
-            "ga": 1,
+            "ga": 2,
             "pts": 3
           },
-          "goalsConceded": 1,
+          "goalsConceded": 2,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -1295,19 +1295,19 @@
           "pot": 1,
           "odds": "8/1",
           "matched": true,
-          "status": "Group J — 1st (3 pts)",
+          "status": "Group J — 1st (6 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group J",
             "rank": 1,
-            "played": 1,
-            "w": 1,
+            "played": 2,
+            "w": 2,
             "d": 0,
             "l": 0,
-            "gf": 3,
+            "gf": 4,
             "ga": 0,
-            "pts": 3
+            "pts": 6
           },
           "goalsConceded": 0,
           "redCards": 0,
@@ -1546,6 +1546,13 @@
         "value": 2
       },
       {
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT",
+        "player": "Paul Mitchell",
+        "value": 2
+      },
+      {
         "code": "CPV",
         "name": "Cape Verde",
         "iso2": "CV",
@@ -1607,13 +1614,6 @@
         "iso2": "CH",
         "player": "Elizabeth Swords",
         "value": 2
-      },
-      {
-        "code": "AUT",
-        "name": "Austria",
-        "iso2": "AT",
-        "player": "Paul Mitchell",
-        "value": 1
       },
       {
         "code": "BEL",
@@ -2415,6 +2415,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-06-22T14:03:13.323349+00:00"
+    "scrapedAt": "2026-06-22T18:00:07.548174+00:00"
   }
 }

@@ -1,29 +1,10 @@
 {
-  "fetchedAt": "2026-06-22T14:03:13.323349+00:00",
+  "fetchedAt": "2026-06-22T18:00:07.548174+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186904,
-      "round": "Group Stage",
-      "startTimestamp": 1781478000,
-      "status": "finished",
-      "home": {
-        "name": "Côte d'Ivoire",
-        "score": 1,
-        "winner": true
-      },
-      "away": {
-        "name": "Ecuador",
-        "score": 0,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "incidentsFetched": true
-    },
     {
       "id": 15186951,
       "round": "Group Stage",
@@ -596,6 +577,25 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186502,
+      "round": "Group Stage",
+      "startTimestamp": 1782147600,
+      "status": "inprogress",
+      "home": {
+        "name": "Argentina",
+        "score": 1,
+        "winner": null
+      },
+      "away": {
+        "name": "Austria",
+        "score": 0,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -793,23 +793,23 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186502,
+      "id": 15186904,
       "round": "Group Stage",
-      "startTimestamp": 1782147600,
-      "status": "notstarted",
+      "startTimestamp": 1781478000,
+      "status": "finished",
       "home": {
-        "name": "Argentina",
-        "score": null,
-        "winner": null
+        "name": "Côte d'Ivoire",
+        "score": 1,
+        "winner": true
       },
       "away": {
-        "name": "Austria",
-        "score": null,
-        "winner": null
+        "name": "Ecuador",
+        "score": 0,
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186769,
@@ -2446,24 +2446,24 @@
       "team": "Argentina",
       "group": "Group J",
       "rank": 1,
-      "played": 1,
-      "w": 1,
+      "played": 2,
+      "w": 2,
       "d": 0,
       "l": 0,
-      "gf": 3,
+      "gf": 4,
       "ga": 0,
-      "pts": 3
+      "pts": 6
     },
     {
       "team": "Austria",
       "group": "Group J",
       "rank": 2,
-      "played": 1,
+      "played": 2,
       "w": 1,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "gf": 3,
-      "ga": 1,
+      "ga": 2,
       "pts": 3
     },
     {
