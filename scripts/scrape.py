@@ -130,6 +130,9 @@ def fetch_standings():
     out = []
     for block in (data or {}).get("standings", []):
         group = block.get("name") or None
+        # Skip the "Third-placed teams" comparison table — keep only real groups.
+        if not group or not group.startswith("Group "):
+            continue
         for row in block.get("rows", []):
             team = (row.get("team") or {}).get("name")
             if not team:
@@ -227,6 +230,24 @@ def main():
                   + (f" red={red}" if red else "") + (f" og={own}" if own else ""))
 
         matches.append(m)
+
+    # Stability: if the match/standings data is identical to what's already on
+    # disk, leave the file untouched (don't refresh fetchedAt). That keeps the
+    # file byte-identical so the scheduled task commits nothing when no game has
+    # changed — only real updates produce a commit.
+    new_core = json.dumps({"matches": matches, "standings": standings}, sort_keys=True, ensure_ascii=False)
+    if RAW_PATH.exists():
+        try:
+            prev = json.loads(RAW_PATH.read_text(encoding="utf-8"))
+            prev_core = json.dumps({"matches": prev.get("matches"), "standings": prev.get("standings")},
+                                   sort_keys=True, ensure_ascii=False)
+            if prev_core == new_core:
+                print(f"No data changes — left {RAW_PATH.name} unchanged "
+                      f"({fetched_incidents} new incident fetches).")
+                print("Now run:  node scripts/build.mjs")
+                return
+        except Exception:
+            pass
 
     payload = {
         "fetchedAt": datetime.now(timezone.utc).isoformat(),

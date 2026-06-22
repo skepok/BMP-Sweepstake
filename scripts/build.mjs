@@ -297,7 +297,11 @@ function adaptSofaScore(raw, resolveCode) {
   }));
 
   // Group tables -> API-Football standings shape (one table; each row carries its group).
-  const rows = (raw.standings || []).map((s) => ({
+  // Skip SofaScore's extra "Third-placed teams" comparison block (it ranks the 12
+  // third-place teams together and would otherwise overwrite their real group/position).
+  const rows = (raw.standings || [])
+    .filter((s) => /^group\s+[a-z]$/i.test((s.group || '').trim()))
+    .map((s) => ({
     rank: s.rank ?? null,
     team: { name: s.team },
     points: s.pts ?? 0,
@@ -445,7 +449,18 @@ async function writeStandings({ players, teamByCode, fixtures, standings, events
     meta,
   };
 
-  await writeJson(path.join(DATA_DIR, 'standings.json'), payload);
+  // Only rewrite if the meaningful content changed — keeps the file (and git
+  // history) stable when a refresh finds nothing new. `lastUpdated` and `meta`
+  // are volatile by nature, so they're excluded from the comparison and we
+  // carry over the previous `lastUpdated` when nothing else changed.
+  const outPath = path.join(DATA_DIR, 'standings.json');
+  const existing = await readJson(outPath);
+  const stable = (o) => { if (!o) return null; const { lastUpdated, meta, ...rest } = o; return JSON.stringify(rest); };
+  if (existing && stable(existing) === stable(payload)) {
+    log('standings.json unchanged — leaving as is (no git churn).');
+    return;
+  }
+  await writeJson(outPath, payload);
   log('Wrote data/standings.json');
 }
 
