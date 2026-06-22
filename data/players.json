@@ -96,7 +96,7 @@
       { "code": "SEN", "name": "Senegal", "iso2": "SN", "pot": 1, "odds": "125/1", "aliases": [] },
       { "code": "BIH", "name": "Bosnia-Herzegovina", "iso2": "BA", "pot": 2, "odds": "250/1", "aliases": ["Bosnia and Herzegovina", "Bosnia & Herzegovina"] }
     ]},
-    { "name": "Scott Rossetter", "teams": [
+    { "name": "Scott Rosseter", "teams": [
       { "code": "ENG", "name": "England", "iso2": "GB-ENG", "pot": 1, "odds": "6/1", "aliases": [] },
       { "code": "IRQ", "name": "Iraq", "iso2": "IQ", "pot": 2, "odds": "1500/1", "aliases": [] }
     ]},
