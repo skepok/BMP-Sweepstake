@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T20:00:08.540Z",
+  "lastUpdated": "2026-06-22T22:00:06.946Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Group Stage",
       "kickoff": "2026-06-22T21:00:00.000Z",
       "kickoffUnix": 1782162000000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "FRA",
         "name": "France",
@@ -580,12 +580,12 @@
           "pot": 1,
           "odds": "25/1",
           "matched": true,
-          "status": "Group I — 1st (3 pts)",
+          "status": "Group I — 2nd (3 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group I",
-            "rank": 1,
+            "rank": 2,
             "played": 1,
             "w": 1,
             "d": 0,
@@ -1130,19 +1130,19 @@
           "pot": 1,
           "odds": "5/1",
           "matched": true,
-          "status": "Group I — 2nd (3 pts)",
+          "status": "Group I — 1st (6 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group I",
-            "rank": 2,
-            "played": 1,
-            "w": 1,
+            "rank": 1,
+            "played": 2,
+            "w": 2,
             "d": 0,
             "l": 0,
-            "gf": 3,
+            "gf": 4,
             "ga": 1,
-            "pts": 3
+            "pts": 6
           },
           "goalsConceded": 1,
           "redCards": 0,
@@ -1271,15 +1271,15 @@
           "group": {
             "group": "Group I",
             "rank": 4,
-            "played": 1,
+            "played": 2,
             "w": 0,
             "d": 0,
-            "l": 1,
+            "l": 2,
             "gf": 1,
-            "ga": 4,
+            "ga": 5,
             "pts": 0
           },
-          "goalsConceded": 4,
+          "goalsConceded": 5,
           "redCards": 0,
           "ownGoals": 1
         }
@@ -1434,6 +1434,13 @@
         "value": 5
       },
       {
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "player": "Scott Rosseter",
+        "value": 5
+      },
+      {
         "code": "NZL",
         "name": "New Zealand",
         "iso2": "NZ",
@@ -1459,13 +1466,6 @@
         "name": "Haiti",
         "iso2": "HT",
         "player": "Tom Clayton",
-        "value": 4
-      },
-      {
-        "code": "IRQ",
-        "name": "Iraq",
-        "iso2": "IQ",
-        "player": "Scott Rosseter",
         "value": 4
       },
       {
@@ -2415,6 +2415,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-06-22T20:00:08.468752+00:00"
+    "scrapedAt": "2026-06-22T22:00:06.876333+00:00"
   }
 }

@@ -1,29 +1,10 @@
 {
-  "fetchedAt": "2026-06-22T20:00:08.468752+00:00",
+  "fetchedAt": "2026-06-22T22:00:06.876333+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186951,
-      "round": "Group Stage",
-      "startTimestamp": 1781488800,
-      "status": "finished",
-      "home": {
-        "name": "Sweden",
-        "score": 5,
-        "winner": true
-      },
-      "away": {
-        "name": "Tunisia",
-        "score": 1,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "incidentsFetched": true
-    },
     {
       "id": 15186783,
       "round": "Group Stage",
@@ -596,6 +577,25 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186769,
+      "round": "Group Stage",
+      "startTimestamp": 1782162000,
+      "status": "inprogress",
+      "home": {
+        "name": "France",
+        "score": 1,
+        "winner": null
+      },
+      "away": {
+        "name": "Iraq",
+        "score": 0,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -812,23 +812,23 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186769,
+      "id": 15186951,
       "round": "Group Stage",
-      "startTimestamp": 1782162000,
-      "status": "notstarted",
+      "startTimestamp": 1781488800,
+      "status": "finished",
       "home": {
-        "name": "France",
-        "score": null,
-        "winner": null
+        "name": "Sweden",
+        "score": 5,
+        "winner": true
       },
       "away": {
-        "name": "Iraq",
-        "score": null,
-        "winner": null
+        "name": "Tunisia",
+        "score": 1,
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186770,
@@ -2395,26 +2395,26 @@
       "pts": 1
     },
     {
-      "team": "Norway",
+      "team": "France",
       "group": "Group I",
       "rank": 1,
-      "played": 1,
-      "w": 1,
+      "played": 2,
+      "w": 2,
       "d": 0,
       "l": 0,
       "gf": 4,
       "ga": 1,
-      "pts": 3
+      "pts": 6
     },
     {
-      "team": "France",
+      "team": "Norway",
       "group": "Group I",
       "rank": 2,
       "played": 1,
       "w": 1,
       "d": 0,
       "l": 0,
-      "gf": 3,
+      "gf": 4,
       "ga": 1,
       "pts": 3
     },
@@ -2434,12 +2434,12 @@
       "team": "Iraq",
       "group": "Group I",
       "rank": 4,
-      "played": 1,
+      "played": 2,
       "w": 0,
       "d": 0,
-      "l": 1,
+      "l": 2,
       "gf": 1,
-      "ga": 4,
+      "ga": 5,
       "pts": 0
     },
     {
