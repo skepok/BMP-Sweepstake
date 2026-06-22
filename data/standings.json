@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T19:00:07.660Z",
+  "lastUpdated": "2026-06-22T20:00:08.540Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Group Stage",
-      "kickoff": "2026-06-22T17:00:00.000Z",
-      "kickoffUnix": 1782147600000,
-      "status": "1H",
+      "kickoff": "2026-06-22T21:00:00.000Z",
+      "kickoffUnix": 1782162000000,
+      "status": "NS",
       "home": {
-        "code": "ARG",
-        "name": "Argentina",
-        "iso2": "AR"
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR"
       },
       "away": {
-        "code": "AUT",
-        "name": "Austria",
-        "iso2": "AT"
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ"
       }
     },
     "lastFinished": {
       "round": "Group Stage",
-      "kickoff": "2026-06-22T01:00:00.000Z",
-      "kickoffUnix": 1782090000000,
+      "kickoff": "2026-06-22T17:00:00.000Z",
+      "kickoffUnix": 1782147600000,
       "status": "FT",
       "home": {
-        "code": "NZL",
-        "name": "New Zealand",
-        "iso2": "NZ",
-        "goals": 1
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
+        "goals": 2
       },
       "away": {
-        "code": "EGY",
-        "name": "Egypt",
-        "iso2": "EG",
-        "goals": 3
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT",
+        "goals": 0
       }
     }
   },
@@ -2415,6 +2415,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-06-22T19:00:07.583375+00:00"
+    "scrapedAt": "2026-06-22T20:00:08.468752+00:00"
   }
 }

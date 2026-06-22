@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-22T19:00:07.583375+00:00",
+  "fetchedAt": "2026-06-22T20:00:08.468752+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -580,20 +580,20 @@
       "id": 15186502,
       "round": "Group Stage",
       "startTimestamp": 1782147600,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Argentina",
         "score": 2,
-        "winner": null
+        "winner": true
       },
       "away": {
         "name": "Austria",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186710,
