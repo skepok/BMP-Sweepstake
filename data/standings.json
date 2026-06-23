@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T17:15:05.813Z",
+  "lastUpdated": "2026-06-23T18:00:06.769Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -480,7 +480,7 @@
             "w": 1,
             "d": 1,
             "l": 0,
-            "gf": 2,
+            "gf": 4,
             "ga": 1,
             "pts": 4
           },
@@ -616,10 +616,10 @@
             "d": 0,
             "l": 2,
             "gf": 1,
-            "ga": 4,
+            "ga": 6,
             "pts": 0
           },
-          "goalsConceded": 4,
+          "goalsConceded": 6,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -1441,6 +1441,13 @@
         "value": 6
       },
       {
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "iso2": "UZ",
+        "player": "Jimena Barillas",
+        "value": 6
+      },
+      {
         "code": "BIH",
         "name": "Bosnia-Herzegovina",
         "iso2": "BA",
@@ -1494,13 +1501,6 @@
         "name": "Paraguay",
         "iso2": "PY",
         "player": "Robin Parish",
-        "value": 4
-      },
-      {
-        "code": "UZB",
-        "name": "Uzbekistan",
-        "iso2": "UZ",
-        "player": "Jimena Barillas",
         "value": 4
       },
       {
@@ -2415,6 +2415,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-06-23T17:15:05.722800+00:00"
+    "scrapedAt": "2026-06-23T18:00:06.644006+00:00"
   }
 }
