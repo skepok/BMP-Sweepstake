@@ -1,29 +1,10 @@
 {
-  "fetchedAt": "2026-06-23T22:09:30.977931+00:00",
+  "fetchedAt": "2026-06-23T23:15:05.723244+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186501,
-      "round": "Group Stage",
-      "startTimestamp": 1781636400,
-      "status": "finished",
-      "home": {
-        "name": "France",
-        "score": 3,
-        "winner": true
-      },
-      "away": {
-        "name": "Senegal",
-        "score": 1,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "incidentsFetched": true
-    },
     {
       "id": 15186773,
       "round": "Group Stage",
@@ -596,6 +577,25 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186520,
+      "round": "Group Stage",
+      "startTimestamp": 1782255600,
+      "status": "inprogress",
+      "home": {
+        "name": "Panama",
+        "score": 0,
+        "winner": null
+      },
+      "away": {
+        "name": "Croatia",
+        "score": 0,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -909,23 +909,23 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186520,
+      "id": 15186501,
       "round": "Group Stage",
-      "startTimestamp": 1782255600,
-      "status": "notstarted",
+      "startTimestamp": 1781636400,
+      "status": "finished",
       "home": {
-        "name": "Panama",
-        "score": null,
-        "winner": null
+        "name": "France",
+        "score": 3,
+        "winner": true
       },
       "away": {
-        "name": "Croatia",
-        "score": null,
-        "winner": null
+        "name": "Senegal",
+        "score": 1,
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186713,
@@ -2568,25 +2568,25 @@
       "team": "Panama",
       "group": "Group L",
       "rank": 3,
-      "played": 1,
+      "played": 2,
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 1,
       "gf": 0,
       "ga": 1,
-      "pts": 0
+      "pts": 1
     },
     {
       "team": "Croatia",
       "group": "Group L",
       "rank": 4,
-      "played": 1,
+      "played": 2,
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 1,
       "gf": 2,
       "ga": 4,
-      "pts": 0
+      "pts": 1
     }
   ]
 }

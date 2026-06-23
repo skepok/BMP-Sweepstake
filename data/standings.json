@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T22:09:31.050Z",
+  "lastUpdated": "2026-06-23T23:15:05.816Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Group Stage",
       "kickoff": "2026-06-23T23:00:00.000Z",
       "kickoffUnix": 1782255600000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "PAN",
         "name": "Panama",
@@ -880,19 +880,19 @@
           "pot": 2,
           "odds": "1500/1",
           "matched": true,
-          "status": "Group L — 3rd (0 pts)",
+          "status": "Group L — 3rd (1 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group L",
             "rank": 3,
-            "played": 1,
+            "played": 2,
             "w": 0,
-            "d": 0,
+            "d": 1,
             "l": 1,
             "gf": 0,
             "ga": 1,
-            "pts": 0
+            "pts": 1
           },
           "goalsConceded": 1,
           "redCards": 0,
@@ -1075,19 +1075,19 @@
           "pot": 1,
           "odds": "80/1",
           "matched": true,
-          "status": "Group L — 4th (0 pts)",
+          "status": "Group L — 4th (1 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group L",
             "rank": 4,
-            "played": 1,
+            "played": 2,
             "w": 0,
-            "d": 0,
+            "d": 1,
             "l": 1,
             "gf": 2,
             "ga": 4,
-            "pts": 0
+            "pts": 1
           },
           "goalsConceded": 4,
           "redCards": 0,
@@ -2415,6 +2415,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-06-23T22:09:30.977931+00:00"
+    "scrapedAt": "2026-06-23T23:15:05.723244+00:00"
   }
 }
