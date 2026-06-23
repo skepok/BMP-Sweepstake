@@ -1,29 +1,10 @@
 {
-  "fetchedAt": "2026-06-23T19:30:08.160610+00:00",
+  "fetchedAt": "2026-06-23T20:15:06.883804+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186832,
-      "round": "Group Stage",
-      "startTimestamp": 1781571600,
-      "status": "finished",
-      "home": {
-        "name": "Iran",
-        "score": 2,
-        "winner": false
-      },
-      "away": {
-        "name": "New Zealand",
-        "score": 2,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "incidentsFetched": true
-    },
     {
       "id": 15186501,
       "round": "Group Stage",
@@ -596,6 +577,25 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186672,
+      "round": "Group Stage",
+      "startTimestamp": 1782244800,
+      "status": "inprogress",
+      "home": {
+        "name": "England",
+        "score": 0,
+        "winner": null
+      },
+      "away": {
+        "name": "Ghana",
+        "score": 0,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -890,23 +890,23 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186672,
+      "id": 15186832,
       "round": "Group Stage",
-      "startTimestamp": 1782244800,
-      "status": "notstarted",
+      "startTimestamp": 1781571600,
+      "status": "finished",
       "home": {
-        "name": "England",
-        "score": null,
-        "winner": null
+        "name": "Iran",
+        "score": 2,
+        "winner": false
       },
       "away": {
-        "name": "Ghana",
-        "score": null,
-        "winner": null
+        "name": "New Zealand",
+        "score": 2,
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186520,
@@ -2544,25 +2544,25 @@
       "team": "England",
       "group": "Group L",
       "rank": 1,
-      "played": 1,
+      "played": 2,
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 0,
       "gf": 4,
       "ga": 2,
-      "pts": 3
+      "pts": 4
     },
     {
       "team": "Ghana",
       "group": "Group L",
       "rank": 2,
-      "played": 1,
+      "played": 2,
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 0,
       "gf": 1,
       "ga": 0,
-      "pts": 3
+      "pts": 4
     },
     {
       "team": "Panama",

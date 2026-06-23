@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T19:30:08.676Z",
+  "lastUpdated": "2026-06-23T20:15:06.987Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Group Stage",
       "kickoff": "2026-06-23T20:00:00.000Z",
       "kickoffUnix": 1782244800000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "ENG",
         "name": "England",
@@ -825,19 +825,19 @@
           "pot": 2,
           "odds": "400/1",
           "matched": true,
-          "status": "Group L — 2nd (3 pts)",
+          "status": "Group L — 2nd (4 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group L",
             "rank": 2,
-            "played": 1,
+            "played": 2,
             "w": 1,
-            "d": 0,
+            "d": 1,
             "l": 0,
             "gf": 1,
             "ga": 0,
-            "pts": 3
+            "pts": 4
           },
           "goalsConceded": 0,
           "redCards": 0,
@@ -1240,19 +1240,19 @@
           "pot": 1,
           "odds": "6/1",
           "matched": true,
-          "status": "Group L — 1st (3 pts)",
+          "status": "Group L — 1st (4 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group L",
             "rank": 1,
-            "played": 1,
+            "played": 2,
             "w": 1,
-            "d": 0,
+            "d": 1,
             "l": 0,
             "gf": 4,
             "ga": 2,
-            "pts": 3
+            "pts": 4
           },
           "goalsConceded": 2,
           "redCards": 0,
@@ -2415,6 +2415,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-06-23T19:30:08.160610+00:00"
+    "scrapedAt": "2026-06-23T20:15:06.883804+00:00"
   }
 }
