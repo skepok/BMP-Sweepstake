@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-23T18:45:06.463655+00:00",
+  "fetchedAt": "2026-06-23T19:30:08.160610+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -578,20 +578,22 @@
       "id": 15186858,
       "round": "Group Stage",
       "startTimestamp": 1782234000,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Portugal",
-        "score": 4,
-        "winner": null
+        "score": 5,
+        "winner": true
       },
       "away": {
         "name": "Uzbekistan",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "redCards": {},
-      "ownGoals": {},
-      "incidentsFetched": false
+      "ownGoals": {
+        "Uzbekistan": 1
+      },
+      "incidentsFetched": true
     },
     {
       "id": 15186710,
@@ -2498,7 +2500,7 @@
       "w": 1,
       "d": 1,
       "l": 0,
-      "gf": 5,
+      "gf": 6,
       "ga": 1,
       "pts": 4
     },
@@ -2535,7 +2537,7 @@
       "d": 0,
       "l": 2,
       "gf": 1,
-      "ga": 7,
+      "ga": 8,
       "pts": 0
     },
     {
