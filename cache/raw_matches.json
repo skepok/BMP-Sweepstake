@@ -1,29 +1,10 @@
 {
-  "fetchedAt": "2026-06-23T06:38:49.131089+00:00",
+  "fetchedAt": "2026-06-23T17:15:05.722800+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186811,
-      "round": "Group Stage",
-      "startTimestamp": 1781560800,
-      "status": "finished",
-      "home": {
-        "name": "Saudi Arabia",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "name": "Uruguay",
-        "score": 1,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "incidentsFetched": true
-    },
     {
       "id": 15186832,
       "round": "Group Stage",
@@ -594,6 +575,25 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186858,
+      "round": "Group Stage",
+      "startTimestamp": 1782234000,
+      "status": "inprogress",
+      "home": {
+        "name": "Portugal",
+        "score": 1,
+        "winner": null
+      },
+      "away": {
+        "name": "Uzbekistan",
+        "score": 0,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -869,23 +869,23 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186858,
+      "id": 15186811,
       "round": "Group Stage",
-      "startTimestamp": 1782234000,
-      "status": "notstarted",
+      "startTimestamp": 1781560800,
+      "status": "finished",
       "home": {
-        "name": "Portugal",
-        "score": null,
-        "winner": null
+        "name": "Saudi Arabia",
+        "score": 1,
+        "winner": false
       },
       "away": {
-        "name": "Uzbekistan",
-        "score": null,
-        "winner": null
+        "name": "Uruguay",
+        "score": 1,
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186672,
@@ -2491,9 +2491,21 @@
       "pts": 0
     },
     {
-      "team": "Colombia",
+      "team": "Portugal",
       "group": "Group K",
       "rank": 1,
+      "played": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 2,
+      "ga": 1,
+      "pts": 4
+    },
+    {
+      "team": "Colombia",
+      "group": "Group K",
+      "rank": 2,
       "played": 1,
       "w": 1,
       "d": 0,
@@ -2504,18 +2516,6 @@
     },
     {
       "team": "DR Congo",
-      "group": "Group K",
-      "rank": 2,
-      "played": 1,
-      "w": 0,
-      "d": 1,
-      "l": 0,
-      "gf": 1,
-      "ga": 1,
-      "pts": 1
-    },
-    {
-      "team": "Portugal",
       "group": "Group K",
       "rank": 3,
       "played": 1,
@@ -2530,12 +2530,12 @@
       "team": "Uzbekistan",
       "group": "Group K",
       "rank": 4,
-      "played": 1,
+      "played": 2,
       "w": 0,
       "d": 0,
-      "l": 1,
+      "l": 2,
       "gf": 1,
-      "ga": 3,
+      "ga": 4,
       "pts": 0
     },
     {

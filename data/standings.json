@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T06:38:49.224Z",
+  "lastUpdated": "2026-06-23T17:15:05.813Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Group Stage",
       "kickoff": "2026-06-23T17:00:00.000Z",
       "kickoffUnix": 1782234000000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "POR",
         "name": "Portugal",
@@ -470,19 +470,19 @@
           "pot": 1,
           "odds": "10/1",
           "matched": true,
-          "status": "Group K — 3rd (1 pts)",
+          "status": "Group K — 1st (4 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group K",
-            "rank": 3,
-            "played": 1,
-            "w": 0,
+            "rank": 1,
+            "played": 2,
+            "w": 1,
             "d": 1,
             "l": 0,
-            "gf": 1,
+            "gf": 2,
             "ga": 1,
-            "pts": 1
+            "pts": 4
           },
           "goalsConceded": 1,
           "redCards": 0,
@@ -611,15 +611,15 @@
           "group": {
             "group": "Group K",
             "rank": 4,
-            "played": 1,
+            "played": 2,
             "w": 0,
             "d": 0,
-            "l": 1,
+            "l": 2,
             "gf": 1,
-            "ga": 3,
+            "ga": 4,
             "pts": 0
           },
-          "goalsConceded": 3,
+          "goalsConceded": 4,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -800,12 +800,12 @@
           "pot": 1,
           "odds": "33/1",
           "matched": true,
-          "status": "Group K — 1st (3 pts)",
+          "status": "Group K — 2nd (3 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group K",
-            "rank": 1,
+            "rank": 2,
             "played": 1,
             "w": 1,
             "d": 0,
@@ -935,12 +935,12 @@
           "pot": 2,
           "odds": "750/1",
           "matched": true,
-          "status": "Group K — 2nd (1 pts)",
+          "status": "Group K — 3rd (1 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group K",
-            "rank": 2,
+            "rank": 3,
             "played": 1,
             "w": 0,
             "d": 1,
@@ -1497,6 +1497,13 @@
         "value": 4
       },
       {
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "iso2": "UZ",
+        "player": "Jimena Barillas",
+        "value": 4
+      },
+      {
         "code": "AUT",
         "name": "Austria",
         "iso2": "AT",
@@ -1543,13 +1550,6 @@
         "name": "Uruguay",
         "iso2": "UY",
         "player": "Tom Gibbons",
-        "value": 3
-      },
-      {
-        "code": "UZB",
-        "name": "Uzbekistan",
-        "iso2": "UZ",
-        "player": "Jimena Barillas",
         "value": 3
       },
       {
@@ -2415,6 +2415,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-06-23T06:38:49.131089+00:00"
+    "scrapedAt": "2026-06-23T17:15:05.722800+00:00"
   }
 }
