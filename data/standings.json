@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T22:00:06.946Z",
+  "lastUpdated": "2026-06-23T06:38:49.224Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Group Stage",
-      "kickoff": "2026-06-22T21:00:00.000Z",
-      "kickoffUnix": 1782162000000,
-      "status": "1H",
+      "kickoff": "2026-06-23T17:00:00.000Z",
+      "kickoffUnix": 1782234000000,
+      "status": "NS",
       "home": {
-        "code": "FRA",
-        "name": "France",
-        "iso2": "FR"
+        "code": "POR",
+        "name": "Portugal",
+        "iso2": "PT"
       },
       "away": {
-        "code": "IRQ",
-        "name": "Iraq",
-        "iso2": "IQ"
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "iso2": "UZ"
       }
     },
     "lastFinished": {
       "round": "Group Stage",
-      "kickoff": "2026-06-22T17:00:00.000Z",
-      "kickoffUnix": 1782147600000,
+      "kickoff": "2026-06-23T03:00:00.000Z",
+      "kickoffUnix": 1782183600000,
       "status": "FT",
       "home": {
-        "code": "ARG",
-        "name": "Argentina",
-        "iso2": "AR",
-        "goals": 2
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "goals": 1
       },
       "away": {
-        "code": "AUT",
-        "name": "Austria",
-        "iso2": "AT",
-        "goals": 0
+        "code": "ALG",
+        "name": "Algeria",
+        "iso2": "DZ",
+        "goals": 2
       }
     }
   },
@@ -220,21 +220,21 @@
           "pot": 2,
           "odds": "400/1",
           "matched": true,
-          "status": "Group J — 4th (0 pts)",
+          "status": "Group J — 3rd (3 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group J",
-            "rank": 4,
-            "played": 1,
-            "w": 0,
+            "rank": 3,
+            "played": 2,
+            "w": 1,
             "d": 0,
             "l": 1,
-            "gf": 0,
-            "ga": 3,
-            "pts": 0
+            "gf": 2,
+            "ga": 4,
+            "pts": 3
           },
-          "goalsConceded": 3,
+          "goalsConceded": 4,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -580,21 +580,21 @@
           "pot": 1,
           "odds": "25/1",
           "matched": true,
-          "status": "Group I — 2nd (3 pts)",
+          "status": "Group I — 2nd (6 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group I",
             "rank": 2,
-            "played": 1,
-            "w": 1,
+            "played": 2,
+            "w": 2,
             "d": 0,
             "l": 0,
-            "gf": 4,
-            "ga": 1,
-            "pts": 3
+            "gf": 7,
+            "ga": 3,
+            "pts": 6
           },
-          "goalsConceded": 1,
+          "goalsConceded": 3,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -660,21 +660,21 @@
           "pot": 2,
           "odds": "2500/1",
           "matched": true,
-          "status": "Group J — 3rd (0 pts)",
+          "status": "Group J — 4th (0 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group J",
-            "rank": 3,
-            "played": 1,
+            "rank": 4,
+            "played": 2,
             "w": 0,
             "d": 0,
-            "l": 1,
-            "gf": 1,
-            "ga": 3,
+            "l": 2,
+            "gf": 2,
+            "ga": 5,
             "pts": 0
           },
-          "goalsConceded": 3,
+          "goalsConceded": 5,
           "redCards": 0,
           "ownGoals": 1
         }
@@ -1140,7 +1140,7 @@
             "w": 2,
             "d": 0,
             "l": 0,
-            "gf": 4,
+            "gf": 6,
             "ga": 1,
             "pts": 6
           },
@@ -1191,15 +1191,15 @@
           "group": {
             "group": "Group I",
             "rank": 3,
-            "played": 1,
+            "played": 2,
             "w": 0,
             "d": 0,
-            "l": 1,
-            "gf": 1,
-            "ga": 3,
+            "l": 2,
+            "gf": 3,
+            "ga": 6,
             "pts": 0
           },
-          "goalsConceded": 3,
+          "goalsConceded": 6,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -1276,10 +1276,10 @@
             "d": 0,
             "l": 2,
             "gf": 1,
-            "ga": 5,
+            "ga": 7,
             "pts": 0
           },
-          "goalsConceded": 5,
+          "goalsConceded": 7,
           "redCards": 0,
           "ownGoals": 1
         }
@@ -1413,11 +1413,25 @@
         "value": 7
       },
       {
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "player": "Scott Rosseter",
+        "value": 7
+      },
+      {
         "code": "QAT",
         "name": "Qatar",
         "iso2": "QA",
         "player": "Frank Dunn",
         "value": 7
+      },
+      {
+        "code": "SEN",
+        "name": "Senegal",
+        "iso2": "SN",
+        "player": "Sam Lowerson",
+        "value": 6
       },
       {
         "code": "SWE",
@@ -1434,10 +1448,10 @@
         "value": 5
       },
       {
-        "code": "IRQ",
-        "name": "Iraq",
-        "iso2": "IQ",
-        "player": "Scott Rosseter",
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
         "value": 5
       },
       {
@@ -1453,6 +1467,13 @@
         "iso2": "SA",
         "player": "Flora Curry",
         "value": 5
+      },
+      {
+        "code": "ALG",
+        "name": "Algeria",
+        "iso2": "DZ",
+        "player": "Bob Gibson",
+        "value": 4
       },
       {
         "code": "CRO",
@@ -1476,13 +1497,6 @@
         "value": 4
       },
       {
-        "code": "ALG",
-        "name": "Algeria",
-        "iso2": "DZ",
-        "player": "Bob Gibson",
-        "value": 3
-      },
-      {
         "code": "AUT",
         "name": "Austria",
         "iso2": "AT",
@@ -1497,13 +1511,6 @@
         "value": 3
       },
       {
-        "code": "JOR",
-        "name": "Jordan",
-        "iso2": "JO",
-        "player": "Joe Clayton",
-        "value": 3
-      },
-      {
         "code": "NLD",
         "name": "Netherlands",
         "iso2": "NL",
@@ -1511,10 +1518,10 @@
         "value": 3
       },
       {
-        "code": "SEN",
-        "name": "Senegal",
-        "iso2": "SN",
-        "player": "Sam Lowerson",
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO",
+        "player": "Jimena Barillas",
         "value": 3
       },
       {
@@ -1669,13 +1676,6 @@
         "name": "Morocco",
         "iso2": "MA",
         "player": "Ali Taylor",
-        "value": 1
-      },
-      {
-        "code": "NOR",
-        "name": "Norway",
-        "iso2": "NO",
-        "player": "Jimena Barillas",
         "value": 1
       },
       {
@@ -2415,6 +2415,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-06-22T22:00:06.876333+00:00"
+    "scrapedAt": "2026-06-23T06:38:49.131089+00:00"
   }
 }

@@ -1,50 +1,10 @@
 {
-  "fetchedAt": "2026-06-22T22:00:06.876333+00:00",
+  "fetchedAt": "2026-06-23T06:38:49.131089+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186783,
-      "round": "Group Stage",
-      "startTimestamp": 1781539200,
-      "status": "finished",
-      "home": {
-        "name": "Spain",
-        "score": 0,
-        "winner": false
-      },
-      "away": {
-        "name": "Cabo Verde",
-        "score": 0,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "incidentsFetched": true
-    },
-    {
-      "id": 15186837,
-      "round": "Group Stage",
-      "startTimestamp": 1781550000,
-      "status": "finished",
-      "home": {
-        "name": "Belgium",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "name": "Egypt",
-        "score": 1,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {
-        "Egypt": 1
-      },
-      "incidentsFetched": true
-    },
     {
       "id": 15186811,
       "round": "Group Stage",
@@ -580,20 +540,58 @@
       "id": 15186769,
       "round": "Group Stage",
       "startTimestamp": 1782162000,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "France",
-        "score": 1,
-        "winner": null
+        "score": 3,
+        "winner": true
       },
       "away": {
         "name": "Iraq",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186770,
+      "round": "Group Stage",
+      "startTimestamp": 1782172800,
+      "status": "finished",
+      "home": {
+        "name": "Norway",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "name": "Senegal",
+        "score": 2,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186740,
+      "round": "Group Stage",
+      "startTimestamp": 1782183600,
+      "status": "finished",
+      "home": {
+        "name": "Jordan",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Algeria",
+        "score": 2,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
     },
     {
       "id": 15186710,
@@ -831,42 +829,44 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186770,
+      "id": 15186783,
       "round": "Group Stage",
-      "startTimestamp": 1782172800,
-      "status": "notstarted",
+      "startTimestamp": 1781539200,
+      "status": "finished",
       "home": {
-        "name": "Norway",
-        "score": null,
-        "winner": null
+        "name": "Spain",
+        "score": 0,
+        "winner": false
       },
       "away": {
-        "name": "Senegal",
-        "score": null,
-        "winner": null
+        "name": "Cabo Verde",
+        "score": 0,
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
-      "id": 15186740,
+      "id": 15186837,
       "round": "Group Stage",
-      "startTimestamp": 1782183600,
-      "status": "notstarted",
+      "startTimestamp": 1781550000,
+      "status": "finished",
       "home": {
-        "name": "Jordan",
-        "score": null,
-        "winner": null
+        "name": "Belgium",
+        "score": 1,
+        "winner": false
       },
       "away": {
-        "name": "Algeria",
-        "score": null,
-        "winner": null
+        "name": "Egypt",
+        "score": 1,
+        "winner": false
       },
       "redCards": {},
-      "ownGoals": {},
-      "incidentsFetched": false
+      "ownGoals": {
+        "Egypt": 1
+      },
+      "incidentsFetched": true
     },
     {
       "id": 15186858,
@@ -1672,7 +1672,7 @@
       "startTimestamp": 1783116000,
       "status": "notstarted",
       "home": {
-        "name": "1J",
+        "name": "Argentina",
         "score": null,
         "winner": null
       },
@@ -2402,7 +2402,7 @@
       "w": 2,
       "d": 0,
       "l": 0,
-      "gf": 4,
+      "gf": 6,
       "ga": 1,
       "pts": 6
     },
@@ -2410,24 +2410,24 @@
       "team": "Norway",
       "group": "Group I",
       "rank": 2,
-      "played": 1,
-      "w": 1,
+      "played": 2,
+      "w": 2,
       "d": 0,
       "l": 0,
-      "gf": 4,
-      "ga": 1,
-      "pts": 3
+      "gf": 7,
+      "ga": 3,
+      "pts": 6
     },
     {
       "team": "Senegal",
       "group": "Group I",
       "rank": 3,
-      "played": 1,
+      "played": 2,
       "w": 0,
       "d": 0,
-      "l": 1,
-      "gf": 1,
-      "ga": 3,
+      "l": 2,
+      "gf": 3,
+      "ga": 6,
       "pts": 0
     },
     {
@@ -2439,7 +2439,7 @@
       "d": 0,
       "l": 2,
       "gf": 1,
-      "ga": 5,
+      "ga": 7,
       "pts": 0
     },
     {
@@ -2467,27 +2467,27 @@
       "pts": 3
     },
     {
-      "team": "Jordan",
-      "group": "Group J",
-      "rank": 3,
-      "played": 1,
-      "w": 0,
-      "d": 0,
-      "l": 1,
-      "gf": 1,
-      "ga": 3,
-      "pts": 0
-    },
-    {
       "team": "Algeria",
       "group": "Group J",
-      "rank": 4,
-      "played": 1,
-      "w": 0,
+      "rank": 3,
+      "played": 2,
+      "w": 1,
       "d": 0,
       "l": 1,
-      "gf": 0,
-      "ga": 3,
+      "gf": 2,
+      "ga": 4,
+      "pts": 3
+    },
+    {
+      "team": "Jordan",
+      "group": "Group J",
+      "rank": 4,
+      "played": 2,
+      "w": 0,
+      "d": 0,
+      "l": 2,
+      "gf": 2,
+      "ga": 5,
       "pts": 0
     },
     {
