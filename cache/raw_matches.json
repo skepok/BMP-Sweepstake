@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-23T20:15:06.883804+00:00",
+  "fetchedAt": "2026-06-23T22:09:30.977931+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -580,20 +580,20 @@
       "id": 15186672,
       "round": "Group Stage",
       "startTimestamp": 1782244800,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "England",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "away": {
         "name": "Ghana",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186710,

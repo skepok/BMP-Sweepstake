@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T20:15:06.987Z",
+  "lastUpdated": "2026-06-23T22:09:31.050Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,35 +39,35 @@
   "banner": {
     "nextFixture": {
       "round": "Group Stage",
-      "kickoff": "2026-06-23T20:00:00.000Z",
-      "kickoffUnix": 1782244800000,
-      "status": "1H",
+      "kickoff": "2026-06-23T23:00:00.000Z",
+      "kickoffUnix": 1782255600000,
+      "status": "NS",
       "home": {
-        "code": "ENG",
-        "name": "England",
-        "iso2": "GB-ENG"
+        "code": "PAN",
+        "name": "Panama",
+        "iso2": "PA"
       },
       "away": {
-        "code": "GHA",
-        "name": "Ghana",
-        "iso2": "GH"
+        "code": "CRO",
+        "name": "Croatia",
+        "iso2": "HR"
       }
     },
     "lastFinished": {
       "round": "Group Stage",
-      "kickoff": "2026-06-23T17:00:00.000Z",
-      "kickoffUnix": 1782234000000,
+      "kickoff": "2026-06-23T20:00:00.000Z",
+      "kickoffUnix": 1782244800000,
       "status": "FT",
       "home": {
-        "code": "POR",
-        "name": "Portugal",
-        "iso2": "PT",
-        "goals": 5
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG",
+        "goals": 0
       },
       "away": {
-        "code": "UZB",
-        "name": "Uzbekistan",
-        "iso2": "UZ",
+        "code": "GHA",
+        "name": "Ghana",
+        "iso2": "GH",
         "goals": 0
       }
     }
@@ -2415,6 +2415,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-06-23T20:15:06.883804+00:00"
+    "scrapedAt": "2026-06-23T22:09:30.977931+00:00"
   }
 }
