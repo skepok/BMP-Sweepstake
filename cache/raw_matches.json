@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-23T18:00:06.644006+00:00",
+  "fetchedAt": "2026-06-23T18:45:06.463655+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -581,7 +581,7 @@
       "status": "inprogress",
       "home": {
         "name": "Portugal",
-        "score": 3,
+        "score": 4,
         "winner": null
       },
       "away": {
@@ -2498,7 +2498,7 @@
       "w": 1,
       "d": 1,
       "l": 0,
-      "gf": 4,
+      "gf": 5,
       "ga": 1,
       "pts": 4
     },
@@ -2535,7 +2535,7 @@
       "d": 0,
       "l": 2,
       "gf": 1,
-      "ga": 6,
+      "ga": 7,
       "pts": 0
     },
     {
