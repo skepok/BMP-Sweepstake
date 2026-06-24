@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T01:30:07.274Z",
+  "lastUpdated": "2026-06-24T02:15:07.975Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Group Stage",
       "kickoff": "2026-06-24T02:00:00.000Z",
       "kickoffUnix": 1782266400000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "COL",
         "name": "Colombia",
@@ -800,19 +800,19 @@
           "pot": 1,
           "odds": "33/1",
           "matched": true,
-          "status": "Group K — 2nd (3 pts)",
+          "status": "Group K — 2nd (4 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group K",
             "rank": 2,
-            "played": 1,
+            "played": 2,
             "w": 1,
-            "d": 0,
+            "d": 1,
             "l": 0,
             "gf": 3,
             "ga": 1,
-            "pts": 3
+            "pts": 4
           },
           "goalsConceded": 1,
           "redCards": 0,
@@ -935,19 +935,19 @@
           "pot": 2,
           "odds": "750/1",
           "matched": true,
-          "status": "Group K — 3rd (1 pts)",
+          "status": "Group K — 3rd (2 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group K",
             "rank": 3,
-            "played": 1,
+            "played": 2,
             "w": 0,
-            "d": 1,
+            "d": 2,
             "l": 0,
             "gf": 1,
             "ga": 1,
-            "pts": 1
+            "pts": 2
           },
           "goalsConceded": 1,
           "redCards": 0,
@@ -2415,6 +2415,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-06-24T01:30:07.195130+00:00"
+    "scrapedAt": "2026-06-24T02:15:07.482215+00:00"
   }
 }

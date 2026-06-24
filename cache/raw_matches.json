@@ -1,31 +1,10 @@
 {
-  "fetchedAt": "2026-06-24T01:30:07.195130+00:00",
+  "fetchedAt": "2026-06-24T02:15:07.482215+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186773,
-      "round": "Group Stage",
-      "startTimestamp": 1781647200,
-      "status": "finished",
-      "home": {
-        "name": "Iraq",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "name": "Norway",
-        "score": 4,
-        "winner": true
-      },
-      "redCards": {},
-      "ownGoals": {
-        "Iraq": 1
-      },
-      "incidentsFetched": true
-    },
     {
       "id": 15186854,
       "round": "Group Stage",
@@ -596,6 +575,25 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186713,
+      "round": "Group Stage",
+      "startTimestamp": 1782266400,
+      "status": "inprogress",
+      "home": {
+        "name": "Colombia",
+        "score": 0,
+        "winner": null
+      },
+      "away": {
+        "name": "DR Congo",
+        "score": 0,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": false
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -928,23 +926,25 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186713,
+      "id": 15186773,
       "round": "Group Stage",
-      "startTimestamp": 1782266400,
-      "status": "notstarted",
+      "startTimestamp": 1781647200,
+      "status": "finished",
       "home": {
-        "name": "Colombia",
-        "score": null,
-        "winner": null
+        "name": "Iraq",
+        "score": 1,
+        "winner": false
       },
       "away": {
-        "name": "DR Congo",
-        "score": null,
-        "winner": null
+        "name": "Norway",
+        "score": 4,
+        "winner": true
       },
       "redCards": {},
-      "ownGoals": {},
-      "incidentsFetched": false
+      "ownGoals": {
+        "Iraq": 1
+      },
+      "incidentsFetched": true
     },
     {
       "id": 15186821,
@@ -2508,25 +2508,25 @@
       "team": "Colombia",
       "group": "Group K",
       "rank": 2,
-      "played": 1,
+      "played": 2,
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 0,
       "gf": 3,
       "ga": 1,
-      "pts": 3
+      "pts": 4
     },
     {
       "team": "DR Congo",
       "group": "Group K",
       "rank": 3,
-      "played": 1,
+      "played": 2,
       "w": 0,
-      "d": 1,
+      "d": 2,
       "l": 0,
       "gf": 1,
       "ga": 1,
-      "pts": 1
+      "pts": 2
     },
     {
       "team": "Uzbekistan",
