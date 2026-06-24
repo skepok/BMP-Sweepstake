@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T04:30:07.286Z",
+  "lastUpdated": "2026-06-24T21:06:34.509Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Group Stage",
-      "kickoff": "2026-06-24T19:00:00.000Z",
-      "kickoffUnix": 1782327600000,
+      "kickoff": "2026-06-24T22:00:00.000Z",
+      "kickoffUnix": 1782338400000,
       "status": "NS",
       "home": {
-        "code": "SWI",
-        "name": "Switzerland",
-        "iso2": "CH"
+        "code": "SCO",
+        "name": "Scotland",
+        "iso2": "GB-SCT"
       },
       "away": {
-        "code": "CAN",
-        "name": "Canada",
-        "iso2": "CA"
+        "code": "BRA",
+        "name": "Brazil",
+        "iso2": "BR"
       }
     },
     "lastFinished": {
       "round": "Group Stage",
-      "kickoff": "2026-06-24T02:00:00.000Z",
-      "kickoffUnix": 1782266400000,
+      "kickoff": "2026-06-24T19:00:00.000Z",
+      "kickoffUnix": 1782327600000,
       "status": "FT",
       "home": {
-        "code": "COL",
-        "name": "Colombia",
-        "iso2": "CO",
-        "goals": 1
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "goals": 3
       },
       "away": {
-        "code": "DRC",
-        "name": "DR Congo",
-        "iso2": "CD",
-        "goals": 0
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "goals": 1
       }
     }
   },
@@ -250,21 +250,21 @@
           "pot": 1,
           "odds": "80/1",
           "matched": true,
-          "status": "Group B — 2nd (4 pts)",
+          "status": "Group B — 1st (7 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group B",
-            "rank": 2,
-            "played": 2,
-            "w": 1,
+            "rank": 1,
+            "played": 3,
+            "w": 2,
             "d": 1,
             "l": 0,
-            "gf": 5,
-            "ga": 2,
-            "pts": 4
+            "gf": 7,
+            "ga": 3,
+            "pts": 7
           },
-          "goalsConceded": 2,
+          "goalsConceded": 3,
           "redCards": 0,
           "ownGoals": 1
         },
@@ -391,17 +391,17 @@
           "group": {
             "group": "Group B",
             "rank": 4,
-            "played": 2,
+            "played": 3,
             "w": 0,
             "d": 1,
-            "l": 1,
-            "gf": 1,
-            "ga": 7,
+            "l": 2,
+            "gf": 2,
+            "ga": 10,
             "pts": 1
           },
-          "goalsConceded": 7,
+          "goalsConceded": 10,
           "redCards": 2,
-          "ownGoals": 1
+          "ownGoals": 2
         }
       ]
     },
@@ -635,21 +635,21 @@
           "pot": 1,
           "odds": "150/1",
           "matched": true,
-          "status": "Group B — 1st (4 pts)",
+          "status": "Group B — 2nd (4 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group B",
-            "rank": 1,
-            "played": 2,
+            "rank": 2,
+            "played": 3,
             "w": 1,
             "d": 1,
-            "l": 0,
-            "gf": 7,
-            "ga": 1,
+            "l": 1,
+            "gf": 8,
+            "ga": 3,
             "pts": 4
           },
-          "goalsConceded": 1,
+          "goalsConceded": 3,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -1210,21 +1210,21 @@
           "pot": 2,
           "odds": "250/1",
           "matched": true,
-          "status": "Group B — 3rd (1 pts)",
+          "status": "Group B — 3rd (4 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group B",
             "rank": 3,
-            "played": 2,
-            "w": 0,
+            "played": 3,
+            "w": 1,
             "d": 1,
             "l": 1,
-            "gf": 2,
-            "ga": 5,
-            "pts": 1
+            "gf": 5,
+            "ga": 6,
+            "pts": 4
           },
-          "goalsConceded": 5,
+          "goalsConceded": 6,
           "redCards": 1,
           "ownGoals": 0
         }
@@ -1399,6 +1399,13 @@
   "leaderboards": {
     "goalsConceded": [
       {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
+        "value": 10
+      },
+      {
         "code": "TUN",
         "name": "Tunisia",
         "iso2": "TN",
@@ -1427,11 +1434,11 @@
         "value": 7
       },
       {
-        "code": "QAT",
-        "name": "Qatar",
-        "iso2": "QA",
-        "player": "Frank Dunn",
-        "value": 7
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "player": "Sam Lowerson",
+        "value": 6
       },
       {
         "code": "SEN",
@@ -1446,13 +1453,6 @@
         "iso2": "SE",
         "player": "Madi Farrow-Dunn",
         "value": 6
-      },
-      {
-        "code": "BIH",
-        "name": "Bosnia-Herzegovina",
-        "iso2": "BA",
-        "player": "Sam Lowerson",
-        "value": 5
       },
       {
         "code": "JOR",
@@ -1511,6 +1511,13 @@
         "value": 3
       },
       {
+        "code": "CAN",
+        "name": "Canada",
+        "iso2": "CA",
+        "player": "Joe Clayton",
+        "value": 3
+      },
+      {
         "code": "CZE",
         "name": "Czechia",
         "iso2": "CZ",
@@ -1536,6 +1543,13 @@
         "name": "South Africa",
         "iso2": "ZA",
         "player": "Adam Wright",
+        "value": 3
+      },
+      {
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH",
+        "player": "Elizabeth Swords",
         "value": 3
       },
       {
@@ -1630,13 +1644,6 @@
         "value": 2
       },
       {
-        "code": "SWI",
-        "name": "Switzerland",
-        "iso2": "CH",
-        "player": "Elizabeth Swords",
-        "value": 2
-      },
-      {
         "code": "BEL",
         "name": "Belgium",
         "iso2": "BE",
@@ -1648,13 +1655,6 @@
         "name": "Brazil",
         "iso2": "BR",
         "player": "Me Julie",
-        "value": 1
-      },
-      {
-        "code": "CAN",
-        "name": "Canada",
-        "iso2": "CA",
-        "player": "Joe Clayton",
         "value": 1
       },
       {
@@ -2075,6 +2075,13 @@
     ],
     "ownGoals": [
       {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
+        "value": 2
+      },
+      {
         "code": "AUS",
         "name": "Australia",
         "iso2": "AU",
@@ -2107,13 +2114,6 @@
         "name": "Paraguay",
         "iso2": "PY",
         "player": "Robin Parish",
-        "value": 1
-      },
-      {
-        "code": "QAT",
-        "name": "Qatar",
-        "iso2": "QA",
-        "player": "Frank Dunn",
         "value": 1
       },
       {
@@ -2415,6 +2415,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-06-24T04:30:07.192336+00:00"
+    "scrapedAt": "2026-06-24T21:06:34.421368+00:00"
   }
 }

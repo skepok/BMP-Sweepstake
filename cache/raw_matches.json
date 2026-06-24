@@ -1,50 +1,10 @@
 {
-  "fetchedAt": "2026-06-24T04:30:07.192336+00:00",
+  "fetchedAt": "2026-06-24T21:06:34.421368+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186854,
-      "round": "Group Stage",
-      "startTimestamp": 1781658000,
-      "status": "finished",
-      "home": {
-        "name": "Argentina",
-        "score": 3,
-        "winner": true
-      },
-      "away": {
-        "name": "Algeria",
-        "score": 0,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "incidentsFetched": true
-    },
-    {
-      "id": 15186751,
-      "round": "Group Stage",
-      "startTimestamp": 1781668800,
-      "status": "finished",
-      "home": {
-        "name": "Austria",
-        "score": 3,
-        "winner": true
-      },
-      "away": {
-        "name": "Jordan",
-        "score": 1,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {
-        "Jordan": 1
-      },
-      "incidentsFetched": true
-    },
     {
       "id": 15186709,
       "round": "Group Stage",
@@ -594,6 +554,46 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186829,
+      "round": "Group Stage",
+      "startTimestamp": 1782327600,
+      "status": "finished",
+      "home": {
+        "name": "Bosnia & Herzegovina",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "name": "Qatar",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Qatar": 1
+      },
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186821,
+      "round": "Group Stage",
+      "startTimestamp": 1782327600,
+      "status": "finished",
+      "home": {
+        "name": "Switzerland",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "name": "Canada",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "incidentsFetched": true
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -947,42 +947,44 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186821,
+      "id": 15186854,
       "round": "Group Stage",
-      "startTimestamp": 1782327600,
-      "status": "notstarted",
+      "startTimestamp": 1781658000,
+      "status": "finished",
       "home": {
-        "name": "Switzerland",
-        "score": null,
-        "winner": null
+        "name": "Argentina",
+        "score": 3,
+        "winner": true
       },
       "away": {
-        "name": "Canada",
-        "score": null,
-        "winner": null
+        "name": "Algeria",
+        "score": 0,
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
-      "id": 15186829,
+      "id": 15186751,
       "round": "Group Stage",
-      "startTimestamp": 1782327600,
-      "status": "notstarted",
+      "startTimestamp": 1781668800,
+      "status": "finished",
       "home": {
-        "name": "Bosnia & Herzegovina",
-        "score": null,
-        "winner": null
+        "name": "Austria",
+        "score": 3,
+        "winner": true
       },
       "away": {
-        "name": "Qatar",
-        "score": null,
-        "winner": null
+        "name": "Jordan",
+        "score": 1,
+        "winner": false
       },
       "redCards": {},
-      "ownGoals": {},
-      "incidentsFetched": false
+      "ownGoals": {
+        "Jordan": 1
+      },
+      "incidentsFetched": true
     },
     {
       "id": 15186861,
@@ -1413,7 +1415,7 @@
         "winner": null
       },
       "away": {
-        "name": "2B",
+        "name": "Canada",
         "score": null,
         "winner": null
       },
@@ -1636,7 +1638,7 @@
       "startTimestamp": 1783047600,
       "status": "notstarted",
       "home": {
-        "name": "1B",
+        "name": "Switzerland",
         "score": null,
         "winner": null
       },
@@ -2061,51 +2063,51 @@
       "pts": 1
     },
     {
-      "team": "Canada",
+      "team": "Switzerland",
       "group": "Group B",
       "rank": 1,
-      "played": 2,
-      "w": 1,
+      "played": 3,
+      "w": 2,
       "d": 1,
       "l": 0,
       "gf": 7,
-      "ga": 1,
-      "pts": 4
+      "ga": 3,
+      "pts": 7
     },
     {
-      "team": "Switzerland",
+      "team": "Canada",
       "group": "Group B",
       "rank": 2,
-      "played": 2,
+      "played": 3,
       "w": 1,
       "d": 1,
-      "l": 0,
-      "gf": 5,
-      "ga": 2,
+      "l": 1,
+      "gf": 8,
+      "ga": 3,
       "pts": 4
     },
     {
       "team": "Bosnia & Herzegovina",
       "group": "Group B",
       "rank": 3,
-      "played": 2,
-      "w": 0,
+      "played": 3,
+      "w": 1,
       "d": 1,
       "l": 1,
-      "gf": 2,
-      "ga": 5,
-      "pts": 1
+      "gf": 5,
+      "ga": 6,
+      "pts": 4
     },
     {
       "team": "Qatar",
       "group": "Group B",
       "rank": 4,
-      "played": 2,
+      "played": 3,
       "w": 0,
       "d": 1,
-      "l": 1,
-      "gf": 1,
-      "ga": 7,
+      "l": 2,
+      "gf": 2,
+      "ga": 10,
       "pts": 1
     },
     {
