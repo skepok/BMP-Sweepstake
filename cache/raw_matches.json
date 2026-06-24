@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-24T00:45:06.191184+00:00",
+  "fetchedAt": "2026-06-24T01:30:07.195130+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -580,20 +580,20 @@
       "id": 15186520,
       "round": "Group Stage",
       "startTimestamp": 1782255600,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Panama",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "away": {
         "name": "Croatia",
         "score": 1,
-        "winner": null
+        "winner": true
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186710,

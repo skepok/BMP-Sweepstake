@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T00:45:06.265Z",
+  "lastUpdated": "2026-06-24T01:30:07.274Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Group Stage",
-      "kickoff": "2026-06-23T23:00:00.000Z",
-      "kickoffUnix": 1782255600000,
-      "status": "1H",
+      "kickoff": "2026-06-24T02:00:00.000Z",
+      "kickoffUnix": 1782266400000,
+      "status": "NS",
       "home": {
-        "code": "PAN",
-        "name": "Panama",
-        "iso2": "PA"
+        "code": "COL",
+        "name": "Colombia",
+        "iso2": "CO"
       },
       "away": {
-        "code": "CRO",
-        "name": "Croatia",
-        "iso2": "HR"
+        "code": "DRC",
+        "name": "DR Congo",
+        "iso2": "CD"
       }
     },
     "lastFinished": {
       "round": "Group Stage",
-      "kickoff": "2026-06-23T20:00:00.000Z",
-      "kickoffUnix": 1782244800000,
+      "kickoff": "2026-06-23T23:00:00.000Z",
+      "kickoffUnix": 1782255600000,
       "status": "FT",
       "home": {
-        "code": "ENG",
-        "name": "England",
-        "iso2": "GB-ENG",
+        "code": "PAN",
+        "name": "Panama",
+        "iso2": "PA",
         "goals": 0
       },
       "away": {
-        "code": "GHA",
-        "name": "Ghana",
-        "iso2": "GH",
-        "goals": 0
+        "code": "CRO",
+        "name": "Croatia",
+        "iso2": "HR",
+        "goals": 1
       }
     }
   },
@@ -2415,6 +2415,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-06-24T00:45:06.191184+00:00"
+    "scrapedAt": "2026-06-24T01:30:07.195130+00:00"
   }
 }
