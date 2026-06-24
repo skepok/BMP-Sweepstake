@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T23:15:05.816Z",
+  "lastUpdated": "2026-06-24T00:45:06.265Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -880,21 +880,21 @@
           "pot": 2,
           "odds": "1500/1",
           "matched": true,
-          "status": "Group L — 3rd (1 pts)",
+          "status": "Group L — 4th (0 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group L",
-            "rank": 3,
+            "rank": 4,
             "played": 2,
             "w": 0,
-            "d": 1,
-            "l": 1,
+            "d": 0,
+            "l": 2,
             "gf": 0,
-            "ga": 1,
-            "pts": 1
+            "ga": 2,
+            "pts": 0
           },
-          "goalsConceded": 1,
+          "goalsConceded": 2,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -1075,19 +1075,19 @@
           "pot": 1,
           "odds": "80/1",
           "matched": true,
-          "status": "Group L — 4th (1 pts)",
+          "status": "Group L — 3rd (3 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group L",
-            "rank": 4,
+            "rank": 3,
             "played": 2,
-            "w": 0,
-            "d": 1,
+            "w": 1,
+            "d": 0,
             "l": 1,
-            "gf": 2,
+            "gf": 3,
             "ga": 4,
-            "pts": 1
+            "pts": 3
           },
           "goalsConceded": 4,
           "redCards": 0,
@@ -1609,6 +1609,13 @@
         "value": 2
       },
       {
+        "code": "PAN",
+        "name": "Panama",
+        "iso2": "PA",
+        "player": "Me Julie",
+        "value": 2
+      },
+      {
         "code": "KOR",
         "name": "South Korea",
         "iso2": "KR",
@@ -1676,13 +1683,6 @@
         "name": "Morocco",
         "iso2": "MA",
         "player": "Ali Taylor",
-        "value": 1
-      },
-      {
-        "code": "PAN",
-        "name": "Panama",
-        "iso2": "PA",
-        "player": "Me Julie",
         "value": 1
       },
       {
@@ -2415,6 +2415,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-06-23T23:15:05.723244+00:00"
+    "scrapedAt": "2026-06-24T00:45:06.191184+00:00"
   }
 }

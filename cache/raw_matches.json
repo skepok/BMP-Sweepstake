@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-23T23:15:05.723244+00:00",
+  "fetchedAt": "2026-06-24T00:45:06.191184+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -588,7 +588,7 @@
       },
       "away": {
         "name": "Croatia",
-        "score": 0,
+        "score": 1,
         "winner": null
       },
       "redCards": {},
@@ -2565,28 +2565,28 @@
       "pts": 4
     },
     {
-      "team": "Panama",
+      "team": "Croatia",
       "group": "Group L",
       "rank": 3,
       "played": 2,
-      "w": 0,
-      "d": 1,
+      "w": 1,
+      "d": 0,
       "l": 1,
-      "gf": 0,
-      "ga": 1,
-      "pts": 1
+      "gf": 3,
+      "ga": 4,
+      "pts": 3
     },
     {
-      "team": "Croatia",
+      "team": "Panama",
       "group": "Group L",
       "rank": 4,
       "played": 2,
       "w": 0,
-      "d": 1,
-      "l": 1,
-      "gf": 2,
-      "ga": 4,
-      "pts": 1
+      "d": 0,
+      "l": 2,
+      "gf": 0,
+      "ga": 2,
+      "pts": 0
     }
   ]
 }
