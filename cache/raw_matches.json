@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-24T03:45:06.575757+00:00",
+  "fetchedAt": "2026-06-24T04:30:07.192336+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -578,20 +578,20 @@
       "id": 15186713,
       "round": "Group Stage",
       "startTimestamp": 1782266400,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Colombia",
         "score": 1,
-        "winner": null
+        "winner": true
       },
       "away": {
         "name": "DR Congo",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186710,
