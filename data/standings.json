@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T02:15:07.975Z",
+  "lastUpdated": "2026-06-24T03:45:06.665Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -470,12 +470,12 @@
           "pot": 1,
           "odds": "10/1",
           "matched": true,
-          "status": "Group K — 1st (4 pts)",
+          "status": "Group K — 2nd (4 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group K",
-            "rank": 1,
+            "rank": 2,
             "played": 2,
             "w": 1,
             "d": 1,
@@ -800,19 +800,19 @@
           "pot": 1,
           "odds": "33/1",
           "matched": true,
-          "status": "Group K — 2nd (4 pts)",
+          "status": "Group K — 1st (6 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group K",
-            "rank": 2,
+            "rank": 1,
             "played": 2,
-            "w": 1,
-            "d": 1,
+            "w": 2,
+            "d": 0,
             "l": 0,
-            "gf": 3,
+            "gf": 4,
             "ga": 1,
-            "pts": 4
+            "pts": 6
           },
           "goalsConceded": 1,
           "redCards": 0,
@@ -935,7 +935,7 @@
           "pot": 2,
           "odds": "750/1",
           "matched": true,
-          "status": "Group K — 3rd (2 pts)",
+          "status": "Group K — 3rd (1 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
@@ -943,13 +943,13 @@
             "rank": 3,
             "played": 2,
             "w": 0,
-            "d": 2,
-            "l": 0,
+            "d": 1,
+            "l": 1,
             "gf": 1,
-            "ga": 1,
-            "pts": 2
+            "ga": 2,
+            "pts": 1
           },
-          "goalsConceded": 1,
+          "goalsConceded": 2,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -1567,6 +1567,13 @@
         "value": 2
       },
       {
+        "code": "DRC",
+        "name": "DR Congo",
+        "iso2": "CD",
+        "player": "Nick Foulkes",
+        "value": 2
+      },
+      {
         "code": "EGY",
         "name": "Egypt",
         "iso2": "EG",
@@ -1655,13 +1662,6 @@
         "name": "Colombia",
         "iso2": "CO",
         "player": "Matt Deacock",
-        "value": 1
-      },
-      {
-        "code": "DRC",
-        "name": "DR Congo",
-        "iso2": "CD",
-        "player": "Nick Foulkes",
         "value": 1
       },
       {
@@ -2415,6 +2415,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-06-24T02:15:07.482215+00:00"
+    "scrapedAt": "2026-06-24T03:45:06.575757+00:00"
   }
 }

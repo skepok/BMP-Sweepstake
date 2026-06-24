@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-24T02:15:07.482215+00:00",
+  "fetchedAt": "2026-06-24T03:45:06.575757+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -581,7 +581,7 @@
       "status": "inprogress",
       "home": {
         "name": "Colombia",
-        "score": 0,
+        "score": 1,
         "winner": null
       },
       "away": {
@@ -2493,9 +2493,21 @@
       "pts": 0
     },
     {
-      "team": "Portugal",
+      "team": "Colombia",
       "group": "Group K",
       "rank": 1,
+      "played": 2,
+      "w": 2,
+      "d": 0,
+      "l": 0,
+      "gf": 4,
+      "ga": 1,
+      "pts": 6
+    },
+    {
+      "team": "Portugal",
+      "group": "Group K",
+      "rank": 2,
       "played": 2,
       "w": 1,
       "d": 1,
@@ -2505,28 +2517,16 @@
       "pts": 4
     },
     {
-      "team": "Colombia",
-      "group": "Group K",
-      "rank": 2,
-      "played": 2,
-      "w": 1,
-      "d": 1,
-      "l": 0,
-      "gf": 3,
-      "ga": 1,
-      "pts": 4
-    },
-    {
       "team": "DR Congo",
       "group": "Group K",
       "rank": 3,
       "played": 2,
       "w": 0,
-      "d": 2,
-      "l": 0,
+      "d": 1,
+      "l": 1,
       "gf": 1,
-      "ga": 1,
-      "pts": 2
+      "ga": 2,
+      "pts": 1
     },
     {
       "team": "Uzbekistan",
