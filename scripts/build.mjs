@@ -511,8 +511,26 @@ function buildBracket(bracketRaw, matchById, teamByCode, lookupCode) {
     return desc || 'Round';
   };
 
+  // Turn a raw SofaScore slot code into a human-readable label.
+  const feedsFrom = { 'Round of 16': 'Round of 32', 'Quarter-finals': 'Round of 16', 'Semi-finals': 'Quarter-final', 'Final': 'Semi-final' };
+  const prettyPlaceholder = (raw, round) => {
+    if (!raw) return 'TBC';
+    // Group winner / runner-up: "1F", "2K" or flipped "H1", "G2".
+    let pos; let grp;
+    let m = raw.match(/^([12])([A-La-l])$/);
+    if (m) { pos = m[1]; grp = m[2]; }
+    else if ((m = raw.match(/^([A-La-l])([12])$/))) { grp = m[1]; pos = m[2]; }
+    if (pos) return (pos === '1' ? 'Winner Group ' : 'Runner-up Group ') + grp.toUpperCase();
+    // Best third-placed slot: "3A/3B/3C/3D/3F" (or a lone "3A").
+    if (/^3[A-La-l](\/3[A-La-l])*$/.test(raw)) return '3rd: ' + raw.split('/').map((s) => s.replace(/^3/, '').toUpperCase()).join('/');
+    // Winner / loser of a previous match: "W74", "L101".
+    if (/^W\d+$/i.test(raw)) return `${feedsFrom[round] || 'Previous round'} winner`;
+    if (/^L\d+$/i.test(raw)) return 'Semi-final loser';
+    return raw;
+  };
+
   // Resolve one participant, attaching score/winner from the joined match if played.
-  const side = (p, match) => {
+  const side = (p, match, round) => {
     const code = p && !p.placeholder ? lookupCode(p.name) : null;
     const ref = code ? teamByCode.get(code) : null;
     let score = null;
@@ -522,7 +540,7 @@ function buildBracket(bracketRaw, matchById, teamByCode, lookupCode) {
       else if (match.away.name === p.name) { score = match.away.goals; winner = match.away.winner === true; }
     }
     return {
-      name: ref?.name || p?.name || 'TBC',
+      name: ref?.name || (code ? p.name : prettyPlaceholder(p?.name, round)),
       code: code || null,
       iso2: ref?.iso2 || null,
       player: ref?.player || null,
@@ -539,7 +557,7 @@ function buildBracket(bracketRaw, matchById, teamByCode, lookupCode) {
       .sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
       .map((b, idx) => {
         const match = matchById.get(String(b.eventId));
-        const ps = (b.participants || []).map((p) => side(p, match));
+        const ps = (b.participants || []).map((p) => side(p, match, name));
         return {
           // The cuptree's Final round holds the Final (order 1) + 3rd-place play-off (order 2).
           label: isFinalRound ? (idx === 0 ? 'Final' : '3rd place play-off') : null,

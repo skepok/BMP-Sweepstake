@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T12:35:47.043Z",
+  "lastUpdated": "2026-06-25T12:51:28.323Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -3372,7 +3372,7 @@
               "winner": false
             },
             "away": {
-              "name": "3A/3B/3C/3D/3F",
+              "name": "3rd: A/B/C/D/F",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3387,7 +3387,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "1I",
+              "name": "Winner Group I",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3396,7 +3396,7 @@
               "winner": false
             },
             "away": {
-              "name": "3C/3D/3F/3G/3H",
+              "name": "3rd: C/D/F/G/H",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3435,7 +3435,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "1F",
+              "name": "Winner Group F",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3459,7 +3459,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "2K",
+              "name": "Runner-up Group K",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3468,7 +3468,7 @@
               "winner": false
             },
             "away": {
-              "name": "2L",
+              "name": "Runner-up Group L",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3483,7 +3483,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "H1",
+              "name": "Winner Group H",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3492,7 +3492,7 @@
               "winner": false
             },
             "away": {
-              "name": "2J",
+              "name": "Runner-up Group J",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3516,7 +3516,7 @@
               "winner": false
             },
             "away": {
-              "name": "3B/3E/3F/3I/3J",
+              "name": "3rd: B/E/F/I/J",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3531,7 +3531,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "G1",
+              "name": "Winner Group G",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3540,7 +3540,7 @@
               "winner": false
             },
             "away": {
-              "name": "3A/3E/3H/3I/3J",
+              "name": "3rd: A/E/H/I/J",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3564,7 +3564,7 @@
               "winner": false
             },
             "away": {
-              "name": "2F",
+              "name": "Runner-up Group F",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3579,7 +3579,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "2E",
+              "name": "Runner-up Group E",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3588,7 +3588,7 @@
               "winner": false
             },
             "away": {
-              "name": "2I",
+              "name": "Runner-up Group I",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3612,7 +3612,7 @@
               "winner": false
             },
             "away": {
-              "name": "3C/3E/3F/3H/3I",
+              "name": "3rd: C/E/F/H/I",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3627,7 +3627,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "1L",
+              "name": "Winner Group L",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3636,7 +3636,7 @@
               "winner": false
             },
             "away": {
-              "name": "3E/3H/3I/3J/3K",
+              "name": "3rd: E/H/I/J/K",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3660,7 +3660,7 @@
               "winner": false
             },
             "away": {
-              "name": "H2",
+              "name": "Runner-up Group H",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3675,7 +3675,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "2D",
+              "name": "Runner-up Group D",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3684,7 +3684,7 @@
               "winner": false
             },
             "away": {
-              "name": "G2",
+              "name": "Runner-up Group G",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3708,7 +3708,7 @@
               "winner": false
             },
             "away": {
-              "name": "3E/3F/3G/3I/3J",
+              "name": "3rd: E/F/G/I/J",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3723,7 +3723,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "1K",
+              "name": "Winner Group K",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3732,7 +3732,7 @@
               "winner": false
             },
             "away": {
-              "name": "3D/3E/3I/3J/3L",
+              "name": "3rd: D/E/I/J/L",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3752,7 +3752,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "W74",
+              "name": "Round of 32 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3761,7 +3761,7 @@
               "winner": false
             },
             "away": {
-              "name": "W77",
+              "name": "Round of 32 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3776,7 +3776,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "W73",
+              "name": "Round of 32 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3785,7 +3785,7 @@
               "winner": false
             },
             "away": {
-              "name": "W75",
+              "name": "Round of 32 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3800,7 +3800,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "W83",
+              "name": "Round of 32 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3809,7 +3809,7 @@
               "winner": false
             },
             "away": {
-              "name": "W84",
+              "name": "Round of 32 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3824,7 +3824,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "W81",
+              "name": "Round of 32 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3833,7 +3833,7 @@
               "winner": false
             },
             "away": {
-              "name": "W82",
+              "name": "Round of 32 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3848,7 +3848,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "W76",
+              "name": "Round of 32 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3857,7 +3857,7 @@
               "winner": false
             },
             "away": {
-              "name": "W78",
+              "name": "Round of 32 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3872,7 +3872,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "W79",
+              "name": "Round of 32 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3881,7 +3881,7 @@
               "winner": false
             },
             "away": {
-              "name": "W80",
+              "name": "Round of 32 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3896,7 +3896,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "W86",
+              "name": "Round of 32 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3905,7 +3905,7 @@
               "winner": false
             },
             "away": {
-              "name": "W88",
+              "name": "Round of 32 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3920,7 +3920,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "W85",
+              "name": "Round of 32 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3929,7 +3929,7 @@
               "winner": false
             },
             "away": {
-              "name": "W87",
+              "name": "Round of 32 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3949,7 +3949,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "W89",
+              "name": "Round of 16 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3958,7 +3958,7 @@
               "winner": false
             },
             "away": {
-              "name": "W90",
+              "name": "Round of 16 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3973,7 +3973,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "W93",
+              "name": "Round of 16 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3982,7 +3982,7 @@
               "winner": false
             },
             "away": {
-              "name": "W94",
+              "name": "Round of 16 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -3997,7 +3997,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "W91",
+              "name": "Round of 16 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -4006,7 +4006,7 @@
               "winner": false
             },
             "away": {
-              "name": "W92",
+              "name": "Round of 16 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -4021,7 +4021,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "W95",
+              "name": "Round of 16 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -4030,7 +4030,7 @@
               "winner": false
             },
             "away": {
-              "name": "W96",
+              "name": "Round of 16 winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -4050,7 +4050,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "W97",
+              "name": "Quarter-final winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -4059,7 +4059,7 @@
               "winner": false
             },
             "away": {
-              "name": "W98",
+              "name": "Quarter-final winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -4074,7 +4074,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "W99",
+              "name": "Quarter-final winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -4083,7 +4083,7 @@
               "winner": false
             },
             "away": {
-              "name": "W100",
+              "name": "Quarter-final winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -4103,7 +4103,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "W101",
+              "name": "Semi-final winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -4112,7 +4112,7 @@
               "winner": false
             },
             "away": {
-              "name": "W102",
+              "name": "Semi-final winner",
               "code": null,
               "iso2": null,
               "player": null,
@@ -4127,7 +4127,7 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "L101",
+              "name": "Semi-final loser",
               "code": null,
               "iso2": null,
               "player": null,
@@ -4136,7 +4136,7 @@
               "winner": false
             },
             "away": {
-              "name": "L102",
+              "name": "Semi-final loser",
               "code": null,
               "iso2": null,
               "player": null,
