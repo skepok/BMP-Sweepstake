@@ -331,25 +331,40 @@ function adaptSofaScore(raw, resolveCode) {
 
 async function writeStandings({ players, teamByCode, fixtures, standings, events, meta, source, season }) {
   // ---- group tables: code -> { group, rank, played, w,d,l, gf, ga, pts } -
+  // Also build full group tables (every team + owner) for the Group Tables tab.
   const groupByCode = new Map();
+  const groupTables = new Map(); // groupName -> rows[]
   for (const block of standings) {
     const groups = block?.league?.standings || [];
     for (const table of groups) {
       for (const row of table) {
         const code = lookupCodeByName(row.team?.name, players);
         if (!code) continue;
+        const gf = row.all?.goals?.for ?? 0;
+        const ga = row.all?.goals?.against ?? 0;
         groupByCode.set(code, {
           group: row.group || null,
           rank: row.rank ?? null,
           played: row.all?.played ?? 0,
           w: row.all?.win ?? 0, d: row.all?.draw ?? 0, l: row.all?.lose ?? 0,
-          gf: row.all?.goals?.for ?? 0,
-          ga: row.all?.goals?.against ?? 0, // goals conceded in group
+          gf, ga, // ga = goals conceded in group
           pts: row.points ?? 0,
+        });
+        const ref = teamByCode.get(code);
+        const groupName = row.group || 'Group ?';
+        if (!groupTables.has(groupName)) groupTables.set(groupName, []);
+        groupTables.get(groupName).push({
+          code, name: ref?.name || row.team?.name, iso2: ref?.iso2 || null, player: ref?.player || null,
+          rank: row.rank ?? null, played: row.all?.played ?? 0,
+          w: row.all?.win ?? 0, d: row.all?.draw ?? 0, l: row.all?.lose ?? 0,
+          gf, ga, gd: gf - ga, pts: row.points ?? 0,
         });
       }
     }
   }
+  const groups = [...groupTables.entries()]
+    .map(([name, rows]) => ({ name, rows: rows.sort((a, b) => (a.rank ?? 99) - (b.rank ?? 99)) }))
+    .sort((a, b) => a.name.localeCompare(b.name));
 
   // ---- fixture indexing ---------------------------------------------------
   const enriched = fixtures.map((f) => {
@@ -446,6 +461,7 @@ async function writeStandings({ players, teamByCode, fixtures, standings, events
       redCards: board('redCards'),
       ownGoals: board('ownGoals'),
     },
+    groups,
     meta,
   };
 

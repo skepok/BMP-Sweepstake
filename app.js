@@ -147,6 +147,52 @@
     }).join('');
   }
 
+  // --- render: group tables -------------------------------------------------
+  function renderGroups(groups) {
+    const el = $('#groupsGrid');
+    if (!groups || !groups.length) {
+      el.innerHTML = `<p class="empty">Group tables will appear once the tournament data is available.</p>`;
+      return;
+    }
+    el.innerHTML = groups.map((g) => {
+      const rows = g.rows.map((r, i) => {
+        const pos = r.rank || (i + 1);
+        const qual = pos <= 2 ? 'q-top' : pos === 3 ? 'q-third' : '';
+        const gd = (r.gd > 0 ? '+' : '') + r.gd;
+        return `<tr class="${qual}">
+          <td class="pos">${pos}</td>
+          <td class="gt-team">
+            <span class="flag">${flag(r.iso2)}</span>
+            <span class="gt-meta"><span class="gt-name">${esc(r.name)}</span><span class="gt-owner">${esc(r.player || '')}</span></span>
+          </td>
+          <td>${r.played}</td>
+          <td>${r.w}-${r.d}-${r.l}</td>
+          <td>${esc(gd)}</td>
+          <td class="pts">${r.pts}</td>
+        </tr>`;
+      }).join('');
+      return `<div class="group-card">
+        <h3>${esc(g.name)}</h3>
+        <table class="group-table">
+          <thead><tr><th></th><th>Team</th><th title="Played">P</th><th title="Won-Drawn-Lost">W-D-L</th><th title="Goal difference">GD</th><th>Pts</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>`;
+    }).join('');
+  }
+
+  // --- tab switching --------------------------------------------------------
+  function initTabs() {
+    const btns = document.querySelectorAll('.tab-btn');
+    btns.forEach((btn) => btn.addEventListener('click', () => {
+      const tab = btn.getAttribute('data-tab');
+      btns.forEach((b) => b.classList.toggle('active', b === btn));
+      document.querySelectorAll('.tab-panel').forEach((p) => {
+        p.hidden = (p.id !== `tab-${tab}`);
+      });
+    }));
+  }
+
   // --- main -----------------------------------------------------------------
   async function load() {
     const status = $('#status');
@@ -159,6 +205,7 @@
       renderBanner(data.banner);
       renderPlayers(data.players || []);
       renderBoards(data);
+      renderGroups(data.groups || []);
 
       $('#lockState').textContent = data.groupStageComplete ? 'FROZEN — group stage complete' : 'live — group stage in progress';
       $('#lockState').classList.toggle('frozen', !!data.groupStageComplete);
@@ -174,5 +221,6 @@
     }
   }
 
+  initTabs();
   load();
 })();

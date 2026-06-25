@@ -28,17 +28,32 @@
 
     <p class="updated" id="updated"></p>
 
-    <section class="section" id="raceSection">
-      <h2>🏆 Winner &amp; Runner-up race</h2>
-      <p class="note">£120 to the player whose team wins the final, £48 for the runner-up. Players with a team still in the hunt are highlighted.</p>
-      <div class="players-grid" id="playersGrid"></div>
-    </section>
+    <nav class="tabs" id="tabs">
+      <button class="tab-btn active" data-tab="sweepstake" type="button">🏆 Sweepstake</button>
+      <button class="tab-btn" data-tab="groups" type="button">📊 Group tables</button>
+    </nav>
 
-    <section class="section" id="prizesSection">
-      <h2>🥄 Wooden-spoon prizes <span class="lock" id="lockState"></span></h2>
-      <p class="note">£24 each. Counted across the <strong>group stage only</strong> and frozen once every group game is played.</p>
-      <div class="boards" id="boards"></div>
-    </section>
+    <div id="tab-sweepstake" class="tab-panel">
+      <section class="section" id="raceSection">
+        <h2>🏆 Winner &amp; Runner-up race</h2>
+        <p class="note">£120 to the player whose team wins the final, £48 for the runner-up. Players with a team still in the hunt are highlighted.</p>
+        <div class="players-grid" id="playersGrid"></div>
+      </section>
+
+      <section class="section" id="prizesSection">
+        <h2>🥄 Wooden-spoon prizes <span class="lock" id="lockState"></span></h2>
+        <p class="note">£24 each. Counted across the <strong>group stage only</strong> and frozen once every group game is played.</p>
+        <div class="boards" id="boards"></div>
+      </section>
+    </div>
+
+    <div id="tab-groups" class="tab-panel" hidden>
+      <section class="section">
+        <h2>📊 Group tables</h2>
+        <p class="note">Top 2 of each group qualify, plus the 8 best third-placed teams. Each team's sweepstake owner is shown underneath.</p>
+        <div class="groups-grid" id="groupsGrid"></div>
+      </section>
+    </div>
 
     <div id="status" class="status"></div>
   </main>

@@ -70,6 +70,36 @@ body {
 .updated { color: var(--muted); font-size: .82rem; margin: 14px 0 4px; }
 
 /* Sections */
+/* Tabs */
+.tabs { display: flex; gap: 6px; margin: 16px 0 4px; border-bottom: 2px solid var(--line); }
+.tab-btn {
+  appearance: none; border: 0; background: none; cursor: pointer;
+  font: inherit; font-weight: 600; color: var(--muted);
+  padding: 10px 16px; border-radius: 10px 10px 0 0; margin-bottom: -2px;
+  border-bottom: 2px solid transparent;
+}
+.tab-btn:hover { color: var(--ink); }
+.tab-btn.active { color: var(--pitch); border-bottom-color: var(--pitch); background: var(--card); }
+
+/* Group tables */
+.groups-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+.group-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+.group-card h3 { margin: 0; padding: 10px 14px; font-size: .98rem; background: #f0f4ee; border-bottom: 1px solid var(--line); }
+.group-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+.group-table th, .group-table td { padding: 7px 8px; text-align: center; }
+.group-table thead th { color: var(--muted); font-weight: 600; font-size: .72rem; border-bottom: 1px solid var(--line); }
+.group-table td.pos { color: var(--muted); width: 1.6em; font-variant-numeric: tabular-nums; }
+.group-table td.pts { font-weight: 800; }
+.group-table td, .group-table th { font-variant-numeric: tabular-nums; }
+.gt-team { text-align: left !important; display: flex; align-items: center; gap: 8px; }
+.gt-meta { display: flex; flex-direction: column; line-height: 1.15; min-width: 0; }
+.gt-name { font-weight: 600; }
+.gt-owner { font-size: .72rem; color: var(--muted); }
+.group-table tbody tr { border-top: 1px solid var(--line); }
+.group-table tr.q-top { background: rgba(11,110,46,.07); }
+.group-table tr.q-top td.pos { color: var(--alive); font-weight: 700; }
+.group-table tr.q-third { background: rgba(232,180,48,.10); }
+
 .section { margin: 26px 0; }
 .section h2 { font-size: 1.25rem; margin: 0 0 4px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .note { color: var(--muted); font-size: .86rem; margin: 0 0 14px; }
