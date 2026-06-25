@@ -181,6 +181,83 @@
     }).join('');
   }
 
+  // --- render: best third-placed teams -------------------------------------
+  function renderThirds(thirds) {
+    const el = $('#thirdsTable');
+    if (!thirds || !thirds.length) {
+      el.innerHTML = `<p class="empty">The third-placed ranking will appear once group games are under way.</p>`;
+      return;
+    }
+    const rows = thirds.map((r) => {
+      const gd = (r.gd > 0 ? '+' : '') + r.gd;
+      const grp = (r.group || '').replace(/group\s*/i, '');
+      return `<tr class="${r.qualifying ? 'q-top' : 'q-out'}">
+        <td class="pos">${r.pos}</td>
+        <td class="gt-team">
+          <span class="flag">${flag(r.iso2)}</span>
+          <span class="gt-meta"><span class="gt-name">${esc(r.name)} <span class="grp-tag">Grp ${esc(grp)}</span></span><span class="gt-owner">${esc(r.player || '')}</span></span>
+        </td>
+        <td>${r.played}</td>
+        <td>${esc(gd)}</td>
+        <td class="pts">${r.pts}</td>
+      </tr>`;
+    }).join('');
+    el.innerHTML = `<table class="group-table thirds-table">
+      <thead><tr><th></th><th>Team</th><th title="Played">P</th><th title="Goal difference">GD</th><th>Pts</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+  }
+
+  // --- render: knockout bracket --------------------------------------------
+  function renderBracket(bracket) {
+    const wrap = $('#bracket');
+    const nav = $('#roundNav');
+    if (!bracket || !bracket.rounds || !bracket.rounds.length) {
+      nav.innerHTML = '';
+      wrap.innerHTML = `<p class="empty">The knockout bracket appears once the draw is published.</p>`;
+      return;
+    }
+    const rounds = bracket.rounds;
+
+    // Default to the "live" round: first with an unfinished match, else the last.
+    let active = rounds.findIndex((r) => r.blocks.some((b) => !b.finished));
+    if (active < 0) active = rounds.length - 1;
+
+    const teamRow = (t) => {
+      if (!t) return '';
+      const cls = ['bk-team', t.winner ? 'win' : '', t.placeholder ? 'tbc' : ''].filter(Boolean).join(' ');
+      const score = (t.score != null) ? `<span class="bk-score">${t.score}</span>` : '';
+      const owner = t.player ? `<span class="bk-owner">${esc(t.player)}</span>` : '';
+      return `<div class="${cls}">
+        <span class="flag">${t.placeholder ? '⚽' : flag(t.iso2)}</span>
+        <span class="bk-meta"><span class="bk-name">${esc(t.name)}</span>${owner}</span>
+        ${score}
+      </div>`;
+    };
+
+    wrap.innerHTML = rounds.map((r, i) => {
+      const matches = r.blocks.map((b) => {
+        const lab = b.label ? `<div class="bk-label">${esc(b.label)}</div>` : '';
+        const ko = b.kickoff ? `<div class="bk-ko">${esc(fmtDate(b.kickoff))}</div>` : '';
+        return `<div class="bk-match">${lab}${teamRow(b.home)}${teamRow(b.away)}${ko}</div>`;
+      }).join('');
+      return `<div class="bracket-round${i === active ? ' active' : ''}" data-round="${i}">
+        <div class="bracket-round-title">${esc(r.name)}</div>
+        ${matches}
+      </div>`;
+    }).join('');
+
+    nav.innerHTML = rounds.map((r, i) =>
+      `<button class="round-btn${i === active ? ' active' : ''}" data-round="${i}" type="button">${esc(r.name)}</button>`
+    ).join('');
+
+    nav.querySelectorAll('.round-btn').forEach((btn) => btn.addEventListener('click', () => {
+      const idx = btn.getAttribute('data-round');
+      nav.querySelectorAll('.round-btn').forEach((b) => b.classList.toggle('active', b === btn));
+      wrap.querySelectorAll('.bracket-round').forEach((c) => c.classList.toggle('active', c.getAttribute('data-round') === idx));
+    }));
+  }
+
   // --- tab switching --------------------------------------------------------
   function initTabs() {
     const btns = document.querySelectorAll('.tab-btn');
@@ -205,7 +282,9 @@
       renderBanner(data.banner);
       renderPlayers(data.players || []);
       renderBoards(data);
+      renderThirds(data.thirdPlaced || []);
       renderGroups(data.groups || []);
+      renderBracket(data.bracket);
 
       $('#lockState').textContent = data.groupStageComplete ? 'FROZEN — group stage complete' : 'live — group stage in progress';
       $('#lockState').classList.toggle('frozen', !!data.groupStageComplete);
@@ -213,7 +292,6 @@
       $('#updated').textContent = data.lastUpdated
         ? `Last updated ${fmtDate(data.lastUpdated)}` + (data.meta?.offline ? ' · awaiting first live data' : '')
         : '';
-      $('#footerSource').textContent = `Data: ${data.source || 'API-Football'} · Season ${data.season || ''}`;
       status.textContent = '';
     } catch (err) {
       status.className = 'status error';

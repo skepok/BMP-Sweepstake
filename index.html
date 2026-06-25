@@ -31,6 +31,7 @@
     <nav class="tabs" id="tabs">
       <button class="tab-btn active" data-tab="sweepstake" type="button">🏆 Sweepstake</button>
       <button class="tab-btn" data-tab="groups" type="button">📊 Group tables</button>
+      <button class="tab-btn" data-tab="bracket" type="button">🗺️ Bracket</button>
     </nav>
 
     <div id="tab-sweepstake" class="tab-panel">
@@ -49,9 +50,24 @@
 
     <div id="tab-groups" class="tab-panel" hidden>
       <section class="section">
+        <h2>🥉 Best third-placed teams</h2>
+        <p class="note">The 12 group third-place teams ranked by points, then goal difference, then goals scored. The <strong>top 8 qualify</strong> for the Round of 32; the bottom 4 are eliminated.</p>
+        <div class="thirds-wrap" id="thirdsTable"></div>
+      </section>
+
+      <section class="section">
         <h2>📊 Group tables</h2>
-        <p class="note">Top 2 of each group qualify, plus the 8 best third-placed teams. Each team's sweepstake owner is shown underneath.</p>
+        <p class="note">Top 2 of each group qualify, plus the 8 best third-placed teams (above). Each team's sweepstake owner is shown underneath.</p>
         <div class="groups-grid" id="groupsGrid"></div>
+      </section>
+    </div>
+
+    <div id="tab-bracket" class="tab-panel" hidden>
+      <section class="section">
+        <h2>🗺️ Knockout bracket</h2>
+        <p class="note">Fills in automatically as groups finish and knockout games are played. Each team shows its sweepstake owner; winners are highlighted.</p>
+        <div class="round-nav" id="roundNav"></div>
+        <div class="bracket" id="bracket"></div>
       </section>
     </div>
 
@@ -60,7 +76,6 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <p id="footerSource"></p>
       <p class="muted">Standings reflect <strong>completed matches only</strong> and update automatically after each game finishes. Not affiliated with FIFA.</p>
     </div>
   </footer>

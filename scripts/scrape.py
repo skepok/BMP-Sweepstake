@@ -147,6 +147,38 @@ def fetch_standings():
     return out
 
 
+def fetch_bracket():
+    """Knockout bracket (cuptree): rounds -> blocks, each block joined to its
+    match event id so build.mjs can attach live scores. Placeholders (2F, 3A/3B,
+    W74...) resolve to real teams automatically as SofaScore updates them."""
+    data = get_json(f"/unique-tournament/{UT}/season/{SEASON}/cuptrees")
+    trees = (data or {}).get("cupTrees", [])
+    if not trees:
+        return []
+    out = []
+    for rnd in trees[0].get("rounds", []):
+        blocks = []
+        for b in rnd.get("blocks", []):
+            parts = []
+            for p in b.get("participants", []):
+                t = p.get("team") or {}
+                parts.append({
+                    "name": t.get("name"),
+                    "code": t.get("nameCode"),
+                    "placeholder": bool(t.get("disabled")),
+                    "winner": bool(p.get("winner")),
+                })
+            blocks.append({
+                "order": b.get("order"),
+                "eventId": (b.get("events") or [None])[0],
+                "kickoff": b.get("seriesStartDateTimestamp"),
+                "participants": parts,
+            })
+        out.append({"round": rnd.get("description"), "type": rnd.get("type"),
+                    "order": rnd.get("order"), "blocks": blocks})
+    return out
+
+
 def fetch_own_goals(event_id, home_name, away_name):
     """Own goals by COMMITTING team. (Red cards come from the events feed instead.)
 
@@ -183,6 +215,8 @@ def main():
     print(f"  {len(events)} events found.")
     print("Fetching standings ...")
     standings = fetch_standings()
+    print("Fetching knockout bracket ...")
+    bracket = fetch_bracket()
 
     matches = []
     fetched_incidents = 0
@@ -235,11 +269,11 @@ def main():
     # disk, leave the file untouched (don't refresh fetchedAt). That keeps the
     # file byte-identical so the scheduled task commits nothing when no game has
     # changed — only real updates produce a commit.
-    new_core = json.dumps({"matches": matches, "standings": standings}, sort_keys=True, ensure_ascii=False)
+    new_core = json.dumps({"matches": matches, "standings": standings, "bracket": bracket}, sort_keys=True, ensure_ascii=False)
     if RAW_PATH.exists():
         try:
             prev = json.loads(RAW_PATH.read_text(encoding="utf-8"))
-            prev_core = json.dumps({"matches": prev.get("matches"), "standings": prev.get("standings")},
+            prev_core = json.dumps({"matches": prev.get("matches"), "standings": prev.get("standings"), "bracket": prev.get("bracket")},
                                    sort_keys=True, ensure_ascii=False)
             if prev_core == new_core:
                 print(f"No data changes — left {RAW_PATH.name} unchanged "
@@ -257,6 +291,7 @@ def main():
         "seasonId": SEASON,
         "matches": matches,
         "standings": standings,
+        "bracket": bracket,
     }
     RAW_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"\nWrote {RAW_PATH.relative_to(ROOT)} — {len(matches)} matches, "

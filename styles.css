@@ -100,6 +100,46 @@ body {
 .group-table tr.q-top td.pos { color: var(--alive); font-weight: 700; }
 .group-table tr.q-third { background: rgba(232,180,48,.10); }
 
+/* Best third-placed table */
+.thirds-wrap { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; max-width: 560px; }
+.thirds-table tr.q-out { color: var(--muted); }
+.thirds-table tr.q-out td.pos { color: var(--dead); }
+.thirds-table tbody tr.q-top + tr.q-out { border-top: 2px solid var(--dead); } /* qualifying cut line */
+.grp-tag { font-size: .68rem; font-weight: 600; color: var(--muted); background: #eef3ec; border-radius: 4px; padding: 1px 5px; margin-left: 4px; }
+
+/* Knockout bracket */
+.round-nav { display: none; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+.round-btn {
+  appearance: none; border: 1px solid var(--line); background: var(--card); cursor: pointer;
+  font: inherit; font-size: .8rem; font-weight: 600; color: var(--muted);
+  padding: 6px 12px; border-radius: 999px;
+}
+.round-btn.active { background: var(--pitch); color: #fff; border-color: var(--pitch); }
+
+.bracket { display: flex; gap: 22px; overflow-x: auto; padding-bottom: 10px; }
+.bracket-round { display: flex; flex-direction: column; justify-content: space-around; gap: 14px; min-width: 230px; flex: none; }
+.bracket-round-title { font-size: .78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); text-align: center; }
+.bk-match { background: var(--card); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); padding: 6px; }
+.bk-label { font-size: .68rem; font-weight: 700; color: var(--gold-deep); text-align: center; margin-bottom: 4px; }
+.bk-team { display: flex; align-items: center; gap: 7px; padding: 5px 6px; border-radius: 7px; }
+.bk-team .flag { font-size: 1.1rem; width: 1.4em; text-align: center; flex: none; }
+.bk-meta { display: flex; flex-direction: column; line-height: 1.1; min-width: 0; flex: 1; }
+.bk-name { font-weight: 600; font-size: .9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bk-owner { font-size: .7rem; color: var(--muted); }
+.bk-team.tbc .bk-name { color: var(--muted); font-weight: 500; }
+.bk-team.win { background: #e3f3e8; }
+.bk-team.win .bk-name { color: var(--alive); font-weight: 800; }
+.bk-score { font-weight: 800; font-variant-numeric: tabular-nums; }
+.bk-ko { font-size: .68rem; color: var(--muted); text-align: center; margin-top: 4px; }
+
+@media (max-width: 700px) {
+  .round-nav { display: flex; }
+  .bracket { display: block; overflow: visible; }
+  .bracket-round { display: none; min-width: 0; }
+  .bracket-round.active { display: flex; }
+  .bracket-round-title { display: none; }
+}
+
 .section { margin: 26px 0; }
 .section h2 { font-size: 1.25rem; margin: 0 0 4px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .note { color: var(--muted); font-size: .86rem; margin: 0 0 14px; }

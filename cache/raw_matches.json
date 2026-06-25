@@ -2592,5 +2592,650 @@
       "ga": 2,
       "pts": 0
     }
+  ],
+  "bracket": [
+    {
+      "round": "Round of 32",
+      "type": 16,
+      "order": 1,
+      "blocks": [
+        {
+          "order": 1,
+          "eventId": 12813014,
+          "kickoff": 1782765000,
+          "participants": [
+            {
+              "name": "Germany",
+              "code": "GER",
+              "placeholder": false,
+              "winner": false
+            },
+            {
+              "name": "3A/3B/3C/3D/3F",
+              "code": "3A3",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "eventId": 12812995,
+          "kickoff": 1782853200,
+          "participants": [
+            {
+              "name": "1I",
+              "code": "1I",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "3C/3D/3F/3G/3H",
+              "code": "3C3",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "eventId": 12813000,
+          "kickoff": 1782673200,
+          "participants": [
+            {
+              "name": "South Africa",
+              "code": "RSA",
+              "placeholder": false,
+              "winner": false
+            },
+            {
+              "name": "Canada",
+              "code": "CAN",
+              "placeholder": false,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "eventId": 12812998,
+          "kickoff": 1782781200,
+          "participants": [
+            {
+              "name": "1F",
+              "code": "1F",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "Morocco",
+              "code": "MAR",
+              "placeholder": false,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "eventId": 12812997,
+          "kickoff": 1783033200,
+          "participants": [
+            {
+              "name": "2K",
+              "code": "2K",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "2L",
+              "code": "2L",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "eventId": 12813004,
+          "kickoff": 1783018800,
+          "participants": [
+            {
+              "name": "H1",
+              "code": "1H",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "2J",
+              "code": "2J",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "eventId": 12812992,
+          "kickoff": 1782950400,
+          "participants": [
+            {
+              "name": "USA",
+              "code": "USA",
+              "placeholder": false,
+              "winner": false
+            },
+            {
+              "name": "3B/3E/3F/3I/3J",
+              "code": "3B3",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "eventId": 12813013,
+          "kickoff": 1782936000,
+          "participants": [
+            {
+              "name": "G1",
+              "code": "1G",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "3A/3E/3H/3I/3J",
+              "code": "3A3",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 9,
+          "eventId": 12813012,
+          "kickoff": 1782752400,
+          "participants": [
+            {
+              "name": "Brazil",
+              "code": "BRA",
+              "placeholder": false,
+              "winner": false
+            },
+            {
+              "name": "2F",
+              "code": "2F",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 10,
+          "eventId": 12812989,
+          "kickoff": 1782838800,
+          "participants": [
+            {
+              "name": "2E",
+              "code": "2E",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "2I",
+              "code": "2I",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 11,
+          "eventId": 12813001,
+          "kickoff": 1782867600,
+          "participants": [
+            {
+              "name": "Mexico",
+              "code": "MEX",
+              "placeholder": false,
+              "winner": false
+            },
+            {
+              "name": "3C/3E/3F/3H/3I",
+              "code": "3C3",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 12,
+          "eventId": 12813020,
+          "kickoff": 1782921600,
+          "participants": [
+            {
+              "name": "1L",
+              "code": "1L",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "3E/3H/3I/3J/3K",
+              "code": "3E3",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 13,
+          "eventId": 12812999,
+          "kickoff": 1783116000,
+          "participants": [
+            {
+              "name": "Argentina",
+              "code": "ARG",
+              "placeholder": false,
+              "winner": false
+            },
+            {
+              "name": "H2",
+              "code": "2H",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 14,
+          "eventId": 12813018,
+          "kickoff": 1783101600,
+          "participants": [
+            {
+              "name": "2D",
+              "code": "2D",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "G2",
+              "code": "2G",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 15,
+          "eventId": 12813019,
+          "kickoff": 1783047600,
+          "participants": [
+            {
+              "name": "Switzerland",
+              "code": "SUI",
+              "placeholder": false,
+              "winner": false
+            },
+            {
+              "name": "3E/3F/3G/3I/3J",
+              "code": "3E3",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 16,
+          "eventId": 12813011,
+          "kickoff": 1783128600,
+          "participants": [
+            {
+              "name": "1K",
+              "code": "1K",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "3D/3E/3I/3J/3L",
+              "code": "3D3",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": "Round of 16",
+      "type": 8,
+      "order": 2,
+      "blocks": [
+        {
+          "order": 1,
+          "eventId": 12813010,
+          "kickoff": 1783198800,
+          "participants": [
+            {
+              "name": "W74",
+              "code": "W74",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "W77",
+              "code": "W77",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "eventId": 12813009,
+          "kickoff": 1783184400,
+          "participants": [
+            {
+              "name": "W73",
+              "code": "W73",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "W75",
+              "code": "W75",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "eventId": 12812990,
+          "kickoff": 1783364400,
+          "participants": [
+            {
+              "name": "W83",
+              "code": "W83",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "W84",
+              "code": "W84",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "eventId": 12813002,
+          "kickoff": 1783382400,
+          "participants": [
+            {
+              "name": "W81",
+              "code": "W81",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "W82",
+              "code": "W82",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "eventId": 12813006,
+          "kickoff": 1783281600,
+          "participants": [
+            {
+              "name": "W76",
+              "code": "W76",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "W78",
+              "code": "W78",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "eventId": 12813007,
+          "kickoff": 1783296000,
+          "participants": [
+            {
+              "name": "W79",
+              "code": "W79",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "W80",
+              "code": "W80",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "eventId": 12812993,
+          "kickoff": 1783440000,
+          "participants": [
+            {
+              "name": "W86",
+              "code": "W86",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "W88",
+              "code": "W88",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "eventId": 12812991,
+          "kickoff": 1783454400,
+          "participants": [
+            {
+              "name": "W85",
+              "code": "W85",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "W87",
+              "code": "W87",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": "Quarterfinal",
+      "type": 4,
+      "order": 3,
+      "blocks": [
+        {
+          "order": 1,
+          "eventId": 12813016,
+          "kickoff": 1783627200,
+          "participants": [
+            {
+              "name": "W89",
+              "code": "W89",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "W90",
+              "code": "W90",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "eventId": 12812994,
+          "kickoff": 1783710000,
+          "participants": [
+            {
+              "name": "W93",
+              "code": "W93",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "W94",
+              "code": "W94",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "eventId": 12813017,
+          "kickoff": 1783803600,
+          "participants": [
+            {
+              "name": "W91",
+              "code": "W91",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "W92",
+              "code": "W92",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "eventId": 12813015,
+          "kickoff": 1783818000,
+          "participants": [
+            {
+              "name": "W95",
+              "code": "W95",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "W96",
+              "code": "W96",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": "Semifinal",
+      "type": 2,
+      "order": 4,
+      "blocks": [
+        {
+          "order": 1,
+          "eventId": 12813008,
+          "kickoff": 1784055600,
+          "participants": [
+            {
+              "name": "W97",
+              "code": "W97",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "W98",
+              "code": "W98",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "eventId": 12812996,
+          "kickoff": 1784142000,
+          "participants": [
+            {
+              "name": "W99",
+              "code": "W99",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "W100",
+              "code": "W10",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": "Final",
+      "type": 1,
+      "order": 5,
+      "blocks": [
+        {
+          "order": 1,
+          "eventId": 12813005,
+          "kickoff": 1784487600,
+          "participants": [
+            {
+              "name": "W101",
+              "code": "W10",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "W102",
+              "code": "W10",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "eventId": 12813003,
+          "kickoff": 1784408400,
+          "participants": [
+            {
+              "name": "L101",
+              "code": "L10",
+              "placeholder": true,
+              "winner": false
+            },
+            {
+              "name": "L102",
+              "code": "L10",
+              "placeholder": true,
+              "winner": false
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

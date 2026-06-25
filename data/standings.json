@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T12:08:05.814Z",
+  "lastUpdated": "2026-06-25T12:35:47.043Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -3194,6 +3194,961 @@
       ]
     }
   ],
+  "thirdPlaced": [
+    {
+      "pos": 1,
+      "code": "BIH",
+      "name": "Bosnia-Herzegovina",
+      "iso2": "BA",
+      "player": "Sam Lowerson",
+      "group": "Group B",
+      "played": 3,
+      "gd": -1,
+      "gf": 5,
+      "pts": 4,
+      "qualifying": true
+    },
+    {
+      "pos": 2,
+      "code": "SWE",
+      "name": "Sweden",
+      "iso2": "SE",
+      "player": "Madi Farrow-Dunn",
+      "group": "Group F",
+      "played": 2,
+      "gd": 0,
+      "gf": 6,
+      "pts": 3,
+      "qualifying": true
+    },
+    {
+      "pos": 3,
+      "code": "CRO",
+      "name": "Croatia",
+      "iso2": "HR",
+      "player": "Robin Parish",
+      "group": "Group L",
+      "played": 2,
+      "gd": -1,
+      "gf": 3,
+      "pts": 3,
+      "qualifying": true
+    },
+    {
+      "pos": 4,
+      "code": "KOR",
+      "name": "South Korea",
+      "iso2": "KR",
+      "player": "Elizabeth Swords",
+      "group": "Group A",
+      "played": 3,
+      "gd": -1,
+      "gf": 2,
+      "pts": 3,
+      "qualifying": true
+    },
+    {
+      "pos": 5,
+      "code": "ALG",
+      "name": "Algeria",
+      "iso2": "DZ",
+      "player": "Bob Gibson",
+      "group": "Group J",
+      "played": 2,
+      "gd": -2,
+      "gf": 2,
+      "pts": 3,
+      "qualifying": true
+    },
+    {
+      "pos": 6,
+      "code": "PAR",
+      "name": "Paraguay",
+      "iso2": "PY",
+      "player": "Robin Parish",
+      "group": "Group D",
+      "played": 2,
+      "gd": -2,
+      "gf": 2,
+      "pts": 3,
+      "qualifying": true
+    },
+    {
+      "pos": 7,
+      "code": "SCO",
+      "name": "Scotland",
+      "iso2": "GB-SCT",
+      "player": "Paul Mitchell",
+      "group": "Group C",
+      "played": 3,
+      "gd": -3,
+      "gf": 1,
+      "pts": 3,
+      "qualifying": true
+    },
+    {
+      "pos": 8,
+      "code": "CPV",
+      "name": "Cape Verde",
+      "iso2": "CV",
+      "player": "Guy Curry",
+      "group": "Group H",
+      "played": 2,
+      "gd": 0,
+      "gf": 2,
+      "pts": 2,
+      "qualifying": true
+    },
+    {
+      "pos": 9,
+      "code": "BEL",
+      "name": "Belgium",
+      "iso2": "BE",
+      "player": "Fred Dunn",
+      "group": "Group G",
+      "played": 2,
+      "gd": 0,
+      "gf": 1,
+      "pts": 2,
+      "qualifying": false
+    },
+    {
+      "pos": 10,
+      "code": "DRC",
+      "name": "DR Congo",
+      "iso2": "CD",
+      "player": "Nick Foulkes",
+      "group": "Group K",
+      "played": 2,
+      "gd": -1,
+      "gf": 1,
+      "pts": 1,
+      "qualifying": false
+    },
+    {
+      "pos": 11,
+      "code": "ECU",
+      "name": "Ecuador",
+      "iso2": "EC",
+      "player": "Frank Dunn",
+      "group": "Group E",
+      "played": 2,
+      "gd": -1,
+      "gf": 0,
+      "pts": 1,
+      "qualifying": false
+    },
+    {
+      "pos": 12,
+      "code": "SEN",
+      "name": "Senegal",
+      "iso2": "SN",
+      "player": "Sam Lowerson",
+      "group": "Group I",
+      "played": 2,
+      "gd": -3,
+      "gf": 3,
+      "pts": 0,
+      "qualifying": false
+    }
+  ],
+  "bracket": {
+    "rounds": [
+      {
+        "name": "Round of 32",
+        "blocks": [
+          {
+            "label": null,
+            "kickoff": "2026-06-29T20:30:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "Germany",
+              "code": "GER",
+              "iso2": "DE",
+              "player": "Jess Forshaw",
+              "placeholder": false,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "3A/3B/3C/3D/3F",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-06-30T21:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "1I",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "3C/3D/3F/3G/3H",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-06-28T19:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "South Africa",
+              "code": "ZAF",
+              "iso2": "ZA",
+              "player": "Adam Wright",
+              "placeholder": false,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "Canada",
+              "code": "CAN",
+              "iso2": "CA",
+              "player": "Joe Clayton",
+              "placeholder": false,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-06-30T01:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "1F",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "Morocco",
+              "code": "MOR",
+              "iso2": "MA",
+              "player": "Ali Taylor",
+              "placeholder": false,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-02T23:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "2K",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "2L",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-02T19:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "H1",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "2J",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-02T00:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "USA",
+              "code": "USA",
+              "iso2": "US",
+              "player": "Flora Curry",
+              "placeholder": false,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "3B/3E/3F/3I/3J",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-01T20:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "G1",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "3A/3E/3H/3I/3J",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-06-29T17:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "Brazil",
+              "code": "BRA",
+              "iso2": "BR",
+              "player": "Me Julie",
+              "placeholder": false,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "2F",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-06-30T17:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "2E",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "2I",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-01T01:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "Mexico",
+              "code": "MEX",
+              "iso2": "MX",
+              "player": "Robbie Godowski",
+              "placeholder": false,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "3C/3E/3F/3H/3I",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-01T16:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "1L",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "3E/3H/3I/3J/3K",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-03T22:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "Argentina",
+              "code": "ARG",
+              "iso2": "AR",
+              "player": "Tom Clayton",
+              "placeholder": false,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "H2",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-03T18:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "2D",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "G2",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-03T03:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "Switzerland",
+              "code": "SWI",
+              "iso2": "CH",
+              "player": "Elizabeth Swords",
+              "placeholder": false,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "3E/3F/3G/3I/3J",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-04T01:30:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "1K",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "3D/3E/3I/3J/3L",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          }
+        ]
+      },
+      {
+        "name": "Round of 16",
+        "blocks": [
+          {
+            "label": null,
+            "kickoff": "2026-07-04T21:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "W74",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "W77",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-04T17:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "W73",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "W75",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-06T19:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "W83",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "W84",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-07T00:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "W81",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "W82",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-05T20:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "W76",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "W78",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-06T00:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "W79",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "W80",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-07T16:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "W86",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "W88",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-07T20:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "W85",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "W87",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quarter-finals",
+        "blocks": [
+          {
+            "label": null,
+            "kickoff": "2026-07-09T20:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "W89",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "W90",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-10T19:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "W93",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "W94",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-11T21:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "W91",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "W92",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-12T01:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "W95",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "W96",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          }
+        ]
+      },
+      {
+        "name": "Semi-finals",
+        "blocks": [
+          {
+            "label": null,
+            "kickoff": "2026-07-14T19:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "W97",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "W98",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": null,
+            "kickoff": "2026-07-15T19:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "W99",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "W100",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          }
+        ]
+      },
+      {
+        "name": "Final",
+        "blocks": [
+          {
+            "label": "Final",
+            "kickoff": "2026-07-19T19:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "W101",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "W102",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          },
+          {
+            "label": "3rd place play-off",
+            "kickoff": "2026-07-18T21:00:00.000Z",
+            "status": "NS",
+            "finished": false,
+            "home": {
+              "name": "L101",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            },
+            "away": {
+              "name": "L102",
+              "code": null,
+              "iso2": null,
+              "player": null,
+              "placeholder": true,
+              "score": null,
+              "winner": false
+            }
+          }
+        ]
+      }
+    ]
+  },
   "meta": {
     "source": "SofaScore",
     "matches": 104,

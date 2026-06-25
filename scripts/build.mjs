@@ -140,7 +140,7 @@ async function main() {
     log(`Building from SofaScore data (${raw.matches.length} matches, scraped ${raw.fetchedAt || '?'}).`);
     const { fixtures, standings, events } = adaptSofaScore(raw, resolveCode);
     await writeStandings({
-      players, teamByCode, fixtures, standings, events,
+      players, teamByCode, fixtures, standings, events, bracketRaw: raw.bracket || null,
       source: 'SofaScore', season: raw.season || SEASON,
       meta: { source: 'SofaScore', matches: raw.matches.length, scrapedAt: raw.fetchedAt || null },
     });
@@ -329,7 +329,7 @@ function adaptSofaScore(raw, resolveCode) {
   return { fixtures, standings, events };
 }
 
-async function writeStandings({ players, teamByCode, fixtures, standings, events, meta, source, season }) {
+async function writeStandings({ players, teamByCode, fixtures, standings, events, meta, source, season, bracketRaw }) {
   // ---- group tables: code -> { group, rank, played, w,d,l, gf, ga, pts } -
   // Also build full group tables (every team + owner) for the Group Tables tab.
   const groupByCode = new Map();
@@ -366,6 +366,19 @@ async function writeStandings({ players, teamByCode, fixtures, standings, events
     .map(([name, rows]) => ({ name, rows: rows.sort((a, b) => (a.rank ?? 99) - (b.rank ?? 99)) }))
     .sort((a, b) => a.name.localeCompare(b.name));
 
+  // Third-placed ranking: each group's 3rd team, ranked by points -> goal
+  // difference -> goals scored (FIFA criteria 1-3). The top 8 of 12 qualify for
+  // the Round of 32. The rare disciplinary/drawing-of-lots tiebreakers aren't applied.
+  const thirdPlaced = groups
+    .map((g) => { const r = g.rows.find((x) => (x.rank ?? 0) === 3) || g.rows[2]; return r ? { ...r, group: g.name } : null; })
+    .filter(Boolean)
+    .sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf || a.name.localeCompare(b.name))
+    .map((r, i) => ({
+      pos: i + 1, code: r.code, name: r.name, iso2: r.iso2, player: r.player,
+      group: r.group, played: r.played, gd: r.gd, gf: r.gf, pts: r.pts,
+      qualifying: i < 8,
+    }));
+
   // ---- fixture indexing ---------------------------------------------------
   const enriched = fixtures.map((f) => {
     const cls = classifyRound(f.league?.round || '');
@@ -381,6 +394,9 @@ async function writeStandings({ players, teamByCode, fixtures, standings, events
       away: { name: f.teams?.away?.name, code: lookupCodeByName(f.teams?.away?.name, players), winner: f.teams?.away?.winner, goals: f.goals?.away },
     };
   });
+
+  // ---- knockout bracket (from cuptree + match scores) ---------------------
+  const bracket = buildBracket(bracketRaw, new Map(enriched.map((e) => [e.id, e])), teamByCode, (n) => lookupCodeByName(n, players));
 
   const knockoutsStarted = enriched.some((f) => f.cls.kind === 'ko' && f.finished);
   const koFixturesExist = enriched.some((f) => f.cls.kind === 'ko' || f.cls.kind === 'third');
@@ -462,6 +478,8 @@ async function writeStandings({ players, teamByCode, fixtures, standings, events
       ownGoals: board('ownGoals'),
     },
     groups,
+    thirdPlaced,
+    bracket,
     meta,
   };
 
@@ -478,6 +496,64 @@ async function writeStandings({ players, teamByCode, fixtures, standings, events
   }
   await writeJson(outPath, payload);
   log('Wrote data/standings.json');
+}
+
+// --- knockout bracket -----------------------------------------------------
+function buildBracket(bracketRaw, matchById, teamByCode, lookupCode) {
+  if (!Array.isArray(bracketRaw) || !bracketRaw.length) return null;
+
+  const roundName = (desc) => {
+    if (/32/.test(desc)) return 'Round of 32';
+    if (/16/.test(desc)) return 'Round of 16';
+    if (/quarter/i.test(desc)) return 'Quarter-finals';
+    if (/semi/i.test(desc)) return 'Semi-finals';
+    if (/final/i.test(desc)) return 'Final';
+    return desc || 'Round';
+  };
+
+  // Resolve one participant, attaching score/winner from the joined match if played.
+  const side = (p, match) => {
+    const code = p && !p.placeholder ? lookupCode(p.name) : null;
+    const ref = code ? teamByCode.get(code) : null;
+    let score = null;
+    let winner = !!(p && p.winner);
+    if (match && match.finished && p) {
+      if (match.home.name === p.name) { score = match.home.goals; winner = match.home.winner === true; }
+      else if (match.away.name === p.name) { score = match.away.goals; winner = match.away.winner === true; }
+    }
+    return {
+      name: ref?.name || p?.name || 'TBC',
+      code: code || null,
+      iso2: ref?.iso2 || null,
+      player: ref?.player || null,
+      placeholder: !code, // anything we can't resolve to a real team is a slot label
+      score, winner,
+    };
+  };
+
+  const rounds = bracketRaw.map((r) => {
+    const name = roundName(r.round);
+    const isFinalRound = name === 'Final';
+    const blocks = (r.blocks || [])
+      .slice()
+      .sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
+      .map((b, idx) => {
+        const match = matchById.get(String(b.eventId));
+        const ps = (b.participants || []).map((p) => side(p, match));
+        return {
+          // The cuptree's Final round holds the Final (order 1) + 3rd-place play-off (order 2).
+          label: isFinalRound ? (idx === 0 ? 'Final' : '3rd place play-off') : null,
+          kickoff: b.kickoff ? iso(b.kickoff * 1000) : null,
+          status: match?.statusShort || 'NS',
+          finished: !!match?.finished,
+          home: ps[0] || null,
+          away: ps[1] || null,
+        };
+      });
+    return { name, blocks };
+  });
+
+  return { rounds };
 }
 
 // --- status logic ---------------------------------------------------------
