@@ -32,6 +32,7 @@
       <button class="tab-btn active" data-tab="sweepstake" type="button">🏆 Sweepstake</button>
       <button class="tab-btn" data-tab="groups" type="button">📊 Group tables</button>
       <button class="tab-btn" data-tab="bracket" type="button">🗺️ Bracket</button>
+      <button class="tab-btn" data-tab="fixtures" type="button">📅 Fixtures</button>
     </nav>
 
     <div id="tab-sweepstake" class="tab-panel">
@@ -68,6 +69,19 @@
         <p class="note">Fills in automatically as groups finish and knockout games are played. Each team shows its sweepstake owner; winners are highlighted.</p>
         <div class="round-nav" id="roundNav"></div>
         <div class="bracket" id="bracket"></div>
+      </section>
+    </div>
+
+    <div id="tab-fixtures" class="tab-panel" hidden>
+      <section class="section">
+        <h2>📅 Fixtures &amp; results</h2>
+        <p class="note">Every match, by day. Finished games show the result; upcoming games show kick-off time (your local time).</p>
+        <div class="fx-filter" id="fxFilter">
+          <button class="round-btn active" data-filter="all" type="button">All</button>
+          <button class="round-btn" data-filter="results" type="button">Results</button>
+          <button class="round-btn" data-filter="upcoming" type="button">Upcoming</button>
+        </div>
+        <div id="fixturesList"></div>
       </section>
     </div>
 

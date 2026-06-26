@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T12:14:22.748Z",
+  "lastUpdated": "2026-06-26T12:20:41.612Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -4149,6 +4149,2400 @@
       }
     ]
   },
+  "fixtures": [
+    {
+      "date": "2026-06-11T19:00:00.000Z",
+      "ts": 1781204400000,
+      "round": "Group A",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX",
+        "player": "Robbie Godowski",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "code": "ZAF",
+        "name": "South Africa",
+        "iso2": "ZA",
+        "player": "Adam Wright",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-12T02:00:00.000Z",
+      "ts": 1781229600000,
+      "round": "Group A",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "KOR",
+        "name": "South Korea",
+        "iso2": "KR",
+        "player": "Elizabeth Swords",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "code": "CZE",
+        "name": "Czechia",
+        "iso2": "CZ",
+        "player": "Laura Harrison",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-12T19:00:00.000Z",
+      "ts": 1781290800000,
+      "round": "Group B",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "CAN",
+        "name": "Canada",
+        "iso2": "CA",
+        "player": "Joe Clayton",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "player": "Sam Lowerson",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-13T01:00:00.000Z",
+      "ts": 1781312400000,
+      "round": "Group D",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "USA",
+        "name": "USA",
+        "iso2": "US",
+        "player": "Flora Curry",
+        "score": 4,
+        "winner": true
+      },
+      "away": {
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "player": "Robin Parish",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-13T19:00:00.000Z",
+      "ts": 1781377200000,
+      "round": "Group B",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH",
+        "player": "Elizabeth Swords",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-13T22:00:00.000Z",
+      "ts": 1781388000000,
+      "round": "Group C",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "BRA",
+        "name": "Brazil",
+        "iso2": "BR",
+        "player": "Me Julie",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "MOR",
+        "name": "Morocco",
+        "iso2": "MA",
+        "player": "Ali Taylor",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-14T01:00:00.000Z",
+      "ts": 1781398800000,
+      "round": "Group C",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "HTI",
+        "name": "Haiti",
+        "iso2": "HT",
+        "player": "Tom Clayton",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "SCO",
+        "name": "Scotland",
+        "iso2": "GB-SCT",
+        "player": "Paul Mitchell",
+        "score": 1,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-06-14T04:00:00.000Z",
+      "ts": 1781409600000,
+      "round": "Group D",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "AUS",
+        "name": "Australia",
+        "iso2": "AU",
+        "player": "Tom Gibbons",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "code": "TUR",
+        "name": "Turkey",
+        "iso2": "TR",
+        "player": "Laura Harrison",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-14T17:00:00.000Z",
+      "ts": 1781456400000,
+      "round": "Group E",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "GER",
+        "name": "Germany",
+        "iso2": "DE",
+        "player": "Jess Forshaw",
+        "score": 7,
+        "winner": true
+      },
+      "away": {
+        "code": "CUW",
+        "name": "Curacao",
+        "iso2": "CW",
+        "player": "Fred Dunn",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-14T20:00:00.000Z",
+      "ts": 1781467200000,
+      "round": "Group F",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "NLD",
+        "name": "Netherlands",
+        "iso2": "NL",
+        "player": "Bob Gibson",
+        "score": 2,
+        "winner": false
+      },
+      "away": {
+        "code": "JAP",
+        "name": "Japan",
+        "iso2": "JP",
+        "player": "Nick Foulkes",
+        "score": 2,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-14T23:00:00.000Z",
+      "ts": 1781478000000,
+      "round": "Group E",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "CIV",
+        "name": "Ivory Coast",
+        "iso2": "CI",
+        "player": "Robbie Godowski",
+        "score": 1,
+        "winner": true
+      },
+      "away": {
+        "code": "ECU",
+        "name": "Ecuador",
+        "iso2": "EC",
+        "player": "Frank Dunn",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-15T02:00:00.000Z",
+      "ts": 1781488800000,
+      "round": "Group F",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "SWE",
+        "name": "Sweden",
+        "iso2": "SE",
+        "player": "Madi Farrow-Dunn",
+        "score": 5,
+        "winner": true
+      },
+      "away": {
+        "code": "TUN",
+        "name": "Tunisia",
+        "iso2": "TN",
+        "player": "Sam King",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-15T16:00:00.000Z",
+      "ts": 1781539200000,
+      "round": "Group H",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "ESP",
+        "name": "Spain",
+        "iso2": "ES",
+        "player": "Adam Wright",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "CPV",
+        "name": "Cape Verde",
+        "iso2": "CV",
+        "player": "Guy Curry",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-15T19:00:00.000Z",
+      "ts": 1781550000000,
+      "round": "Group G",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE",
+        "player": "Fred Dunn",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "player": "Ali Taylor",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-15T22:00:00.000Z",
+      "ts": 1781560800000,
+      "round": "Group H",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "iso2": "SA",
+        "player": "Flora Curry",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "URY",
+        "name": "Uruguay",
+        "iso2": "UY",
+        "player": "Tom Gibbons",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-16T01:00:00.000Z",
+      "ts": 1781571600000,
+      "round": "Group G",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "IRN",
+        "name": "Iran",
+        "iso2": "IR",
+        "player": "Jess Forshaw",
+        "score": 2,
+        "winner": false
+      },
+      "away": {
+        "code": "NZL",
+        "name": "New Zealand",
+        "iso2": "NZ",
+        "player": "Madi Farrow-Dunn",
+        "score": 2,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-16T19:00:00.000Z",
+      "ts": 1781636400000,
+      "round": "Group I",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR",
+        "player": "Sam King",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "code": "SEN",
+        "name": "Senegal",
+        "iso2": "SN",
+        "player": "Sam Lowerson",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-16T22:00:00.000Z",
+      "ts": 1781647200000,
+      "round": "Group I",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "player": "Scott Rosseter",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO",
+        "player": "Jimena Barillas",
+        "score": 4,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-06-17T01:00:00.000Z",
+      "ts": 1781658000000,
+      "round": "Group J",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
+        "player": "Tom Clayton",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "code": "ALG",
+        "name": "Algeria",
+        "iso2": "DZ",
+        "player": "Bob Gibson",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-17T04:00:00.000Z",
+      "ts": 1781668800000,
+      "round": "Group J",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT",
+        "player": "Paul Mitchell",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-17T17:00:00.000Z",
+      "ts": 1781715600000,
+      "round": "Group K",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "POR",
+        "name": "Portugal",
+        "iso2": "PT",
+        "player": "Guy Curry",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "DRC",
+        "name": "DR Congo",
+        "iso2": "CD",
+        "player": "Nick Foulkes",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-17T20:00:00.000Z",
+      "ts": 1781726400000,
+      "round": "Group L",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG",
+        "player": "Scott Rosseter",
+        "score": 4,
+        "winner": true
+      },
+      "away": {
+        "code": "CRO",
+        "name": "Croatia",
+        "iso2": "HR",
+        "player": "Robin Parish",
+        "score": 2,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-17T23:00:00.000Z",
+      "ts": 1781737200000,
+      "round": "Group L",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "GHA",
+        "name": "Ghana",
+        "iso2": "GH",
+        "player": "Matt Deacock",
+        "score": 1,
+        "winner": true
+      },
+      "away": {
+        "code": "PAN",
+        "name": "Panama",
+        "iso2": "PA",
+        "player": "Me Julie",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-18T02:00:00.000Z",
+      "ts": 1781748000000,
+      "round": "Group K",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "iso2": "UZ",
+        "player": "Jimena Barillas",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "COL",
+        "name": "Colombia",
+        "iso2": "CO",
+        "player": "Matt Deacock",
+        "score": 3,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-06-18T16:00:00.000Z",
+      "ts": 1781798400000,
+      "round": "Group A",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "CZE",
+        "name": "Czechia",
+        "iso2": "CZ",
+        "player": "Laura Harrison",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "ZAF",
+        "name": "South Africa",
+        "iso2": "ZA",
+        "player": "Adam Wright",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-18T19:00:00.000Z",
+      "ts": 1781809200000,
+      "round": "Group B",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH",
+        "player": "Elizabeth Swords",
+        "score": 4,
+        "winner": true
+      },
+      "away": {
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "player": "Sam Lowerson",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-18T22:00:00.000Z",
+      "ts": 1781820000000,
+      "round": "Group B",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "CAN",
+        "name": "Canada",
+        "iso2": "CA",
+        "player": "Joe Clayton",
+        "score": 6,
+        "winner": true
+      },
+      "away": {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-19T01:00:00.000Z",
+      "ts": 1781830800000,
+      "round": "Group A",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX",
+        "player": "Robbie Godowski",
+        "score": 1,
+        "winner": true
+      },
+      "away": {
+        "code": "KOR",
+        "name": "South Korea",
+        "iso2": "KR",
+        "player": "Elizabeth Swords",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-19T19:00:00.000Z",
+      "ts": 1781895600000,
+      "round": "Group D",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "USA",
+        "name": "USA",
+        "iso2": "US",
+        "player": "Flora Curry",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "code": "AUS",
+        "name": "Australia",
+        "iso2": "AU",
+        "player": "Tom Gibbons",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-19T22:00:00.000Z",
+      "ts": 1781906400000,
+      "round": "Group C",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "SCO",
+        "name": "Scotland",
+        "iso2": "GB-SCT",
+        "player": "Paul Mitchell",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "MOR",
+        "name": "Morocco",
+        "iso2": "MA",
+        "player": "Ali Taylor",
+        "score": 1,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-06-20T00:30:00.000Z",
+      "ts": 1781915400000,
+      "round": "Group C",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "BRA",
+        "name": "Brazil",
+        "iso2": "BR",
+        "player": "Me Julie",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "code": "HTI",
+        "name": "Haiti",
+        "iso2": "HT",
+        "player": "Tom Clayton",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-20T03:00:00.000Z",
+      "ts": 1781924400000,
+      "round": "Group D",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "TUR",
+        "name": "Turkey",
+        "iso2": "TR",
+        "player": "Laura Harrison",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "player": "Robin Parish",
+        "score": 1,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-06-20T17:00:00.000Z",
+      "ts": 1781974800000,
+      "round": "Group F",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "NLD",
+        "name": "Netherlands",
+        "iso2": "NL",
+        "player": "Bob Gibson",
+        "score": 5,
+        "winner": true
+      },
+      "away": {
+        "code": "SWE",
+        "name": "Sweden",
+        "iso2": "SE",
+        "player": "Madi Farrow-Dunn",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-20T20:00:00.000Z",
+      "ts": 1781985600000,
+      "round": "Group E",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "GER",
+        "name": "Germany",
+        "iso2": "DE",
+        "player": "Jess Forshaw",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "code": "CIV",
+        "name": "Ivory Coast",
+        "iso2": "CI",
+        "player": "Robbie Godowski",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-21T00:00:00.000Z",
+      "ts": 1782000000000,
+      "round": "Group E",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "ECU",
+        "name": "Ecuador",
+        "iso2": "EC",
+        "player": "Frank Dunn",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "CUW",
+        "name": "Curacao",
+        "iso2": "CW",
+        "player": "Fred Dunn",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-21T04:00:00.000Z",
+      "ts": 1782014400000,
+      "round": "Group F",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "TUN",
+        "name": "Tunisia",
+        "iso2": "TN",
+        "player": "Sam King",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "JAP",
+        "name": "Japan",
+        "iso2": "JP",
+        "player": "Nick Foulkes",
+        "score": 4,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-06-21T16:00:00.000Z",
+      "ts": 1782057600000,
+      "round": "Group H",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "ESP",
+        "name": "Spain",
+        "iso2": "ES",
+        "player": "Adam Wright",
+        "score": 4,
+        "winner": true
+      },
+      "away": {
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "iso2": "SA",
+        "player": "Flora Curry",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-21T19:00:00.000Z",
+      "ts": 1782068400000,
+      "round": "Group G",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE",
+        "player": "Fred Dunn",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "IRN",
+        "name": "Iran",
+        "iso2": "IR",
+        "player": "Jess Forshaw",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-21T22:00:00.000Z",
+      "ts": 1782079200000,
+      "round": "Group H",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "URY",
+        "name": "Uruguay",
+        "iso2": "UY",
+        "player": "Tom Gibbons",
+        "score": 2,
+        "winner": false
+      },
+      "away": {
+        "code": "CPV",
+        "name": "Cape Verde",
+        "iso2": "CV",
+        "player": "Guy Curry",
+        "score": 2,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-22T01:00:00.000Z",
+      "ts": 1782090000000,
+      "round": "Group G",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "NZL",
+        "name": "New Zealand",
+        "iso2": "NZ",
+        "player": "Madi Farrow-Dunn",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "player": "Ali Taylor",
+        "score": 3,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-06-22T17:00:00.000Z",
+      "ts": 1782147600000,
+      "round": "Group J",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
+        "player": "Tom Clayton",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT",
+        "player": "Paul Mitchell",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-22T21:00:00.000Z",
+      "ts": 1782162000000,
+      "round": "Group I",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR",
+        "player": "Sam King",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "player": "Scott Rosseter",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-23T00:00:00.000Z",
+      "ts": 1782172800000,
+      "round": "Group I",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO",
+        "player": "Jimena Barillas",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "code": "SEN",
+        "name": "Senegal",
+        "iso2": "SN",
+        "player": "Sam Lowerson",
+        "score": 2,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-23T03:00:00.000Z",
+      "ts": 1782183600000,
+      "round": "Group J",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "ALG",
+        "name": "Algeria",
+        "iso2": "DZ",
+        "player": "Bob Gibson",
+        "score": 2,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-06-23T17:00:00.000Z",
+      "ts": 1782234000000,
+      "round": "Group K",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "POR",
+        "name": "Portugal",
+        "iso2": "PT",
+        "player": "Guy Curry",
+        "score": 5,
+        "winner": true
+      },
+      "away": {
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "iso2": "UZ",
+        "player": "Jimena Barillas",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-23T20:00:00.000Z",
+      "ts": 1782244800000,
+      "round": "Group L",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG",
+        "player": "Scott Rosseter",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "GHA",
+        "name": "Ghana",
+        "iso2": "GH",
+        "player": "Matt Deacock",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-23T23:00:00.000Z",
+      "ts": 1782255600000,
+      "round": "Group L",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "PAN",
+        "name": "Panama",
+        "iso2": "PA",
+        "player": "Me Julie",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "CRO",
+        "name": "Croatia",
+        "iso2": "HR",
+        "player": "Robin Parish",
+        "score": 1,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-06-24T02:00:00.000Z",
+      "ts": 1782266400000,
+      "round": "Group K",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "COL",
+        "name": "Colombia",
+        "iso2": "CO",
+        "player": "Matt Deacock",
+        "score": 1,
+        "winner": true
+      },
+      "away": {
+        "code": "DRC",
+        "name": "DR Congo",
+        "iso2": "CD",
+        "player": "Nick Foulkes",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-24T19:00:00.000Z",
+      "ts": 1782327600000,
+      "round": "Group B",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "player": "Sam Lowerson",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-24T19:00:00.000Z",
+      "ts": 1782327600000,
+      "round": "Group B",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH",
+        "player": "Elizabeth Swords",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "code": "CAN",
+        "name": "Canada",
+        "iso2": "CA",
+        "player": "Joe Clayton",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-24T22:00:00.000Z",
+      "ts": 1782338400000,
+      "round": "Group C",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "MOR",
+        "name": "Morocco",
+        "iso2": "MA",
+        "player": "Ali Taylor",
+        "score": 4,
+        "winner": true
+      },
+      "away": {
+        "code": "HTI",
+        "name": "Haiti",
+        "iso2": "HT",
+        "player": "Tom Clayton",
+        "score": 2,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-24T22:00:00.000Z",
+      "ts": 1782338400000,
+      "round": "Group C",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "SCO",
+        "name": "Scotland",
+        "iso2": "GB-SCT",
+        "player": "Paul Mitchell",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "BRA",
+        "name": "Brazil",
+        "iso2": "BR",
+        "player": "Me Julie",
+        "score": 3,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-06-25T01:00:00.000Z",
+      "ts": 1782349200000,
+      "round": "Group A",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "ZAF",
+        "name": "South Africa",
+        "iso2": "ZA",
+        "player": "Adam Wright",
+        "score": 1,
+        "winner": true
+      },
+      "away": {
+        "code": "KOR",
+        "name": "South Korea",
+        "iso2": "KR",
+        "player": "Elizabeth Swords",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-25T01:00:00.000Z",
+      "ts": 1782349200000,
+      "round": "Group A",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "CZE",
+        "name": "Czechia",
+        "iso2": "CZ",
+        "player": "Laura Harrison",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX",
+        "player": "Robbie Godowski",
+        "score": 3,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-06-25T20:00:00.000Z",
+      "ts": 1782417600000,
+      "round": "Group E",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "CUW",
+        "name": "Curacao",
+        "iso2": "CW",
+        "player": "Fred Dunn",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "CIV",
+        "name": "Ivory Coast",
+        "iso2": "CI",
+        "player": "Robbie Godowski",
+        "score": 2,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-06-25T20:00:00.000Z",
+      "ts": 1782417600000,
+      "round": "Group E",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "ECU",
+        "name": "Ecuador",
+        "iso2": "EC",
+        "player": "Frank Dunn",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "code": "GER",
+        "name": "Germany",
+        "iso2": "DE",
+        "player": "Jess Forshaw",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-25T23:00:00.000Z",
+      "ts": 1782428400000,
+      "round": "Group F",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "JAP",
+        "name": "Japan",
+        "iso2": "JP",
+        "player": "Nick Foulkes",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "SWE",
+        "name": "Sweden",
+        "iso2": "SE",
+        "player": "Madi Farrow-Dunn",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-25T23:00:00.000Z",
+      "ts": 1782428400000,
+      "round": "Group F",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "TUN",
+        "name": "Tunisia",
+        "iso2": "TN",
+        "player": "Sam King",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "NLD",
+        "name": "Netherlands",
+        "iso2": "NL",
+        "player": "Bob Gibson",
+        "score": 3,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-06-26T02:00:00.000Z",
+      "ts": 1782439200000,
+      "round": "Group D",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "player": "Robin Parish",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "AUS",
+        "name": "Australia",
+        "iso2": "AU",
+        "player": "Tom Gibbons",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-26T02:00:00.000Z",
+      "ts": 1782439200000,
+      "round": "Group D",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "TUR",
+        "name": "Turkey",
+        "iso2": "TR",
+        "player": "Laura Harrison",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "code": "USA",
+        "name": "USA",
+        "iso2": "US",
+        "player": "Flora Curry",
+        "score": 2,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-26T19:00:00.000Z",
+      "ts": 1782500400000,
+      "round": "Group I",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO",
+        "player": "Jimena Barillas",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR",
+        "player": "Sam King",
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-26T19:00:00.000Z",
+      "ts": 1782500400000,
+      "round": "Group I",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "SEN",
+        "name": "Senegal",
+        "iso2": "SN",
+        "player": "Sam Lowerson",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "player": "Scott Rosseter",
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-27T00:00:00.000Z",
+      "ts": 1782518400000,
+      "round": "Group H",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "URY",
+        "name": "Uruguay",
+        "iso2": "UY",
+        "player": "Tom Gibbons",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": "ESP",
+        "name": "Spain",
+        "iso2": "ES",
+        "player": "Adam Wright",
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-27T00:00:00.000Z",
+      "ts": 1782518400000,
+      "round": "Group H",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "CPV",
+        "name": "Cape Verde",
+        "iso2": "CV",
+        "player": "Guy Curry",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "iso2": "SA",
+        "player": "Flora Curry",
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-27T03:00:00.000Z",
+      "ts": 1782529200000,
+      "round": "Group G",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "player": "Ali Taylor",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": "IRN",
+        "name": "Iran",
+        "iso2": "IR",
+        "player": "Jess Forshaw",
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-27T03:00:00.000Z",
+      "ts": 1782529200000,
+      "round": "Group G",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "NZL",
+        "name": "New Zealand",
+        "iso2": "NZ",
+        "player": "Madi Farrow-Dunn",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE",
+        "player": "Fred Dunn",
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-27T21:00:00.000Z",
+      "ts": 1782594000000,
+      "round": "Group L",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "PAN",
+        "name": "Panama",
+        "iso2": "PA",
+        "player": "Me Julie",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG",
+        "player": "Scott Rosseter",
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-27T21:00:00.000Z",
+      "ts": 1782594000000,
+      "round": "Group L",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "CRO",
+        "name": "Croatia",
+        "iso2": "HR",
+        "player": "Robin Parish",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": "GHA",
+        "name": "Ghana",
+        "iso2": "GH",
+        "player": "Matt Deacock",
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-27T23:30:00.000Z",
+      "ts": 1782603000000,
+      "round": "Group K",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "COL",
+        "name": "Colombia",
+        "iso2": "CO",
+        "player": "Matt Deacock",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": "POR",
+        "name": "Portugal",
+        "iso2": "PT",
+        "player": "Guy Curry",
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-27T23:30:00.000Z",
+      "ts": 1782603000000,
+      "round": "Group K",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "DRC",
+        "name": "DR Congo",
+        "iso2": "CD",
+        "player": "Nick Foulkes",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "iso2": "UZ",
+        "player": "Jimena Barillas",
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-28T02:00:00.000Z",
+      "ts": 1782612000000,
+      "round": "Group J",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
+        "player": "Tom Clayton",
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-28T02:00:00.000Z",
+      "ts": 1782612000000,
+      "round": "Group J",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "ALG",
+        "name": "Algeria",
+        "iso2": "DZ",
+        "player": "Bob Gibson",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT",
+        "player": "Paul Mitchell",
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-28T19:00:00.000Z",
+      "ts": 1782673200000,
+      "round": "Round of 32",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "ZAF",
+        "name": "South Africa",
+        "iso2": "ZA",
+        "player": "Adam Wright",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": "CAN",
+        "name": "Canada",
+        "iso2": "CA",
+        "player": "Joe Clayton",
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-29T17:00:00.000Z",
+      "ts": 1782752400000,
+      "round": "Round of 32",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "BRA",
+        "name": "Brazil",
+        "iso2": "BR",
+        "player": "Me Julie",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": "JAP",
+        "name": "Japan",
+        "iso2": "JP",
+        "player": "Nick Foulkes",
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-29T20:30:00.000Z",
+      "ts": 1782765000000,
+      "round": "Round of 32",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "GER",
+        "name": "Germany",
+        "iso2": "DE",
+        "player": "Jess Forshaw",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "3A/3B/3C/3D/3F",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-30T01:00:00.000Z",
+      "ts": 1782781200000,
+      "round": "Round of 32",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "NLD",
+        "name": "Netherlands",
+        "iso2": "NL",
+        "player": "Bob Gibson",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": "MOR",
+        "name": "Morocco",
+        "iso2": "MA",
+        "player": "Ali Taylor",
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-30T17:00:00.000Z",
+      "ts": 1782838800000,
+      "round": "Round of 32",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "CIV",
+        "name": "Ivory Coast",
+        "iso2": "CI",
+        "player": "Robbie Godowski",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "2I",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-30T21:00:00.000Z",
+      "ts": 1782853200000,
+      "round": "Round of 32",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "1I",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "3C/3D/3F/3G/3H",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-01T01:00:00.000Z",
+      "ts": 1782867600000,
+      "round": "Round of 32",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX",
+        "player": "Robbie Godowski",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "3C/3E/3F/3H/3I",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-01T16:00:00.000Z",
+      "ts": 1782921600000,
+      "round": "Round of 32",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "1L",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "3E/3H/3I/3J/3K",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-01T20:00:00.000Z",
+      "ts": 1782936000000,
+      "round": "Round of 32",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "G1",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "3A/3E/3H/3I/3J",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-02T00:00:00.000Z",
+      "ts": 1782950400000,
+      "round": "Round of 32",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "USA",
+        "name": "USA",
+        "iso2": "US",
+        "player": "Flora Curry",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "player": "Sam Lowerson",
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-02T19:00:00.000Z",
+      "ts": 1783018800000,
+      "round": "Round of 32",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "H1",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "2J",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-02T23:00:00.000Z",
+      "ts": 1783033200000,
+      "round": "Round of 32",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "2K",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "2L",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-03T03:00:00.000Z",
+      "ts": 1783047600000,
+      "round": "Round of 32",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH",
+        "player": "Elizabeth Swords",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "3E/3F/3G/3I/3J",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-03T18:00:00.000Z",
+      "ts": 1783101600000,
+      "round": "Round of 32",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "AUS",
+        "name": "Australia",
+        "iso2": "AU",
+        "player": "Tom Gibbons",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "G2",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-03T22:00:00.000Z",
+      "ts": 1783116000000,
+      "round": "Round of 32",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
+        "player": "Tom Clayton",
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "H2",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-04T01:30:00.000Z",
+      "ts": 1783128600000,
+      "round": "Round of 32",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "1K",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "3D/3E/3I/3J/3L",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-04T17:00:00.000Z",
+      "ts": 1783184400000,
+      "round": "Round of 16",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "W73",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "W75",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-04T21:00:00.000Z",
+      "ts": 1783198800000,
+      "round": "Round of 16",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "W74",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "W77",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-05T20:00:00.000Z",
+      "ts": 1783281600000,
+      "round": "Round of 16",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "W76",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "W78",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-06T00:00:00.000Z",
+      "ts": 1783296000000,
+      "round": "Round of 16",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "W79",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "W80",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-06T19:00:00.000Z",
+      "ts": 1783364400000,
+      "round": "Round of 16",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "W83",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "W84",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-07T00:00:00.000Z",
+      "ts": 1783382400000,
+      "round": "Round of 16",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "W81",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "W82",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-07T16:00:00.000Z",
+      "ts": 1783440000000,
+      "round": "Round of 16",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "W86",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "W88",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-07T20:00:00.000Z",
+      "ts": 1783454400000,
+      "round": "Round of 16",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "W85",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "W87",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-09T20:00:00.000Z",
+      "ts": 1783627200000,
+      "round": "Quarter-finals",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "W89",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "W90",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-10T19:00:00.000Z",
+      "ts": 1783710000000,
+      "round": "Quarter-finals",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "W93",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "W94",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-11T21:00:00.000Z",
+      "ts": 1783803600000,
+      "round": "Quarter-finals",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "W91",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "W92",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-12T01:00:00.000Z",
+      "ts": 1783818000000,
+      "round": "Quarter-finals",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "W95",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "W96",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-14T19:00:00.000Z",
+      "ts": 1784055600000,
+      "round": "Semi-finals",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "W97",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "W98",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-15T19:00:00.000Z",
+      "ts": 1784142000000,
+      "round": "Semi-finals",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "W99",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "W100",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-18T21:00:00.000Z",
+      "ts": 1784408400000,
+      "round": "3rd Place Play-off",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "L101",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "L102",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-07-19T19:00:00.000Z",
+      "ts": 1784487600000,
+      "round": "Final",
+      "status": "NS",
+      "finished": false,
+      "home": {
+        "code": null,
+        "name": "W101",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      },
+      "away": {
+        "code": null,
+        "name": "W102",
+        "iso2": null,
+        "player": null,
+        "score": null,
+        "winner": false
+      }
+    }
+  ],
   "meta": {
     "source": "SofaScore",
     "matches": 104,

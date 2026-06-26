@@ -258,6 +258,62 @@
     }));
   }
 
+  // --- render: fixtures & results (grouped by day, filterable) -------------
+  let fixturesData = [];
+  let fixtureFilter = 'all';
+
+  function renderFixtures(fixtures) {
+    fixturesData = fixtures || [];
+    drawFixtures();
+    const fil = $('#fxFilter');
+    if (fil && !fil.dataset.wired) {
+      fil.dataset.wired = '1';
+      fil.querySelectorAll('.round-btn').forEach((btn) => btn.addEventListener('click', () => {
+        fixtureFilter = btn.getAttribute('data-filter');
+        fil.querySelectorAll('.round-btn').forEach((b) => b.classList.toggle('active', b === btn));
+        drawFixtures();
+      }));
+    }
+  }
+
+  function drawFixtures() {
+    const list = $('#fixturesList');
+    let items = fixturesData;
+    if (fixtureFilter === 'results') items = items.filter((f) => f.finished);
+    else if (fixtureFilter === 'upcoming') items = items.filter((f) => !f.finished);
+    if (!items.length) { list.innerHTML = `<p class="empty">Nothing to show here yet.</p>`; return; }
+
+    const order = []; const byDay = new Map();
+    for (const f of items) {
+      const d = new Date(f.date);
+      const key = isNaN(d) ? 'Date TBC' : d.toLocaleDateString(undefined, { weekday: 'long', day: 'numeric', month: 'long' });
+      if (!byDay.has(key)) { byDay.set(key, []); order.push(key); }
+      byDay.get(key).push(f);
+    }
+    list.innerHTML = order.map((key) =>
+      `<div class="fx-day"><h3 class="fx-date">${esc(key)}</h3>${byDay.get(key).map(fixtureRow).join('')}</div>`
+    ).join('');
+  }
+
+  function fixtureRow(f) {
+    const time = () => { const d = new Date(f.date); return isNaN(d) ? '' : d.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' }); };
+    const mid = f.finished
+      ? `<span class="fx-score">${f.home.score ?? ''}–${f.away.score ?? ''}</span>`
+      : `<span class="fx-time">${esc(time())}</span>`;
+    const owner = (t) => t.player ? `<span class="fx-owner">${esc(t.player)}</span>` : '';
+    return `<div class="fx-match">
+      <span class="fx-side home ${f.home.winner ? 'win' : ''}">
+        <span class="fx-meta r"><span class="fx-name">${esc(f.home.name)}</span>${owner(f.home)}</span>
+        <span class="flag">${flag(f.home.iso2)}</span>
+      </span>
+      <span class="fx-mid">${mid}<span class="fx-round">${esc(f.round)}</span></span>
+      <span class="fx-side away ${f.away.winner ? 'win' : ''}">
+        <span class="flag">${flag(f.away.iso2)}</span>
+        <span class="fx-meta l"><span class="fx-name">${esc(f.away.name)}</span>${owner(f.away)}</span>
+      </span>
+    </div>`;
+  }
+
   // --- tab switching --------------------------------------------------------
   function initTabs() {
     const btns = document.querySelectorAll('.tab-btn');
@@ -285,6 +341,7 @@
       renderThirds(data.thirdPlaced || []);
       renderGroups(data.groups || []);
       renderBracket(data.bracket);
+      renderFixtures(data.fixtures || []);
 
       $('#lockState').textContent = data.groupStageComplete ? 'FROZEN — group stage complete' : 'live — group stage in progress';
       $('#lockState').classList.toggle('frozen', !!data.groupStageComplete);

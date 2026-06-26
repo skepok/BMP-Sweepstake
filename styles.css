@@ -140,6 +140,29 @@ body {
   .bracket-round-title { display: none; }
 }
 
+/* Fixtures & results */
+.fx-filter { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
+.fx-day { margin-bottom: 18px; }
+.fx-date { font-size: .82rem; font-weight: 700; color: var(--muted); margin: 0 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
+.fx-match {
+  display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+  box-shadow: var(--shadow); padding: 8px 10px; margin-bottom: 6px;
+}
+.fx-side { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.fx-side.home { justify-content: flex-end; }
+.fx-side.away { justify-content: flex-start; }
+.fx-side .flag { font-size: 1.2rem; flex: none; }
+.fx-meta { display: flex; flex-direction: column; line-height: 1.15; min-width: 0; }
+.fx-meta.r { align-items: flex-end; text-align: right; }
+.fx-name { font-weight: 600; font-size: .9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 40vw; }
+.fx-owner { font-size: .7rem; color: var(--muted); }
+.fx-side.win .fx-name { color: var(--alive); font-weight: 800; }
+.fx-mid { display: flex; flex-direction: column; align-items: center; gap: 2px; flex: none; min-width: 64px; }
+.fx-score { font-weight: 800; font-variant-numeric: tabular-nums; background: var(--ink); color: #fff; border-radius: 6px; padding: 1px 8px; }
+.fx-time { font-weight: 700; font-variant-numeric: tabular-nums; color: var(--gold-deep); }
+.fx-round { font-size: .62rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); white-space: nowrap; }
+
 .section { margin: 26px 0; }
 .section h2 { font-size: 1.25rem; margin: 0 0 4px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .note { color: var(--muted); font-size: .86rem; margin: 0 0 14px; }

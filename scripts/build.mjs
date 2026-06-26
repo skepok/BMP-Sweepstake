@@ -398,6 +398,20 @@ async function writeStandings({ players, teamByCode, fixtures, standings, events
   // ---- knockout bracket (from cuptree + match scores) ---------------------
   const bracket = buildBracket(bracketRaw, new Map(enriched.map((e) => [e.id, e])), teamByCode, (n) => lookupCodeByName(n, players));
 
+  // ---- full fixtures / results list (chronological) -----------------------
+  const fxRef = (sde) => {
+    const t = sde.code ? teamByCode.get(sde.code) : null;
+    return { code: sde.code || null, name: t?.name || sde.name || 'TBC', iso2: t?.iso2 || null, player: t?.player || null, score: sde.goals ?? null, winner: sde.winner === true };
+  };
+  const fixtureList = enriched
+    .filter((e) => e.home.name || e.away.name)
+    .map((e) => {
+      const grp = e.cls.kind === 'group' ? (groupByCode.get(e.home.code)?.group || groupByCode.get(e.away.code)?.group) : null;
+      const round = e.cls.kind === 'group' ? (grp || 'Group Stage') : (e.cls.label || e.round);
+      return { date: e.date, ts: e.ts, round, status: e.statusShort, finished: e.finished, home: fxRef(e.home), away: fxRef(e.away) };
+    })
+    .sort((a, b) => (a.ts || 0) - (b.ts || 0));
+
   const knockoutsStarted = enriched.some((f) => f.cls.kind === 'ko' && f.finished);
   const koFixturesExist = enriched.some((f) => f.cls.kind === 'ko' || f.cls.kind === 'third');
   const groupStageComplete = enriched.length > 0 &&
@@ -480,6 +494,7 @@ async function writeStandings({ players, teamByCode, fixtures, standings, events
     groups,
     thirdPlaced,
     bracket,
+    fixtures: fixtureList,
     meta,
   };
 
