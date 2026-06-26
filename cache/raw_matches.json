@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-26T21:00:08.486005+00:00",
+  "fetchedAt": "2026-06-26T21:30:08.263855+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -637,25 +637,33 @@
       "id": 15186771,
       "round": "Group Stage",
       "startTimestamp": 1782500400,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Senegal",
         "score": 5,
-        "winner": null
+        "winner": true
       },
       "away": {
         "name": "Iraq",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "redCards": {
         "Iraq": 1
       },
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Iraq": 2,
+        "Senegal": 2
+      },
+      "fastestGoal": {
+        "minute": 4,
+        "addedTime": null,
+        "scorer": "Habib Diarra",
+        "team": "Senegal"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186537,
@@ -1686,7 +1694,7 @@
         "winner": null
       },
       "away": {
-        "name": "2I",
+        "name": "Norway",
         "score": null,
         "winner": null
       },
@@ -1703,7 +1711,7 @@
       "startTimestamp": 1782853200,
       "status": "notstarted",
       "home": {
-        "name": "1I",
+        "name": "France",
         "score": null,
         "winner": null
       },
@@ -2901,9 +2909,9 @@
           "kickoff": 1782853200,
           "participants": [
             {
-              "name": "1I",
-              "code": "1I",
-              "placeholder": true,
+              "name": "France",
+              "code": "FRA",
+              "placeholder": false,
               "winner": false
             },
             {
@@ -3059,9 +3067,9 @@
               "winner": false
             },
             {
-              "name": "2I",
-              "code": "2I",
-              "placeholder": true,
+              "name": "Norway",
+              "code": "NOR",
+              "placeholder": false,
               "winner": false
             }
           ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T21:00:08.570Z",
+  "lastUpdated": "2026-06-26T21:30:09.568Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,18 +39,18 @@
   "banner": {
     "nextFixture": {
       "round": "Group Stage",
-      "kickoff": "2026-06-26T19:00:00.000Z",
-      "kickoffUnix": 1782500400000,
-      "status": "1H",
+      "kickoff": "2026-06-27T00:00:00.000Z",
+      "kickoffUnix": 1782518400000,
+      "status": "NS",
       "home": {
-        "code": "SEN",
-        "name": "Senegal",
-        "iso2": "SN"
+        "code": "URY",
+        "name": "Uruguay",
+        "iso2": "UY"
       },
       "away": {
-        "code": "IRQ",
-        "name": "Iraq",
-        "iso2": "IQ"
+        "code": "ESP",
+        "name": "Spain",
+        "iso2": "ES"
       }
     },
     "lastFinished": {
@@ -59,16 +59,16 @@
       "kickoffUnix": 1782500400000,
       "status": "FT",
       "home": {
-        "code": "NOR",
-        "name": "Norway",
-        "iso2": "NO",
-        "goals": 1
+        "code": "SEN",
+        "name": "Senegal",
+        "iso2": "SN",
+        "goals": 5
       },
       "away": {
-        "code": "FRA",
-        "name": "France",
-        "iso2": "FR",
-        "goals": 4
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "goals": 0
       }
     }
   },
@@ -1280,7 +1280,7 @@
             "pts": 0
           },
           "goalsConceded": 12,
-          "redCards": 0,
+          "redCards": 1,
           "ownGoals": 1
         }
       ]
@@ -1758,6 +1758,13 @@
         "value": 1
       },
       {
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "player": "Scott Rosseter",
+        "value": 1
+      },
+      {
         "code": "PAR",
         "name": "Paraguay",
         "iso2": "PY",
@@ -1902,13 +1909,6 @@
         "name": "Iran",
         "iso2": "IR",
         "player": "Jess Forshaw",
-        "value": 0
-      },
-      {
-        "code": "IRQ",
-        "name": "Iraq",
-        "iso2": "IQ",
-        "player": "Scott Rosseter",
         "value": 0
       },
       {
@@ -3387,11 +3387,11 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Winner Group I",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "France",
+              "code": "FRA",
+              "iso2": "FR",
+              "player": "Sam King",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
@@ -3588,11 +3588,11 @@
               "winner": false
             },
             "away": {
-              "name": "Runner-up Group I",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Norway",
+              "code": "NOR",
+              "iso2": "NO",
+              "player": "Jimena Barillas",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -5488,15 +5488,15 @@
       "date": "2026-06-26T19:00:00.000Z",
       "ts": 1782500400000,
       "round": "Group I",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "SEN",
         "name": "Senegal",
         "iso2": "SN",
         "player": "Sam Lowerson",
         "score": 5,
-        "winner": false
+        "winner": true
       },
       "away": {
         "code": "IRQ",
@@ -5867,10 +5867,10 @@
         "winner": false
       },
       "away": {
-        "code": null,
-        "name": "2I",
-        "iso2": null,
-        "player": null,
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO",
+        "player": "Jimena Barillas",
         "score": null,
         "winner": false
       }
@@ -5882,10 +5882,10 @@
       "status": "NS",
       "finished": false,
       "home": {
-        "code": null,
-        "name": "1I",
-        "iso2": null,
-        "player": null,
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR",
+        "player": "Sam King",
         "score": null,
         "winner": false
       },
@@ -7008,6 +7008,14 @@
     },
     "okr": [
       {
+        "player": "Scott Rosseter",
+        "conceded": 14,
+        "losses": 3,
+        "yellows": 2,
+        "reds": 1,
+        "score": 21
+      },
+      {
         "player": "Jimena Barillas",
         "conceded": 15,
         "losses": 3,
@@ -7024,28 +7032,20 @@
         "score": 19
       },
       {
+        "player": "Sam Lowerson",
+        "conceded": 12,
+        "losses": 3,
+        "yellows": 2,
+        "reds": 1,
+        "score": 19
+      },
+      {
         "player": "Sam King",
         "conceded": 14,
         "losses": 3,
         "yellows": 1,
         "reds": 0,
         "score": 18
-      },
-      {
-        "player": "Scott Rosseter",
-        "conceded": 14,
-        "losses": 3,
-        "yellows": 0,
-        "reds": 0,
-        "score": 17
-      },
-      {
-        "player": "Sam Lowerson",
-        "conceded": 12,
-        "losses": 3,
-        "yellows": 0,
-        "reds": 1,
-        "score": 17
       },
       {
         "player": "Laura Harrison",
@@ -7201,19 +7201,19 @@
       }
     ],
     "fastestGoal": {
-      "minute": 7,
+      "minute": 4,
       "addedTime": null,
-      "scorer": "Ousmane Dembélé",
-      "team": "France",
-      "iso2": "FR",
-      "player": "Sam King",
-      "match": "Norway v France"
+      "scorer": "Habib Diarra",
+      "team": "Senegal",
+      "iso2": "SN",
+      "player": "Sam Lowerson",
+      "match": "Senegal v Iraq"
     },
     "fastestOwnGoal": null
   },
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-06-26T21:00:08.486005+00:00"
+    "scrapedAt": "2026-06-26T21:30:08.263855+00:00"
   }
 }
