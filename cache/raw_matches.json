@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-26T20:30:07.059414+00:00",
+  "fetchedAt": "2026-06-26T21:00:08.486005+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -640,7 +640,7 @@
       "status": "inprogress",
       "home": {
         "name": "Senegal",
-        "score": 3,
+        "score": 5,
         "winner": null
       },
       "away": {
@@ -661,23 +661,31 @@
       "id": 15186537,
       "round": "Group Stage",
       "startTimestamp": 1782500400,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Norway",
         "score": 1,
-        "winner": null
+        "winner": false
       },
       "away": {
         "name": "France",
-        "score": 3,
-        "winner": null
+        "score": 4,
+        "winner": true
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "France": 1,
+        "Norway": 1
+      },
+      "fastestGoal": {
+        "minute": 7,
+        "addedTime": null,
+        "scorer": "Ousmane Dembélé",
+        "team": "France"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186836,
@@ -2677,7 +2685,7 @@
       "w": 3,
       "d": 0,
       "l": 0,
-      "gf": 9,
+      "gf": 10,
       "ga": 2,
       "pts": 9
     },
@@ -2690,7 +2698,7 @@
       "d": 0,
       "l": 1,
       "gf": 8,
-      "ga": 6,
+      "ga": 7,
       "pts": 6
     },
     {
@@ -2701,7 +2709,7 @@
       "w": 1,
       "d": 0,
       "l": 2,
-      "gf": 6,
+      "gf": 8,
       "ga": 6,
       "pts": 3
     },
@@ -2714,7 +2722,7 @@
       "d": 0,
       "l": 3,
       "gf": 1,
-      "ga": 10,
+      "ga": 12,
       "pts": 0
     },
     {
