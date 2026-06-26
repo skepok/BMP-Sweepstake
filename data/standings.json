@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T06:02:10.263Z",
+  "lastUpdated": "2026-06-26T12:14:22.748Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -3675,11 +3675,11 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Runner-up Group D",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Australia",
+              "code": "AUS",
+              "iso2": "AU",
+              "player": "Tom Gibbons",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
@@ -4152,6 +4152,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-06-26T06:02:10.112990+00:00"
+    "scrapedAt": "2026-06-26T12:14:22.657981+00:00"
   }
 }

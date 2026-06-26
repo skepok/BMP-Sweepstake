@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-26T06:02:10.112990+00:00",
+  "fetchedAt": "2026-06-26T12:14:22.657981+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -2854,9 +2854,9 @@
           "kickoff": 1783101600,
           "participants": [
             {
-              "name": "2D",
-              "code": "2D",
-              "placeholder": true,
+              "name": "Australia",
+              "code": "AUS",
+              "placeholder": false,
               "winner": false
             },
             {
