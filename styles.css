@@ -71,12 +71,12 @@ body {
 
 /* Sections */
 /* Tabs */
-.tabs { display: flex; gap: 6px; margin: 16px 0 4px; border-bottom: 2px solid var(--line); }
+.tabs { display: flex; gap: 6px; margin: 16px 0 4px; border-bottom: 2px solid var(--line); overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .tab-btn {
   appearance: none; border: 0; background: none; cursor: pointer;
   font: inherit; font-weight: 600; color: var(--muted);
   padding: 10px 16px; border-radius: 10px 10px 0 0; margin-bottom: -2px;
-  border-bottom: 2px solid transparent;
+  border-bottom: 2px solid transparent; white-space: nowrap; flex: none;
 }
 .tab-btn:hover { color: var(--ink); }
 .tab-btn.active { color: var(--pitch); border-bottom-color: var(--pitch); background: var(--card); }
@@ -162,6 +162,17 @@ body {
 .fx-score { font-weight: 800; font-variant-numeric: tabular-nums; background: var(--ink); color: #fff; border-radius: 6px; padding: 1px 8px; }
 .fx-time { font-weight: 700; font-variant-numeric: tabular-nums; color: var(--gold-deep); }
 .fx-round { font-size: .62rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); white-space: nowrap; }
+
+/* Bragging-rights (cashless) prizes */
+.cash-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); margin-bottom: 16px; }
+.cash-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 14px 16px; }
+.cash-card h3 { margin: 0 0 10px; font-size: .92rem; }
+.cash-big { margin: 0; font-size: 1.25rem; font-weight: 800; line-height: 1.2; }
+.cash-big .flag { font-size: 1.3rem; }
+.cash-sub { margin: 6px 0 0; font-size: .84rem; color: var(--ink); }
+.cash-match { margin: 4px 0 0; font-size: .75rem; color: var(--muted); }
+.cash-pending { margin: 0; font-size: .85rem; color: var(--muted); font-style: italic; }
+.board li .val small { font-weight: 500; color: var(--muted); font-size: .72rem; }
 
 .section { margin: 26px 0; }
 .section h2 { font-size: 1.25rem; margin: 0 0 4px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }

@@ -179,21 +179,54 @@ def fetch_bracket():
     return out
 
 
-def fetch_own_goals(event_id, home_name, away_name):
-    """Own goals by COMMITTING team. (Red cards come from the events feed instead.)
+def fetch_incidents(event_id, home_name, away_name):
+    """From a match's incidents, return:
+      - own goals by COMMITTING team (dict)
+      - yellow cards by team (dict; reds come from the events feed)
+      - the earliest goal in the match (for the 'fastest goal' prize)
+      - the earliest own goal in the match (for 'fastest own goal')
 
-    Confirmed against real data: SofaScore credits an own goal to the BENEFITING
-    side (isHome) and the scorer is from the other team — so the committing team
-    is the opposite of isHome. If a future own goal ever lands on the wrong team,
-    swap the two names below.
+    Own-goal attribution confirmed against real data: SofaScore credits the goal
+    to the BENEFITING side (isHome); the committing team is the opposite. If one
+    ever lands on the wrong team, swap the two names in the own-goal branch.
     """
     data = get_json(f"/event/{event_id}/incidents")
     own = {}
+    yellow = {}
+    fastest_goal = None
+    fastest_own = None
+
+    def earlier(cur, cand):
+        if cur is None:
+            return cand
+        ck = cur["minute"] * 100 + (cur.get("addedTime") or 0)
+        nk = cand["minute"] * 100 + (cand.get("addedTime") or 0)
+        return cand if nk < ck else cur
+
     for inc in (data or {}).get("incidents", []):
-        if inc.get("incidentType") == "goal" and (inc.get("incidentClass") or "").lower() == "owngoal":
-            team = away_name if inc.get("isHome") else home_name
-            own[team] = own.get(team, 0) + 1
-    return own
+        itype = inc.get("incidentType")
+        cls = (inc.get("incidentClass") or "").lower()
+        is_home = inc.get("isHome")
+        if itype == "card" and cls == "yellow":  # plain yellows; reds come from the events feed
+            team = home_name if is_home else away_name
+            yellow[team] = yellow.get(team, 0) + 1
+            continue
+        if itype != "goal":
+            continue
+        minute = inc.get("time")
+        scorer = (inc.get("player") or {}).get("name")
+        if minute is None:
+            continue
+        if cls == "owngoal":
+            committing = away_name if is_home else home_name
+            own[committing] = own.get(committing, 0) + 1
+            fastest_own = earlier(fastest_own, {"minute": minute, "addedTime": inc.get("addedTime"),
+                                                "scorer": scorer, "team": committing})
+        else:
+            scoring = home_name if is_home else away_name
+            fastest_goal = earlier(fastest_goal, {"minute": minute, "addedTime": inc.get("addedTime"),
+                                                  "scorer": scorer, "team": scoring})
+    return own, yellow, fastest_goal, fastest_own
 
 
 def main():
@@ -245,19 +278,28 @@ def main():
             "home": {"name": home, "score": hs, "winner": (wc == 1) if finished else None},
             "away": {"name": away, "score": as_, "winner": (wc == 2) if finished else None},
             "redCards": red,
-            "ownGoals": {},          # filled from incidents (own goals aren't in the events feed)
+            "ownGoals": {},            # filled from incidents (own goals aren't in the events feed)
+            "yellowCards": {},         # filled from incidents (yellows aren't in the events feed)
+            "fastestGoal": None,       # earliest goal in this match {minute, addedTime, scorer, team}
+            "fastestOwnGoal": None,    # earliest own goal in this match
             "incidentsFetched": False,
         }
 
         prev_m = old.get(eid)
         if finished and prev_m and prev_m.get("incidentsFetched"):
-            # Reuse cached own goals — never re-fetch a finished match's incidents.
+            # Reuse cached incidents — never re-fetch a finished match's incidents.
             m["incidentsFetched"] = True
             m["ownGoals"] = prev_m.get("ownGoals", {})
+            m["yellowCards"] = prev_m.get("yellowCards", {})
+            m["fastestGoal"] = prev_m.get("fastestGoal")
+            m["fastestOwnGoal"] = prev_m.get("fastestOwnGoal")
         elif finished and home and away:
-            own = fetch_own_goals(eid, home, away)
+            own, yellow, fastest_goal, fastest_own = fetch_incidents(eid, home, away)
             m["incidentsFetched"] = True
             m["ownGoals"] = own
+            m["yellowCards"] = yellow
+            m["fastestGoal"] = fastest_goal
+            m["fastestOwnGoal"] = fastest_own
             fetched_incidents += 1
             polite_sleep()
             print(f"  + {home} {hs}-{as_} {away} ({m['round']})"

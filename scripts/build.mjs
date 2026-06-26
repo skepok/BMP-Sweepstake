@@ -138,9 +138,9 @@ async function main() {
   const raw = await readJson(rawPath);
   if (raw && Array.isArray(raw.matches)) {
     log(`Building from SofaScore data (${raw.matches.length} matches, scraped ${raw.fetchedAt || '?'}).`);
-    const { fixtures, standings, events } = adaptSofaScore(raw, resolveCode);
+    const { fixtures, standings, events, fastest } = adaptSofaScore(raw, resolveCode);
     await writeStandings({
-      players, teamByCode, fixtures, standings, events, bracketRaw: raw.bracket || null,
+      players, teamByCode, fixtures, standings, events, bracketRaw: raw.bracket || null, fastest,
       source: 'SofaScore', season: raw.season || SEASON,
       meta: { source: 'SofaScore', matches: raw.matches.length, scrapedAt: raw.fetchedAt || null },
     });
@@ -310,26 +310,38 @@ function adaptSofaScore(raw, resolveCode) {
   }));
   const standings = rows.length ? [{ league: { standings: [rows] } }] : [];
 
-  // Per-match red cards / own goals (by team name) -> events map keyed by id, by code.
+  // Per-match cards / own goals (by team name) -> events map keyed by id, by code.
+  // GROUP STAGE ONLY: the red/own-goal/yellow prizes are group-stage awards, so
+  // knockout incidents must not count toward them.
   const events = {};
   const unmatched = new Set();
   for (const m of raw.matches || []) {
     if (!m.incidentsFetched) continue;
-    const red = {}; const own = {};
-    for (const [name, n] of Object.entries(m.redCards || {})) {
-      const code = resolveCode(name); if (code && n) red[code] = (red[code] || 0) + n; else if (n) unmatched.add(name);
-    }
-    for (const [name, n] of Object.entries(m.ownGoals || {})) {
-      const code = resolveCode(name); if (code && n) own[code] = (own[code] || 0) + n; else if (n) unmatched.add(name);
-    }
-    events[String(m.id)] = { red, own };
+    if (!/group/i.test(m.round || '')) continue;
+    const red = {}; const own = {}; const yellow = {};
+    const tally = (src, dst) => {
+      for (const [name, n] of Object.entries(src || {})) {
+        const code = resolveCode(name); if (code && n) dst[code] = (dst[code] || 0) + n; else if (n) unmatched.add(name);
+      }
+    };
+    tally(m.redCards, red); tally(m.ownGoals, own); tally(m.yellowCards, yellow);
+    events[String(m.id)] = { red, own, yellow };
   }
   if (unmatched.size) log('(unmatched team names — add aliases in players.json):', [...unmatched].join(', '));
 
-  return { fixtures, standings, events };
+  // Tournament-wide fastest goal / fastest own goal (earliest minute wins).
+  const key = (x) => (x ? x.minute * 100 + (x.addedTime || 0) : Infinity);
+  let goal = null; let ownGoal = null;
+  for (const m of raw.matches || []) {
+    const label = `${m.home?.name} v ${m.away?.name}`;
+    if (m.fastestGoal && key(m.fastestGoal) < key(goal)) goal = { ...m.fastestGoal, match: label };
+    if (m.fastestOwnGoal && key(m.fastestOwnGoal) < key(ownGoal)) ownGoal = { ...m.fastestOwnGoal, match: label };
+  }
+
+  return { fixtures, standings, events, fastest: { goal, ownGoal } };
 }
 
-async function writeStandings({ players, teamByCode, fixtures, standings, events, meta, source, season, bracketRaw }) {
+async function writeStandings({ players, teamByCode, fixtures, standings, events, meta, source, season, bracketRaw, fastest }) {
   // ---- group tables: code -> { group, rank, played, w,d,l, gf, ga, pts } -
   // Also build full group tables (every team + owner) for the Group Tables tab.
   const groupByCode = new Map();
@@ -435,8 +447,75 @@ async function writeStandings({ players, teamByCode, fixtures, standings, events
     statusByCode.set(code, computeTeamStatus(code, enriched, groupByCode, koFixturesExist, groupStageComplete, champion, runnerUp, hasFixtures));
   }
 
+  // ---- cashless / bragging-rights prizes ----------------------------------
+  const eventTotals = aggregateEvents(events); // group-stage red / own goal / yellow totals by code
+
+  // Most combined group points (a player's two teams added together).
+  const mostPoints = players.players.map((p) => {
+    let points = 0; let gd = 0;
+    const teams = p.teams.map((t) => {
+      const g = groupByCode.get(t.code);
+      points += g ? g.pts : 0; gd += g ? (g.gf - g.ga) : 0;
+      return { code: t.code, name: t.name, iso2: t.iso2, pts: g ? g.pts : 0 };
+    });
+    return { player: p.name, teams, points, gd };
+  }).sort((a, b) => b.points - a.points || b.gd - a.gd || a.player.localeCompare(b.player));
+
+  // Worst team: lowest points, then worst goal difference, then fewest scored.
+  const teamsWithGroup = [];
+  for (const p of players.players) for (const t of p.teams) {
+    const g = groupByCode.get(t.code);
+    if (g) teamsWithGroup.push({ code: t.code, name: t.name, iso2: t.iso2, player: p.name, pts: g.pts, gd: g.gf - g.ga, gf: g.gf });
+  }
+  const worstTeam = teamsWithGroup.sort((a, b) => a.pts - b.pts || a.gd - b.gd || a.gf - b.gf).slice(0, 5);
+
+  // Team to knock England out (ENG = Scott's team).
+  const englandKnockedOutBy = (() => {
+    const st = statusByCode.get('ENG');
+    if (!st) return null;
+    if (st.alive) return { state: 'alive' };
+    const lost = enriched
+      .filter((f) => (f.home.code === 'ENG' || f.away.code === 'ENG') && (f.cls.kind === 'ko' || f.cls.kind === 'third') && f.finished)
+      .sort((a, b) => b.cls.idx - a.cls.idx)
+      .find((f) => { const s = f.home.code === 'ENG' ? f.home : f.away; return s.winner !== true; });
+    if (lost) {
+      const opp = lost.home.code === 'ENG' ? lost.away : lost.home;
+      const ref = opp.code ? teamByCode.get(opp.code) : null;
+      return { state: 'ko', round: lost.cls.label, score: `${lost.home.goals}–${lost.away.goals}`,
+        team: { code: opp.code, name: ref?.name || opp.name, iso2: ref?.iso2 || null, player: ref?.player || null } };
+    }
+    return { state: 'group' };
+  })();
+
+  // Fastest goal / own goal: attach owner to the scoring/committing team.
+  const resolveFast = (f) => {
+    if (!f) return null;
+    const code = lookupCodeByName(f.team, players);
+    const ref = code ? teamByCode.get(code) : null;
+    return { minute: f.minute, addedTime: f.addedTime || null, scorer: f.scorer || null,
+      team: ref?.name || f.team, iso2: ref?.iso2 || null, player: ref?.player || null, match: f.match };
+  };
+
+  // OKR: a per-player "chaos index" — group goals conceded + losses + yellows + (reds x2).
+  // Higher = messier. Combines both of a player's teams.
+  const okr = players.players.map((p) => {
+    let conceded = 0; let losses = 0; let yellows = 0; let reds = 0;
+    for (const t of p.teams) {
+      const g = groupByCode.get(t.code);
+      conceded += g ? g.ga : 0; losses += g ? g.l : 0;
+      yellows += eventTotals.yellow[t.code] || 0; reds += eventTotals.red[t.code] || 0;
+    }
+    const score = conceded + losses + yellows + reds * 2;
+    return { player: p.name, conceded, losses, yellows, reds, score };
+  }).sort((a, b) => b.score - a.score || b.conceded - a.conceded || a.player.localeCompare(b.player));
+
+  const cashless = {
+    mostPoints, worstTeam, englandKnockedOutBy, okr,
+    fastestGoal: resolveFast(fastest?.goal),
+    fastestOwnGoal: resolveFast(fastest?.ownGoal),
+  };
+
   // ---- assemble players ---------------------------------------------------
-  const eventTotals = aggregateEvents(events);
   const outPlayers = players.players.map((p) => ({
     name: p.name,
     teams: p.teams.map((t) => {
@@ -495,6 +574,7 @@ async function writeStandings({ players, teamByCode, fixtures, standings, events
     thirdPlaced,
     bracket,
     fixtures: fixtureList,
+    cashless,
     meta,
   };
 
@@ -642,13 +722,14 @@ function computeTeamStatus(code, enriched, groupByCode, koFixturesExist, groupSt
 }
 
 function aggregateEvents(events) {
-  const red = {}; const own = {};
+  const red = {}; const own = {}; const yellow = {};
   for (const id of Object.keys(events || {})) {
     const e = events[id];
     for (const [code, n] of Object.entries(e.red || {})) red[code] = (red[code] || 0) + n;
     for (const [code, n] of Object.entries(e.own || {})) own[code] = (own[code] || 0) + n;
+    for (const [code, n] of Object.entries(e.yellow || {})) yellow[code] = (yellow[code] || 0) + n;
   }
-  return { red, own };
+  return { red, own, yellow };
 }
 
 // --- small ref builders ----------------------------------------------------

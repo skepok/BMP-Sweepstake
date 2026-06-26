@@ -314,6 +314,59 @@
     </div>`;
   }
 
+  // --- render: bragging-rights (cashless) prizes ---------------------------
+  function renderCashless(c) {
+    const el = $('#cashless');
+    if (!c) { el.innerHTML = `<p class="empty">Not available yet.</p>`; return; }
+    const flagName = (t) => `<span class="flag">${flag(t.iso2)}</span> ${esc(t.name)}`;
+
+    const mp = c.mostPoints || [];
+    const mpTop = mp.length ? mp[0].points : -1;
+    const mostPoints = `<div class="board"><h3>🏅 Most points (combined)</h3><ol>${mp.slice(0, 12).map((p, i) => `
+      <li class="${p.points === mpTop ? 'leader' : ''}">
+        <span class="rank">${i + 1}</span>
+        <span class="who"><div>${esc(p.player)}</div><div class="pl">${p.teams.map((t) => esc(t.name) + ' ' + t.pts).join(' · ')}</div></span>
+        <span class="val">${p.points}</span>
+      </li>`).join('')}</ol></div>`;
+
+    const wt = c.worstTeam || [];
+    const worst = `<div class="board"><h3>🗑️ Worst team</h3><ol>${wt.map((t, i) => `
+      <li class="${i === 0 ? 'leader' : ''}">
+        <span class="rank">${i + 1}</span><span class="flag">${flag(t.iso2)}</span>
+        <span class="who"><div>${esc(t.name)}</div><div class="pl">${esc(t.player)}</div></span>
+        <span class="val">${t.pts}<small> pts · GD ${t.gd > 0 ? '+' : ''}${t.gd}</small></span>
+      </li>`).join('')}</ol></div>`;
+
+    const e = c.englandKnockedOutBy;
+    let eng;
+    if (!e) eng = `<p class="cash-pending">Awaiting data.</p>`;
+    else if (e.state === 'alive') eng = `<p class="cash-big">England are still in it 🦁</p>`;
+    else if (e.state === 'group') eng = `<p class="cash-big">Out in the group stage</p><p class="cash-sub">No single team to credit — England didn't qualify.</p>`;
+    else eng = `<p class="cash-big">${flagName(e.team)}</p><p class="cash-sub">beat England ${esc(e.score)} in the ${esc(e.round)}${e.team.player ? ` — owned by ${esc(e.team.player)}` : ''}</p>`;
+    const england = `<div class="cash-card"><h3>🦁 Team to knock England out</h3>${eng}</div>`;
+
+    const fast = (f, emoji, title) => {
+      if (!f) return `<div class="cash-card"><h3>${emoji} ${title}</h3><p class="cash-pending">Appears after the next data update.</p></div>`;
+      const min = `${f.minute}${f.addedTime ? '+' + f.addedTime : ''}'`;
+      return `<div class="cash-card"><h3>${emoji} ${title}</h3>
+        <p class="cash-big">${esc(min)}</p>
+        <p class="cash-sub">${f.scorer ? esc(f.scorer) + ' — ' : ''}${flagName(f)}${f.player ? ` (${esc(f.player)})` : ''}</p>
+        <p class="cash-match">${esc(f.match || '')}</p></div>`;
+    };
+
+    const okrRows = c.okr || [];
+    const okrTop = okrRows.length ? okrRows[0].score : -1;
+    const okr = `<div class="board"><h3 title="Goals conceded + losses + yellows + (reds×2), both teams combined">🌀 OKR — chaos index</h3><ol>${okrRows.slice(0, 12).map((p, i) => `
+      <li class="${p.score === okrTop ? 'leader' : ''}">
+        <span class="rank">${i + 1}</span>
+        <span class="who"><div>${esc(p.player)}</div><div class="pl">${p.conceded} conceded · ${p.losses}L · ${p.yellows}🟨 · ${p.reds}🟥</div></span>
+        <span class="val">${p.score}</span>
+      </li>`).join('')}</ol></div>`;
+
+    el.innerHTML = `<div class="cash-grid">${england}${fast(c.fastestGoal, '⚡', 'Fastest goal')}${fast(c.fastestOwnGoal, '🙃', 'Fastest own goal')}</div>
+      <div class="boards">${mostPoints}${worst}${okr}</div>`;
+  }
+
   // --- tab switching --------------------------------------------------------
   function initTabs() {
     const btns = document.querySelectorAll('.tab-btn');
@@ -342,6 +395,7 @@
       renderGroups(data.groups || []);
       renderBracket(data.bracket);
       renderFixtures(data.fixtures || []);
+      renderCashless(data.cashless);
 
       $('#lockState').textContent = data.groupStageComplete ? 'FROZEN — group stage complete' : 'live — group stage in progress';
       $('#lockState').classList.toggle('frozen', !!data.groupStageComplete);

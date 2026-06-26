@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T12:20:41.612Z",
+  "lastUpdated": "2026-06-26T14:16:14.430Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -6543,6 +6543,712 @@
       }
     }
   ],
+  "cashless": {
+    "mostPoints": [
+      {
+        "player": "Robbie Godowski",
+        "teams": [
+          {
+            "code": "MEX",
+            "name": "Mexico",
+            "iso2": "MX",
+            "pts": 9
+          },
+          {
+            "code": "CIV",
+            "name": "Ivory Coast",
+            "iso2": "CI",
+            "pts": 6
+          }
+        ],
+        "points": 15,
+        "gd": 8
+      },
+      {
+        "player": "Ali Taylor",
+        "teams": [
+          {
+            "code": "MOR",
+            "name": "Morocco",
+            "iso2": "MA",
+            "pts": 7
+          },
+          {
+            "code": "EGY",
+            "name": "Egypt",
+            "iso2": "EG",
+            "pts": 4
+          }
+        ],
+        "points": 11,
+        "gd": 5
+      },
+      {
+        "player": "Bob Gibson",
+        "teams": [
+          {
+            "code": "NLD",
+            "name": "Netherlands",
+            "iso2": "NL",
+            "pts": 7
+          },
+          {
+            "code": "ALG",
+            "name": "Algeria",
+            "iso2": "DZ",
+            "pts": 3
+          }
+        ],
+        "points": 10,
+        "gd": 4
+      },
+      {
+        "player": "Matt Deacock",
+        "teams": [
+          {
+            "code": "COL",
+            "name": "Colombia",
+            "iso2": "CO",
+            "pts": 6
+          },
+          {
+            "code": "GHA",
+            "name": "Ghana",
+            "iso2": "GH",
+            "pts": 4
+          }
+        ],
+        "points": 10,
+        "gd": 4
+      },
+      {
+        "player": "Elizabeth Swords",
+        "teams": [
+          {
+            "code": "SWI",
+            "name": "Switzerland",
+            "iso2": "CH",
+            "pts": 7
+          },
+          {
+            "code": "KOR",
+            "name": "South Korea",
+            "iso2": "KR",
+            "pts": 3
+          }
+        ],
+        "points": 10,
+        "gd": 3
+      },
+      {
+        "player": "Jess Forshaw",
+        "teams": [
+          {
+            "code": "GER",
+            "name": "Germany",
+            "iso2": "DE",
+            "pts": 6
+          },
+          {
+            "code": "IRN",
+            "name": "Iran",
+            "iso2": "IR",
+            "pts": 2
+          }
+        ],
+        "points": 8,
+        "gd": 6
+      },
+      {
+        "player": "Adam Wright",
+        "teams": [
+          {
+            "code": "ESP",
+            "name": "Spain",
+            "iso2": "ES",
+            "pts": 4
+          },
+          {
+            "code": "ZAF",
+            "name": "South Africa",
+            "iso2": "ZA",
+            "pts": 4
+          }
+        ],
+        "points": 8,
+        "gd": 3
+      },
+      {
+        "player": "Me Julie",
+        "teams": [
+          {
+            "code": "BRA",
+            "name": "Brazil",
+            "iso2": "BR",
+            "pts": 7
+          },
+          {
+            "code": "PAN",
+            "name": "Panama",
+            "iso2": "PA",
+            "pts": 0
+          }
+        ],
+        "points": 7,
+        "gd": 4
+      },
+      {
+        "player": "Flora Curry",
+        "teams": [
+          {
+            "code": "USA",
+            "name": "USA",
+            "iso2": "US",
+            "pts": 6
+          },
+          {
+            "code": "KSA",
+            "name": "Saudi Arabia",
+            "iso2": "SA",
+            "pts": 1
+          }
+        ],
+        "points": 7,
+        "gd": 0
+      },
+      {
+        "player": "Robin Parish",
+        "teams": [
+          {
+            "code": "CRO",
+            "name": "Croatia",
+            "iso2": "HR",
+            "pts": 3
+          },
+          {
+            "code": "PAR",
+            "name": "Paraguay",
+            "iso2": "PY",
+            "pts": 4
+          }
+        ],
+        "points": 7,
+        "gd": -3
+      },
+      {
+        "player": "Guy Curry",
+        "teams": [
+          {
+            "code": "POR",
+            "name": "Portugal",
+            "iso2": "PT",
+            "pts": 4
+          },
+          {
+            "code": "CPV",
+            "name": "Cape Verde",
+            "iso2": "CV",
+            "pts": 2
+          }
+        ],
+        "points": 6,
+        "gd": 5
+      },
+      {
+        "player": "Nick Foulkes",
+        "teams": [
+          {
+            "code": "JAP",
+            "name": "Japan",
+            "iso2": "JP",
+            "pts": 5
+          },
+          {
+            "code": "DRC",
+            "name": "DR Congo",
+            "iso2": "CD",
+            "pts": 1
+          }
+        ],
+        "points": 6,
+        "gd": 3
+      },
+      {
+        "player": "Tom Gibbons",
+        "teams": [
+          {
+            "code": "URY",
+            "name": "Uruguay",
+            "iso2": "UY",
+            "pts": 2
+          },
+          {
+            "code": "AUS",
+            "name": "Australia",
+            "iso2": "AU",
+            "pts": 4
+          }
+        ],
+        "points": 6,
+        "gd": 0
+      },
+      {
+        "player": "Tom Clayton",
+        "teams": [
+          {
+            "code": "ARG",
+            "name": "Argentina",
+            "iso2": "AR",
+            "pts": 6
+          },
+          {
+            "code": "HTI",
+            "name": "Haiti",
+            "iso2": "HT",
+            "pts": 0
+          }
+        ],
+        "points": 6,
+        "gd": -1
+      },
+      {
+        "player": "Jimena Barillas",
+        "teams": [
+          {
+            "code": "NOR",
+            "name": "Norway",
+            "iso2": "NO",
+            "pts": 6
+          },
+          {
+            "code": "UZB",
+            "name": "Uzbekistan",
+            "iso2": "UZ",
+            "pts": 0
+          }
+        ],
+        "points": 6,
+        "gd": -3
+      },
+      {
+        "player": "Paul Mitchell",
+        "teams": [
+          {
+            "code": "AUT",
+            "name": "Austria",
+            "iso2": "AT",
+            "pts": 3
+          },
+          {
+            "code": "SCO",
+            "name": "Scotland",
+            "iso2": "GB-SCT",
+            "pts": 3
+          }
+        ],
+        "points": 6,
+        "gd": -3
+      },
+      {
+        "player": "Sam King",
+        "teams": [
+          {
+            "code": "FRA",
+            "name": "France",
+            "iso2": "FR",
+            "pts": 6
+          },
+          {
+            "code": "TUN",
+            "name": "Tunisia",
+            "iso2": "TN",
+            "pts": 0
+          }
+        ],
+        "points": 6,
+        "gd": -5
+      },
+      {
+        "player": "Madi Farrow-Dunn",
+        "teams": [
+          {
+            "code": "SWE",
+            "name": "Sweden",
+            "iso2": "SE",
+            "pts": 4
+          },
+          {
+            "code": "NZL",
+            "name": "New Zealand",
+            "iso2": "NZ",
+            "pts": 1
+          }
+        ],
+        "points": 5,
+        "gd": -2
+      },
+      {
+        "player": "Frank Dunn",
+        "teams": [
+          {
+            "code": "ECU",
+            "name": "Ecuador",
+            "iso2": "EC",
+            "pts": 4
+          },
+          {
+            "code": "QAT",
+            "name": "Qatar",
+            "iso2": "QA",
+            "pts": 1
+          }
+        ],
+        "points": 5,
+        "gd": -8
+      },
+      {
+        "player": "Joe Clayton",
+        "teams": [
+          {
+            "code": "CAN",
+            "name": "Canada",
+            "iso2": "CA",
+            "pts": 4
+          },
+          {
+            "code": "JOR",
+            "name": "Jordan",
+            "iso2": "JO",
+            "pts": 0
+          }
+        ],
+        "points": 4,
+        "gd": 2
+      },
+      {
+        "player": "Sam Lowerson",
+        "teams": [
+          {
+            "code": "SEN",
+            "name": "Senegal",
+            "iso2": "SN",
+            "pts": 0
+          },
+          {
+            "code": "BIH",
+            "name": "Bosnia-Herzegovina",
+            "iso2": "BA",
+            "pts": 4
+          }
+        ],
+        "points": 4,
+        "gd": -4
+      },
+      {
+        "player": "Scott Rosseter",
+        "teams": [
+          {
+            "code": "ENG",
+            "name": "England",
+            "iso2": "GB-ENG",
+            "pts": 4
+          },
+          {
+            "code": "IRQ",
+            "name": "Iraq",
+            "iso2": "IQ",
+            "pts": 0
+          }
+        ],
+        "points": 4,
+        "gd": -4
+      },
+      {
+        "player": "Laura Harrison",
+        "teams": [
+          {
+            "code": "TUR",
+            "name": "Turkey",
+            "iso2": "TR",
+            "pts": 3
+          },
+          {
+            "code": "CZE",
+            "name": "Czechia",
+            "iso2": "CZ",
+            "pts": 1
+          }
+        ],
+        "points": 4,
+        "gd": -6
+      },
+      {
+        "player": "Fred Dunn",
+        "teams": [
+          {
+            "code": "BEL",
+            "name": "Belgium",
+            "iso2": "BE",
+            "pts": 2
+          },
+          {
+            "code": "CUW",
+            "name": "Curacao",
+            "iso2": "CW",
+            "pts": 1
+          }
+        ],
+        "points": 3,
+        "gd": -8
+      }
+    ],
+    "worstTeam": [
+      {
+        "code": "TUN",
+        "name": "Tunisia",
+        "iso2": "TN",
+        "player": "Sam King",
+        "pts": 0,
+        "gd": -10,
+        "gf": 2
+      },
+      {
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "iso2": "UZ",
+        "player": "Jimena Barillas",
+        "pts": 0,
+        "gd": -7,
+        "gf": 1
+      },
+      {
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "player": "Scott Rosseter",
+        "pts": 0,
+        "gd": -6,
+        "gf": 1
+      },
+      {
+        "code": "HTI",
+        "name": "Haiti",
+        "iso2": "HT",
+        "player": "Tom Clayton",
+        "pts": 0,
+        "gd": -6,
+        "gf": 2
+      },
+      {
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
+        "pts": 0,
+        "gd": -3,
+        "gf": 2
+      }
+    ],
+    "englandKnockedOutBy": {
+      "state": "alive"
+    },
+    "okr": [
+      {
+        "player": "Frank Dunn",
+        "conceded": 12,
+        "losses": 3,
+        "yellows": 0,
+        "reds": 2,
+        "score": 19
+      },
+      {
+        "player": "Sam Lowerson",
+        "conceded": 12,
+        "losses": 3,
+        "yellows": 0,
+        "reds": 1,
+        "score": 17
+      },
+      {
+        "player": "Sam King",
+        "conceded": 13,
+        "losses": 3,
+        "yellows": 0,
+        "reds": 0,
+        "score": 16
+      },
+      {
+        "player": "Laura Harrison",
+        "conceded": 11,
+        "losses": 4,
+        "yellows": 0,
+        "reds": 0,
+        "score": 15
+      },
+      {
+        "player": "Madi Farrow-Dunn",
+        "conceded": 12,
+        "losses": 2,
+        "yellows": 0,
+        "reds": 0,
+        "score": 14
+      },
+      {
+        "player": "Fred Dunn",
+        "conceded": 10,
+        "losses": 2,
+        "yellows": 0,
+        "reds": 1,
+        "score": 14
+      },
+      {
+        "player": "Jimena Barillas",
+        "conceded": 11,
+        "losses": 2,
+        "yellows": 0,
+        "reds": 0,
+        "score": 13
+      },
+      {
+        "player": "Robin Parish",
+        "conceded": 8,
+        "losses": 2,
+        "yellows": 0,
+        "reds": 1,
+        "score": 12
+      },
+      {
+        "player": "Flora Curry",
+        "conceded": 9,
+        "losses": 2,
+        "yellows": 0,
+        "reds": 0,
+        "score": 11
+      },
+      {
+        "player": "Scott Rosseter",
+        "conceded": 9,
+        "losses": 2,
+        "yellows": 0,
+        "reds": 0,
+        "score": 11
+      },
+      {
+        "player": "Joe Clayton",
+        "conceded": 8,
+        "losses": 3,
+        "yellows": 0,
+        "reds": 0,
+        "score": 11
+      },
+      {
+        "player": "Tom Clayton",
+        "conceded": 8,
+        "losses": 3,
+        "yellows": 0,
+        "reds": 0,
+        "score": 11
+      },
+      {
+        "player": "Paul Mitchell",
+        "conceded": 7,
+        "losses": 3,
+        "yellows": 0,
+        "reds": 0,
+        "score": 10
+      },
+      {
+        "player": "Bob Gibson",
+        "conceded": 8,
+        "losses": 1,
+        "yellows": 0,
+        "reds": 0,
+        "score": 9
+      },
+      {
+        "player": "Elizabeth Swords",
+        "conceded": 6,
+        "losses": 2,
+        "yellows": 0,
+        "reds": 0,
+        "score": 8
+      },
+      {
+        "player": "Adam Wright",
+        "conceded": 3,
+        "losses": 1,
+        "yellows": 0,
+        "reds": 2,
+        "score": 8
+      },
+      {
+        "player": "Jess Forshaw",
+        "conceded": 6,
+        "losses": 1,
+        "yellows": 0,
+        "reds": 0,
+        "score": 7
+      },
+      {
+        "player": "Nick Foulkes",
+        "conceded": 5,
+        "losses": 1,
+        "yellows": 0,
+        "reds": 0,
+        "score": 6
+      },
+      {
+        "player": "Tom Gibbons",
+        "conceded": 5,
+        "losses": 1,
+        "yellows": 0,
+        "reds": 0,
+        "score": 6
+      },
+      {
+        "player": "Ali Taylor",
+        "conceded": 5,
+        "losses": 0,
+        "yellows": 0,
+        "reds": 0,
+        "score": 5
+      },
+      {
+        "player": "Me Julie",
+        "conceded": 3,
+        "losses": 2,
+        "yellows": 0,
+        "reds": 0,
+        "score": 5
+      },
+      {
+        "player": "Robbie Godowski",
+        "conceded": 2,
+        "losses": 1,
+        "yellows": 0,
+        "reds": 1,
+        "score": 5
+      },
+      {
+        "player": "Guy Curry",
+        "conceded": 3,
+        "losses": 0,
+        "yellows": 0,
+        "reds": 0,
+        "score": 3
+      },
+      {
+        "player": "Matt Deacock",
+        "conceded": 1,
+        "losses": 0,
+        "yellows": 0,
+        "reds": 0,
+        "score": 1
+      }
+    ],
+    "fastestGoal": null,
+    "fastestOwnGoal": null
+  },
   "meta": {
     "source": "SofaScore",
     "matches": 104,

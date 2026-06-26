@@ -22,7 +22,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186879,
@@ -43,7 +45,9 @@
         "Paraguay": 1
       },
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186957,
@@ -62,7 +66,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestOwnGoal": null,
+      "fastestGoal": null
     },
     {
       "id": 15186905,
@@ -81,7 +87,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestOwnGoal": null,
+      "fastestGoal": null
     },
     {
       "id": 15186906,
@@ -100,7 +108,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186963,
@@ -119,7 +129,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186840,
@@ -140,7 +152,9 @@
       "ownGoals": {
         "Saudi Arabia": 1
       },
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186499,
@@ -161,7 +175,9 @@
         "Belgium": 1
       },
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186800,
@@ -180,7 +196,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186827,
@@ -199,7 +217,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186502,
@@ -218,7 +238,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186769,
@@ -237,7 +259,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186770,
@@ -256,7 +280,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186740,
@@ -275,7 +301,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186858,
@@ -296,7 +324,9 @@
       "ownGoals": {
         "Uzbekistan": 1
       },
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186672,
@@ -315,7 +345,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186520,
@@ -334,7 +366,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186713,
@@ -353,7 +387,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186829,
@@ -374,7 +410,9 @@
       "ownGoals": {
         "Qatar": 1
       },
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186821,
@@ -393,7 +431,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186864,
@@ -414,7 +454,9 @@
       "ownGoals": {
         "Morocco": 1
       },
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186861,
@@ -433,7 +475,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186744,
@@ -452,7 +496,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186732,
@@ -471,7 +517,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186908,
@@ -490,7 +538,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186907,
@@ -509,7 +559,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186972,
@@ -528,7 +580,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186973,
@@ -549,7 +603,9 @@
       "ownGoals": {
         "Tunisia": 1
       },
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186891,
@@ -568,7 +624,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186887,
@@ -587,7 +645,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186710,
@@ -609,7 +669,9 @@
         "South Africa": 2
       },
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186720,
@@ -628,7 +690,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186836,
@@ -647,7 +711,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186873,
@@ -668,7 +734,9 @@
       "ownGoals": {
         "Paraguay": 1
       },
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186526,
@@ -689,7 +757,9 @@
       "ownGoals": {
         "Switzerland": 1
       },
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186850,
@@ -708,7 +778,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186853,
@@ -727,7 +799,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186874,
@@ -746,7 +820,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186899,
@@ -765,7 +841,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186945,
@@ -784,7 +862,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186904,
@@ -803,7 +883,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186951,
@@ -822,7 +904,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186783,
@@ -841,7 +925,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186837,
@@ -862,7 +948,9 @@
       "ownGoals": {
         "Egypt": 1
       },
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186811,
@@ -881,7 +969,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186832,
@@ -900,7 +990,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186501,
@@ -919,7 +1011,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186773,
@@ -940,7 +1034,9 @@
       "ownGoals": {
         "Iraq": 1
       },
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186854,
@@ -959,7 +1055,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186751,
@@ -980,7 +1078,9 @@
       "ownGoals": {
         "Jordan": 1
       },
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186709,
@@ -999,7 +1099,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186504,
@@ -1018,7 +1120,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186687,
@@ -1037,7 +1141,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186722,
@@ -1056,7 +1162,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186731,
@@ -1075,7 +1183,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186806,
@@ -1096,7 +1206,9 @@
         "Bosnia & Herzegovina": 1
       },
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186798,
@@ -1119,7 +1231,9 @@
       "ownGoals": {
         "Qatar": 1
       },
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186490,
@@ -1138,7 +1252,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186878,
@@ -1159,7 +1275,9 @@
       "ownGoals": {
         "Australia": 1
       },
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186859,
@@ -1178,7 +1296,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": true
+      "incidentsFetched": true,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186537,
@@ -1197,7 +1317,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186771,
@@ -1216,7 +1338,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186841,
@@ -1235,7 +1359,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186803,
@@ -1254,7 +1380,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186828,
@@ -1273,7 +1401,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186822,
@@ -1292,7 +1422,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186676,
@@ -1311,7 +1443,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186624,
@@ -1330,7 +1464,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186696,
@@ -1349,7 +1485,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186717,
@@ -1368,7 +1506,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186734,
@@ -1387,7 +1527,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 15186747,
@@ -1406,7 +1548,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813000,
@@ -1425,7 +1569,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813012,
@@ -1444,7 +1590,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813014,
@@ -1463,7 +1611,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12812998,
@@ -1482,7 +1632,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12812989,
@@ -1501,7 +1653,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12812995,
@@ -1520,7 +1674,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813001,
@@ -1539,7 +1695,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813020,
@@ -1558,7 +1716,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813013,
@@ -1577,7 +1737,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12812992,
@@ -1596,7 +1758,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813004,
@@ -1615,7 +1779,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12812997,
@@ -1634,7 +1800,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813019,
@@ -1653,7 +1821,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813018,
@@ -1672,7 +1842,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12812999,
@@ -1691,7 +1863,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813011,
@@ -1710,7 +1884,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813009,
@@ -1729,7 +1905,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813010,
@@ -1748,7 +1926,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813006,
@@ -1767,7 +1947,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813007,
@@ -1786,7 +1968,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12812990,
@@ -1805,7 +1989,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813002,
@@ -1824,7 +2010,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12812993,
@@ -1843,7 +2031,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12812991,
@@ -1862,7 +2052,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813016,
@@ -1881,7 +2073,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12812994,
@@ -1900,7 +2094,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813017,
@@ -1919,7 +2115,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813015,
@@ -1938,7 +2136,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813008,
@@ -1957,7 +2157,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12812996,
@@ -1976,7 +2178,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813003,
@@ -1995,7 +2199,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     },
     {
       "id": 12813005,
@@ -2014,7 +2220,9 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "incidentsFetched": false
+      "incidentsFetched": false,
+      "fastestGoal": null,
+      "fastestOwnGoal": null
     }
   ],
   "standings": [
