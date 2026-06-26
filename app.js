@@ -356,7 +356,7 @@
 
     const okrRows = c.okr || [];
     const okrTop = okrRows.length ? okrRows[0].score : -1;
-    const okr = `<div class="board"><h3>🌀 OKR</h3><p class="board-note">Goals conceded + losses + yellows + (reds×2), both teams combined.</p><ol>${okrRows.slice(0, 12).map((p, i) => `
+    const okr = `<div class="board"><h3>💩 OKR</h3><p class="board-note">Goals conceded + losses + yellows + (reds×2), both teams combined.</p><ol>${okrRows.slice(0, 12).map((p, i) => `
       <li class="${p.score === okrTop ? 'leader' : ''}">
         <span class="rank">${i + 1}</span>
         <span class="who"><div>${esc(p.player)}</div><div class="pl">${p.conceded} conceded · ${p.losses}L · ${p.yellows}🟨 · ${p.reds}🟥</div></span>
