@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-26T20:00:07.112796+00:00",
+  "fetchedAt": "2026-06-26T20:30:07.059414+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -640,7 +640,7 @@
       "status": "inprogress",
       "home": {
         "name": "Senegal",
-        "score": 1,
+        "score": 3,
         "winner": null
       },
       "away": {
@@ -2701,7 +2701,7 @@
       "w": 1,
       "d": 0,
       "l": 2,
-      "gf": 4,
+      "gf": 6,
       "ga": 6,
       "pts": 3
     },
@@ -2714,7 +2714,7 @@
       "d": 0,
       "l": 3,
       "gf": 1,
-      "ga": 8,
+      "ga": 10,
       "pts": 0
     },
     {

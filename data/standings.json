@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T20:00:07.221Z",
+  "lastUpdated": "2026-06-26T20:30:09.518Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -1195,7 +1195,7 @@
             "w": 1,
             "d": 0,
             "l": 2,
-            "gf": 4,
+            "gf": 6,
             "ga": 6,
             "pts": 3
           },
@@ -1276,10 +1276,10 @@
             "d": 0,
             "l": 3,
             "gf": 1,
-            "ga": 8,
+            "ga": 10,
             "pts": 0
           },
-          "goalsConceded": 8,
+          "goalsConceded": 10,
           "redCards": 0,
           "ownGoals": 1
         }
@@ -1406,6 +1406,13 @@
         "value": 12
       },
       {
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "player": "Scott Rosseter",
+        "value": 10
+      },
+      {
         "code": "QAT",
         "name": "Qatar",
         "iso2": "QA",
@@ -1424,13 +1431,6 @@
         "name": "Haiti",
         "iso2": "HT",
         "player": "Tom Clayton",
-        "value": 8
-      },
-      {
-        "code": "IRQ",
-        "name": "Iraq",
-        "iso2": "IQ",
-        "player": "Scott Rosseter",
         "value": 8
       },
       {
@@ -2976,9 +2976,9 @@
           "w": 1,
           "d": 0,
           "l": 2,
-          "gf": 4,
+          "gf": 6,
           "ga": 6,
-          "gd": -2,
+          "gd": 0,
           "pts": 3
         },
         {
@@ -2992,8 +2992,8 @@
           "d": 0,
           "l": 3,
           "gf": 1,
-          "ga": 8,
-          "gd": -7,
+          "ga": 10,
+          "gd": -9,
           "pts": 0
         }
       ]
@@ -3249,6 +3249,19 @@
     },
     {
       "pos": 5,
+      "code": "SEN",
+      "name": "Senegal",
+      "iso2": "SN",
+      "player": "Sam Lowerson",
+      "group": "Group I",
+      "played": 3,
+      "gd": 0,
+      "gf": 6,
+      "pts": 3,
+      "qualifying": true
+    },
+    {
+      "pos": 6,
       "code": "CRO",
       "name": "Croatia",
       "iso2": "HR",
@@ -3261,7 +3274,7 @@
       "qualifying": true
     },
     {
-      "pos": 6,
+      "pos": 7,
       "code": "KOR",
       "name": "South Korea",
       "iso2": "KR",
@@ -3270,19 +3283,6 @@
       "played": 3,
       "gd": -1,
       "gf": 2,
-      "pts": 3,
-      "qualifying": true
-    },
-    {
-      "pos": 7,
-      "code": "SEN",
-      "name": "Senegal",
-      "iso2": "SN",
-      "player": "Sam Lowerson",
-      "group": "Group I",
-      "played": 3,
-      "gd": -2,
-      "gf": 4,
       "pts": 3,
       "qualifying": true
     },
@@ -5495,7 +5495,7 @@
         "name": "Senegal",
         "iso2": "SN",
         "player": "Sam Lowerson",
-        "score": 1,
+        "score": 3,
         "winner": false
       },
       "away": {
@@ -6690,25 +6690,6 @@
         "gd": 0
       },
       {
-        "player": "Robin Parish",
-        "teams": [
-          {
-            "code": "CRO",
-            "name": "Croatia",
-            "iso2": "HR",
-            "pts": 3
-          },
-          {
-            "code": "PAR",
-            "name": "Paraguay",
-            "iso2": "PY",
-            "pts": 4
-          }
-        ],
-        "points": 7,
-        "gd": -3
-      },
-      {
         "player": "Sam Lowerson",
         "teams": [
           {
@@ -6721,6 +6702,25 @@
             "code": "BIH",
             "name": "Bosnia-Herzegovina",
             "iso2": "BA",
+            "pts": 4
+          }
+        ],
+        "points": 7,
+        "gd": -1
+      },
+      {
+        "player": "Robin Parish",
+        "teams": [
+          {
+            "code": "CRO",
+            "name": "Croatia",
+            "iso2": "HR",
+            "pts": 3
+          },
+          {
+            "code": "PAR",
+            "name": "Paraguay",
+            "iso2": "PY",
             "pts": 4
           }
         ],
@@ -6899,25 +6899,6 @@
         "gd": 2
       },
       {
-        "player": "Scott Rosseter",
-        "teams": [
-          {
-            "code": "ENG",
-            "name": "England",
-            "iso2": "GB-ENG",
-            "pts": 4
-          },
-          {
-            "code": "IRQ",
-            "name": "Iraq",
-            "iso2": "IQ",
-            "pts": 0
-          }
-        ],
-        "points": 4,
-        "gd": -5
-      },
-      {
         "player": "Laura Harrison",
         "teams": [
           {
@@ -6935,6 +6916,25 @@
         ],
         "points": 4,
         "gd": -6
+      },
+      {
+        "player": "Scott Rosseter",
+        "teams": [
+          {
+            "code": "ENG",
+            "name": "England",
+            "iso2": "GB-ENG",
+            "pts": 4
+          },
+          {
+            "code": "IRQ",
+            "name": "Iraq",
+            "iso2": "IQ",
+            "pts": 0
+          }
+        ],
+        "points": 4,
+        "gd": -7
       },
       {
         "player": "Fred Dunn",
@@ -6967,19 +6967,19 @@
         "gf": 2
       },
       {
-        "code": "UZB",
-        "name": "Uzbekistan",
-        "iso2": "UZ",
-        "player": "Jimena Barillas",
-        "pts": 0,
-        "gd": -7,
-        "gf": 1
-      },
-      {
         "code": "IRQ",
         "name": "Iraq",
         "iso2": "IQ",
         "player": "Scott Rosseter",
+        "pts": 0,
+        "gd": -9,
+        "gf": 1
+      },
+      {
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "iso2": "UZ",
+        "player": "Jimena Barillas",
         "pts": 0,
         "gd": -7,
         "gf": 1
@@ -7040,6 +7040,14 @@
         "score": 17
       },
       {
+        "player": "Scott Rosseter",
+        "conceded": 12,
+        "losses": 3,
+        "yellows": 0,
+        "reds": 0,
+        "score": 15
+      },
+      {
         "player": "Laura Harrison",
         "conceded": 11,
         "losses": 4,
@@ -7062,14 +7070,6 @@
         "yellows": 0,
         "reds": 1,
         "score": 14
-      },
-      {
-        "player": "Scott Rosseter",
-        "conceded": 10,
-        "losses": 3,
-        "yellows": 0,
-        "reds": 0,
-        "score": 13
       },
       {
         "player": "Robin Parish",
@@ -7206,6 +7206,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-06-26T20:00:07.112796+00:00"
+    "scrapedAt": "2026-06-26T20:30:07.059414+00:00"
   }
 }
