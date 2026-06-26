@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-26T19:30:06.789891+00:00",
+  "fetchedAt": "2026-06-26T20:00:07.112796+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -669,7 +669,7 @@
       },
       "away": {
         "name": "France",
-        "score": 2,
+        "score": 3,
         "winner": null
       },
       "redCards": {},
@@ -2677,7 +2677,7 @@
       "w": 3,
       "d": 0,
       "l": 0,
-      "gf": 8,
+      "gf": 9,
       "ga": 2,
       "pts": 9
     },
@@ -2690,7 +2690,7 @@
       "d": 0,
       "l": 1,
       "gf": 8,
-      "ga": 5,
+      "ga": 6,
       "pts": 6
     },
     {

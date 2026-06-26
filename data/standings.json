@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T19:30:08.992Z",
+  "lastUpdated": "2026-06-26T20:00:07.221Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -591,10 +591,10 @@
             "d": 0,
             "l": 1,
             "gf": 8,
-            "ga": 5,
+            "ga": 6,
             "pts": 6
           },
-          "goalsConceded": 5,
+          "goalsConceded": 6,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -1140,7 +1140,7 @@
             "w": 3,
             "d": 0,
             "l": 0,
-            "gf": 8,
+            "gf": 9,
             "ga": 2,
             "pts": 9
           },
@@ -1462,6 +1462,13 @@
         "value": 6
       },
       {
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO",
+        "player": "Jimena Barillas",
+        "value": 6
+      },
+      {
         "code": "SEN",
         "name": "Senegal",
         "iso2": "SN",
@@ -1480,13 +1487,6 @@
         "name": "New Zealand",
         "iso2": "NZ",
         "player": "Madi Farrow-Dunn",
-        "value": 5
-      },
-      {
-        "code": "NOR",
-        "name": "Norway",
-        "iso2": "NO",
-        "player": "Jimena Barillas",
         "value": 5
       },
       {
@@ -2946,9 +2946,9 @@
           "w": 3,
           "d": 0,
           "l": 0,
-          "gf": 8,
+          "gf": 9,
           "ga": 2,
-          "gd": 6,
+          "gd": 7,
           "pts": 9
         },
         {
@@ -2962,8 +2962,8 @@
           "d": 0,
           "l": 1,
           "gf": 8,
-          "ga": 5,
-          "gd": 3,
+          "ga": 6,
+          "gd": 2,
           "pts": 6
         },
         {
@@ -5526,7 +5526,7 @@
         "name": "France",
         "iso2": "FR",
         "player": "Sam King",
-        "score": 2,
+        "score": 3,
         "winner": false
       }
     },
@@ -6611,7 +6611,7 @@
           }
         ],
         "points": 9,
-        "gd": -4
+        "gd": -3
       },
       {
         "player": "Jess Forshaw",
@@ -6839,7 +6839,7 @@
           }
         ],
         "points": 6,
-        "gd": -4
+        "gd": -5
       },
       {
         "player": "Madi Farrow-Dunn",
@@ -7016,6 +7016,14 @@
         "score": 19
       },
       {
+        "player": "Jimena Barillas",
+        "conceded": 14,
+        "losses": 3,
+        "yellows": 0,
+        "reds": 0,
+        "score": 17
+      },
+      {
         "player": "Sam King",
         "conceded": 14,
         "losses": 3,
@@ -7030,14 +7038,6 @@
         "yellows": 0,
         "reds": 1,
         "score": 17
-      },
-      {
-        "player": "Jimena Barillas",
-        "conceded": 13,
-        "losses": 3,
-        "yellows": 0,
-        "reds": 0,
-        "score": 16
       },
       {
         "player": "Laura Harrison",
@@ -7206,6 +7206,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-06-26T19:30:06.789891+00:00"
+    "scrapedAt": "2026-06-26T20:00:07.112796+00:00"
   }
 }
