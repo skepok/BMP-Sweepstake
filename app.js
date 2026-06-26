@@ -330,7 +330,7 @@
       </li>`).join('')}</ol></div>`;
 
     const wt = c.worstTeam || [];
-    const worst = `<div class="board"><h3>🗑️ Worst team</h3><ol>${wt.map((t, i) => `
+    const worst = `<div class="board"><h3>🗑️ Worst team</h3><p class="board-note">Fewest points, then worst goal difference as the tie-breaker.</p><ol>${wt.map((t, i) => `
       <li class="${i === 0 ? 'leader' : ''}">
         <span class="rank">${i + 1}</span><span class="flag">${flag(t.iso2)}</span>
         <span class="who"><div>${esc(t.name)}</div><div class="pl">${esc(t.player)}</div></span>
@@ -356,7 +356,7 @@
 
     const okrRows = c.okr || [];
     const okrTop = okrRows.length ? okrRows[0].score : -1;
-    const okr = `<div class="board"><h3 title="Goals conceded + losses + yellows + (reds×2), both teams combined">🌀 OKR — chaos index</h3><ol>${okrRows.slice(0, 12).map((p, i) => `
+    const okr = `<div class="board"><h3>🌀 OKR</h3><p class="board-note">Goals conceded + losses + yellows + (reds×2), both teams combined.</p><ol>${okrRows.slice(0, 12).map((p, i) => `
       <li class="${p.score === okrTop ? 'leader' : ''}">
         <span class="rank">${i + 1}</span>
         <span class="who"><div>${esc(p.player)}</div><div class="pl">${p.conceded} conceded · ${p.losses}L · ${p.yellows}🟨 · ${p.reds}🟥</div></span>
