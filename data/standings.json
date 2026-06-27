@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T23:00:09.982Z",
+  "lastUpdated": "2026-06-27T23:30:07.776Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -3468,11 +3468,11 @@
               "winner": false
             },
             "away": {
-              "name": "Runner-up Group L",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Croatia",
+              "code": "CRO",
+              "iso2": "HR",
+              "player": "Robin Parish",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -3732,11 +3732,11 @@
               "winner": false
             },
             "away": {
-              "name": "3rd: D/E/I/J/L",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Ghana",
+              "code": "GHA",
+              "iso2": "GH",
+              "player": "Matt Deacock",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -5702,7 +5702,7 @@
         "name": "DR Congo",
         "iso2": "CD",
         "player": "Nick Foulkes",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -5710,7 +5710,7 @@
         "name": "Uzbekistan",
         "iso2": "UZ",
         "player": "Jimena Barillas",
-        "score": null,
+        "score": 0,
         "winner": false
       }
     },
@@ -5913,10 +5913,10 @@
         "winner": false
       },
       "away": {
-        "code": null,
-        "name": "3C/3E/3F/3H/3I",
-        "iso2": null,
-        "player": null,
+        "code": "ECU",
+        "name": "Ecuador",
+        "iso2": "EC",
+        "player": "Frank Dunn",
         "score": null,
         "winner": false
       }
@@ -6028,10 +6028,10 @@
         "winner": false
       },
       "away": {
-        "code": null,
-        "name": "2L",
-        "iso2": null,
-        "player": null,
+        "code": "CRO",
+        "name": "Croatia",
+        "iso2": "HR",
+        "player": "Robin Parish",
         "score": null,
         "winner": false
       }
@@ -6120,10 +6120,10 @@
         "winner": false
       },
       "away": {
-        "code": null,
-        "name": "3D/3E/3I/3J/3L",
-        "iso2": null,
-        "player": null,
+        "code": "GHA",
+        "name": "Ghana",
+        "iso2": "GH",
+        "player": "Matt Deacock",
         "score": null,
         "winner": false
       }
@@ -7222,6 +7222,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-06-27T23:00:09.889668+00:00"
+    "scrapedAt": "2026-06-27T23:30:07.691345+00:00"
   }
 }

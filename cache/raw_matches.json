@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-27T23:00:09.889668+00:00",
+  "fetchedAt": "2026-06-27T23:30:07.691345+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -2043,12 +2043,12 @@
       "status": "notstarted",
       "home": {
         "name": "DR Congo",
-        "score": null,
+        "score": 0,
         "winner": null
       },
       "away": {
         "name": "Uzbekistan",
-        "score": null,
+        "score": 0,
         "winner": null
       },
       "redCards": {},
@@ -2245,7 +2245,7 @@
         "winner": null
       },
       "away": {
-        "name": "3C/3E/3F/3H/3I",
+        "name": "Ecuador",
         "score": null,
         "winner": null
       },
@@ -2355,7 +2355,7 @@
         "winner": null
       },
       "away": {
-        "name": "2L",
+        "name": "Croatia",
         "score": null,
         "winner": null
       },
@@ -2443,7 +2443,7 @@
         "winner": null
       },
       "away": {
-        "name": "3D/3E/3I/3J/3L",
+        "name": "Ghana",
         "score": null,
         "winner": null
       },
@@ -3479,9 +3479,9 @@
               "winner": false
             },
             {
-              "name": "2L",
-              "code": "2L",
-              "placeholder": true,
+              "name": "Croatia",
+              "code": "CRO",
+              "placeholder": false,
               "winner": false
             }
           ]
@@ -3688,9 +3688,9 @@
               "winner": false
             },
             {
-              "name": "3D/3E/3I/3J/3L",
-              "code": "3D3",
-              "placeholder": true,
+              "name": "Ghana",
+              "code": "GHA",
+              "placeholder": false,
               "winner": false
             }
           ]
