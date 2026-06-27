@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-27T02:00:07.936995+00:00",
+  "fetchedAt": "2026-06-27T02:30:07.789468+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -680,25 +680,33 @@
       "id": 15186841,
       "round": "Group Stage",
       "startTimestamp": 1782518400,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Uruguay",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "away": {
         "name": "Spain",
         "score": 1,
-        "winner": null
+        "winner": true
       },
       "redCards": {
         "Uruguay": 1
       },
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Uruguay": 3,
+        "Spain": 1
+      },
+      "fastestGoal": {
+        "minute": 42,
+        "addedTime": null,
+        "scorer": "Alex Baena",
+        "team": "Spain"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186526,
@@ -1609,7 +1617,7 @@
         "winner": null
       },
       "away": {
-        "name": "3A/3B/3C/3D/3F",
+        "name": "Paraguay",
         "score": null,
         "winner": null
       },
@@ -1675,7 +1683,7 @@
         "winner": null
       },
       "away": {
-        "name": "3C/3D/3F/3G/3H",
+        "name": "Sweden",
         "score": null,
         "winner": null
       },
@@ -1780,7 +1788,7 @@
       "startTimestamp": 1783018800,
       "status": "notstarted",
       "home": {
-        "name": "H1",
+        "name": "Spain",
         "score": null,
         "winner": null
       },
@@ -1873,7 +1881,7 @@
         "winner": null
       },
       "away": {
-        "name": "H2",
+        "name": "Cabo Verde",
         "score": null,
         "winner": null
       },
@@ -2944,9 +2952,9 @@
           "kickoff": 1783018800,
           "participants": [
             {
-              "name": "H1",
-              "code": "1H",
-              "placeholder": true,
+              "name": "Spain",
+              "code": "ESP",
+              "placeholder": false,
               "winner": false
             },
             {
@@ -3083,9 +3091,9 @@
               "winner": false
             },
             {
-              "name": "H2",
-              "code": "2H",
-              "placeholder": true,
+              "name": "Cabo Verde",
+              "code": "CPV",
+              "placeholder": false,
               "winner": false
             }
           ]
