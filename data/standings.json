@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T00:00:07.067Z",
+  "lastUpdated": "2026-06-27T00:30:07.687Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,16 +41,16 @@
       "round": "Group Stage",
       "kickoff": "2026-06-27T00:00:00.000Z",
       "kickoffUnix": 1782518400000,
-      "status": "NS",
+      "status": "1H",
       "home": {
-        "code": "URY",
-        "name": "Uruguay",
-        "iso2": "UY"
+        "code": "CPV",
+        "name": "Cape Verde",
+        "iso2": "CV"
       },
       "away": {
-        "code": "ESP",
-        "name": "Spain",
-        "iso2": "ES"
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "iso2": "SA"
       }
     },
     "lastFinished": {
@@ -85,19 +85,19 @@
           "pot": 1,
           "odds": "9/2",
           "matched": true,
-          "status": "Group H — 1st (4 pts)",
+          "status": "Group H — 1st (5 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group H",
             "rank": 1,
-            "played": 2,
+            "played": 3,
             "w": 1,
-            "d": 1,
+            "d": 2,
             "l": 0,
             "gf": 4,
             "ga": 0,
-            "pts": 4
+            "pts": 5
           },
           "goalsConceded": 0,
           "redCards": 0,
@@ -330,19 +330,19 @@
           "pot": 2,
           "odds": "1000/1",
           "matched": true,
-          "status": "Group H — 4th (1 pts)",
+          "status": "Group H — 4th (2 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group H",
             "rank": 4,
-            "played": 2,
+            "played": 3,
             "w": 0,
-            "d": 1,
+            "d": 2,
             "l": 1,
             "gf": 1,
             "ga": 5,
-            "pts": 1
+            "pts": 2
           },
           "goalsConceded": 5,
           "redCards": 0,
@@ -495,19 +495,19 @@
           "pot": 2,
           "odds": "2000/1",
           "matched": true,
-          "status": "Group H — 3rd (2 pts)",
+          "status": "Group H — 3rd (3 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group H",
             "rank": 3,
-            "played": 2,
+            "played": 3,
             "w": 0,
-            "d": 2,
+            "d": 3,
             "l": 0,
             "gf": 2,
             "ga": 2,
-            "pts": 2
+            "pts": 3
           },
           "goalsConceded": 2,
           "redCards": 0,
@@ -1116,7 +1116,7 @@
           },
           "goalsConceded": 4,
           "redCards": 1,
-          "ownGoals": 1
+          "ownGoals": 0
         }
       ]
     },
@@ -1350,19 +1350,19 @@
           "pot": 1,
           "odds": "66/1",
           "matched": true,
-          "status": "Group H — 2nd (2 pts)",
+          "status": "Group H — 2nd (3 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group H",
             "rank": 2,
-            "played": 2,
+            "played": 3,
             "w": 0,
-            "d": 2,
+            "d": 3,
             "l": 0,
             "gf": 3,
             "ga": 3,
-            "pts": 2
+            "pts": 3
           },
           "goalsConceded": 3,
           "redCards": 0,
@@ -2117,13 +2117,6 @@
         "value": 1
       },
       {
-        "code": "PAR",
-        "name": "Paraguay",
-        "iso2": "PY",
-        "player": "Robin Parish",
-        "value": 1
-      },
-      {
         "code": "KSA",
         "name": "Saudi Arabia",
         "iso2": "SA",
@@ -2338,6 +2331,13 @@
         "name": "Panama",
         "iso2": "PA",
         "player": "Me Julie",
+        "value": 0
+      },
+      {
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "player": "Robin Parish",
         "value": 0
       },
       {
@@ -2877,14 +2877,14 @@
           "iso2": "ES",
           "player": "Adam Wright",
           "rank": 1,
-          "played": 2,
+          "played": 3,
           "w": 1,
-          "d": 1,
+          "d": 2,
           "l": 0,
           "gf": 4,
           "ga": 0,
           "gd": 4,
-          "pts": 4
+          "pts": 5
         },
         {
           "code": "URY",
@@ -2892,14 +2892,14 @@
           "iso2": "UY",
           "player": "Tom Gibbons",
           "rank": 2,
-          "played": 2,
+          "played": 3,
           "w": 0,
-          "d": 2,
+          "d": 3,
           "l": 0,
           "gf": 3,
           "ga": 3,
           "gd": 0,
-          "pts": 2
+          "pts": 3
         },
         {
           "code": "CPV",
@@ -2907,14 +2907,14 @@
           "iso2": "CV",
           "player": "Guy Curry",
           "rank": 3,
-          "played": 2,
+          "played": 3,
           "w": 0,
-          "d": 2,
+          "d": 3,
           "l": 0,
           "gf": 2,
           "ga": 2,
           "gd": 0,
-          "pts": 2
+          "pts": 3
         },
         {
           "code": "KSA",
@@ -2922,14 +2922,14 @@
           "iso2": "SA",
           "player": "Flora Curry",
           "rank": 4,
-          "played": 2,
+          "played": 3,
           "w": 0,
-          "d": 1,
+          "d": 2,
           "l": 1,
           "gf": 1,
           "ga": 5,
           "gd": -4,
-          "pts": 1
+          "pts": 2
         }
       ]
     },
@@ -3262,6 +3262,19 @@
     },
     {
       "pos": 6,
+      "code": "CPV",
+      "name": "Cape Verde",
+      "iso2": "CV",
+      "player": "Guy Curry",
+      "group": "Group H",
+      "played": 3,
+      "gd": 0,
+      "gf": 2,
+      "pts": 3,
+      "qualifying": true
+    },
+    {
+      "pos": 7,
       "code": "CRO",
       "name": "Croatia",
       "iso2": "HR",
@@ -3274,7 +3287,7 @@
       "qualifying": true
     },
     {
-      "pos": 7,
+      "pos": 8,
       "code": "KOR",
       "name": "South Korea",
       "iso2": "KR",
@@ -3287,7 +3300,7 @@
       "qualifying": true
     },
     {
-      "pos": 8,
+      "pos": 9,
       "code": "ALG",
       "name": "Algeria",
       "iso2": "DZ",
@@ -3297,10 +3310,10 @@
       "gd": -2,
       "gf": 2,
       "pts": 3,
-      "qualifying": true
+      "qualifying": false
     },
     {
-      "pos": 9,
+      "pos": 10,
       "code": "SCO",
       "name": "Scotland",
       "iso2": "GB-SCT",
@@ -3310,19 +3323,6 @@
       "gd": -3,
       "gf": 1,
       "pts": 3,
-      "qualifying": false
-    },
-    {
-      "pos": 10,
-      "code": "CPV",
-      "name": "Cape Verde",
-      "iso2": "CV",
-      "player": "Guy Curry",
-      "group": "Group H",
-      "played": 2,
-      "gd": 0,
-      "gf": 2,
-      "pts": 2,
       "qualifying": false
     },
     {
@@ -4150,52 +4150,6 @@
     ]
   },
   "fixtures": [
-    {
-      "date": "2026-06-12T19:00:00.000Z",
-      "ts": 1781290800000,
-      "round": "Group B",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "CAN",
-        "name": "Canada",
-        "iso2": "CA",
-        "player": "Joe Clayton",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "code": "BIH",
-        "name": "Bosnia-Herzegovina",
-        "iso2": "BA",
-        "player": "Sam Lowerson",
-        "score": 1,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-13T01:00:00.000Z",
-      "ts": 1781312400000,
-      "round": "Group D",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "USA",
-        "name": "USA",
-        "iso2": "US",
-        "player": "Flora Curry",
-        "score": 4,
-        "winner": true
-      },
-      "away": {
-        "code": "PAR",
-        "name": "Paraguay",
-        "iso2": "PY",
-        "player": "Robin Parish",
-        "score": 1,
-        "winner": false
-      }
-    },
     {
       "date": "2026-06-13T19:00:00.000Z",
       "ts": 1781377200000,
@@ -5534,30 +5488,7 @@
       "date": "2026-06-27T00:00:00.000Z",
       "ts": 1782518400000,
       "round": "Group H",
-      "status": "NS",
-      "finished": false,
-      "home": {
-        "code": "URY",
-        "name": "Uruguay",
-        "iso2": "UY",
-        "player": "Tom Gibbons",
-        "score": null,
-        "winner": false
-      },
-      "away": {
-        "code": "ESP",
-        "name": "Spain",
-        "iso2": "ES",
-        "player": "Adam Wright",
-        "score": null,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-27T00:00:00.000Z",
-      "ts": 1782518400000,
-      "round": "Group H",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "CPV",
@@ -5572,6 +5503,29 @@
         "name": "Saudi Arabia",
         "iso2": "SA",
         "player": "Flora Curry",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-27T00:00:00.000Z",
+      "ts": 1782518400000,
+      "round": "Group H",
+      "status": "1H",
+      "finished": false,
+      "home": {
+        "code": "URY",
+        "name": "Uruguay",
+        "iso2": "UY",
+        "player": "Tom Gibbons",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "ESP",
+        "name": "Spain",
+        "iso2": "ES",
+        "player": "Adam Wright",
         "score": 0,
         "winner": false
       }
@@ -6595,6 +6549,25 @@
         "gd": 3
       },
       {
+        "player": "Adam Wright",
+        "teams": [
+          {
+            "code": "ESP",
+            "name": "Spain",
+            "iso2": "ES",
+            "pts": 5
+          },
+          {
+            "code": "ZAF",
+            "name": "South Africa",
+            "iso2": "ZA",
+            "pts": 4
+          }
+        ],
+        "points": 9,
+        "gd": 3
+      },
+      {
         "player": "Sam King",
         "teams": [
           {
@@ -6633,23 +6606,42 @@
         "gd": 6
       },
       {
-        "player": "Adam Wright",
+        "player": "Flora Curry",
         "teams": [
           {
-            "code": "ESP",
-            "name": "Spain",
-            "iso2": "ES",
-            "pts": 4
+            "code": "USA",
+            "name": "USA",
+            "iso2": "US",
+            "pts": 6
           },
           {
-            "code": "ZAF",
-            "name": "South Africa",
-            "iso2": "ZA",
-            "pts": 4
+            "code": "KSA",
+            "name": "Saudi Arabia",
+            "iso2": "SA",
+            "pts": 2
           }
         ],
         "points": 8,
-        "gd": 3
+        "gd": 0
+      },
+      {
+        "player": "Guy Curry",
+        "teams": [
+          {
+            "code": "POR",
+            "name": "Portugal",
+            "iso2": "PT",
+            "pts": 4
+          },
+          {
+            "code": "CPV",
+            "name": "Cape Verde",
+            "iso2": "CV",
+            "pts": 3
+          }
+        ],
+        "points": 7,
+        "gd": 5
       },
       {
         "player": "Me Julie",
@@ -6690,19 +6682,19 @@
         "gd": 1
       },
       {
-        "player": "Flora Curry",
+        "player": "Tom Gibbons",
         "teams": [
           {
-            "code": "USA",
-            "name": "USA",
-            "iso2": "US",
-            "pts": 6
+            "code": "URY",
+            "name": "Uruguay",
+            "iso2": "UY",
+            "pts": 3
           },
           {
-            "code": "KSA",
-            "name": "Saudi Arabia",
-            "iso2": "SA",
-            "pts": 1
+            "code": "AUS",
+            "name": "Australia",
+            "iso2": "AU",
+            "pts": 4
           }
         ],
         "points": 7,
@@ -6728,25 +6720,6 @@
         "gd": -3
       },
       {
-        "player": "Guy Curry",
-        "teams": [
-          {
-            "code": "POR",
-            "name": "Portugal",
-            "iso2": "PT",
-            "pts": 4
-          },
-          {
-            "code": "CPV",
-            "name": "Cape Verde",
-            "iso2": "CV",
-            "pts": 2
-          }
-        ],
-        "points": 6,
-        "gd": 5
-      },
-      {
         "player": "Nick Foulkes",
         "teams": [
           {
@@ -6764,25 +6737,6 @@
         ],
         "points": 6,
         "gd": 3
-      },
-      {
-        "player": "Tom Gibbons",
-        "teams": [
-          {
-            "code": "URY",
-            "name": "Uruguay",
-            "iso2": "UY",
-            "pts": 2
-          },
-          {
-            "code": "AUS",
-            "name": "Australia",
-            "iso2": "AU",
-            "pts": 4
-          }
-        ],
-        "points": 6,
-        "gd": 0
       },
       {
         "player": "Tom Clayton",
@@ -7213,7 +7167,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 102,
-    "scrapedAt": "2026-06-27T00:00:06.978516+00:00"
+    "matches": 100,
+    "scrapedAt": "2026-06-27T00:30:07.410042+00:00"
   }
 }

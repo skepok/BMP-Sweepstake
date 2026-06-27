@@ -1,54 +1,10 @@
 {
-  "fetchedAt": "2026-06-27T00:00:06.978516+00:00",
+  "fetchedAt": "2026-06-27T00:30:07.410042+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186957,
-      "round": "Group Stage",
-      "startTimestamp": 1781974800,
-      "status": "finished",
-      "home": {
-        "name": "Netherlands",
-        "score": 5,
-        "winner": true
-      },
-      "away": {
-        "name": "Sweden",
-        "score": 1,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
-    {
-      "id": 15186905,
-      "round": "Group Stage",
-      "startTimestamp": 1781985600,
-      "status": "finished",
-      "home": {
-        "name": "Germany",
-        "score": 2,
-        "winner": true
-      },
-      "away": {
-        "name": "Côte d'Ivoire",
-        "score": 1,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186906,
       "round": "Group Stage",
@@ -696,50 +652,48 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186836,
+      "id": 15186803,
       "round": "Group Stage",
-      "startTimestamp": 1781290800,
-      "status": "finished",
+      "startTimestamp": 1782518400,
+      "status": "inprogress",
       "home": {
-        "name": "Canada",
-        "score": 1,
-        "winner": false
+        "name": "Cabo Verde",
+        "score": 0,
+        "winner": null
       },
       "away": {
-        "name": "Bosnia & Herzegovina",
-        "score": 1,
-        "winner": false
+        "name": "Saudi Arabia",
+        "score": 0,
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
       "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
-      "id": 15186873,
+      "id": 15186841,
       "round": "Group Stage",
-      "startTimestamp": 1781312400,
-      "status": "finished",
+      "startTimestamp": 1782518400,
+      "status": "inprogress",
       "home": {
-        "name": "USA",
-        "score": 4,
-        "winner": true
+        "name": "Uruguay",
+        "score": 0,
+        "winner": null
       },
       "away": {
-        "name": "Paraguay",
-        "score": 1,
-        "winner": false
+        "name": "Spain",
+        "score": 0,
+        "winner": null
       },
       "redCards": {},
-      "ownGoals": {
-        "Paraguay": 1
-      },
+      "ownGoals": {},
       "yellowCards": {},
       "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
       "id": 15186526,
@@ -1376,48 +1330,48 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186841,
+      "id": 15186957,
       "round": "Group Stage",
-      "startTimestamp": 1782518400,
-      "status": "notstarted",
+      "startTimestamp": 1781974800,
+      "status": "finished",
       "home": {
-        "name": "Uruguay",
-        "score": null,
-        "winner": null
+        "name": "Netherlands",
+        "score": 5,
+        "winner": true
       },
       "away": {
-        "name": "Spain",
-        "score": null,
-        "winner": null
+        "name": "Sweden",
+        "score": 1,
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
       "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
-      "id": 15186803,
+      "id": 15186905,
       "round": "Group Stage",
-      "startTimestamp": 1782518400,
-      "status": "notstarted",
+      "startTimestamp": 1781985600,
+      "status": "finished",
       "home": {
-        "name": "Cabo Verde",
-        "score": 0,
-        "winner": null
+        "name": "Germany",
+        "score": 2,
+        "winner": true
       },
       "away": {
-        "name": "Saudi Arabia",
-        "score": 0,
-        "winner": null
+        "name": "Côte d'Ivoire",
+        "score": 1,
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
       "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186828,
@@ -2641,49 +2595,49 @@
       "team": "Spain",
       "group": "Group H",
       "rank": 1,
-      "played": 2,
+      "played": 3,
       "w": 1,
-      "d": 1,
+      "d": 2,
       "l": 0,
       "gf": 4,
       "ga": 0,
-      "pts": 4
+      "pts": 5
     },
     {
       "team": "Uruguay",
       "group": "Group H",
       "rank": 2,
-      "played": 2,
+      "played": 3,
       "w": 0,
-      "d": 2,
+      "d": 3,
       "l": 0,
       "gf": 3,
       "ga": 3,
-      "pts": 2
+      "pts": 3
     },
     {
       "team": "Cabo Verde",
       "group": "Group H",
       "rank": 3,
-      "played": 2,
+      "played": 3,
       "w": 0,
-      "d": 2,
+      "d": 3,
       "l": 0,
       "gf": 2,
       "ga": 2,
-      "pts": 2
+      "pts": 3
     },
     {
       "team": "Saudi Arabia",
       "group": "Group H",
       "rank": 4,
-      "played": 2,
+      "played": 3,
       "w": 0,
-      "d": 1,
+      "d": 2,
       "l": 1,
       "gf": 1,
       "ga": 5,
-      "pts": 1
+      "pts": 2
     },
     {
       "team": "France",
