@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T22:30:08.373Z",
+  "lastUpdated": "2026-06-27T23:00:09.982Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Group Stage",
-      "kickoff": "2026-06-27T21:00:00.000Z",
-      "kickoffUnix": 1782594000000,
-      "status": "1H",
+      "kickoff": "2026-06-27T23:30:00.000Z",
+      "kickoffUnix": 1782603000000,
+      "status": "NS",
       "home": {
-        "code": "CRO",
-        "name": "Croatia",
-        "iso2": "HR"
+        "code": "COL",
+        "name": "Colombia",
+        "iso2": "CO"
       },
       "away": {
-        "code": "GHA",
-        "name": "Ghana",
-        "iso2": "GH"
+        "code": "POR",
+        "name": "Portugal",
+        "iso2": "PT"
       }
     },
     "lastFinished": {
       "round": "Group Stage",
-      "kickoff": "2026-06-27T03:00:00.000Z",
-      "kickoffUnix": 1782529200000,
+      "kickoff": "2026-06-27T21:00:00.000Z",
+      "kickoffUnix": 1782594000000,
       "status": "FT",
       "home": {
-        "code": "NZL",
-        "name": "New Zealand",
-        "iso2": "NZ",
-        "goals": 1
+        "code": "CRO",
+        "name": "Croatia",
+        "iso2": "HR",
+        "goals": 2
       },
       "away": {
-        "code": "BEL",
-        "name": "Belgium",
-        "iso2": "BE",
-        "goals": 5
+        "code": "GHA",
+        "name": "Ghana",
+        "iso2": "GH",
+        "goals": 1
       }
     }
   },
@@ -835,11 +835,11 @@
             "w": 1,
             "d": 1,
             "l": 1,
-            "gf": 1,
-            "ga": 1,
+            "gf": 2,
+            "ga": 2,
             "pts": 4
           },
-          "goalsConceded": 1,
+          "goalsConceded": 2,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -1085,11 +1085,11 @@
             "w": 2,
             "d": 0,
             "l": 1,
-            "gf": 4,
-            "ga": 4,
+            "gf": 5,
+            "ga": 5,
             "pts": 6
           },
-          "goalsConceded": 4,
+          "goalsConceded": 5,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -1483,6 +1483,13 @@
         "value": 6
       },
       {
+        "code": "CRO",
+        "name": "Croatia",
+        "iso2": "HR",
+        "player": "Robin Parish",
+        "value": 5
+      },
+      {
         "code": "JOR",
         "name": "Jordan",
         "iso2": "JO",
@@ -1508,13 +1515,6 @@
         "name": "Algeria",
         "iso2": "DZ",
         "player": "Bob Gibson",
-        "value": 4
-      },
-      {
-        "code": "CRO",
-        "name": "Croatia",
-        "iso2": "HR",
-        "player": "Robin Parish",
         "value": 4
       },
       {
@@ -1679,6 +1679,13 @@
         "value": 2
       },
       {
+        "code": "GHA",
+        "name": "Ghana",
+        "iso2": "GH",
+        "player": "Matt Deacock",
+        "value": 2
+      },
+      {
         "code": "CIV",
         "name": "Ivory Coast",
         "iso2": "CI",
@@ -1696,13 +1703,6 @@
         "code": "COL",
         "name": "Colombia",
         "iso2": "CO",
-        "player": "Matt Deacock",
-        "value": 1
-      },
-      {
-        "code": "GHA",
-        "name": "Ghana",
-        "iso2": "GH",
         "player": "Matt Deacock",
         "value": 1
       },
@@ -3156,8 +3156,8 @@
           "w": 2,
           "d": 0,
           "l": 1,
-          "gf": 4,
-          "ga": 4,
+          "gf": 5,
+          "ga": 5,
           "gd": 0,
           "pts": 6
         },
@@ -3171,8 +3171,8 @@
           "w": 1,
           "d": 1,
           "l": 1,
-          "gf": 1,
-          "ga": 1,
+          "gf": 2,
+          "ga": 2,
           "gd": 0,
           "pts": 4
         },
@@ -3230,7 +3230,7 @@
       "group": "Group L",
       "played": 3,
       "gd": 0,
-      "gf": 1,
+      "gf": 2,
       "pts": 4,
       "qualifying": true
     },
@@ -3627,11 +3627,11 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Winner Group L",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "England",
+              "code": "ENG",
+              "iso2": "GB-ENG",
+              "player": "Scott Rosseter",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
@@ -5626,22 +5626,22 @@
       "date": "2026-06-27T21:00:00.000Z",
       "ts": 1782594000000,
       "round": "Group L",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "CRO",
         "name": "Croatia",
         "iso2": "HR",
         "player": "Robin Parish",
-        "score": 1,
-        "winner": false
+        "score": 2,
+        "winner": true
       },
       "away": {
         "code": "GHA",
         "name": "Ghana",
         "iso2": "GH",
         "player": "Matt Deacock",
-        "score": 0,
+        "score": 1,
         "winner": false
       }
     },
@@ -5649,8 +5649,8 @@
       "date": "2026-06-27T21:00:00.000Z",
       "ts": 1782594000000,
       "round": "Group L",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "PAN",
         "name": "Panama",
@@ -5665,7 +5665,7 @@
         "iso2": "GB-ENG",
         "player": "Scott Rosseter",
         "score": 2,
-        "winner": false
+        "winner": true
       }
     },
     {
@@ -5928,10 +5928,10 @@
       "status": "NS",
       "finished": false,
       "home": {
-        "code": null,
-        "name": "1L",
-        "iso2": null,
-        "player": null,
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG",
+        "player": "Scott Rosseter",
         "score": null,
         "winner": false
       },
@@ -7024,6 +7024,14 @@
         "score": 28
       },
       {
+        "player": "Scott Rosseter",
+        "conceded": 14,
+        "losses": 3,
+        "yellows": 6,
+        "reds": 1,
+        "score": 25
+      },
+      {
         "player": "Sam Lowerson",
         "conceded": 12,
         "losses": 3,
@@ -7040,19 +7048,19 @@
         "score": 25
       },
       {
-        "player": "Scott Rosseter",
-        "conceded": 14,
-        "losses": 3,
-        "yellows": 5,
-        "reds": 1,
-        "score": 24
-      },
-      {
         "player": "Flora Curry",
         "conceded": 9,
         "losses": 2,
         "yellows": 11,
         "reds": 0,
+        "score": 22
+      },
+      {
+        "player": "Robin Parish",
+        "conceded": 9,
+        "losses": 2,
+        "yellows": 9,
+        "reds": 1,
         "score": 22
       },
       {
@@ -7062,14 +7070,6 @@
         "yellows": 3,
         "reds": 0,
         "score": 21
-      },
-      {
-        "player": "Robin Parish",
-        "conceded": 8,
-        "losses": 2,
-        "yellows": 8,
-        "reds": 1,
-        "score": 20
       },
       {
         "player": "Tom Gibbons",
@@ -7104,20 +7104,20 @@
         "score": 18
       },
       {
+        "player": "Me Julie",
+        "conceded": 5,
+        "losses": 3,
+        "yellows": 10,
+        "reds": 0,
+        "score": 18
+      },
+      {
         "player": "Joe Clayton",
         "conceded": 8,
         "losses": 3,
         "yellows": 6,
         "reds": 0,
         "score": 17
-      },
-      {
-        "player": "Me Julie",
-        "conceded": 5,
-        "losses": 3,
-        "yellows": 8,
-        "reds": 0,
-        "score": 16
       },
       {
         "player": "Jess Forshaw",
@@ -7184,20 +7184,20 @@
         "score": 11
       },
       {
+        "player": "Matt Deacock",
+        "conceded": 3,
+        "losses": 1,
+        "yellows": 6,
+        "reds": 0,
+        "score": 10
+      },
+      {
         "player": "Nick Foulkes",
         "conceded": 5,
         "losses": 1,
         "yellows": 3,
         "reds": 0,
         "score": 9
-      },
-      {
-        "player": "Matt Deacock",
-        "conceded": 2,
-        "losses": 1,
-        "yellows": 5,
-        "reds": 0,
-        "score": 8
       }
     ],
     "fastestGoal": {
@@ -7222,6 +7222,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-06-27T22:30:08.285206+00:00"
+    "scrapedAt": "2026-06-27T23:00:09.889668+00:00"
   }
 }

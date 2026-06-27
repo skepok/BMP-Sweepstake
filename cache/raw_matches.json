@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-27T22:30:08.285206+00:00",
+  "fetchedAt": "2026-06-27T23:00:09.889668+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -855,45 +855,61 @@
       "id": 15186624,
       "round": "Group Stage",
       "startTimestamp": 1782594000,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Croatia",
-        "score": 1,
-        "winner": null
+        "score": 2,
+        "winner": true
       },
       "away": {
         "name": "Ghana",
-        "score": 0,
-        "winner": null
+        "score": 1,
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Ghana": 1,
+        "Croatia": 1
+      },
+      "fastestGoal": {
+        "minute": 31,
+        "addedTime": null,
+        "scorer": "Petar Sučić",
+        "team": "Croatia"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186676,
       "round": "Group Stage",
       "startTimestamp": 1782594000,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Panama",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "away": {
         "name": "England",
         "score": 2,
-        "winner": null
+        "winner": true
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Panama": 2,
+        "England": 1
+      },
+      "fastestGoal": {
+        "minute": 62,
+        "addedTime": null,
+        "scorer": "Jude Bellingham",
+        "team": "England"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186899,
@@ -2246,7 +2262,7 @@
       "startTimestamp": 1782921600,
       "status": "notstarted",
       "home": {
-        "name": "1L",
+        "name": "England",
         "score": null,
         "winner": null
       },
@@ -3340,8 +3356,8 @@
       "w": 2,
       "d": 0,
       "l": 1,
-      "gf": 4,
-      "ga": 4,
+      "gf": 5,
+      "ga": 5,
       "pts": 6
     },
     {
@@ -3352,8 +3368,8 @@
       "w": 1,
       "d": 1,
       "l": 1,
-      "gf": 1,
-      "ga": 1,
+      "gf": 2,
+      "ga": 2,
       "pts": 4
     },
     {
@@ -3590,9 +3606,9 @@
           "kickoff": 1782921600,
           "participants": [
             {
-              "name": "1L",
-              "code": "1L",
-              "placeholder": true,
+              "name": "England",
+              "code": "ENG",
+              "placeholder": false,
               "winner": false
             },
             {
