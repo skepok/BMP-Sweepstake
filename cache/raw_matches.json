@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-27T05:00:08.742010+00:00",
+  "fetchedAt": "2026-06-27T05:30:07.666841+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -697,23 +697,31 @@
       "id": 15186828,
       "round": "Group Stage",
       "startTimestamp": 1782529200,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Egypt",
         "score": 1,
-        "winner": null
+        "winner": false
       },
       "away": {
         "name": "Iran",
         "score": 1,
-        "winner": null
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Iran": 4,
+        "Egypt": 3
+      },
+      "fastestGoal": {
+        "minute": 5,
+        "addedTime": null,
+        "scorer": "Mahmoud Saber",
+        "team": "Egypt"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186853,
@@ -1705,7 +1713,7 @@
       "startTimestamp": 1782936000,
       "status": "notstarted",
       "home": {
-        "name": "G1",
+        "name": "Belgium",
         "score": null,
         "winner": null
       },
@@ -1820,7 +1828,7 @@
         "winner": null
       },
       "away": {
-        "name": "G2",
+        "name": "Egypt",
         "score": null,
         "winner": null
       },
@@ -2951,9 +2959,9 @@
           "kickoff": 1782936000,
           "participants": [
             {
-              "name": "G1",
-              "code": "1G",
-              "placeholder": true,
+              "name": "Belgium",
+              "code": "BEL",
+              "placeholder": false,
               "winner": false
             },
             {
@@ -3071,9 +3079,9 @@
               "winner": false
             },
             {
-              "name": "G2",
-              "code": "2G",
-              "placeholder": true,
+              "name": "Egypt",
+              "code": "EGY",
+              "placeholder": false,
               "winner": false
             }
           ]

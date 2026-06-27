@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T05:00:08.825Z",
+  "lastUpdated": "2026-06-27T05:30:07.750Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,18 +39,18 @@
   "banner": {
     "nextFixture": {
       "round": "Group Stage",
-      "kickoff": "2026-06-27T03:00:00.000Z",
-      "kickoffUnix": 1782529200000,
-      "status": "1H",
+      "kickoff": "2026-06-27T21:00:00.000Z",
+      "kickoffUnix": 1782594000000,
+      "status": "NS",
       "home": {
-        "code": "EGY",
-        "name": "Egypt",
-        "iso2": "EG"
+        "code": "PAN",
+        "name": "Panama",
+        "iso2": "PA"
       },
       "away": {
-        "code": "IRN",
-        "name": "Iran",
-        "iso2": "IR"
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG"
       }
     },
     "lastFinished": {
@@ -3531,11 +3531,11 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Winner Group G",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Belgium",
+              "code": "BEL",
+              "iso2": "BE",
+              "player": "Fred Dunn",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
@@ -3684,11 +3684,11 @@
               "winner": false
             },
             "away": {
-              "name": "Runner-up Group G",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Egypt",
+              "code": "EGY",
+              "iso2": "EG",
+              "player": "Ali Taylor",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -5511,8 +5511,8 @@
       "date": "2026-06-27T03:00:00.000Z",
       "ts": 1782529200000,
       "round": "Group G",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "EGY",
         "name": "Egypt",
@@ -5859,10 +5859,10 @@
       "status": "NS",
       "finished": false,
       "home": {
-        "code": null,
-        "name": "G1",
-        "iso2": null,
-        "player": null,
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE",
+        "player": "Fred Dunn",
         "score": null,
         "winner": false
       },
@@ -5982,10 +5982,10 @@
         "winner": false
       },
       "away": {
-        "code": null,
-        "name": "G2",
-        "iso2": null,
-        "player": null,
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "player": "Ali Taylor",
         "score": null,
         "winner": false
       }
@@ -7004,6 +7004,14 @@
         "score": 12
       },
       {
+        "player": "Jess Forshaw",
+        "conceded": 7,
+        "losses": 1,
+        "yellows": 4,
+        "reds": 0,
+        "score": 12
+      },
+      {
         "player": "Joe Clayton",
         "conceded": 8,
         "losses": 3,
@@ -7036,12 +7044,12 @@
         "score": 9
       },
       {
-        "player": "Jess Forshaw",
-        "conceded": 7,
-        "losses": 1,
-        "yellows": 0,
+        "player": "Ali Taylor",
+        "conceded": 6,
+        "losses": 0,
+        "yellows": 3,
         "reds": 0,
-        "score": 8
+        "score": 9
       },
       {
         "player": "Elizabeth Swords",
@@ -7050,14 +7058,6 @@
         "yellows": 0,
         "reds": 0,
         "score": 8
-      },
-      {
-        "player": "Ali Taylor",
-        "conceded": 6,
-        "losses": 0,
-        "yellows": 0,
-        "reds": 0,
-        "score": 6
       },
       {
         "player": "Nick Foulkes",
@@ -7122,6 +7122,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 98,
-    "scrapedAt": "2026-06-27T05:00:08.742010+00:00"
+    "scrapedAt": "2026-06-27T05:30:07.666841+00:00"
   }
 }
