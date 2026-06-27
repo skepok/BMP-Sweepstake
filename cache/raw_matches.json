@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-27T00:30:07.410042+00:00",
+  "fetchedAt": "2026-06-27T01:00:07.050317+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -685,7 +685,7 @@
       },
       "away": {
         "name": "Spain",
-        "score": 0,
+        "score": 1,
         "winner": null
       },
       "redCards": {},
@@ -2596,29 +2596,17 @@
       "group": "Group H",
       "rank": 1,
       "played": 3,
-      "w": 1,
-      "d": 2,
+      "w": 2,
+      "d": 1,
       "l": 0,
-      "gf": 4,
+      "gf": 5,
       "ga": 0,
-      "pts": 5
-    },
-    {
-      "team": "Uruguay",
-      "group": "Group H",
-      "rank": 2,
-      "played": 3,
-      "w": 0,
-      "d": 3,
-      "l": 0,
-      "gf": 3,
-      "ga": 3,
-      "pts": 3
+      "pts": 7
     },
     {
       "team": "Cabo Verde",
       "group": "Group H",
-      "rank": 3,
+      "rank": 2,
       "played": 3,
       "w": 0,
       "d": 3,
@@ -2626,6 +2614,18 @@
       "gf": 2,
       "ga": 2,
       "pts": 3
+    },
+    {
+      "team": "Uruguay",
+      "group": "Group H",
+      "rank": 3,
+      "played": 3,
+      "w": 0,
+      "d": 2,
+      "l": 1,
+      "gf": 3,
+      "ga": 4,
+      "pts": 2
     },
     {
       "team": "Saudi Arabia",

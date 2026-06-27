@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T00:30:07.687Z",
+  "lastUpdated": "2026-06-27T01:00:07.205Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -85,19 +85,19 @@
           "pot": 1,
           "odds": "9/2",
           "matched": true,
-          "status": "Group H — 1st (5 pts)",
+          "status": "Group H — 1st (7 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group H",
             "rank": 1,
             "played": 3,
-            "w": 1,
-            "d": 2,
+            "w": 2,
+            "d": 1,
             "l": 0,
-            "gf": 4,
+            "gf": 5,
             "ga": 0,
-            "pts": 5
+            "pts": 7
           },
           "goalsConceded": 0,
           "redCards": 0,
@@ -495,12 +495,12 @@
           "pot": 2,
           "odds": "2000/1",
           "matched": true,
-          "status": "Group H — 3rd (3 pts)",
+          "status": "Group H — 2nd (3 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group H",
-            "rank": 3,
+            "rank": 2,
             "played": 3,
             "w": 0,
             "d": 3,
@@ -1350,21 +1350,21 @@
           "pot": 1,
           "odds": "66/1",
           "matched": true,
-          "status": "Group H — 2nd (3 pts)",
+          "status": "Group H — 3rd (2 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group H",
-            "rank": 2,
+            "rank": 3,
             "played": 3,
             "w": 0,
-            "d": 3,
-            "l": 0,
+            "d": 2,
+            "l": 1,
             "gf": 3,
-            "ga": 3,
-            "pts": 3
+            "ga": 4,
+            "pts": 2
           },
-          "goalsConceded": 3,
+          "goalsConceded": 4,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -1546,6 +1546,13 @@
         "value": 4
       },
       {
+        "code": "URY",
+        "name": "Uruguay",
+        "iso2": "UY",
+        "player": "Tom Gibbons",
+        "value": 4
+      },
+      {
         "code": "USA",
         "name": "USA",
         "iso2": "US",
@@ -1599,13 +1606,6 @@
         "name": "Switzerland",
         "iso2": "CH",
         "player": "Elizabeth Swords",
-        "value": 3
-      },
-      {
-        "code": "URY",
-        "name": "Uruguay",
-        "iso2": "UY",
-        "player": "Tom Gibbons",
         "value": 3
       },
       {
@@ -2878,35 +2878,20 @@
           "player": "Adam Wright",
           "rank": 1,
           "played": 3,
-          "w": 1,
-          "d": 2,
+          "w": 2,
+          "d": 1,
           "l": 0,
-          "gf": 4,
+          "gf": 5,
           "ga": 0,
-          "gd": 4,
-          "pts": 5
-        },
-        {
-          "code": "URY",
-          "name": "Uruguay",
-          "iso2": "UY",
-          "player": "Tom Gibbons",
-          "rank": 2,
-          "played": 3,
-          "w": 0,
-          "d": 3,
-          "l": 0,
-          "gf": 3,
-          "ga": 3,
-          "gd": 0,
-          "pts": 3
+          "gd": 5,
+          "pts": 7
         },
         {
           "code": "CPV",
           "name": "Cape Verde",
           "iso2": "CV",
           "player": "Guy Curry",
-          "rank": 3,
+          "rank": 2,
           "played": 3,
           "w": 0,
           "d": 3,
@@ -2915,6 +2900,21 @@
           "ga": 2,
           "gd": 0,
           "pts": 3
+        },
+        {
+          "code": "URY",
+          "name": "Uruguay",
+          "iso2": "UY",
+          "player": "Tom Gibbons",
+          "rank": 3,
+          "played": 3,
+          "w": 0,
+          "d": 2,
+          "l": 1,
+          "gf": 3,
+          "ga": 4,
+          "gd": -1,
+          "pts": 2
         },
         {
           "code": "KSA",
@@ -3262,19 +3262,6 @@
     },
     {
       "pos": 6,
-      "code": "CPV",
-      "name": "Cape Verde",
-      "iso2": "CV",
-      "player": "Guy Curry",
-      "group": "Group H",
-      "played": 3,
-      "gd": 0,
-      "gf": 2,
-      "pts": 3,
-      "qualifying": true
-    },
-    {
-      "pos": 7,
       "code": "CRO",
       "name": "Croatia",
       "iso2": "HR",
@@ -3287,7 +3274,7 @@
       "qualifying": true
     },
     {
-      "pos": 8,
+      "pos": 7,
       "code": "KOR",
       "name": "South Korea",
       "iso2": "KR",
@@ -3300,7 +3287,7 @@
       "qualifying": true
     },
     {
-      "pos": 9,
+      "pos": 8,
       "code": "ALG",
       "name": "Algeria",
       "iso2": "DZ",
@@ -3310,10 +3297,10 @@
       "gd": -2,
       "gf": 2,
       "pts": 3,
-      "qualifying": false
+      "qualifying": true
     },
     {
-      "pos": 10,
+      "pos": 9,
       "code": "SCO",
       "name": "Scotland",
       "iso2": "GB-SCT",
@@ -3326,7 +3313,7 @@
       "qualifying": false
     },
     {
-      "pos": 11,
+      "pos": 10,
       "code": "BEL",
       "name": "Belgium",
       "iso2": "BE",
@@ -3335,6 +3322,19 @@
       "played": 2,
       "gd": 0,
       "gf": 1,
+      "pts": 2,
+      "qualifying": false
+    },
+    {
+      "pos": 11,
+      "code": "URY",
+      "name": "Uruguay",
+      "iso2": "UY",
+      "player": "Tom Gibbons",
+      "group": "Group H",
+      "played": 3,
+      "gd": -1,
+      "gf": 3,
       "pts": 2,
       "qualifying": false
     },
@@ -5526,7 +5526,7 @@
         "name": "Spain",
         "iso2": "ES",
         "player": "Adam Wright",
-        "score": 0,
+        "score": 1,
         "winner": false
       }
     },
@@ -6492,6 +6492,25 @@
         "gd": 5
       },
       {
+        "player": "Adam Wright",
+        "teams": [
+          {
+            "code": "ESP",
+            "name": "Spain",
+            "iso2": "ES",
+            "pts": 7
+          },
+          {
+            "code": "ZAF",
+            "name": "South Africa",
+            "iso2": "ZA",
+            "pts": 4
+          }
+        ],
+        "points": 11,
+        "gd": 4
+      },
+      {
         "player": "Bob Gibson",
         "teams": [
           {
@@ -6546,25 +6565,6 @@
           }
         ],
         "points": 10,
-        "gd": 3
-      },
-      {
-        "player": "Adam Wright",
-        "teams": [
-          {
-            "code": "ESP",
-            "name": "Spain",
-            "iso2": "ES",
-            "pts": 5
-          },
-          {
-            "code": "ZAF",
-            "name": "South Africa",
-            "iso2": "ZA",
-            "pts": 4
-          }
-        ],
-        "points": 9,
         "gd": 3
       },
       {
@@ -6682,25 +6682,6 @@
         "gd": 1
       },
       {
-        "player": "Tom Gibbons",
-        "teams": [
-          {
-            "code": "URY",
-            "name": "Uruguay",
-            "iso2": "UY",
-            "pts": 3
-          },
-          {
-            "code": "AUS",
-            "name": "Australia",
-            "iso2": "AU",
-            "pts": 4
-          }
-        ],
-        "points": 7,
-        "gd": 0
-      },
-      {
         "player": "Robin Parish",
         "teams": [
           {
@@ -6752,6 +6733,25 @@
             "name": "Haiti",
             "iso2": "HT",
             "pts": 0
+          }
+        ],
+        "points": 6,
+        "gd": -1
+      },
+      {
+        "player": "Tom Gibbons",
+        "teams": [
+          {
+            "code": "URY",
+            "name": "Uruguay",
+            "iso2": "UY",
+            "pts": 2
+          },
+          {
+            "code": "AUS",
+            "name": "Australia",
+            "iso2": "AU",
+            "pts": 4
           }
         ],
         "points": 6,
@@ -7082,6 +7082,14 @@
         "score": 8
       },
       {
+        "player": "Tom Gibbons",
+        "conceded": 6,
+        "losses": 2,
+        "yellows": 0,
+        "reds": 0,
+        "score": 8
+      },
+      {
         "player": "Jess Forshaw",
         "conceded": 6,
         "losses": 1,
@@ -7091,14 +7099,6 @@
       },
       {
         "player": "Nick Foulkes",
-        "conceded": 5,
-        "losses": 1,
-        "yellows": 0,
-        "reds": 0,
-        "score": 6
-      },
-      {
-        "player": "Tom Gibbons",
         "conceded": 5,
         "losses": 1,
         "yellows": 0,
@@ -7168,6 +7168,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 100,
-    "scrapedAt": "2026-06-27T00:30:07.410042+00:00"
+    "scrapedAt": "2026-06-27T01:00:07.050317+00:00"
   }
 }
