@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-27T05:30:07.666841+00:00",
+  "fetchedAt": "2026-06-27T07:30:15.535706+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -1396,6 +1396,201 @@
       "ownGoals": {},
       "yellowCards": {},
       "fastestGoal": null,
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186710,
+      "round": "Group Stage",
+      "startTimestamp": 1781204400,
+      "status": "finished",
+      "home": {
+        "name": "Mexico",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "name": "South Africa",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {
+        "Mexico": 1,
+        "South Africa": 2
+      },
+      "ownGoals": {},
+      "yellowCards": {
+        "South Africa": 2,
+        "Mexico": 1
+      },
+      "fastestGoal": {
+        "minute": 9,
+        "addedTime": null,
+        "scorer": "Julián Quiñones",
+        "team": "Mexico"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186720,
+      "round": "Group Stage",
+      "startTimestamp": 1781229600,
+      "status": "finished",
+      "home": {
+        "name": "South Korea",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "name": "Czechia",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "South Korea": 1
+      },
+      "fastestGoal": {
+        "minute": 59,
+        "addedTime": null,
+        "scorer": "Ladislav Krejčí",
+        "team": "Czechia"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186836,
+      "round": "Group Stage",
+      "startTimestamp": 1781290800,
+      "status": "finished",
+      "home": {
+        "name": "Canada",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Bosnia & Herzegovina",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Bosnia & Herzegovina": 3,
+        "Canada": 2
+      },
+      "fastestGoal": {
+        "minute": 21,
+        "addedTime": null,
+        "scorer": "Jovo Lukić",
+        "team": "Bosnia & Herzegovina"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186873,
+      "round": "Group Stage",
+      "startTimestamp": 1781312400,
+      "status": "finished",
+      "home": {
+        "name": "USA",
+        "score": 4,
+        "winner": true
+      },
+      "away": {
+        "name": "Paraguay",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Paraguay": 1
+      },
+      "yellowCards": {
+        "Paraguay": 5,
+        "USA": 1
+      },
+      "fastestGoal": {
+        "minute": 31,
+        "addedTime": null,
+        "scorer": "Folarin Balogun",
+        "team": "USA"
+      },
+      "fastestOwnGoal": {
+        "minute": 7,
+        "addedTime": null,
+        "scorer": "Damián Bobadilla",
+        "team": "Paraguay"
+      },
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186526,
+      "round": "Group Stage",
+      "startTimestamp": 1781377200,
+      "status": "finished",
+      "home": {
+        "name": "Qatar",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Switzerland",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Switzerland": 1
+      },
+      "yellowCards": {
+        "Switzerland": 1,
+        "Qatar": 2
+      },
+      "fastestGoal": {
+        "minute": 17,
+        "addedTime": null,
+        "scorer": "Breel Embolo",
+        "team": "Switzerland"
+      },
+      "fastestOwnGoal": {
+        "minute": 90,
+        "addedTime": 4,
+        "scorer": "Miro Muheim",
+        "team": "Switzerland"
+      },
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186850,
+      "round": "Group Stage",
+      "startTimestamp": 1781388000,
+      "status": "finished",
+      "home": {
+        "name": "Brazil",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Morocco",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Brazil": 2
+      },
+      "fastestGoal": {
+        "minute": 21,
+        "addedTime": null,
+        "scorer": "Ismael Saibari",
+        "team": "Morocco"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },

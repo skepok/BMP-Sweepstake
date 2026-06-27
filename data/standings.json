@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T05:30:07.750Z",
+  "lastUpdated": "2026-06-27T07:30:15.617Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -125,7 +125,7 @@
             "pts": 4
           },
           "goalsConceded": 3,
-          "redCards": 0,
+          "redCards": 2,
           "ownGoals": 0
         }
       ]
@@ -266,7 +266,7 @@
           },
           "goalsConceded": 3,
           "redCards": 0,
-          "ownGoals": 0
+          "ownGoals": 1
         },
         {
           "code": "KOR",
@@ -1035,7 +1035,7 @@
             "pts": 9
           },
           "goalsConceded": 0,
-          "redCards": 0,
+          "redCards": 1,
           "ownGoals": 0
         },
         {
@@ -1116,7 +1116,7 @@
           },
           "goalsConceded": 4,
           "redCards": 1,
-          "ownGoals": 0
+          "ownGoals": 1
         }
       ]
     },
@@ -1744,6 +1744,13 @@
         "value": 2
       },
       {
+        "code": "ZAF",
+        "name": "South Africa",
+        "iso2": "ZA",
+        "player": "Adam Wright",
+        "value": 2
+      },
+      {
         "code": "BEL",
         "name": "Belgium",
         "iso2": "BE",
@@ -1762,6 +1769,13 @@
         "name": "Iraq",
         "iso2": "IQ",
         "player": "Scott Rosseter",
+        "value": 1
+      },
+      {
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX",
+        "player": "Robbie Godowski",
         "value": 1
       },
       {
@@ -1940,13 +1954,6 @@
         "value": 0
       },
       {
-        "code": "MEX",
-        "name": "Mexico",
-        "iso2": "MX",
-        "player": "Robbie Godowski",
-        "value": 0
-      },
-      {
         "code": "MOR",
         "name": "Morocco",
         "iso2": "MA",
@@ -2007,13 +2014,6 @@
         "name": "Senegal",
         "iso2": "SN",
         "player": "Sam Lowerson",
-        "value": 0
-      },
-      {
-        "code": "ZAF",
-        "name": "South Africa",
-        "iso2": "ZA",
-        "player": "Adam Wright",
         "value": 0
       },
       {
@@ -2117,10 +2117,24 @@
         "value": 1
       },
       {
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "player": "Robin Parish",
+        "value": 1
+      },
+      {
         "code": "KSA",
         "name": "Saudi Arabia",
         "iso2": "SA",
         "player": "Flora Curry",
+        "value": 1
+      },
+      {
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH",
+        "player": "Elizabeth Swords",
         "value": 1
       },
       {
@@ -2327,13 +2341,6 @@
         "value": 0
       },
       {
-        "code": "PAR",
-        "name": "Paraguay",
-        "iso2": "PY",
-        "player": "Robin Parish",
-        "value": 0
-      },
-      {
         "code": "POR",
         "name": "Portugal",
         "iso2": "PT",
@@ -2380,13 +2387,6 @@
         "name": "Sweden",
         "iso2": "SE",
         "player": "Madi Farrow-Dunn",
-        "value": 0
-      },
-      {
-        "code": "SWI",
-        "name": "Switzerland",
-        "iso2": "CH",
-        "player": "Elizabeth Swords",
         "value": 0
       },
       {
@@ -4150,6 +4150,144 @@
     ]
   },
   "fixtures": [
+    {
+      "date": "2026-06-11T19:00:00.000Z",
+      "ts": 1781204400000,
+      "round": "Group A",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX",
+        "player": "Robbie Godowski",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "code": "ZAF",
+        "name": "South Africa",
+        "iso2": "ZA",
+        "player": "Adam Wright",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-12T02:00:00.000Z",
+      "ts": 1781229600000,
+      "round": "Group A",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "KOR",
+        "name": "South Korea",
+        "iso2": "KR",
+        "player": "Elizabeth Swords",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "code": "CZE",
+        "name": "Czechia",
+        "iso2": "CZ",
+        "player": "Laura Harrison",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-12T19:00:00.000Z",
+      "ts": 1781290800000,
+      "round": "Group B",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "CAN",
+        "name": "Canada",
+        "iso2": "CA",
+        "player": "Joe Clayton",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "player": "Sam Lowerson",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-13T01:00:00.000Z",
+      "ts": 1781312400000,
+      "round": "Group D",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "USA",
+        "name": "USA",
+        "iso2": "US",
+        "player": "Flora Curry",
+        "score": 4,
+        "winner": true
+      },
+      "away": {
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "player": "Robin Parish",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-13T19:00:00.000Z",
+      "ts": 1781377200000,
+      "round": "Group B",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH",
+        "player": "Elizabeth Swords",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-13T22:00:00.000Z",
+      "ts": 1781388000000,
+      "round": "Group C",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "BRA",
+        "name": "Brazil",
+        "iso2": "BR",
+        "player": "Me Julie",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "MOR",
+        "name": "Morocco",
+        "iso2": "MA",
+        "player": "Ali Taylor",
+        "score": 1,
+        "winner": false
+      }
+    },
     {
       "date": "2026-06-14T01:00:00.000Z",
       "ts": 1781398800000,
@@ -6924,11 +7062,27 @@
         "score": 22
       },
       {
+        "player": "Sam Lowerson",
+        "conceded": 12,
+        "losses": 3,
+        "yellows": 5,
+        "reds": 1,
+        "score": 22
+      },
+      {
         "player": "Scott Rosseter",
         "conceded": 14,
         "losses": 3,
         "yellows": 2,
         "reds": 1,
+        "score": 21
+      },
+      {
+        "player": "Frank Dunn",
+        "conceded": 12,
+        "losses": 3,
+        "yellows": 2,
+        "reds": 2,
         "score": 21
       },
       {
@@ -6940,28 +7094,20 @@
         "score": 19
       },
       {
-        "player": "Frank Dunn",
-        "conceded": 12,
-        "losses": 3,
-        "yellows": 0,
-        "reds": 2,
-        "score": 19
-      },
-      {
-        "player": "Sam Lowerson",
-        "conceded": 12,
-        "losses": 3,
-        "yellows": 2,
-        "reds": 1,
-        "score": 19
-      },
-      {
         "player": "Sam King",
         "conceded": 14,
         "losses": 3,
         "yellows": 1,
         "reds": 0,
         "score": 18
+      },
+      {
+        "player": "Robin Parish",
+        "conceded": 8,
+        "losses": 2,
+        "yellows": 5,
+        "reds": 1,
+        "score": 17
       },
       {
         "player": "Fred Dunn",
@@ -6983,9 +7129,17 @@
         "player": "Flora Curry",
         "conceded": 9,
         "losses": 2,
-        "yellows": 3,
+        "yellows": 4,
         "reds": 0,
-        "score": 14
+        "score": 15
+      },
+      {
+        "player": "Joe Clayton",
+        "conceded": 8,
+        "losses": 3,
+        "yellows": 2,
+        "reds": 0,
+        "score": 13
       },
       {
         "player": "Tom Gibbons",
@@ -6996,28 +7150,12 @@
         "score": 13
       },
       {
-        "player": "Robin Parish",
-        "conceded": 8,
-        "losses": 2,
-        "yellows": 0,
-        "reds": 1,
-        "score": 12
-      },
-      {
         "player": "Jess Forshaw",
         "conceded": 7,
         "losses": 1,
         "yellows": 4,
         "reds": 0,
         "score": 12
-      },
-      {
-        "player": "Joe Clayton",
-        "conceded": 8,
-        "losses": 3,
-        "yellows": 0,
-        "reds": 0,
-        "score": 11
       },
       {
         "player": "Tom Clayton",
@@ -7028,10 +7166,26 @@
         "score": 11
       },
       {
+        "player": "Adam Wright",
+        "conceded": 3,
+        "losses": 1,
+        "yellows": 3,
+        "reds": 2,
+        "score": 11
+      },
+      {
         "player": "Paul Mitchell",
         "conceded": 7,
         "losses": 3,
         "yellows": 0,
+        "reds": 0,
+        "score": 10
+      },
+      {
+        "player": "Elizabeth Swords",
+        "conceded": 6,
+        "losses": 2,
+        "yellows": 2,
         "reds": 0,
         "score": 10
       },
@@ -7052,12 +7206,12 @@
         "score": 9
       },
       {
-        "player": "Elizabeth Swords",
-        "conceded": 6,
+        "player": "Me Julie",
+        "conceded": 3,
         "losses": 2,
-        "yellows": 0,
+        "yellows": 2,
         "reds": 0,
-        "score": 8
+        "score": 7
       },
       {
         "player": "Nick Foulkes",
@@ -7068,20 +7222,12 @@
         "score": 6
       },
       {
-        "player": "Adam Wright",
-        "conceded": 3,
+        "player": "Robbie Godowski",
+        "conceded": 2,
         "losses": 1,
         "yellows": 1,
-        "reds": 0,
-        "score": 5
-      },
-      {
-        "player": "Me Julie",
-        "conceded": 3,
-        "losses": 2,
-        "yellows": 0,
-        "reds": 0,
-        "score": 5
+        "reds": 1,
+        "score": 6
       },
       {
         "player": "Guy Curry",
@@ -7090,14 +7236,6 @@
         "yellows": 1,
         "reds": 0,
         "score": 4
-      },
-      {
-        "player": "Robbie Godowski",
-        "conceded": 2,
-        "losses": 1,
-        "yellows": 0,
-        "reds": 0,
-        "score": 3
       },
       {
         "player": "Matt Deacock",
@@ -7117,11 +7255,19 @@
       "player": "Sam Lowerson",
       "match": "Senegal v Iraq"
     },
-    "fastestOwnGoal": null
+    "fastestOwnGoal": {
+      "minute": 7,
+      "addedTime": null,
+      "scorer": "Damián Bobadilla",
+      "team": "Paraguay",
+      "iso2": "PY",
+      "player": "Robin Parish",
+      "match": "USA v Paraguay"
+    }
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 98,
-    "scrapedAt": "2026-06-27T05:30:07.666841+00:00"
+    "matches": 104,
+    "scrapedAt": "2026-06-27T07:30:15.535706+00:00"
   }
 }
