@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-27T01:00:07.050317+00:00",
+  "fetchedAt": "2026-06-27T02:00:07.936995+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -655,23 +655,26 @@
       "id": 15186803,
       "round": "Group Stage",
       "startTimestamp": 1782518400,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Cabo Verde",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "away": {
         "name": "Saudi Arabia",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
+      "yellowCards": {
+        "Saudi Arabia": 3,
+        "Cabo Verde": 1
+      },
       "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186841,
@@ -688,7 +691,9 @@
         "score": 1,
         "winner": null
       },
-      "redCards": {},
+      "redCards": {
+        "Uruguay": 1
+      },
       "ownGoals": {},
       "yellowCards": {},
       "fastestGoal": null,
