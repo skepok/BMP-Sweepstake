@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T02:30:07.926Z",
+  "lastUpdated": "2026-06-27T03:00:07.097Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -5564,7 +5564,7 @@
         "name": "New Zealand",
         "iso2": "NZ",
         "player": "Madi Farrow-Dunn",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -5572,7 +5572,7 @@
         "name": "Belgium",
         "iso2": "BE",
         "player": "Fred Dunn",
-        "score": null,
+        "score": 0,
         "winner": false
       }
     },
@@ -7168,6 +7168,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 100,
-    "scrapedAt": "2026-06-27T02:30:07.789468+00:00"
+    "scrapedAt": "2026-06-27T03:00:07.000438+00:00"
   }
 }
