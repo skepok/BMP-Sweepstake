@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-27T04:30:07.095790+00:00",
+  "fetchedAt": "2026-06-27T05:00:08.742010+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -668,23 +668,30 @@
       "id": 15186822,
       "round": "Group Stage",
       "startTimestamp": 1782529200,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "New Zealand",
-        "score": 0,
-        "winner": null
+        "score": 1,
+        "winner": false
       },
       "away": {
         "name": "Belgium",
-        "score": 3,
-        "winner": null
+        "score": 5,
+        "winner": true
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "New Zealand": 2
+      },
+      "fastestGoal": {
+        "minute": 28,
+        "addedTime": null,
+        "scorer": "Leandro Trossard",
+        "team": "Belgium"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186828,
@@ -2518,8 +2525,8 @@
       "w": 1,
       "d": 2,
       "l": 0,
-      "gf": 4,
-      "ga": 1,
+      "gf": 6,
+      "ga": 2,
       "pts": 5
     },
     {
@@ -2554,8 +2561,8 @@
       "w": 0,
       "d": 1,
       "l": 2,
-      "gf": 3,
-      "ga": 8,
+      "gf": 4,
+      "ga": 10,
       "pts": 1
     },
     {

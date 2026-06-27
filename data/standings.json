@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T04:30:07.182Z",
+  "lastUpdated": "2026-06-27T05:00:08.825Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -43,32 +43,32 @@
       "kickoffUnix": 1782529200000,
       "status": "1H",
       "home": {
-        "code": "NZL",
-        "name": "New Zealand",
-        "iso2": "NZ"
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG"
       },
       "away": {
-        "code": "BEL",
-        "name": "Belgium",
-        "iso2": "BE"
+        "code": "IRN",
+        "name": "Iran",
+        "iso2": "IR"
       }
     },
     "lastFinished": {
       "round": "Group Stage",
-      "kickoff": "2026-06-27T00:00:00.000Z",
-      "kickoffUnix": 1782518400000,
+      "kickoff": "2026-06-27T03:00:00.000Z",
+      "kickoffUnix": 1782529200000,
       "status": "FT",
       "home": {
-        "code": "CPV",
-        "name": "Cape Verde",
-        "iso2": "CV",
-        "goals": 0
+        "code": "NZL",
+        "name": "New Zealand",
+        "iso2": "NZ",
+        "goals": 1
       },
       "away": {
-        "code": "KSA",
-        "name": "Saudi Arabia",
-        "iso2": "SA",
-        "goals": 0
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE",
+        "goals": 5
       }
     }
   },
@@ -425,11 +425,11 @@
             "w": 1,
             "d": 2,
             "l": 0,
-            "gf": 4,
-            "ga": 1,
+            "gf": 6,
+            "ga": 2,
             "pts": 5
           },
-          "goalsConceded": 1,
+          "goalsConceded": 2,
           "redCards": 1,
           "ownGoals": 0
         },
@@ -780,11 +780,11 @@
             "w": 0,
             "d": 1,
             "l": 2,
-            "gf": 3,
-            "ga": 8,
+            "gf": 4,
+            "ga": 10,
             "pts": 1
           },
-          "goalsConceded": 8,
+          "goalsConceded": 10,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -1413,6 +1413,13 @@
         "value": 12
       },
       {
+        "code": "NZL",
+        "name": "New Zealand",
+        "iso2": "NZ",
+        "player": "Madi Farrow-Dunn",
+        "value": 10
+      },
+      {
         "code": "QAT",
         "name": "Qatar",
         "iso2": "QA",
@@ -1431,13 +1438,6 @@
         "name": "Haiti",
         "iso2": "HT",
         "player": "Tom Clayton",
-        "value": 8
-      },
-      {
-        "code": "NZL",
-        "name": "New Zealand",
-        "iso2": "NZ",
-        "player": "Madi Farrow-Dunn",
         "value": 8
       },
       {
@@ -1630,6 +1630,13 @@
         "value": 2
       },
       {
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE",
+        "player": "Fred Dunn",
+        "value": 2
+      },
+      {
         "code": "CPV",
         "name": "Cape Verde",
         "iso2": "CV",
@@ -1677,13 +1684,6 @@
         "iso2": "PA",
         "player": "Me Julie",
         "value": 2
-      },
-      {
-        "code": "BEL",
-        "name": "Belgium",
-        "iso2": "BE",
-        "player": "Fred Dunn",
-        "value": 1
       },
       {
         "code": "BRA",
@@ -2816,9 +2816,9 @@
           "w": 1,
           "d": 2,
           "l": 0,
-          "gf": 4,
-          "ga": 1,
-          "gd": 3,
+          "gf": 6,
+          "ga": 2,
+          "gd": 4,
           "pts": 5
         },
         {
@@ -2861,9 +2861,9 @@
           "w": 0,
           "d": 1,
           "l": 2,
-          "gf": 3,
-          "ga": 8,
-          "gd": -5,
+          "gf": 4,
+          "ga": 10,
+          "gd": -6,
           "pts": 1
         }
       ]
@@ -5488,14 +5488,14 @@
       "date": "2026-06-27T03:00:00.000Z",
       "ts": 1782529200000,
       "round": "Group G",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "NZL",
         "name": "New Zealand",
         "iso2": "NZ",
         "player": "Madi Farrow-Dunn",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "away": {
@@ -5503,8 +5503,8 @@
         "name": "Belgium",
         "iso2": "BE",
         "player": "Fred Dunn",
-        "score": 3,
-        "winner": false
+        "score": 5,
+        "winner": true
       }
     },
     {
@@ -6747,7 +6747,7 @@
           }
         ],
         "points": 6,
-        "gd": -5
+        "gd": -4
       },
       {
         "player": "Jimena Barillas",
@@ -6785,7 +6785,7 @@
           }
         ],
         "points": 5,
-        "gd": -5
+        "gd": -6
       },
       {
         "player": "Frank Dunn",
@@ -6916,6 +6916,14 @@
     },
     "okr": [
       {
+        "player": "Madi Farrow-Dunn",
+        "conceded": 17,
+        "losses": 3,
+        "yellows": 2,
+        "reds": 0,
+        "score": 22
+      },
+      {
         "player": "Scott Rosseter",
         "conceded": 14,
         "losses": 3,
@@ -6948,14 +6956,6 @@
         "score": 19
       },
       {
-        "player": "Madi Farrow-Dunn",
-        "conceded": 15,
-        "losses": 3,
-        "yellows": 0,
-        "reds": 0,
-        "score": 18
-      },
-      {
         "player": "Sam King",
         "conceded": 14,
         "losses": 3,
@@ -6964,20 +6964,20 @@
         "score": 18
       },
       {
+        "player": "Fred Dunn",
+        "conceded": 11,
+        "losses": 2,
+        "yellows": 0,
+        "reds": 1,
+        "score": 15
+      },
+      {
         "player": "Laura Harrison",
         "conceded": 11,
         "losses": 4,
         "yellows": 0,
         "reds": 0,
         "score": 15
-      },
-      {
-        "player": "Fred Dunn",
-        "conceded": 10,
-        "losses": 2,
-        "yellows": 0,
-        "reds": 1,
-        "score": 14
       },
       {
         "player": "Flora Curry",
@@ -7122,6 +7122,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 98,
-    "scrapedAt": "2026-06-27T04:30:07.095790+00:00"
+    "scrapedAt": "2026-06-27T05:00:08.742010+00:00"
   }
 }
