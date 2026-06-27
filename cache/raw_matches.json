@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-27T21:30:08.725804+00:00",
+  "fetchedAt": "2026-06-27T22:00:08.209473+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -858,7 +858,7 @@
       "status": "inprogress",
       "home": {
         "name": "Croatia",
-        "score": 0,
+        "score": 1,
         "winner": null
       },
       "away": {
@@ -3321,9 +3321,21 @@
       "pts": 0
     },
     {
-      "team": "England",
+      "team": "Croatia",
       "group": "Group L",
       "rank": 1,
+      "played": 3,
+      "w": 2,
+      "d": 0,
+      "l": 1,
+      "gf": 4,
+      "ga": 4,
+      "pts": 6
+    },
+    {
+      "team": "England",
+      "group": "Group L",
+      "rank": 2,
       "played": 3,
       "w": 1,
       "d": 2,
@@ -3335,25 +3347,13 @@
     {
       "team": "Ghana",
       "group": "Group L",
-      "rank": 2,
-      "played": 3,
-      "w": 1,
-      "d": 2,
-      "l": 0,
-      "gf": 1,
-      "ga": 0,
-      "pts": 5
-    },
-    {
-      "team": "Croatia",
-      "group": "Group L",
       "rank": 3,
       "played": 3,
       "w": 1,
       "d": 1,
       "l": 1,
-      "gf": 3,
-      "ga": 4,
+      "gf": 1,
+      "ga": 1,
       "pts": 4
     },
     {

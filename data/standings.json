@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T21:30:08.803Z",
+  "lastUpdated": "2026-06-27T22:00:08.297Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -825,21 +825,21 @@
           "pot": 2,
           "odds": "400/1",
           "matched": true,
-          "status": "Group L — 2nd (5 pts)",
+          "status": "Group L — 3rd (4 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group L",
-            "rank": 2,
+            "rank": 3,
             "played": 3,
             "w": 1,
-            "d": 2,
-            "l": 0,
+            "d": 1,
+            "l": 1,
             "gf": 1,
-            "ga": 0,
-            "pts": 5
+            "ga": 1,
+            "pts": 4
           },
-          "goalsConceded": 0,
+          "goalsConceded": 1,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -1075,19 +1075,19 @@
           "pot": 1,
           "odds": "80/1",
           "matched": true,
-          "status": "Group L — 3rd (4 pts)",
+          "status": "Group L — 1st (6 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group L",
-            "rank": 3,
+            "rank": 1,
             "played": 3,
-            "w": 1,
-            "d": 1,
+            "w": 2,
+            "d": 0,
             "l": 1,
-            "gf": 3,
+            "gf": 4,
             "ga": 4,
-            "pts": 4
+            "pts": 6
           },
           "goalsConceded": 4,
           "redCards": 0,
@@ -1240,12 +1240,12 @@
           "pot": 1,
           "odds": "6/1",
           "matched": true,
-          "status": "Group L — 1st (5 pts)",
+          "status": "Group L — 2nd (5 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group L",
-            "rank": 1,
+            "rank": 2,
             "played": 3,
             "w": 1,
             "d": 2,
@@ -1700,6 +1700,13 @@
         "value": 1
       },
       {
+        "code": "GHA",
+        "name": "Ghana",
+        "iso2": "GH",
+        "player": "Matt Deacock",
+        "value": 1
+      },
+      {
         "code": "POR",
         "name": "Portugal",
         "iso2": "PT",
@@ -1711,13 +1718,6 @@
         "name": "Argentina",
         "iso2": "AR",
         "player": "Tom Clayton",
-        "value": 0
-      },
-      {
-        "code": "GHA",
-        "name": "Ghana",
-        "iso2": "GH",
-        "player": "Matt Deacock",
         "value": 0
       },
       {
@@ -3132,11 +3132,26 @@
       "name": "Group L",
       "rows": [
         {
+          "code": "CRO",
+          "name": "Croatia",
+          "iso2": "HR",
+          "player": "Robin Parish",
+          "rank": 1,
+          "played": 3,
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "gf": 4,
+          "ga": 4,
+          "gd": 0,
+          "pts": 6
+        },
+        {
           "code": "ENG",
           "name": "England",
           "iso2": "GB-ENG",
           "player": "Scott Rosseter",
-          "rank": 1,
+          "rank": 2,
           "played": 3,
           "w": 1,
           "d": 2,
@@ -3151,29 +3166,14 @@
           "name": "Ghana",
           "iso2": "GH",
           "player": "Matt Deacock",
-          "rank": 2,
-          "played": 3,
-          "w": 1,
-          "d": 2,
-          "l": 0,
-          "gf": 1,
-          "ga": 0,
-          "gd": 1,
-          "pts": 5
-        },
-        {
-          "code": "CRO",
-          "name": "Croatia",
-          "iso2": "HR",
-          "player": "Robin Parish",
           "rank": 3,
           "played": 3,
           "w": 1,
           "d": 1,
           "l": 1,
-          "gf": 3,
-          "ga": 4,
-          "gd": -1,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
           "pts": 4
         },
         {
@@ -3223,6 +3223,19 @@
     },
     {
       "pos": 3,
+      "code": "GHA",
+      "name": "Ghana",
+      "iso2": "GH",
+      "player": "Matt Deacock",
+      "group": "Group L",
+      "played": 3,
+      "gd": 0,
+      "gf": 1,
+      "pts": 4,
+      "qualifying": true
+    },
+    {
+      "pos": 4,
       "code": "BIH",
       "name": "Bosnia-Herzegovina",
       "iso2": "BA",
@@ -3231,19 +3244,6 @@
       "played": 3,
       "gd": -1,
       "gf": 5,
-      "pts": 4,
-      "qualifying": true
-    },
-    {
-      "pos": 4,
-      "code": "CRO",
-      "name": "Croatia",
-      "iso2": "HR",
-      "player": "Robin Parish",
-      "group": "Group L",
-      "played": 3,
-      "gd": -1,
-      "gf": 3,
       "pts": 4,
       "qualifying": true
     },
@@ -5633,7 +5633,7 @@
         "name": "Croatia",
         "iso2": "HR",
         "player": "Robin Parish",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "away": {
@@ -6557,25 +6557,6 @@
         "gd": 4
       },
       {
-        "player": "Matt Deacock",
-        "teams": [
-          {
-            "code": "COL",
-            "name": "Colombia",
-            "iso2": "CO",
-            "pts": 6
-          },
-          {
-            "code": "GHA",
-            "name": "Ghana",
-            "iso2": "GH",
-            "pts": 5
-          }
-        ],
-        "points": 11,
-        "gd": 4
-      },
-      {
         "player": "Bob Gibson",
         "teams": [
           {
@@ -6612,6 +6593,44 @@
         ],
         "points": 10,
         "gd": 3
+      },
+      {
+        "player": "Matt Deacock",
+        "teams": [
+          {
+            "code": "COL",
+            "name": "Colombia",
+            "iso2": "CO",
+            "pts": 6
+          },
+          {
+            "code": "GHA",
+            "name": "Ghana",
+            "iso2": "GH",
+            "pts": 4
+          }
+        ],
+        "points": 10,
+        "gd": 3
+      },
+      {
+        "player": "Robin Parish",
+        "teams": [
+          {
+            "code": "CRO",
+            "name": "Croatia",
+            "iso2": "HR",
+            "pts": 6
+          },
+          {
+            "code": "PAR",
+            "name": "Paraguay",
+            "iso2": "PY",
+            "pts": 4
+          }
+        ],
+        "points": 10,
+        "gd": -2
       },
       {
         "player": "Jess Forshaw",
@@ -6688,25 +6707,6 @@
         ],
         "points": 8,
         "gd": 0
-      },
-      {
-        "player": "Robin Parish",
-        "teams": [
-          {
-            "code": "CRO",
-            "name": "Croatia",
-            "iso2": "HR",
-            "pts": 4
-          },
-          {
-            "code": "PAR",
-            "name": "Paraguay",
-            "iso2": "PY",
-            "pts": 4
-          }
-        ],
-        "points": 8,
-        "gd": -3
       },
       {
         "player": "Guy Curry",
@@ -7193,11 +7193,11 @@
       },
       {
         "player": "Matt Deacock",
-        "conceded": 1,
-        "losses": 0,
+        "conceded": 2,
+        "losses": 1,
         "yellows": 5,
         "reds": 0,
-        "score": 6
+        "score": 8
       }
     ],
     "fastestGoal": {
@@ -7222,6 +7222,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-06-27T21:30:08.725804+00:00"
+    "scrapedAt": "2026-06-27T22:00:08.209473+00:00"
   }
 }
