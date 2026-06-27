@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-27T07:30:15.535706+00:00",
+  "fetchedAt": "2026-06-27T17:15:38.815907+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -24,9 +24,21 @@
       "ownGoals": {
         "Saudi Arabia": 1
       },
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
+      "yellowCards": {
+        "Saudi Arabia": 2
+      },
+      "fastestGoal": {
+        "minute": 10,
+        "addedTime": null,
+        "scorer": "Lamine Yamal",
+        "team": "Spain"
+      },
+      "fastestOwnGoal": {
+        "minute": 49,
+        "addedTime": null,
+        "scorer": "Hassan Tambakti",
+        "team": "Saudi Arabia"
+      },
       "incidentsFetched": true
     },
     {
@@ -48,7 +60,10 @@
         "Belgium": 1
       },
       "ownGoals": {},
-      "yellowCards": {},
+      "yellowCards": {
+        "Iran": 1,
+        "Belgium": 1
+      },
       "fastestGoal": null,
       "fastestOwnGoal": null,
       "incidentsFetched": true
@@ -70,8 +85,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Cabo Verde": 2,
+        "Uruguay": 2
+      },
+      "fastestGoal": {
+        "minute": 21,
+        "addedTime": null,
+        "scorer": "Kevin Lenini",
+        "team": "Cabo Verde"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -92,8 +115,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "New Zealand": 2,
+        "Egypt": 1
+      },
+      "fastestGoal": {
+        "minute": 15,
+        "addedTime": null,
+        "scorer": "Finn Surman",
+        "team": "New Zealand"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -114,8 +145,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Argentina": 2,
+        "Austria": 2
+      },
+      "fastestGoal": {
+        "minute": 38,
+        "addedTime": null,
+        "scorer": "Lionel Messi",
+        "team": "Argentina"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -136,8 +175,15 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Iraq": 1
+      },
+      "fastestGoal": {
+        "minute": 14,
+        "addedTime": null,
+        "scorer": "Kylian Mbappé",
+        "team": "France"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -159,7 +205,12 @@
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
-      "fastestGoal": null,
+      "fastestGoal": {
+        "minute": 43,
+        "addedTime": null,
+        "scorer": "Marcus Pedersen",
+        "team": "Norway"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -180,8 +231,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Jordan": 1,
+        "Algeria": 1
+      },
+      "fastestGoal": {
+        "minute": 36,
+        "addedTime": null,
+        "scorer": "Nizar Al-Rashdan",
+        "team": "Jordan"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -204,9 +263,22 @@
       "ownGoals": {
         "Uzbekistan": 1
       },
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
+      "yellowCards": {
+        "Portugal": 1,
+        "Uzbekistan": 1
+      },
+      "fastestGoal": {
+        "minute": 6,
+        "addedTime": null,
+        "scorer": "Cristiano Ronaldo",
+        "team": "Portugal"
+      },
+      "fastestOwnGoal": {
+        "minute": 60,
+        "addedTime": null,
+        "scorer": "Abduvokhid Nematov",
+        "team": "Uzbekistan"
+      },
       "incidentsFetched": true
     },
     {
@@ -226,7 +298,10 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
+      "yellowCards": {
+        "Ghana": 1,
+        "England": 1
+      },
       "fastestGoal": null,
       "fastestOwnGoal": null,
       "incidentsFetched": true
@@ -248,8 +323,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Croatia": 1,
+        "Panama": 1
+      },
+      "fastestGoal": {
+        "minute": 54,
+        "addedTime": null,
+        "scorer": "Ante Budimir",
+        "team": "Croatia"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -270,8 +353,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Colombia": 2,
+        "DR Congo": 1
+      },
+      "fastestGoal": {
+        "minute": 76,
+        "addedTime": null,
+        "scorer": "Daniel Muñoz",
+        "team": "Colombia"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -294,9 +385,22 @@
       "ownGoals": {
         "Qatar": 1
       },
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
+      "yellowCards": {
+        "Bosnia & Herzegovina": 1,
+        "Qatar": 1
+      },
+      "fastestGoal": {
+        "minute": 29,
+        "addedTime": null,
+        "scorer": "Kerim Alajbegović",
+        "team": "Bosnia & Herzegovina"
+      },
+      "fastestOwnGoal": {
+        "minute": 34,
+        "addedTime": null,
+        "scorer": "Mahmud Abunada",
+        "team": "Qatar"
+      },
       "incidentsFetched": true
     },
     {
@@ -316,8 +420,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Canada": 2,
+        "Switzerland": 1
+      },
+      "fastestGoal": {
+        "minute": 46,
+        "addedTime": null,
+        "scorer": "Rubén Vargas",
+        "team": "Switzerland"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -340,9 +452,21 @@
       "ownGoals": {
         "Morocco": 1
       },
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
+      "yellowCards": {
+        "Haiti": 3
+      },
+      "fastestGoal": {
+        "minute": 39,
+        "addedTime": null,
+        "scorer": "Achraf Hakimi",
+        "team": "Morocco"
+      },
+      "fastestOwnGoal": {
+        "minute": 10,
+        "addedTime": null,
+        "scorer": "Yassine Bounou",
+        "team": "Morocco"
+      },
       "incidentsFetched": true
     },
     {
@@ -362,8 +486,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Scotland": 1,
+        "Brazil": 2
+      },
+      "fastestGoal": {
+        "minute": 7,
+        "addedTime": null,
+        "scorer": "Vinícius Júnior",
+        "team": "Brazil"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -384,8 +516,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "South Korea": 1,
+        "South Africa": 1
+      },
+      "fastestGoal": {
+        "minute": 63,
+        "addedTime": null,
+        "scorer": "Thapelo Maseko",
+        "team": "South Africa"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -406,8 +546,15 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Mexico": 1
+      },
+      "fastestGoal": {
+        "minute": 55,
+        "addedTime": null,
+        "scorer": "Mateo Chávez",
+        "team": "Mexico"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -428,8 +575,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Curaçao": 2,
+        "Côte d'Ivoire": 1
+      },
+      "fastestGoal": {
+        "minute": 7,
+        "addedTime": null,
+        "scorer": "Nicolas Pépé",
+        "team": "Côte d'Ivoire"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -450,8 +605,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Ecuador": 3,
+        "Germany": 1
+      },
+      "fastestGoal": {
+        "minute": 2,
+        "addedTime": null,
+        "scorer": "Leroy Sané",
+        "team": "Germany"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -472,8 +635,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Sweden": 2,
+        "Japan": 1
+      },
+      "fastestGoal": {
+        "minute": 56,
+        "addedTime": null,
+        "scorer": "Daizen Maeda",
+        "team": "Japan"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -497,8 +668,18 @@
         "Tunisia": 1
       },
       "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
+      "fastestGoal": {
+        "minute": 7,
+        "addedTime": null,
+        "scorer": "Brian Brobbey",
+        "team": "Netherlands"
+      },
+      "fastestOwnGoal": {
+        "minute": 3,
+        "addedTime": null,
+        "scorer": "Ellyes Skhiri",
+        "team": "Tunisia"
+      },
       "incidentsFetched": true
     },
     {
@@ -518,7 +699,10 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
+      "yellowCards": {
+        "Paraguay": 1,
+        "Australia": 1
+      },
       "fastestGoal": null,
       "fastestOwnGoal": null,
       "incidentsFetched": true
@@ -540,8 +724,15 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "USA": 1
+      },
+      "fastestGoal": {
+        "minute": 3,
+        "addedTime": null,
+        "scorer": "Auston Trusty",
+        "team": "USA"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -740,8 +931,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Scotland": 3,
+        "Haiti": 1
+      },
+      "fastestGoal": {
+        "minute": 28,
+        "addedTime": null,
+        "scorer": "John McGinn",
+        "team": "Scotland"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -762,8 +961,15 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Türkiye": 1
+      },
+      "fastestGoal": {
+        "minute": 27,
+        "addedTime": null,
+        "scorer": "Nestory Irankunda",
+        "team": "Australia"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -785,7 +991,12 @@
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
-      "fastestGoal": null,
+      "fastestGoal": {
+        "minute": 6,
+        "addedTime": null,
+        "scorer": "Felix Nmecha",
+        "team": "Germany"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -806,8 +1017,15 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Netherlands": 3
+      },
+      "fastestGoal": {
+        "minute": 51,
+        "addedTime": null,
+        "scorer": "Virgil van Dijk",
+        "team": "Netherlands"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -828,8 +1046,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Ecuador": 1,
+        "Côte d'Ivoire": 3
+      },
+      "fastestGoal": {
+        "minute": 90,
+        "addedTime": null,
+        "scorer": "Amad Diallo",
+        "team": "Côte d'Ivoire"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -850,8 +1076,15 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Tunisia": 1
+      },
+      "fastestGoal": {
+        "minute": 7,
+        "addedTime": null,
+        "scorer": "Yasin Ayari",
+        "team": "Sweden"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -872,7 +1105,10 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
+      "yellowCards": {
+        "Spain": 1,
+        "Cabo Verde": 1
+      },
       "fastestGoal": null,
       "fastestOwnGoal": null,
       "incidentsFetched": true
@@ -896,9 +1132,22 @@
       "ownGoals": {
         "Egypt": 1
       },
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
+      "yellowCards": {
+        "Belgium": 2,
+        "Egypt": 2
+      },
+      "fastestGoal": {
+        "minute": 20,
+        "addedTime": null,
+        "scorer": "Emam Ashour",
+        "team": "Egypt"
+      },
+      "fastestOwnGoal": {
+        "minute": 66,
+        "addedTime": null,
+        "scorer": "Mohamed Hany",
+        "team": "Egypt"
+      },
       "incidentsFetched": true
     },
     {
@@ -918,8 +1167,15 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Saudi Arabia": 1
+      },
+      "fastestGoal": {
+        "minute": 41,
+        "addedTime": null,
+        "scorer": "Abdulelah Al-Amri",
+        "team": "Saudi Arabia"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -940,8 +1196,15 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Iran": 1
+      },
+      "fastestGoal": {
+        "minute": 7,
+        "addedTime": null,
+        "scorer": "Elijah Just",
+        "team": "New Zealand"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -963,7 +1226,12 @@
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
-      "fastestGoal": null,
+      "fastestGoal": {
+        "minute": 66,
+        "addedTime": null,
+        "scorer": "Kylian Mbappé",
+        "team": "France"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -986,9 +1254,21 @@
       "ownGoals": {
         "Iraq": 1
       },
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
+      "yellowCards": {
+        "Iraq": 1
+      },
+      "fastestGoal": {
+        "minute": 29,
+        "addedTime": null,
+        "scorer": "Erling Haaland",
+        "team": "Norway"
+      },
+      "fastestOwnGoal": {
+        "minute": 90,
+        "addedTime": 6,
+        "scorer": "Aymen Hussein",
+        "team": "Iraq"
+      },
       "incidentsFetched": true
     },
     {
@@ -1009,7 +1289,12 @@
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
-      "fastestGoal": null,
+      "fastestGoal": {
+        "minute": 17,
+        "addedTime": null,
+        "scorer": "Lionel Messi",
+        "team": "Argentina"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -1032,9 +1317,21 @@
       "ownGoals": {
         "Jordan": 1
       },
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
+      "yellowCards": {
+        "Austria": 1
+      },
+      "fastestGoal": {
+        "minute": 21,
+        "addedTime": null,
+        "scorer": "Romano Schmid",
+        "team": "Austria"
+      },
+      "fastestOwnGoal": {
+        "minute": 76,
+        "addedTime": null,
+        "scorer": "Yazan Al-Arab",
+        "team": "Jordan"
+      },
       "incidentsFetched": true
     },
     {
@@ -1054,8 +1351,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Portugal": 3,
+        "DR Congo": 1
+      },
+      "fastestGoal": {
+        "minute": 6,
+        "addedTime": null,
+        "scorer": "João Neves",
+        "team": "Portugal"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -1077,7 +1382,12 @@
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
-      "fastestGoal": null,
+      "fastestGoal": {
+        "minute": 12,
+        "addedTime": null,
+        "scorer": "Harry Kane",
+        "team": "England"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -1098,8 +1408,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Panama": 2,
+        "Ghana": 1
+      },
+      "fastestGoal": {
+        "minute": 90,
+        "addedTime": 5,
+        "scorer": "Caleb Yirenkyi",
+        "team": "Ghana"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -1120,8 +1438,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Uzbekistan": 1,
+        "Colombia": 1
+      },
+      "fastestGoal": {
+        "minute": 40,
+        "addedTime": null,
+        "scorer": "Daniel Muñoz",
+        "team": "Colombia"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -1142,8 +1468,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Czechia": 1,
+        "South Africa": 2
+      },
+      "fastestGoal": {
+        "minute": 6,
+        "addedTime": null,
+        "scorer": "Michal Sadílek",
+        "team": "Czechia"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -1166,8 +1500,16 @@
         "Bosnia & Herzegovina": 1
       },
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Switzerland": 1,
+        "Bosnia & Herzegovina": 2
+      },
+      "fastestGoal": {
+        "minute": 74,
+        "addedTime": null,
+        "scorer": "Johan Manzambi",
+        "team": "Switzerland"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -1192,9 +1534,22 @@
       "ownGoals": {
         "Qatar": 1
       },
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
+      "yellowCards": {
+        "Qatar": 1,
+        "Canada": 1
+      },
+      "fastestGoal": {
+        "minute": 16,
+        "addedTime": null,
+        "scorer": "Cyle Larin",
+        "team": "Canada"
+      },
+      "fastestOwnGoal": {
+        "minute": 75,
+        "addedTime": null,
+        "scorer": "Mohamed Naceur Almanai",
+        "team": "Qatar"
+      },
       "incidentsFetched": true
     },
     {
@@ -1214,8 +1569,15 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "South Korea": 2
+      },
+      "fastestGoal": {
+        "minute": 50,
+        "addedTime": null,
+        "scorer": "Luis Romo",
+        "team": "Mexico"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -1238,9 +1600,22 @@
       "ownGoals": {
         "Australia": 1
       },
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
+      "yellowCards": {
+        "USA": 3,
+        "Australia": 4
+      },
+      "fastestGoal": {
+        "minute": 43,
+        "addedTime": null,
+        "scorer": "Alexander Freeman",
+        "team": "USA"
+      },
+      "fastestOwnGoal": {
+        "minute": 11,
+        "addedTime": null,
+        "scorer": "Cameron Burgess",
+        "team": "Australia"
+      },
       "incidentsFetched": true
     },
     {
@@ -1260,8 +1635,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Scotland": 1,
+        "Morocco": 1
+      },
+      "fastestGoal": {
+        "minute": 2,
+        "addedTime": null,
+        "scorer": "Ismael Saibari",
+        "team": "Morocco"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -1282,8 +1665,16 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Haiti": 3,
+        "Brazil": 1
+      },
+      "fastestGoal": {
+        "minute": 23,
+        "addedTime": null,
+        "scorer": "Matheus Cunha",
+        "team": "Brazil"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -1306,8 +1697,16 @@
         "Paraguay": 1
       },
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Türkiye": 2,
+        "Paraguay": 1
+      },
+      "fastestGoal": {
+        "minute": 2,
+        "addedTime": null,
+        "scorer": "Matías Galarza",
+        "team": "Paraguay"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -1328,8 +1727,15 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Sweden": 3
+      },
+      "fastestGoal": {
+        "minute": 5,
+        "addedTime": null,
+        "scorer": "Brian Brobbey",
+        "team": "Netherlands"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -1351,7 +1757,12 @@
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
-      "fastestGoal": null,
+      "fastestGoal": {
+        "minute": 30,
+        "addedTime": null,
+        "scorer": "Franck Kessié",
+        "team": "Côte d'Ivoire"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -1372,7 +1783,10 @@
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
+      "yellowCards": {
+        "Curaçao": 5,
+        "Ecuador": 1
+      },
       "fastestGoal": null,
       "fastestOwnGoal": null,
       "incidentsFetched": true
@@ -1395,7 +1809,12 @@
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
-      "fastestGoal": null,
+      "fastestGoal": {
+        "minute": 4,
+        "addedTime": null,
+        "scorer": "Daichi Kamada",
+        "team": "Japan"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },

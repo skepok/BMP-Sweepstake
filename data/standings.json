@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T07:30:15.617Z",
+  "lastUpdated": "2026-06-27T17:15:38.904Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -7057,217 +7057,217 @@
         "player": "Madi Farrow-Dunn",
         "conceded": 17,
         "losses": 3,
-        "yellows": 2,
+        "yellows": 9,
         "reds": 0,
-        "score": 22
-      },
-      {
-        "player": "Sam Lowerson",
-        "conceded": 12,
-        "losses": 3,
-        "yellows": 5,
-        "reds": 1,
-        "score": 22
-      },
-      {
-        "player": "Scott Rosseter",
-        "conceded": 14,
-        "losses": 3,
-        "yellows": 2,
-        "reds": 1,
-        "score": 21
+        "score": 29
       },
       {
         "player": "Frank Dunn",
         "conceded": 12,
         "losses": 3,
-        "yellows": 2,
+        "yellows": 9,
         "reds": 2,
-        "score": 21
+        "score": 28
       },
       {
-        "player": "Jimena Barillas",
-        "conceded": 15,
+        "player": "Sam Lowerson",
+        "conceded": 12,
         "losses": 3,
-        "yellows": 1,
-        "reds": 0,
-        "score": 19
-      },
-      {
-        "player": "Sam King",
-        "conceded": 14,
-        "losses": 3,
-        "yellows": 1,
-        "reds": 0,
-        "score": 18
-      },
-      {
-        "player": "Robin Parish",
-        "conceded": 8,
-        "losses": 2,
-        "yellows": 5,
+        "yellows": 8,
         "reds": 1,
-        "score": 17
+        "score": 25
       },
       {
         "player": "Fred Dunn",
         "conceded": 11,
         "losses": 2,
-        "yellows": 0,
+        "yellows": 10,
         "reds": 1,
-        "score": 15
+        "score": 25
       },
       {
-        "player": "Laura Harrison",
-        "conceded": 11,
-        "losses": 4,
-        "yellows": 0,
-        "reds": 0,
-        "score": 15
+        "player": "Scott Rosseter",
+        "conceded": 14,
+        "losses": 3,
+        "yellows": 5,
+        "reds": 1,
+        "score": 24
       },
       {
         "player": "Flora Curry",
         "conceded": 9,
         "losses": 2,
-        "yellows": 4,
+        "yellows": 11,
         "reds": 0,
-        "score": 15
+        "score": 22
       },
       {
-        "player": "Joe Clayton",
-        "conceded": 8,
+        "player": "Jimena Barillas",
+        "conceded": 15,
         "losses": 3,
-        "yellows": 2,
-        "reds": 0,
-        "score": 13
-      },
-      {
-        "player": "Tom Gibbons",
-        "conceded": 6,
-        "losses": 2,
         "yellows": 3,
-        "reds": 1,
-        "score": 13
+        "reds": 0,
+        "score": 21
       },
       {
-        "player": "Jess Forshaw",
-        "conceded": 7,
-        "losses": 1,
-        "yellows": 4,
-        "reds": 0,
-        "score": 12
+        "player": "Robin Parish",
+        "conceded": 8,
+        "losses": 2,
+        "yellows": 8,
+        "reds": 1,
+        "score": 20
       },
       {
         "player": "Tom Clayton",
         "conceded": 8,
         "losses": 3,
-        "yellows": 0,
+        "yellows": 9,
         "reds": 0,
-        "score": 11
+        "score": 20
       },
       {
-        "player": "Adam Wright",
-        "conceded": 3,
-        "losses": 1,
-        "yellows": 3,
-        "reds": 2,
-        "score": 11
+        "player": "Tom Gibbons",
+        "conceded": 6,
+        "losses": 2,
+        "yellows": 10,
+        "reds": 1,
+        "score": 20
+      },
+      {
+        "player": "Sam King",
+        "conceded": 14,
+        "losses": 3,
+        "yellows": 2,
+        "reds": 0,
+        "score": 19
+      },
+      {
+        "player": "Laura Harrison",
+        "conceded": 11,
+        "losses": 4,
+        "yellows": 4,
+        "reds": 0,
+        "score": 19
       },
       {
         "player": "Paul Mitchell",
         "conceded": 7,
         "losses": 3,
-        "yellows": 0,
+        "yellows": 8,
         "reds": 0,
-        "score": 10
+        "score": 18
+      },
+      {
+        "player": "Joe Clayton",
+        "conceded": 8,
+        "losses": 3,
+        "yellows": 6,
+        "reds": 0,
+        "score": 17
+      },
+      {
+        "player": "Jess Forshaw",
+        "conceded": 7,
+        "losses": 1,
+        "yellows": 7,
+        "reds": 0,
+        "score": 15
       },
       {
         "player": "Elizabeth Swords",
         "conceded": 6,
         "losses": 2,
-        "yellows": 2,
+        "yellows": 7,
         "reds": 0,
-        "score": 10
+        "score": 15
+      },
+      {
+        "player": "Adam Wright",
+        "conceded": 3,
+        "losses": 1,
+        "yellows": 7,
+        "reds": 2,
+        "score": 15
       },
       {
         "player": "Bob Gibson",
         "conceded": 8,
         "losses": 1,
-        "yellows": 0,
+        "yellows": 4,
         "reds": 0,
-        "score": 9
+        "score": 13
       },
       {
         "player": "Ali Taylor",
         "conceded": 6,
         "losses": 0,
-        "yellows": 3,
+        "yellows": 7,
         "reds": 0,
-        "score": 9
+        "score": 13
       },
       {
         "player": "Me Julie",
         "conceded": 3,
         "losses": 2,
-        "yellows": 2,
+        "yellows": 8,
         "reds": 0,
-        "score": 7
-      },
-      {
-        "player": "Nick Foulkes",
-        "conceded": 5,
-        "losses": 1,
-        "yellows": 0,
-        "reds": 0,
-        "score": 6
-      },
-      {
-        "player": "Robbie Godowski",
-        "conceded": 2,
-        "losses": 1,
-        "yellows": 1,
-        "reds": 1,
-        "score": 6
+        "score": 13
       },
       {
         "player": "Guy Curry",
         "conceded": 3,
         "losses": 0,
-        "yellows": 1,
+        "yellows": 8,
         "reds": 0,
-        "score": 4
+        "score": 11
+      },
+      {
+        "player": "Robbie Godowski",
+        "conceded": 2,
+        "losses": 1,
+        "yellows": 6,
+        "reds": 1,
+        "score": 11
+      },
+      {
+        "player": "Nick Foulkes",
+        "conceded": 5,
+        "losses": 1,
+        "yellows": 3,
+        "reds": 0,
+        "score": 9
       },
       {
         "player": "Matt Deacock",
         "conceded": 1,
         "losses": 0,
-        "yellows": 0,
+        "yellows": 5,
         "reds": 0,
-        "score": 1
+        "score": 6
       }
     ],
     "fastestGoal": {
-      "minute": 4,
+      "minute": 2,
       "addedTime": null,
-      "scorer": "Habib Diarra",
-      "team": "Senegal",
-      "iso2": "SN",
-      "player": "Sam Lowerson",
-      "match": "Senegal v Iraq"
+      "scorer": "Leroy Sané",
+      "team": "Germany",
+      "iso2": "DE",
+      "player": "Jess Forshaw",
+      "match": "Ecuador v Germany"
     },
     "fastestOwnGoal": {
-      "minute": 7,
+      "minute": 3,
       "addedTime": null,
-      "scorer": "Damián Bobadilla",
-      "team": "Paraguay",
-      "iso2": "PY",
-      "player": "Robin Parish",
-      "match": "USA v Paraguay"
+      "scorer": "Ellyes Skhiri",
+      "team": "Tunisia",
+      "iso2": "TN",
+      "player": "Sam King",
+      "match": "Tunisia v Netherlands"
     }
   },
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-06-27T07:30:15.535706+00:00"
+    "scrapedAt": "2026-06-27T17:15:38.815907+00:00"
   }
 }
