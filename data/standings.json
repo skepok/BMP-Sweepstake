@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T03:30:08.079Z",
+  "lastUpdated": "2026-06-27T04:30:07.182Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -165,12 +165,12 @@
           "pot": 2,
           "odds": "300/1",
           "matched": true,
-          "status": "Group G — 1st (5 pts)",
+          "status": "Group G — 2nd (5 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group G",
-            "rank": 1,
+            "rank": 2,
             "played": 3,
             "w": 1,
             "d": 2,
@@ -415,17 +415,17 @@
           "pot": 1,
           "odds": "33/1",
           "matched": true,
-          "status": "Group G — 2nd (5 pts)",
+          "status": "Group G — 1st (5 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group G",
-            "rank": 2,
+            "rank": 1,
             "played": 3,
             "w": 1,
             "d": 2,
             "l": 0,
-            "gf": 2,
+            "gf": 4,
             "ga": 1,
             "pts": 5
           },
@@ -781,10 +781,10 @@
             "d": 1,
             "l": 2,
             "gf": 3,
-            "ga": 6,
+            "ga": 8,
             "pts": 1
           },
-          "goalsConceded": 6,
+          "goalsConceded": 8,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -1434,6 +1434,13 @@
         "value": 8
       },
       {
+        "code": "NZL",
+        "name": "New Zealand",
+        "iso2": "NZ",
+        "player": "Madi Farrow-Dunn",
+        "value": 8
+      },
+      {
         "code": "UZB",
         "name": "Uzbekistan",
         "iso2": "UZ",
@@ -1466,13 +1473,6 @@
         "name": "Czechia",
         "iso2": "CZ",
         "player": "Laura Harrison",
-        "value": 6
-      },
-      {
-        "code": "NZL",
-        "name": "New Zealand",
-        "iso2": "NZ",
-        "player": "Madi Farrow-Dunn",
         "value": 6
       },
       {
@@ -2807,11 +2807,26 @@
       "name": "Group G",
       "rows": [
         {
+          "code": "BEL",
+          "name": "Belgium",
+          "iso2": "BE",
+          "player": "Fred Dunn",
+          "rank": 1,
+          "played": 3,
+          "w": 1,
+          "d": 2,
+          "l": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "pts": 5
+        },
+        {
           "code": "EGY",
           "name": "Egypt",
           "iso2": "EG",
           "player": "Ali Taylor",
-          "rank": 1,
+          "rank": 2,
           "played": 3,
           "w": 1,
           "d": 2,
@@ -2819,21 +2834,6 @@
           "gf": 5,
           "ga": 3,
           "gd": 2,
-          "pts": 5
-        },
-        {
-          "code": "BEL",
-          "name": "Belgium",
-          "iso2": "BE",
-          "player": "Fred Dunn",
-          "rank": 2,
-          "played": 3,
-          "w": 1,
-          "d": 2,
-          "l": 0,
-          "gf": 2,
-          "ga": 1,
-          "gd": 1,
           "pts": 5
         },
         {
@@ -2862,8 +2862,8 @@
           "d": 1,
           "l": 2,
           "gf": 3,
-          "ga": 6,
-          "gd": -3,
+          "ga": 8,
+          "gd": -5,
           "pts": 1
         }
       ]
@@ -5503,7 +5503,7 @@
         "name": "Belgium",
         "iso2": "BE",
         "player": "Fred Dunn",
-        "score": 1,
+        "score": 3,
         "winner": false
       }
     },
@@ -6731,6 +6731,25 @@
         "gd": -3
       },
       {
+        "player": "Fred Dunn",
+        "teams": [
+          {
+            "code": "BEL",
+            "name": "Belgium",
+            "iso2": "BE",
+            "pts": 5
+          },
+          {
+            "code": "CUW",
+            "name": "Curacao",
+            "iso2": "CW",
+            "pts": 1
+          }
+        ],
+        "points": 6,
+        "gd": -5
+      },
+      {
         "player": "Jimena Barillas",
         "teams": [
           {
@@ -6750,25 +6769,6 @@
         "gd": -6
       },
       {
-        "player": "Fred Dunn",
-        "teams": [
-          {
-            "code": "BEL",
-            "name": "Belgium",
-            "iso2": "BE",
-            "pts": 5
-          },
-          {
-            "code": "CUW",
-            "name": "Curacao",
-            "iso2": "CW",
-            "pts": 1
-          }
-        ],
-        "points": 6,
-        "gd": -7
-      },
-      {
         "player": "Madi Farrow-Dunn",
         "teams": [
           {
@@ -6785,7 +6785,7 @@
           }
         ],
         "points": 5,
-        "gd": -3
+        "gd": -5
       },
       {
         "player": "Frank Dunn",
@@ -6948,20 +6948,20 @@
         "score": 19
       },
       {
+        "player": "Madi Farrow-Dunn",
+        "conceded": 15,
+        "losses": 3,
+        "yellows": 0,
+        "reds": 0,
+        "score": 18
+      },
+      {
         "player": "Sam King",
         "conceded": 14,
         "losses": 3,
         "yellows": 1,
         "reds": 0,
         "score": 18
-      },
-      {
-        "player": "Madi Farrow-Dunn",
-        "conceded": 13,
-        "losses": 3,
-        "yellows": 0,
-        "reds": 0,
-        "score": 16
       },
       {
         "player": "Laura Harrison",
@@ -7122,6 +7122,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 98,
-    "scrapedAt": "2026-06-27T03:30:07.795333+00:00"
+    "scrapedAt": "2026-06-27T04:30:07.095790+00:00"
   }
 }

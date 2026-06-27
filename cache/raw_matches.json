@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-27T03:30:07.795333+00:00",
+  "fetchedAt": "2026-06-27T04:30:07.095790+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -676,7 +676,7 @@
       },
       "away": {
         "name": "Belgium",
-        "score": 1,
+        "score": 3,
         "winner": null
       },
       "redCards": {},
@@ -2511,27 +2511,27 @@
       "pts": 0
     },
     {
-      "team": "Egypt",
+      "team": "Belgium",
       "group": "Group G",
       "rank": 1,
       "played": 3,
       "w": 1,
       "d": 2,
       "l": 0,
-      "gf": 5,
-      "ga": 3,
+      "gf": 4,
+      "ga": 1,
       "pts": 5
     },
     {
-      "team": "Belgium",
+      "team": "Egypt",
       "group": "Group G",
       "rank": 2,
       "played": 3,
       "w": 1,
       "d": 2,
       "l": 0,
-      "gf": 2,
-      "ga": 1,
+      "gf": 5,
+      "ga": 3,
       "pts": 5
     },
     {
@@ -2555,7 +2555,7 @@
       "d": 1,
       "l": 2,
       "gf": 3,
-      "ga": 6,
+      "ga": 8,
       "pts": 1
     },
     {
