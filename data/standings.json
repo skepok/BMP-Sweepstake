@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T03:00:07.097Z",
+  "lastUpdated": "2026-06-27T03:30:08.079Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,16 +41,16 @@
       "round": "Group Stage",
       "kickoff": "2026-06-27T03:00:00.000Z",
       "kickoffUnix": 1782529200000,
-      "status": "NS",
+      "status": "1H",
       "home": {
-        "code": "EGY",
-        "name": "Egypt",
-        "iso2": "EG"
+        "code": "NZL",
+        "name": "New Zealand",
+        "iso2": "NZ"
       },
       "away": {
-        "code": "IRN",
-        "name": "Iran",
-        "iso2": "IR"
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE"
       }
     },
     "lastFinished": {
@@ -165,21 +165,21 @@
           "pot": 2,
           "odds": "300/1",
           "matched": true,
-          "status": "Group G — 1st (4 pts)",
+          "status": "Group G — 1st (5 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group G",
             "rank": 1,
-            "played": 2,
+            "played": 3,
             "w": 1,
-            "d": 1,
+            "d": 2,
             "l": 0,
-            "gf": 4,
-            "ga": 2,
-            "pts": 4
+            "gf": 5,
+            "ga": 3,
+            "pts": 5
           },
-          "goalsConceded": 2,
+          "goalsConceded": 3,
           "redCards": 0,
           "ownGoals": 1
         }
@@ -266,7 +266,7 @@
           },
           "goalsConceded": 3,
           "redCards": 0,
-          "ownGoals": 1
+          "ownGoals": 0
         },
         {
           "code": "KOR",
@@ -415,19 +415,19 @@
           "pot": 1,
           "odds": "33/1",
           "matched": true,
-          "status": "Group G — 3rd (2 pts)",
+          "status": "Group G — 2nd (5 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group G",
-            "rank": 3,
-            "played": 2,
-            "w": 0,
+            "rank": 2,
+            "played": 3,
+            "w": 1,
             "d": 2,
             "l": 0,
-            "gf": 1,
+            "gf": 2,
             "ga": 1,
-            "pts": 2
+            "pts": 5
           },
           "goalsConceded": 1,
           "redCards": 1,
@@ -550,21 +550,21 @@
           "pot": 2,
           "odds": "500/1",
           "matched": true,
-          "status": "Group G — 2nd (2 pts)",
+          "status": "Group G — 3rd (3 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group G",
-            "rank": 2,
-            "played": 2,
+            "rank": 3,
+            "played": 3,
             "w": 0,
-            "d": 2,
+            "d": 3,
             "l": 0,
-            "gf": 2,
-            "ga": 2,
-            "pts": 2
+            "gf": 3,
+            "ga": 3,
+            "pts": 3
           },
-          "goalsConceded": 2,
+          "goalsConceded": 3,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -776,15 +776,15 @@
           "group": {
             "group": "Group G",
             "rank": 4,
-            "played": 2,
+            "played": 3,
             "w": 0,
             "d": 1,
-            "l": 1,
+            "l": 2,
             "gf": 3,
-            "ga": 5,
+            "ga": 6,
             "pts": 1
           },
-          "goalsConceded": 5,
+          "goalsConceded": 6,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -1469,6 +1469,13 @@
         "value": 6
       },
       {
+        "code": "NZL",
+        "name": "New Zealand",
+        "iso2": "NZ",
+        "player": "Madi Farrow-Dunn",
+        "value": 6
+      },
+      {
         "code": "SEN",
         "name": "Senegal",
         "iso2": "SN",
@@ -1480,13 +1487,6 @@
         "name": "Jordan",
         "iso2": "JO",
         "player": "Joe Clayton",
-        "value": 5
-      },
-      {
-        "code": "NZL",
-        "name": "New Zealand",
-        "iso2": "NZ",
-        "player": "Madi Farrow-Dunn",
         "value": 5
       },
       {
@@ -1574,6 +1574,20 @@
         "value": 3
       },
       {
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "player": "Ali Taylor",
+        "value": 3
+      },
+      {
+        "code": "IRN",
+        "name": "Iran",
+        "iso2": "IR",
+        "player": "Jess Forshaw",
+        "value": 3
+      },
+      {
         "code": "JAP",
         "name": "Japan",
         "iso2": "JP",
@@ -1637,13 +1651,6 @@
         "value": 2
       },
       {
-        "code": "EGY",
-        "name": "Egypt",
-        "iso2": "EG",
-        "player": "Ali Taylor",
-        "value": 2
-      },
-      {
         "code": "ENG",
         "name": "England",
         "iso2": "GB-ENG",
@@ -1655,13 +1662,6 @@
         "name": "France",
         "iso2": "FR",
         "player": "Sam King",
-        "value": 2
-      },
-      {
-        "code": "IRN",
-        "name": "Iran",
-        "iso2": "IR",
-        "player": "Jess Forshaw",
         "value": 2
       },
       {
@@ -2124,13 +2124,6 @@
         "value": 1
       },
       {
-        "code": "SWI",
-        "name": "Switzerland",
-        "iso2": "CH",
-        "player": "Elizabeth Swords",
-        "value": 1
-      },
-      {
         "code": "TUN",
         "name": "Tunisia",
         "iso2": "TN",
@@ -2387,6 +2380,13 @@
         "name": "Sweden",
         "iso2": "SE",
         "player": "Madi Farrow-Dunn",
+        "value": 0
+      },
+      {
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH",
+        "player": "Elizabeth Swords",
         "value": 0
       },
       {
@@ -2812,44 +2812,44 @@
           "iso2": "EG",
           "player": "Ali Taylor",
           "rank": 1,
-          "played": 2,
+          "played": 3,
           "w": 1,
-          "d": 1,
-          "l": 0,
-          "gf": 4,
-          "ga": 2,
-          "gd": 2,
-          "pts": 4
-        },
-        {
-          "code": "IRN",
-          "name": "Iran",
-          "iso2": "IR",
-          "player": "Jess Forshaw",
-          "rank": 2,
-          "played": 2,
-          "w": 0,
           "d": 2,
           "l": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "pts": 2
+          "gf": 5,
+          "ga": 3,
+          "gd": 2,
+          "pts": 5
         },
         {
           "code": "BEL",
           "name": "Belgium",
           "iso2": "BE",
           "player": "Fred Dunn",
-          "rank": 3,
-          "played": 2,
-          "w": 0,
+          "rank": 2,
+          "played": 3,
+          "w": 1,
           "d": 2,
           "l": 0,
-          "gf": 1,
+          "gf": 2,
           "ga": 1,
+          "gd": 1,
+          "pts": 5
+        },
+        {
+          "code": "IRN",
+          "name": "Iran",
+          "iso2": "IR",
+          "player": "Jess Forshaw",
+          "rank": 3,
+          "played": 3,
+          "w": 0,
+          "d": 3,
+          "l": 0,
+          "gf": 3,
+          "ga": 3,
           "gd": 0,
-          "pts": 2
+          "pts": 3
         },
         {
           "code": "NZL",
@@ -2857,13 +2857,13 @@
           "iso2": "NZ",
           "player": "Madi Farrow-Dunn",
           "rank": 4,
-          "played": 2,
+          "played": 3,
           "w": 0,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "gf": 3,
-          "ga": 5,
-          "gd": -2,
+          "ga": 6,
+          "gd": -3,
           "pts": 1
         }
       ]
@@ -3262,6 +3262,19 @@
     },
     {
       "pos": 6,
+      "code": "IRN",
+      "name": "Iran",
+      "iso2": "IR",
+      "player": "Jess Forshaw",
+      "group": "Group G",
+      "played": 3,
+      "gd": 0,
+      "gf": 3,
+      "pts": 3,
+      "qualifying": true
+    },
+    {
+      "pos": 7,
       "code": "CRO",
       "name": "Croatia",
       "iso2": "HR",
@@ -3274,7 +3287,7 @@
       "qualifying": true
     },
     {
-      "pos": 7,
+      "pos": 8,
       "code": "KOR",
       "name": "South Korea",
       "iso2": "KR",
@@ -3287,7 +3300,7 @@
       "qualifying": true
     },
     {
-      "pos": 8,
+      "pos": 9,
       "code": "ALG",
       "name": "Algeria",
       "iso2": "DZ",
@@ -3297,10 +3310,10 @@
       "gd": -2,
       "gf": 2,
       "pts": 3,
-      "qualifying": true
+      "qualifying": false
     },
     {
-      "pos": 9,
+      "pos": 10,
       "code": "SCO",
       "name": "Scotland",
       "iso2": "GB-SCT",
@@ -3310,19 +3323,6 @@
       "gd": -3,
       "gf": 1,
       "pts": 3,
-      "qualifying": false
-    },
-    {
-      "pos": 10,
-      "code": "BEL",
-      "name": "Belgium",
-      "iso2": "BE",
-      "player": "Fred Dunn",
-      "group": "Group G",
-      "played": 2,
-      "gd": 0,
-      "gf": 1,
-      "pts": 2,
       "qualifying": false
     },
     {
@@ -3372,11 +3372,11 @@
               "winner": false
             },
             "away": {
-              "name": "3rd: A/B/C/D/F",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Paraguay",
+              "code": "PAR",
+              "iso2": "PY",
+              "player": "Robin Parish",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -3396,11 +3396,11 @@
               "winner": false
             },
             "away": {
-              "name": "3rd: C/D/F/G/H",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Sweden",
+              "code": "SWE",
+              "iso2": "SE",
+              "player": "Madi Farrow-Dunn",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -4150,52 +4150,6 @@
     ]
   },
   "fixtures": [
-    {
-      "date": "2026-06-13T19:00:00.000Z",
-      "ts": 1781377200000,
-      "round": "Group B",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "QAT",
-        "name": "Qatar",
-        "iso2": "QA",
-        "player": "Frank Dunn",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "code": "SWI",
-        "name": "Switzerland",
-        "iso2": "CH",
-        "player": "Elizabeth Swords",
-        "score": 1,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-13T22:00:00.000Z",
-      "ts": 1781388000000,
-      "round": "Group C",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "BRA",
-        "name": "Brazil",
-        "iso2": "BR",
-        "player": "Me Julie",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "code": "MOR",
-        "name": "Morocco",
-        "iso2": "MA",
-        "player": "Ali Taylor",
-        "score": 1,
-        "winner": false
-      }
-    },
     {
       "date": "2026-06-14T01:00:00.000Z",
       "ts": 1781398800000,
@@ -5534,30 +5488,7 @@
       "date": "2026-06-27T03:00:00.000Z",
       "ts": 1782529200000,
       "round": "Group G",
-      "status": "NS",
-      "finished": false,
-      "home": {
-        "code": "EGY",
-        "name": "Egypt",
-        "iso2": "EG",
-        "player": "Ali Taylor",
-        "score": null,
-        "winner": false
-      },
-      "away": {
-        "code": "IRN",
-        "name": "Iran",
-        "iso2": "IR",
-        "player": "Jess Forshaw",
-        "score": null,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-27T03:00:00.000Z",
-      "ts": 1782529200000,
-      "round": "Group G",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "NZL",
@@ -5572,7 +5503,30 @@
         "name": "Belgium",
         "iso2": "BE",
         "player": "Fred Dunn",
-        "score": 0,
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-27T03:00:00.000Z",
+      "ts": 1782529200000,
+      "round": "Group G",
+      "status": "1H",
+      "finished": false,
+      "home": {
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "player": "Ali Taylor",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "IRN",
+        "name": "Iran",
+        "iso2": "IR",
+        "player": "Jess Forshaw",
+        "score": 1,
         "winner": false
       }
     },
@@ -6485,10 +6439,10 @@
             "code": "EGY",
             "name": "Egypt",
             "iso2": "EG",
-            "pts": 4
+            "pts": 5
           }
         ],
-        "points": 11,
+        "points": 12,
         "gd": 5
       },
       {
@@ -6568,6 +6522,25 @@
         "gd": 3
       },
       {
+        "player": "Jess Forshaw",
+        "teams": [
+          {
+            "code": "GER",
+            "name": "Germany",
+            "iso2": "DE",
+            "pts": 6
+          },
+          {
+            "code": "IRN",
+            "name": "Iran",
+            "iso2": "IR",
+            "pts": 3
+          }
+        ],
+        "points": 9,
+        "gd": 6
+      },
+      {
         "player": "Sam King",
         "teams": [
           {
@@ -6585,25 +6558,6 @@
         ],
         "points": 9,
         "gd": -2
-      },
-      {
-        "player": "Jess Forshaw",
-        "teams": [
-          {
-            "code": "GER",
-            "name": "Germany",
-            "iso2": "DE",
-            "pts": 6
-          },
-          {
-            "code": "IRN",
-            "name": "Iran",
-            "iso2": "IR",
-            "pts": 2
-          }
-        ],
-        "points": 8,
-        "gd": 6
       },
       {
         "player": "Flora Curry",
@@ -6796,6 +6750,25 @@
         "gd": -6
       },
       {
+        "player": "Fred Dunn",
+        "teams": [
+          {
+            "code": "BEL",
+            "name": "Belgium",
+            "iso2": "BE",
+            "pts": 5
+          },
+          {
+            "code": "CUW",
+            "name": "Curacao",
+            "iso2": "CW",
+            "pts": 1
+          }
+        ],
+        "points": 6,
+        "gd": -7
+      },
+      {
         "player": "Madi Farrow-Dunn",
         "teams": [
           {
@@ -6812,7 +6785,7 @@
           }
         ],
         "points": 5,
-        "gd": -2
+        "gd": -3
       },
       {
         "player": "Frank Dunn",
@@ -6889,25 +6862,6 @@
         ],
         "points": 4,
         "gd": -9
-      },
-      {
-        "player": "Fred Dunn",
-        "teams": [
-          {
-            "code": "BEL",
-            "name": "Belgium",
-            "iso2": "BE",
-            "pts": 2
-          },
-          {
-            "code": "CUW",
-            "name": "Curacao",
-            "iso2": "CW",
-            "pts": 1
-          }
-        ],
-        "points": 3,
-        "gd": -8
       }
     ],
     "worstTeam": [
@@ -7002,20 +6956,20 @@
         "score": 18
       },
       {
+        "player": "Madi Farrow-Dunn",
+        "conceded": 13,
+        "losses": 3,
+        "yellows": 0,
+        "reds": 0,
+        "score": 16
+      },
+      {
         "player": "Laura Harrison",
         "conceded": 11,
         "losses": 4,
         "yellows": 0,
         "reds": 0,
         "score": 15
-      },
-      {
-        "player": "Madi Farrow-Dunn",
-        "conceded": 12,
-        "losses": 2,
-        "yellows": 0,
-        "reds": 0,
-        "score": 14
       },
       {
         "player": "Fred Dunn",
@@ -7082,6 +7036,14 @@
         "score": 9
       },
       {
+        "player": "Jess Forshaw",
+        "conceded": 7,
+        "losses": 1,
+        "yellows": 0,
+        "reds": 0,
+        "score": 8
+      },
+      {
         "player": "Elizabeth Swords",
         "conceded": 6,
         "losses": 2,
@@ -7090,12 +7052,12 @@
         "score": 8
       },
       {
-        "player": "Jess Forshaw",
+        "player": "Ali Taylor",
         "conceded": 6,
-        "losses": 1,
+        "losses": 0,
         "yellows": 0,
         "reds": 0,
-        "score": 7
+        "score": 6
       },
       {
         "player": "Nick Foulkes",
@@ -7104,14 +7066,6 @@
         "yellows": 0,
         "reds": 0,
         "score": 6
-      },
-      {
-        "player": "Ali Taylor",
-        "conceded": 5,
-        "losses": 0,
-        "yellows": 0,
-        "reds": 0,
-        "score": 5
       },
       {
         "player": "Adam Wright",
@@ -7167,7 +7121,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 100,
-    "scrapedAt": "2026-06-27T03:00:07.000438+00:00"
+    "matches": 98,
+    "scrapedAt": "2026-06-27T03:30:07.795333+00:00"
   }
 }

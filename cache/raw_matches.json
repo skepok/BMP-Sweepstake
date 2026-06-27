@@ -1,54 +1,10 @@
 {
-  "fetchedAt": "2026-06-27T03:00:07.000438+00:00",
+  "fetchedAt": "2026-06-27T03:30:07.795333+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186906,
-      "round": "Group Stage",
-      "startTimestamp": 1782000000,
-      "status": "finished",
-      "home": {
-        "name": "Ecuador",
-        "score": 0,
-        "winner": false
-      },
-      "away": {
-        "name": "Curaçao",
-        "score": 0,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
-    {
-      "id": 15186963,
-      "round": "Group Stage",
-      "startTimestamp": 1782014400,
-      "status": "finished",
-      "home": {
-        "name": "Tunisia",
-        "score": 0,
-        "winner": false
-      },
-      "away": {
-        "name": "Japan",
-        "score": 4,
-        "winner": true
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186840,
       "round": "Group Stage",
@@ -709,50 +665,48 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186526,
+      "id": 15186822,
       "round": "Group Stage",
-      "startTimestamp": 1781377200,
-      "status": "finished",
+      "startTimestamp": 1782529200,
+      "status": "inprogress",
       "home": {
-        "name": "Qatar",
-        "score": 1,
-        "winner": false
+        "name": "New Zealand",
+        "score": 0,
+        "winner": null
       },
       "away": {
-        "name": "Switzerland",
+        "name": "Belgium",
         "score": 1,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {
-        "Switzerland": 1
-      },
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
-    {
-      "id": 15186850,
-      "round": "Group Stage",
-      "startTimestamp": 1781388000,
-      "status": "finished",
-      "home": {
-        "name": "Brazil",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "name": "Morocco",
-        "score": 1,
-        "winner": false
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
       "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
+    },
+    {
+      "id": 15186828,
+      "round": "Group Stage",
+      "startTimestamp": 1782529200,
+      "status": "inprogress",
+      "home": {
+        "name": "Egypt",
+        "score": 1,
+        "winner": null
+      },
+      "away": {
+        "name": "Iran",
+        "score": 1,
+        "winner": null
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {},
+      "fastestGoal": null,
+      "fastestOwnGoal": null,
+      "incidentsFetched": false
     },
     {
       "id": 15186853,
@@ -1387,48 +1341,48 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186828,
+      "id": 15186906,
       "round": "Group Stage",
-      "startTimestamp": 1782529200,
-      "status": "notstarted",
+      "startTimestamp": 1782000000,
+      "status": "finished",
       "home": {
-        "name": "Egypt",
-        "score": null,
-        "winner": null
+        "name": "Ecuador",
+        "score": 0,
+        "winner": false
       },
       "away": {
-        "name": "Iran",
-        "score": null,
-        "winner": null
+        "name": "Curaçao",
+        "score": 0,
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
       "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
-      "id": 15186822,
+      "id": 15186963,
       "round": "Group Stage",
-      "startTimestamp": 1782529200,
-      "status": "notstarted",
+      "startTimestamp": 1782014400,
+      "status": "finished",
       "home": {
-        "name": "New Zealand",
+        "name": "Tunisia",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "away": {
-        "name": "Belgium",
-        "score": 0,
-        "winner": null
+        "name": "Japan",
+        "score": 4,
+        "winner": true
       },
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
       "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186676,
@@ -2560,48 +2514,48 @@
       "team": "Egypt",
       "group": "Group G",
       "rank": 1,
-      "played": 2,
+      "played": 3,
       "w": 1,
-      "d": 1,
-      "l": 0,
-      "gf": 4,
-      "ga": 2,
-      "pts": 4
-    },
-    {
-      "team": "Iran",
-      "group": "Group G",
-      "rank": 2,
-      "played": 2,
-      "w": 0,
       "d": 2,
       "l": 0,
-      "gf": 2,
-      "ga": 2,
-      "pts": 2
+      "gf": 5,
+      "ga": 3,
+      "pts": 5
     },
     {
       "team": "Belgium",
       "group": "Group G",
-      "rank": 3,
-      "played": 2,
-      "w": 0,
+      "rank": 2,
+      "played": 3,
+      "w": 1,
       "d": 2,
       "l": 0,
-      "gf": 1,
+      "gf": 2,
       "ga": 1,
-      "pts": 2
+      "pts": 5
+    },
+    {
+      "team": "Iran",
+      "group": "Group G",
+      "rank": 3,
+      "played": 3,
+      "w": 0,
+      "d": 3,
+      "l": 0,
+      "gf": 3,
+      "ga": 3,
+      "pts": 3
     },
     {
       "team": "New Zealand",
       "group": "Group G",
       "rank": 4,
-      "played": 2,
+      "played": 3,
       "w": 0,
       "d": 1,
-      "l": 1,
+      "l": 2,
       "gf": 3,
-      "ga": 5,
+      "ga": 6,
       "pts": 1
     },
     {
@@ -2863,9 +2817,9 @@
               "winner": false
             },
             {
-              "name": "3A/3B/3C/3D/3F",
-              "code": "3A3",
-              "placeholder": true,
+              "name": "Paraguay",
+              "code": "PAR",
+              "placeholder": false,
               "winner": false
             }
           ]
@@ -2882,9 +2836,9 @@
               "winner": false
             },
             {
-              "name": "3C/3D/3F/3G/3H",
-              "code": "3C3",
-              "placeholder": true,
+              "name": "Sweden",
+              "code": "SWE",
+              "placeholder": false,
               "winner": false
             }
           ]
