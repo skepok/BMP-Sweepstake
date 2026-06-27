@@ -1,73 +1,10 @@
 {
-  "fetchedAt": "2026-06-27T17:15:38.815907+00:00",
+  "fetchedAt": "2026-06-27T21:30:08.725804+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186840,
-      "round": "Group Stage",
-      "startTimestamp": 1782057600,
-      "status": "finished",
-      "home": {
-        "name": "Spain",
-        "score": 4,
-        "winner": true
-      },
-      "away": {
-        "name": "Saudi Arabia",
-        "score": 0,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {
-        "Saudi Arabia": 1
-      },
-      "yellowCards": {
-        "Saudi Arabia": 2
-      },
-      "fastestGoal": {
-        "minute": 10,
-        "addedTime": null,
-        "scorer": "Lamine Yamal",
-        "team": "Spain"
-      },
-      "fastestOwnGoal": {
-        "minute": 49,
-        "addedTime": null,
-        "scorer": "Hassan Tambakti",
-        "team": "Saudi Arabia"
-      },
-      "incidentsFetched": true
-    },
-    {
-      "id": 15186499,
-      "round": "Group Stage",
-      "startTimestamp": 1782068400,
-      "status": "finished",
-      "home": {
-        "name": "Belgium",
-        "score": 0,
-        "winner": false
-      },
-      "away": {
-        "name": "Iran",
-        "score": 0,
-        "winner": false
-      },
-      "redCards": {
-        "Belgium": 1
-      },
-      "ownGoals": {},
-      "yellowCards": {
-        "Iran": 1,
-        "Belgium": 1
-      },
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186800,
       "round": "Group Stage",
@@ -915,63 +852,48 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186853,
+      "id": 15186624,
       "round": "Group Stage",
-      "startTimestamp": 1781398800,
-      "status": "finished",
+      "startTimestamp": 1782594000,
+      "status": "inprogress",
       "home": {
-        "name": "Haiti",
+        "name": "Croatia",
         "score": 0,
-        "winner": false
+        "winner": null
       },
       "away": {
-        "name": "Scotland",
-        "score": 1,
-        "winner": true
+        "name": "Ghana",
+        "score": 0,
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {
-        "Scotland": 3,
-        "Haiti": 1
-      },
-      "fastestGoal": {
-        "minute": 28,
-        "addedTime": null,
-        "scorer": "John McGinn",
-        "team": "Scotland"
-      },
+      "yellowCards": {},
+      "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
-      "id": 15186874,
+      "id": 15186676,
       "round": "Group Stage",
-      "startTimestamp": 1781409600,
-      "status": "finished",
+      "startTimestamp": 1782594000,
+      "status": "inprogress",
       "home": {
-        "name": "Australia",
-        "score": 2,
-        "winner": true
+        "name": "Panama",
+        "score": 0,
+        "winner": null
       },
       "away": {
-        "name": "Türkiye",
+        "name": "England",
         "score": 0,
-        "winner": false
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {
-        "Türkiye": 1
-      },
-      "fastestGoal": {
-        "minute": 27,
-        "addedTime": null,
-        "scorer": "Nestory Irankunda",
-        "team": "Australia"
-      },
+      "yellowCards": {},
+      "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
       "id": 15186899,
@@ -1819,6 +1741,69 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186840,
+      "round": "Group Stage",
+      "startTimestamp": 1782057600,
+      "status": "finished",
+      "home": {
+        "name": "Spain",
+        "score": 4,
+        "winner": true
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Saudi Arabia": 1
+      },
+      "yellowCards": {
+        "Saudi Arabia": 2
+      },
+      "fastestGoal": {
+        "minute": 10,
+        "addedTime": null,
+        "scorer": "Lamine Yamal",
+        "team": "Spain"
+      },
+      "fastestOwnGoal": {
+        "minute": 49,
+        "addedTime": null,
+        "scorer": "Hassan Tambakti",
+        "team": "Saudi Arabia"
+      },
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186499,
+      "round": "Group Stage",
+      "startTimestamp": 1782068400,
+      "status": "finished",
+      "home": {
+        "name": "Belgium",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "name": "Iran",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {
+        "Belgium": 1
+      },
+      "ownGoals": {},
+      "yellowCards": {
+        "Iran": 1,
+        "Belgium": 1
+      },
+      "fastestGoal": null,
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -2012,50 +1997,6 @@
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
-    },
-    {
-      "id": 15186676,
-      "round": "Group Stage",
-      "startTimestamp": 1782594000,
-      "status": "notstarted",
-      "home": {
-        "name": "Panama",
-        "score": null,
-        "winner": null
-      },
-      "away": {
-        "name": "England",
-        "score": null,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
-    },
-    {
-      "id": 15186624,
-      "round": "Group Stage",
-      "startTimestamp": 1782594000,
-      "status": "notstarted",
-      "home": {
-        "name": "Croatia",
-        "score": null,
-        "winner": null
-      },
-      "away": {
-        "name": "Ghana",
-        "score": null,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 15186696,
@@ -3383,49 +3324,49 @@
       "team": "England",
       "group": "Group L",
       "rank": 1,
-      "played": 2,
+      "played": 3,
       "w": 1,
-      "d": 1,
+      "d": 2,
       "l": 0,
       "gf": 4,
       "ga": 2,
-      "pts": 4
+      "pts": 5
     },
     {
       "team": "Ghana",
       "group": "Group L",
       "rank": 2,
-      "played": 2,
+      "played": 3,
       "w": 1,
-      "d": 1,
+      "d": 2,
       "l": 0,
       "gf": 1,
       "ga": 0,
-      "pts": 4
+      "pts": 5
     },
     {
       "team": "Croatia",
       "group": "Group L",
       "rank": 3,
-      "played": 2,
+      "played": 3,
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 1,
       "gf": 3,
       "ga": 4,
-      "pts": 3
+      "pts": 4
     },
     {
       "team": "Panama",
       "group": "Group L",
       "rank": 4,
-      "played": 2,
+      "played": 3,
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 2,
       "gf": 0,
       "ga": 2,
-      "pts": 0
+      "pts": 1
     }
   ],
   "bracket": [
