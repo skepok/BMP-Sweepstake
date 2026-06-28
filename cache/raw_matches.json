@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-28T04:30:08.228509+00:00",
+  "fetchedAt": "2026-06-28T07:30:13.911746+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -2007,6 +2007,180 @@
         "addedTime": null,
         "scorer": "Ismael Saibari",
         "team": "Morocco"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186853,
+      "round": "Group Stage",
+      "startTimestamp": 1781398800,
+      "status": "finished",
+      "home": {
+        "name": "Haiti",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "name": "Scotland",
+        "score": 1,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Scotland": 3,
+        "Haiti": 1
+      },
+      "fastestGoal": {
+        "minute": 28,
+        "addedTime": null,
+        "scorer": "John McGinn",
+        "team": "Scotland"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186874,
+      "round": "Group Stage",
+      "startTimestamp": 1781409600,
+      "status": "finished",
+      "home": {
+        "name": "Australia",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "name": "Türkiye",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Türkiye": 1
+      },
+      "fastestGoal": {
+        "minute": 27,
+        "addedTime": null,
+        "scorer": "Nestory Irankunda",
+        "team": "Australia"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186899,
+      "round": "Group Stage",
+      "startTimestamp": 1781456400,
+      "status": "finished",
+      "home": {
+        "name": "Germany",
+        "score": 7,
+        "winner": true
+      },
+      "away": {
+        "name": "Curaçao",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {},
+      "fastestGoal": {
+        "minute": 6,
+        "addedTime": null,
+        "scorer": "Felix Nmecha",
+        "team": "Germany"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186945,
+      "round": "Group Stage",
+      "startTimestamp": 1781467200,
+      "status": "finished",
+      "home": {
+        "name": "Netherlands",
+        "score": 2,
+        "winner": false
+      },
+      "away": {
+        "name": "Japan",
+        "score": 2,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Netherlands": 3
+      },
+      "fastestGoal": {
+        "minute": 51,
+        "addedTime": null,
+        "scorer": "Virgil van Dijk",
+        "team": "Netherlands"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186904,
+      "round": "Group Stage",
+      "startTimestamp": 1781478000,
+      "status": "finished",
+      "home": {
+        "name": "Côte d'Ivoire",
+        "score": 1,
+        "winner": true
+      },
+      "away": {
+        "name": "Ecuador",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Ecuador": 1,
+        "Côte d'Ivoire": 3
+      },
+      "fastestGoal": {
+        "minute": 90,
+        "addedTime": null,
+        "scorer": "Amad Diallo",
+        "team": "Côte d'Ivoire"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186951,
+      "round": "Group Stage",
+      "startTimestamp": 1781488800,
+      "status": "finished",
+      "home": {
+        "name": "Sweden",
+        "score": 5,
+        "winner": true
+      },
+      "away": {
+        "name": "Tunisia",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Tunisia": 1
+      },
+      "fastestGoal": {
+        "minute": 7,
+        "addedTime": null,
+        "scorer": "Yasin Ayari",
+        "team": "Sweden"
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true

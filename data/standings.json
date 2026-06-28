@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T04:30:08.307Z",
+  "lastUpdated": "2026-06-28T07:30:14.001Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -4289,6 +4289,144 @@
       }
     },
     {
+      "date": "2026-06-14T01:00:00.000Z",
+      "ts": 1781398800000,
+      "round": "Group C",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "HTI",
+        "name": "Haiti",
+        "iso2": "HT",
+        "player": "Tom Clayton",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "SCO",
+        "name": "Scotland",
+        "iso2": "GB-SCT",
+        "player": "Paul Mitchell",
+        "score": 1,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-06-14T04:00:00.000Z",
+      "ts": 1781409600000,
+      "round": "Group D",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "AUS",
+        "name": "Australia",
+        "iso2": "AU",
+        "player": "Tom Gibbons",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "code": "TUR",
+        "name": "Turkey",
+        "iso2": "TR",
+        "player": "Laura Harrison",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-14T17:00:00.000Z",
+      "ts": 1781456400000,
+      "round": "Group E",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "GER",
+        "name": "Germany",
+        "iso2": "DE",
+        "player": "Jess Forshaw",
+        "score": 7,
+        "winner": true
+      },
+      "away": {
+        "code": "CUW",
+        "name": "Curacao",
+        "iso2": "CW",
+        "player": "Fred Dunn",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-14T20:00:00.000Z",
+      "ts": 1781467200000,
+      "round": "Group F",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "NLD",
+        "name": "Netherlands",
+        "iso2": "NL",
+        "player": "Bob Gibson",
+        "score": 2,
+        "winner": false
+      },
+      "away": {
+        "code": "JAP",
+        "name": "Japan",
+        "iso2": "JP",
+        "player": "Nick Foulkes",
+        "score": 2,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-14T23:00:00.000Z",
+      "ts": 1781478000000,
+      "round": "Group E",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "CIV",
+        "name": "Ivory Coast",
+        "iso2": "CI",
+        "player": "Robbie Godowski",
+        "score": 1,
+        "winner": true
+      },
+      "away": {
+        "code": "ECU",
+        "name": "Ecuador",
+        "iso2": "EC",
+        "player": "Frank Dunn",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-15T02:00:00.000Z",
+      "ts": 1781488800000,
+      "round": "Group F",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "SWE",
+        "name": "Sweden",
+        "iso2": "SE",
+        "player": "Madi Farrow-Dunn",
+        "score": 5,
+        "winner": true
+      },
+      "away": {
+        "code": "TUN",
+        "name": "Tunisia",
+        "iso2": "TN",
+        "player": "Sam King",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
       "date": "2026-06-15T16:00:00.000Z",
       "ts": 1781539200000,
       "round": "Group H",
@@ -6924,19 +7062,19 @@
         "score": 29
       },
       {
+        "player": "Frank Dunn",
+        "conceded": 12,
+        "losses": 3,
+        "yellows": 9,
+        "reds": 2,
+        "score": 28
+      },
+      {
         "player": "Jimena Barillas",
         "conceded": 18,
         "losses": 4,
         "yellows": 5,
         "reds": 0,
-        "score": 27
-      },
-      {
-        "player": "Frank Dunn",
-        "conceded": 12,
-        "losses": 3,
-        "yellows": 8,
-        "reds": 2,
         "score": 27
       },
       {
@@ -6972,6 +7110,14 @@
         "score": 24
       },
       {
+        "player": "Paul Mitchell",
+        "conceded": 10,
+        "losses": 3,
+        "yellows": 9,
+        "reds": 0,
+        "score": 22
+      },
+      {
         "player": "Flora Curry",
         "conceded": 9,
         "losses": 2,
@@ -6991,9 +7137,9 @@
         "player": "Tom Clayton",
         "conceded": 9,
         "losses": 3,
-        "yellows": 8,
+        "yellows": 9,
         "reds": 0,
-        "score": 20
+        "score": 21
       },
       {
         "player": "Tom Gibbons",
@@ -7004,28 +7150,20 @@
         "score": 20
       },
       {
-        "player": "Paul Mitchell",
-        "conceded": 10,
-        "losses": 3,
-        "yellows": 6,
-        "reds": 0,
-        "score": 19
-      },
-      {
         "player": "Sam King",
         "conceded": 14,
         "losses": 3,
-        "yellows": 1,
+        "yellows": 2,
         "reds": 0,
-        "score": 18
+        "score": 19
       },
       {
         "player": "Laura Harrison",
         "conceded": 11,
         "losses": 4,
-        "yellows": 3,
+        "yellows": 4,
         "reds": 0,
-        "score": 18
+        "score": 19
       },
       {
         "player": "Me Julie",
@@ -7034,6 +7172,14 @@
         "yellows": 10,
         "reds": 0,
         "score": 18
+      },
+      {
+        "player": "Bob Gibson",
+        "conceded": 11,
+        "losses": 1,
+        "yellows": 4,
+        "reds": 0,
+        "score": 16
       },
       {
         "player": "Jess Forshaw",
@@ -7058,14 +7204,6 @@
         "yellows": 7,
         "reds": 2,
         "score": 15
-      },
-      {
-        "player": "Bob Gibson",
-        "conceded": 11,
-        "losses": 1,
-        "yellows": 1,
-        "reds": 0,
-        "score": 13
       },
       {
         "player": "Ali Taylor",
@@ -7103,9 +7241,9 @@
         "player": "Robbie Godowski",
         "conceded": 2,
         "losses": 1,
-        "yellows": 3,
+        "yellows": 6,
         "reds": 1,
-        "score": 8
+        "score": 11
       }
     ],
     "fastestGoal": {
@@ -7129,7 +7267,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 98,
-    "scrapedAt": "2026-06-28T04:30:08.228509+00:00"
+    "matches": 104,
+    "scrapedAt": "2026-06-28T07:30:13.911746+00:00"
   }
 }
