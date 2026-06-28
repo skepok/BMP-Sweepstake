@@ -450,6 +450,17 @@ async function writeStandings({ players, teamByCode, fixtures, standings, events
   // ---- cashless / bragging-rights prizes ----------------------------------
   const eventTotals = aggregateEvents(events); // group-stage red / own goal / yellow totals by code
 
+  // Per-team group-stage stats for the match-odds modal (by code).
+  const teamStats = {};
+  for (const p of players.players) for (const t of p.teams) {
+    const g = groupByCode.get(t.code);
+    teamStats[t.code] = {
+      name: t.name, iso2: t.iso2,
+      played: g ? g.played : 0, gf: g ? g.gf : 0, ga: g ? g.ga : 0,
+      yellows: eventTotals.yellow[t.code] || 0, reds: eventTotals.red[t.code] || 0,
+    };
+  }
+
   // Most combined group points (a player's two teams added together).
   const mostPoints = players.players.map((p) => {
     let points = 0; let gd = 0;
@@ -575,6 +586,7 @@ async function writeStandings({ players, teamByCode, fixtures, standings, events
     bracket,
     fixtures: fixtureList,
     cashless,
+    teamStats,
     meta,
   };
 

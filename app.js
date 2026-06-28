@@ -4,6 +4,8 @@
 
   const $ = (sel) => document.querySelector(sel);
   let countdownTimer = null;
+  let APP = null;                 // full standings.json (for the match-odds modal)
+  const matchRegistry = [];       // clickable matches -> {home, away, finished, round, label}
 
   // --- flag emoji from ISO code (England/Scotland use sub-region tags) -----
   function flag(iso2) {
@@ -239,7 +241,8 @@
       const matches = r.blocks.map((b) => {
         const lab = b.label ? `<div class="bk-label">${esc(b.label)}</div>` : '';
         const ko = b.kickoff ? `<div class="bk-ko">${esc(fmtDate(b.kickoff))}</div>` : '';
-        return `<div class="bk-match">${lab}${teamRow(b.home)}${teamRow(b.away)}${ko}</div>`;
+        const mk = matchRegistry.push({ home: b.home, away: b.away, finished: b.finished, round: r.name, label: b.label }) - 1;
+        return `<div class="bk-match clickable" data-mk="${mk}">${lab}${teamRow(b.home)}${teamRow(b.away)}${ko}</div>`;
       }).join('');
       return `<div class="bracket-round${i === active ? ' active' : ''}" data-round="${i}">
         <div class="bracket-round-title">${esc(r.name)}</div>
@@ -301,7 +304,8 @@
       ? `<span class="fx-score">${f.home.score ?? ''}–${f.away.score ?? ''}</span>`
       : `<span class="fx-time">${esc(time())}</span>`;
     const owner = (t) => t.player ? `<span class="fx-owner">${esc(t.player)}</span>` : '';
-    return `<div class="fx-match">
+    const mk = matchRegistry.push({ home: f.home, away: f.away, finished: f.finished, round: f.round, label: null }) - 1;
+    return `<div class="fx-match clickable" data-mk="${mk}">
       <span class="fx-side home ${f.home.winner ? 'win' : ''}">
         <span class="fx-meta r"><span class="fx-name">${esc(f.home.name)}</span>${owner(f.home)}</span>
         <span class="flag">${flag(f.home.iso2)}</span>
@@ -367,6 +371,89 @@
       <div class="boards">${mostPoints}${worst}${okr}</div>`;
   }
 
+  // --- match-odds modal -----------------------------------------------------
+  function factorial(n) { let r = 1; for (let i = 2; i <= n; i++) r *= i; return r; }
+  function pois(k, l) { return Math.exp(-l) * Math.pow(l, k) / factorial(k); }
+
+  // Simple Poisson model from group-stage scoring/conceding rates.
+  function computeOdds(hc, ac) {
+    const ts = APP && APP.teamStats;
+    if (!ts) return null;
+    const A = ts[hc]; const B = ts[ac];
+    if (!A || !B || !A.played || !B.played) return null;
+    let totG = 0; let totP = 0;
+    for (const c in ts) { totG += ts[c].gf; totP += ts[c].played; }
+    const avg = totP ? totG / totP : 1.3;
+    const atk = (t) => (t.gf / t.played) / (avg || 1);
+    const def = (t) => (t.ga / t.played) / (avg || 1);
+    const clamp = (x) => Math.max(0.2, Math.min(5, x));
+    const lamA = clamp(avg * atk(A) * def(B));
+    const lamB = clamp(avg * atk(B) * def(A));
+    let win = 0; let draw = 0; let loss = 0; let btts = 0; let over = 0; let tot = 0;
+    for (let x = 0; x <= 8; x++) for (let y = 0; y <= 8; y++) {
+      const p = pois(x, lamA) * pois(y, lamB); tot += p;
+      if (x > y) win += p; else if (x === y) draw += p; else loss += p;
+      if (x >= 1 && y >= 1) btts += p;
+      if (x + y >= 3) over += p;
+    }
+    win /= tot; draw /= tot; loss /= tot; btts /= tot; over /= tot;
+    const rate = (t) => (t.yellows + t.reds) / t.played;
+    return { win, draw, loss, btts, over, under: 1 - over, expCards: rate(A) + rate(B) };
+  }
+
+  function openMatchModal(m) {
+    const body = $('#modalBody');
+    if (!body) return;
+    const teamLine = (t) => `<span class="flag">${t.placeholder ? '⚽' : flag(t.iso2)}</span> ${esc(t.name)}${t.player ? ` <small>(${esc(t.player)})</small>` : ''}`;
+    let html = `<p class="modal-round">${esc(m.label || m.round || 'Match')}</p>
+      <div class="modal-teams"><span>${teamLine(m.home)}</span><span class="modal-v">v</span><span>${teamLine(m.away)}</span></div>`;
+    const pc = (x) => Math.round(x * 100);
+
+    if (m.home.placeholder || m.away.placeholder || !m.home.code || !m.away.code) {
+      html += `<p class="modal-note">Teams not decided yet — the odds appear once both are known.</p>`;
+    } else if (m.finished) {
+      html += `<p class="modal-result">Full time &nbsp;${m.home.score}–${m.away.score}</p>`;
+    } else {
+      const o = computeOdds(m.home.code, m.away.code);
+      if (!o) {
+        html += `<p class="modal-note">Not enough group-stage data yet for an estimate.</p>`;
+      } else {
+        html += `<p class="modal-sub">Estimated from group-stage form — just for fun, not real odds.</p>
+          <div class="odds-block">
+            <div class="odds-key"><span>${esc(m.home.name)} win</span><span>Draw</span><span>${esc(m.away.name)} win</span></div>
+            <div class="odds-bar">
+              <span class="ob-w" style="width:${pc(o.win)}%">${pc(o.win)}%</span>
+              <span class="ob-d" style="width:${pc(o.draw)}%">${pc(o.draw)}%</span>
+              <span class="ob-l" style="width:${pc(o.loss)}%">${pc(o.loss)}%</span>
+            </div>
+          </div>
+          <div class="odds-rows">
+            <div class="odds-row"><span>Both teams to score</span><strong>${pc(o.btts)}%</strong></div>
+            <div class="odds-row"><span>Over 2.5 goals</span><strong>${pc(o.over)}%</strong></div>
+            <div class="odds-row"><span>Under 2.5 goals</span><strong>${pc(o.under)}%</strong></div>
+            <div class="odds-row"><span>Expected cards</span><strong>${o.expCards.toFixed(1)}</strong></div>
+          </div>`;
+      }
+    }
+    body.innerHTML = html;
+    $('#matchModal').hidden = false;
+  }
+
+  function initModal() {
+    const modal = $('#matchModal');
+    if (!modal) return;
+    const close = () => { modal.hidden = true; };
+    document.addEventListener('click', (e) => {
+      const el = e.target.closest('.clickable[data-mk]');
+      if (!el) return;
+      const m = matchRegistry[Number(el.getAttribute('data-mk'))];
+      if (m) openMatchModal(m);
+    });
+    $('#modalClose').addEventListener('click', close);
+    modal.addEventListener('click', (e) => { if (e.target === modal) close(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+  }
+
   // --- tab switching --------------------------------------------------------
   function initTabs() {
     const btns = document.querySelectorAll('.tab-btn');
@@ -386,6 +473,8 @@
       const res = await fetch('data/standings.json', { cache: 'no-store' });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
+      APP = data;
+      matchRegistry.length = 0;
 
       renderPrizes(data.prizes);
       renderBanner(data.banner);
@@ -411,5 +500,6 @@
   }
 
   initTabs();
+  initModal();
   load();
 })();
