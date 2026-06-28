@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T23:30:07.776Z",
+  "lastUpdated": "2026-06-28T00:00:08.720Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,16 +41,16 @@
       "round": "Group Stage",
       "kickoff": "2026-06-27T23:30:00.000Z",
       "kickoffUnix": 1782603000000,
-      "status": "NS",
+      "status": "1H",
       "home": {
-        "code": "COL",
-        "name": "Colombia",
-        "iso2": "CO"
+        "code": "DRC",
+        "name": "DR Congo",
+        "iso2": "CD"
       },
       "away": {
-        "code": "POR",
-        "name": "Portugal",
-        "iso2": "PT"
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "iso2": "UZ"
       }
     },
     "lastFinished": {
@@ -470,19 +470,19 @@
           "pot": 1,
           "odds": "10/1",
           "matched": true,
-          "status": "Group K — 2nd (4 pts)",
+          "status": "Group K — 2nd (5 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group K",
             "rank": 2,
-            "played": 2,
+            "played": 3,
             "w": 1,
-            "d": 1,
+            "d": 2,
             "l": 0,
             "gf": 6,
             "ga": 1,
-            "pts": 4
+            "pts": 5
           },
           "goalsConceded": 1,
           "redCards": 0,
@@ -605,19 +605,19 @@
           "pot": 2,
           "odds": "1500/1",
           "matched": true,
-          "status": "Group K — 4th (0 pts)",
+          "status": "Group K — 3rd (3 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group K",
-            "rank": 4,
-            "played": 2,
-            "w": 0,
+            "rank": 3,
+            "played": 3,
+            "w": 1,
             "d": 0,
             "l": 2,
-            "gf": 1,
+            "gf": 2,
             "ga": 8,
-            "pts": 0
+            "pts": 3
           },
           "goalsConceded": 8,
           "redCards": 0,
@@ -800,19 +800,19 @@
           "pot": 1,
           "odds": "33/1",
           "matched": true,
-          "status": "Group K — 1st (6 pts)",
+          "status": "Group K — 1st (7 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group K",
             "rank": 1,
-            "played": 2,
+            "played": 3,
             "w": 2,
-            "d": 0,
+            "d": 1,
             "l": 0,
             "gf": 4,
             "ga": 1,
-            "pts": 6
+            "pts": 7
           },
           "goalsConceded": 1,
           "redCards": 0,
@@ -935,21 +935,21 @@
           "pot": 2,
           "odds": "750/1",
           "matched": true,
-          "status": "Group K — 3rd (1 pts)",
+          "status": "Group K — 4th (1 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group K",
-            "rank": 3,
-            "played": 2,
+            "rank": 4,
+            "played": 3,
             "w": 0,
             "d": 1,
-            "l": 1,
+            "l": 2,
             "gf": 1,
-            "ga": 2,
+            "ga": 3,
             "pts": 1
           },
-          "goalsConceded": 2,
+          "goalsConceded": 3,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -1581,6 +1581,13 @@
         "value": 3
       },
       {
+        "code": "DRC",
+        "name": "DR Congo",
+        "iso2": "CD",
+        "player": "Nick Foulkes",
+        "value": 3
+      },
+      {
         "code": "EGY",
         "name": "Egypt",
         "iso2": "EG",
@@ -1648,13 +1655,6 @@
         "name": "Cape Verde",
         "iso2": "CV",
         "player": "Guy Curry",
-        "value": 2
-      },
-      {
-        "code": "DRC",
-        "name": "DR Congo",
-        "iso2": "CD",
-        "player": "Nick Foulkes",
         "value": 2
       },
       {
@@ -3072,14 +3072,14 @@
           "iso2": "CO",
           "player": "Matt Deacock",
           "rank": 1,
-          "played": 2,
+          "played": 3,
           "w": 2,
-          "d": 0,
+          "d": 1,
           "l": 0,
           "gf": 4,
           "ga": 1,
           "gd": 3,
-          "pts": 6
+          "pts": 7
         },
         {
           "code": "POR",
@@ -3087,44 +3087,44 @@
           "iso2": "PT",
           "player": "Guy Curry",
           "rank": 2,
-          "played": 2,
+          "played": 3,
           "w": 1,
-          "d": 1,
+          "d": 2,
           "l": 0,
           "gf": 6,
           "ga": 1,
           "gd": 5,
-          "pts": 4
-        },
-        {
-          "code": "DRC",
-          "name": "DR Congo",
-          "iso2": "CD",
-          "player": "Nick Foulkes",
-          "rank": 3,
-          "played": 2,
-          "w": 0,
-          "d": 1,
-          "l": 1,
-          "gf": 1,
-          "ga": 2,
-          "gd": -1,
-          "pts": 1
+          "pts": 5
         },
         {
           "code": "UZB",
           "name": "Uzbekistan",
           "iso2": "UZ",
           "player": "Jimena Barillas",
-          "rank": 4,
-          "played": 2,
-          "w": 0,
+          "rank": 3,
+          "played": 3,
+          "w": 1,
           "d": 0,
           "l": 2,
-          "gf": 1,
+          "gf": 2,
           "ga": 8,
-          "gd": -7,
-          "pts": 0
+          "gd": -6,
+          "pts": 3
+        },
+        {
+          "code": "DRC",
+          "name": "DR Congo",
+          "iso2": "CD",
+          "player": "Nick Foulkes",
+          "rank": 4,
+          "played": 3,
+          "w": 0,
+          "d": 1,
+          "l": 2,
+          "gf": 1,
+          "ga": 3,
+          "gd": -2,
+          "pts": 1
         }
       ]
     },
@@ -3327,6 +3327,19 @@
     },
     {
       "pos": 11,
+      "code": "UZB",
+      "name": "Uzbekistan",
+      "iso2": "UZ",
+      "player": "Jimena Barillas",
+      "group": "Group K",
+      "played": 3,
+      "gd": -6,
+      "gf": 2,
+      "pts": 3,
+      "qualifying": false
+    },
+    {
+      "pos": 12,
       "code": "URY",
       "name": "Uruguay",
       "iso2": "UY",
@@ -3336,19 +3349,6 @@
       "gd": -1,
       "gf": 3,
       "pts": 2,
-      "qualifying": false
-    },
-    {
-      "pos": 12,
-      "code": "DRC",
-      "name": "DR Congo",
-      "iso2": "CD",
-      "player": "Nick Foulkes",
-      "group": "Group K",
-      "played": 2,
-      "gd": -1,
-      "gf": 1,
-      "pts": 1,
       "qualifying": false
     }
   ],
@@ -4285,52 +4285,6 @@
         "iso2": "MA",
         "player": "Ali Taylor",
         "score": 1,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-14T17:00:00.000Z",
-      "ts": 1781456400000,
-      "round": "Group E",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "GER",
-        "name": "Germany",
-        "iso2": "DE",
-        "player": "Jess Forshaw",
-        "score": 7,
-        "winner": true
-      },
-      "away": {
-        "code": "CUW",
-        "name": "Curacao",
-        "iso2": "CW",
-        "player": "Fred Dunn",
-        "score": 1,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-14T20:00:00.000Z",
-      "ts": 1781467200000,
-      "round": "Group F",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "NLD",
-        "name": "Netherlands",
-        "iso2": "NL",
-        "player": "Bob Gibson",
-        "score": 2,
-        "winner": false
-      },
-      "away": {
-        "code": "JAP",
-        "name": "Japan",
-        "iso2": "JP",
-        "player": "Nick Foulkes",
-        "score": 2,
         "winner": false
       }
     },
@@ -5672,30 +5626,7 @@
       "date": "2026-06-27T23:30:00.000Z",
       "ts": 1782603000000,
       "round": "Group K",
-      "status": "NS",
-      "finished": false,
-      "home": {
-        "code": "COL",
-        "name": "Colombia",
-        "iso2": "CO",
-        "player": "Matt Deacock",
-        "score": null,
-        "winner": false
-      },
-      "away": {
-        "code": "POR",
-        "name": "Portugal",
-        "iso2": "PT",
-        "player": "Guy Curry",
-        "score": null,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-27T23:30:00.000Z",
-      "ts": 1782603000000,
-      "round": "Group K",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "DRC",
@@ -5710,6 +5641,29 @@
         "name": "Uzbekistan",
         "iso2": "UZ",
         "player": "Jimena Barillas",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-27T23:30:00.000Z",
+      "ts": 1782603000000,
+      "round": "Group K",
+      "status": "1H",
+      "finished": false,
+      "home": {
+        "code": "COL",
+        "name": "Colombia",
+        "iso2": "CO",
+        "player": "Matt Deacock",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "POR",
+        "name": "Portugal",
+        "iso2": "PT",
+        "player": "Guy Curry",
         "score": 0,
         "winner": false
       }
@@ -6557,6 +6511,25 @@
         "gd": 4
       },
       {
+        "player": "Matt Deacock",
+        "teams": [
+          {
+            "code": "COL",
+            "name": "Colombia",
+            "iso2": "CO",
+            "pts": 7
+          },
+          {
+            "code": "GHA",
+            "name": "Ghana",
+            "iso2": "GH",
+            "pts": 4
+          }
+        ],
+        "points": 11,
+        "gd": 3
+      },
+      {
         "player": "Bob Gibson",
         "teams": [
           {
@@ -6589,25 +6562,6 @@
             "name": "South Korea",
             "iso2": "KR",
             "pts": 3
-          }
-        ],
-        "points": 10,
-        "gd": 3
-      },
-      {
-        "player": "Matt Deacock",
-        "teams": [
-          {
-            "code": "COL",
-            "name": "Colombia",
-            "iso2": "CO",
-            "pts": 6
-          },
-          {
-            "code": "GHA",
-            "name": "Ghana",
-            "iso2": "GH",
-            "pts": 4
           }
         ],
         "points": 10,
@@ -6671,6 +6625,44 @@
         "gd": -2
       },
       {
+        "player": "Jimena Barillas",
+        "teams": [
+          {
+            "code": "NOR",
+            "name": "Norway",
+            "iso2": "NO",
+            "pts": 6
+          },
+          {
+            "code": "UZB",
+            "name": "Uzbekistan",
+            "iso2": "UZ",
+            "pts": 3
+          }
+        ],
+        "points": 9,
+        "gd": -5
+      },
+      {
+        "player": "Guy Curry",
+        "teams": [
+          {
+            "code": "POR",
+            "name": "Portugal",
+            "iso2": "PT",
+            "pts": 5
+          },
+          {
+            "code": "CPV",
+            "name": "Cape Verde",
+            "iso2": "CV",
+            "pts": 3
+          }
+        ],
+        "points": 8,
+        "gd": 5
+      },
+      {
         "player": "Flora Curry",
         "teams": [
           {
@@ -6688,25 +6680,6 @@
         ],
         "points": 8,
         "gd": 0
-      },
-      {
-        "player": "Guy Curry",
-        "teams": [
-          {
-            "code": "POR",
-            "name": "Portugal",
-            "iso2": "PT",
-            "pts": 4
-          },
-          {
-            "code": "CPV",
-            "name": "Cape Verde",
-            "iso2": "CV",
-            "pts": 3
-          }
-        ],
-        "points": 7,
-        "gd": 5
       },
       {
         "player": "Me Julie",
@@ -6782,7 +6755,7 @@
           }
         ],
         "points": 6,
-        "gd": 3
+        "gd": 2
       },
       {
         "player": "Tom Clayton",
@@ -6859,25 +6832,6 @@
         ],
         "points": 6,
         "gd": -4
-      },
-      {
-        "player": "Jimena Barillas",
-        "teams": [
-          {
-            "code": "NOR",
-            "name": "Norway",
-            "iso2": "NO",
-            "pts": 6
-          },
-          {
-            "code": "UZB",
-            "name": "Uzbekistan",
-            "iso2": "UZ",
-            "pts": 0
-          }
-        ],
-        "points": 6,
-        "gd": -6
       },
       {
         "player": "Madi Farrow-Dunn",
@@ -6976,15 +6930,6 @@
         "gf": 2
       },
       {
-        "code": "UZB",
-        "name": "Uzbekistan",
-        "iso2": "UZ",
-        "player": "Jimena Barillas",
-        "pts": 0,
-        "gd": -7,
-        "gf": 1
-      },
-      {
         "code": "HTI",
         "name": "Haiti",
         "iso2": "HT",
@@ -7001,6 +6946,15 @@
         "pts": 0,
         "gd": -4,
         "gf": 0
+      },
+      {
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
+        "pts": 0,
+        "gd": -3,
+        "gf": 2
       }
     ],
     "englandKnockedOutBy": {
@@ -7152,20 +7106,20 @@
         "score": 15
       },
       {
-        "player": "Bob Gibson",
-        "conceded": 8,
-        "losses": 1,
-        "yellows": 4,
-        "reds": 0,
-        "score": 13
-      },
-      {
         "player": "Ali Taylor",
         "conceded": 6,
         "losses": 0,
         "yellows": 7,
         "reds": 0,
         "score": 13
+      },
+      {
+        "player": "Nick Foulkes",
+        "conceded": 6,
+        "losses": 2,
+        "yellows": 3,
+        "reds": 0,
+        "score": 11
       },
       {
         "player": "Guy Curry",
@@ -7184,20 +7138,20 @@
         "score": 11
       },
       {
+        "player": "Bob Gibson",
+        "conceded": 8,
+        "losses": 1,
+        "yellows": 1,
+        "reds": 0,
+        "score": 10
+      },
+      {
         "player": "Matt Deacock",
         "conceded": 3,
         "losses": 1,
         "yellows": 6,
         "reds": 0,
         "score": 10
-      },
-      {
-        "player": "Nick Foulkes",
-        "conceded": 5,
-        "losses": 1,
-        "yellows": 3,
-        "reds": 0,
-        "score": 9
       }
     ],
     "fastestGoal": {
@@ -7221,7 +7175,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 102,
-    "scrapedAt": "2026-06-27T23:30:07.691345+00:00"
+    "matches": 100,
+    "scrapedAt": "2026-06-28T00:00:08.635554+00:00"
   }
 }

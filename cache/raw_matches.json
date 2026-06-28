@@ -1,70 +1,10 @@
 {
-  "fetchedAt": "2026-06-27T23:30:07.691345+00:00",
+  "fetchedAt": "2026-06-28T00:00:08.635554+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186800,
-      "round": "Group Stage",
-      "startTimestamp": 1782079200,
-      "status": "finished",
-      "home": {
-        "name": "Uruguay",
-        "score": 2,
-        "winner": false
-      },
-      "away": {
-        "name": "Cabo Verde",
-        "score": 2,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "Cabo Verde": 2,
-        "Uruguay": 2
-      },
-      "fastestGoal": {
-        "minute": 21,
-        "addedTime": null,
-        "scorer": "Kevin Lenini",
-        "team": "Cabo Verde"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
-    {
-      "id": 15186827,
-      "round": "Group Stage",
-      "startTimestamp": 1782090000,
-      "status": "finished",
-      "home": {
-        "name": "New Zealand",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "name": "Egypt",
-        "score": 3,
-        "winner": true
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "New Zealand": 2,
-        "Egypt": 1
-      },
-      "fastestGoal": {
-        "minute": 15,
-        "addedTime": null,
-        "scorer": "Finn Surman",
-        "team": "New Zealand"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186502,
       "round": "Group Stage",
@@ -912,60 +852,48 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186899,
+      "id": 15186717,
       "round": "Group Stage",
-      "startTimestamp": 1781456400,
-      "status": "finished",
+      "startTimestamp": 1782603000,
+      "status": "inprogress",
       "home": {
-        "name": "Germany",
-        "score": 7,
-        "winner": true
+        "name": "DR Congo",
+        "score": 0,
+        "winner": null
       },
       "away": {
-        "name": "Curaçao",
+        "name": "Uzbekistan",
         "score": 1,
-        "winner": false
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
-      "fastestGoal": {
-        "minute": 6,
-        "addedTime": null,
-        "scorer": "Felix Nmecha",
-        "team": "Germany"
-      },
+      "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
-      "id": 15186945,
+      "id": 15186696,
       "round": "Group Stage",
-      "startTimestamp": 1781467200,
-      "status": "finished",
+      "startTimestamp": 1782603000,
+      "status": "inprogress",
       "home": {
-        "name": "Netherlands",
-        "score": 2,
-        "winner": false
+        "name": "Colombia",
+        "score": 0,
+        "winner": null
       },
       "away": {
-        "name": "Japan",
-        "score": 2,
-        "winner": false
+        "name": "Portugal",
+        "score": 0,
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {
-        "Netherlands": 3
-      },
-      "fastestGoal": {
-        "minute": 51,
-        "addedTime": null,
-        "scorer": "Virgil van Dijk",
-        "team": "Netherlands"
-      },
+      "yellowCards": {},
+      "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
       "id": 15186904,
@@ -1820,6 +1748,66 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186800,
+      "round": "Group Stage",
+      "startTimestamp": 1782079200,
+      "status": "finished",
+      "home": {
+        "name": "Uruguay",
+        "score": 2,
+        "winner": false
+      },
+      "away": {
+        "name": "Cabo Verde",
+        "score": 2,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Cabo Verde": 2,
+        "Uruguay": 2
+      },
+      "fastestGoal": {
+        "minute": 21,
+        "addedTime": null,
+        "scorer": "Kevin Lenini",
+        "team": "Cabo Verde"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186827,
+      "round": "Group Stage",
+      "startTimestamp": 1782090000,
+      "status": "finished",
+      "home": {
+        "name": "New Zealand",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Egypt",
+        "score": 3,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "New Zealand": 2,
+        "Egypt": 1
+      },
+      "fastestGoal": {
+        "minute": 15,
+        "addedTime": null,
+        "scorer": "Finn Surman",
+        "team": "New Zealand"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -2013,50 +2001,6 @@
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
-    },
-    {
-      "id": 15186696,
-      "round": "Group Stage",
-      "startTimestamp": 1782603000,
-      "status": "notstarted",
-      "home": {
-        "name": "Colombia",
-        "score": null,
-        "winner": null
-      },
-      "away": {
-        "name": "Portugal",
-        "score": null,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
-    },
-    {
-      "id": 15186717,
-      "round": "Group Stage",
-      "startTimestamp": 1782603000,
-      "status": "notstarted",
-      "home": {
-        "name": "DR Congo",
-        "score": 0,
-        "winner": null
-      },
-      "away": {
-        "name": "Uzbekistan",
-        "score": 0,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 15186734,
@@ -3292,49 +3236,49 @@
       "team": "Colombia",
       "group": "Group K",
       "rank": 1,
-      "played": 2,
+      "played": 3,
       "w": 2,
-      "d": 0,
+      "d": 1,
       "l": 0,
       "gf": 4,
       "ga": 1,
-      "pts": 6
+      "pts": 7
     },
     {
       "team": "Portugal",
       "group": "Group K",
       "rank": 2,
-      "played": 2,
+      "played": 3,
       "w": 1,
-      "d": 1,
+      "d": 2,
       "l": 0,
       "gf": 6,
       "ga": 1,
-      "pts": 4
-    },
-    {
-      "team": "DR Congo",
-      "group": "Group K",
-      "rank": 3,
-      "played": 2,
-      "w": 0,
-      "d": 1,
-      "l": 1,
-      "gf": 1,
-      "ga": 2,
-      "pts": 1
+      "pts": 5
     },
     {
       "team": "Uzbekistan",
       "group": "Group K",
-      "rank": 4,
-      "played": 2,
-      "w": 0,
+      "rank": 3,
+      "played": 3,
+      "w": 1,
       "d": 0,
       "l": 2,
-      "gf": 1,
+      "gf": 2,
       "ga": 8,
-      "pts": 0
+      "pts": 3
+    },
+    {
+      "team": "DR Congo",
+      "group": "Group K",
+      "rank": 4,
+      "played": 3,
+      "w": 0,
+      "d": 1,
+      "l": 2,
+      "gf": 1,
+      "ga": 3,
+      "pts": 1
     },
     {
       "team": "England",
