@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T03:00:08.186Z",
+  "lastUpdated": "2026-06-28T03:30:08.045Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -230,11 +230,11 @@
             "w": 1,
             "d": 1,
             "l": 1,
-            "gf": 3,
-            "ga": 5,
+            "gf": 4,
+            "ga": 6,
             "pts": 4
           },
-          "goalsConceded": 5,
+          "goalsConceded": 6,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -670,7 +670,7 @@
             "w": 0,
             "d": 0,
             "l": 3,
-            "gf": 2,
+            "gf": 3,
             "ga": 7,
             "pts": 0
           },
@@ -975,11 +975,11 @@
             "w": 1,
             "d": 1,
             "l": 1,
-            "gf": 4,
-            "ga": 4,
+            "gf": 5,
+            "ga": 5,
             "pts": 4
           },
-          "goalsConceded": 4,
+          "goalsConceded": 5,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -1306,10 +1306,10 @@
             "d": 0,
             "l": 0,
             "gf": 7,
-            "ga": 0,
+            "ga": 1,
             "pts": 9
           },
-          "goalsConceded": 0,
+          "goalsConceded": 1,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -1469,6 +1469,13 @@
         "value": 7
       },
       {
+        "code": "ALG",
+        "name": "Algeria",
+        "iso2": "DZ",
+        "player": "Bob Gibson",
+        "value": 6
+      },
+      {
         "code": "BIH",
         "name": "Bosnia-Herzegovina",
         "iso2": "BA",
@@ -1490,10 +1497,10 @@
         "value": 6
       },
       {
-        "code": "ALG",
-        "name": "Algeria",
-        "iso2": "DZ",
-        "player": "Bob Gibson",
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT",
+        "player": "Paul Mitchell",
         "value": 5
       },
       {
@@ -1516,13 +1523,6 @@
         "iso2": "TR",
         "player": "Laura Harrison",
         "value": 5
-      },
-      {
-        "code": "AUT",
-        "name": "Austria",
-        "iso2": "AT",
-        "player": "Paul Mitchell",
-        "value": 4
       },
       {
         "code": "GER",
@@ -1693,6 +1693,13 @@
         "value": 2
       },
       {
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
+        "player": "Tom Clayton",
+        "value": 1
+      },
+      {
         "code": "BRA",
         "name": "Brazil",
         "iso2": "BR",
@@ -1712,13 +1719,6 @@
         "iso2": "PT",
         "player": "Guy Curry",
         "value": 1
-      },
-      {
-        "code": "ARG",
-        "name": "Argentina",
-        "iso2": "AR",
-        "player": "Tom Clayton",
-        "value": 0
       },
       {
         "code": "MEX",
@@ -3012,8 +3012,8 @@
           "d": 0,
           "l": 0,
           "gf": 7,
-          "ga": 0,
-          "gd": 7,
+          "ga": 1,
+          "gd": 6,
           "pts": 9
         },
         {
@@ -3026,8 +3026,8 @@
           "w": 1,
           "d": 1,
           "l": 1,
-          "gf": 4,
-          "ga": 4,
+          "gf": 5,
+          "ga": 5,
           "gd": 0,
           "pts": 4
         },
@@ -3041,8 +3041,8 @@
           "w": 1,
           "d": 1,
           "l": 1,
-          "gf": 3,
-          "ga": 5,
+          "gf": 4,
+          "ga": 6,
           "gd": -2,
           "pts": 4
         },
@@ -3056,9 +3056,9 @@
           "w": 0,
           "d": 0,
           "l": 3,
-          "gf": 2,
+          "gf": 3,
           "ga": 7,
-          "gd": -5,
+          "gd": -4,
           "pts": 0
         }
       ]
@@ -3269,7 +3269,7 @@
       "group": "Group J",
       "played": 3,
       "gd": -2,
-      "gf": 3,
+      "gf": 4,
       "pts": 4,
       "qualifying": true
     },
@@ -5633,7 +5633,7 @@
         "name": "Algeria",
         "iso2": "DZ",
         "player": "Bob Gibson",
-        "score": 1,
+        "score": 2,
         "winner": false
       },
       "away": {
@@ -5641,7 +5641,7 @@
         "name": "Austria",
         "iso2": "AT",
         "player": "Paul Mitchell",
-        "score": 1,
+        "score": 2,
         "winner": false
       }
     },
@@ -5656,7 +5656,7 @@
         "name": "Jordan",
         "iso2": "JO",
         "player": "Joe Clayton",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "away": {
@@ -6595,7 +6595,7 @@
           }
         ],
         "points": 9,
-        "gd": 1
+        "gd": 0
       },
       {
         "player": "Sam King",
@@ -6842,7 +6842,7 @@
           }
         ],
         "points": 4,
-        "gd": 0
+        "gd": 1
       },
       {
         "player": "Laura Harrison",
@@ -6902,13 +6902,13 @@
         "gf": 2
       },
       {
-        "code": "JOR",
-        "name": "Jordan",
-        "iso2": "JO",
-        "player": "Joe Clayton",
+        "code": "PAN",
+        "name": "Panama",
+        "iso2": "PA",
+        "player": "Me Julie",
         "pts": 0,
-        "gd": -5,
-        "gf": 2
+        "gd": -4,
+        "gf": 0
       }
     ],
     "englandKnockedOutBy": {
@@ -6988,20 +6988,20 @@
         "score": 20
       },
       {
+        "player": "Tom Clayton",
+        "conceded": 9,
+        "losses": 3,
+        "yellows": 8,
+        "reds": 0,
+        "score": 20
+      },
+      {
         "player": "Tom Gibbons",
         "conceded": 6,
         "losses": 2,
         "yellows": 10,
         "reds": 1,
         "score": 20
-      },
-      {
-        "player": "Tom Clayton",
-        "conceded": 8,
-        "losses": 3,
-        "yellows": 8,
-        "reds": 0,
-        "score": 19
       },
       {
         "player": "Sam King",
@@ -7029,11 +7029,11 @@
       },
       {
         "player": "Paul Mitchell",
-        "conceded": 8,
+        "conceded": 9,
         "losses": 3,
         "yellows": 5,
         "reds": 0,
-        "score": 16
+        "score": 17
       },
       {
         "player": "Jess Forshaw",
@@ -7077,11 +7077,11 @@
       },
       {
         "player": "Bob Gibson",
-        "conceded": 9,
+        "conceded": 10,
         "losses": 1,
         "yellows": 1,
         "reds": 0,
-        "score": 11
+        "score": 12
       },
       {
         "player": "Guy Curry",
@@ -7130,6 +7130,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 98,
-    "scrapedAt": "2026-06-28T03:00:08.100782+00:00"
+    "scrapedAt": "2026-06-28T03:30:07.946521+00:00"
   }
 }

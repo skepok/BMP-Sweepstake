@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-28T03:00:08.100782+00:00",
+  "fetchedAt": "2026-06-28T03:30:07.946521+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -853,12 +853,12 @@
       "status": "inprogress",
       "home": {
         "name": "Algeria",
-        "score": 1,
+        "score": 2,
         "winner": null
       },
       "away": {
         "name": "Austria",
-        "score": 1,
+        "score": 2,
         "winner": null
       },
       "redCards": {},
@@ -875,7 +875,7 @@
       "status": "inprogress",
       "home": {
         "name": "Jordan",
-        "score": 0,
+        "score": 1,
         "winner": null
       },
       "away": {
@@ -3144,7 +3144,7 @@
       "d": 0,
       "l": 0,
       "gf": 7,
-      "ga": 0,
+      "ga": 1,
       "pts": 9
     },
     {
@@ -3155,8 +3155,8 @@
       "w": 1,
       "d": 1,
       "l": 1,
-      "gf": 4,
-      "ga": 4,
+      "gf": 5,
+      "ga": 5,
       "pts": 4
     },
     {
@@ -3167,8 +3167,8 @@
       "w": 1,
       "d": 1,
       "l": 1,
-      "gf": 3,
-      "ga": 5,
+      "gf": 4,
+      "ga": 6,
       "pts": 4
     },
     {
@@ -3179,7 +3179,7 @@
       "w": 0,
       "d": 0,
       "l": 3,
-      "gf": 2,
+      "gf": 3,
       "ga": 7,
       "pts": 0
     },
