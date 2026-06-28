@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-06-28T03:30:08.045Z",
+  "lastUpdated": "2026-06-28T04:00:10.418Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
-  "groupStageComplete": false,
+  "groupStageComplete": true,
   "knockoutsStarted": false,
   "prizes": {
     "total": 240,
@@ -38,37 +38,37 @@
   },
   "banner": {
     "nextFixture": {
-      "round": "Group Stage",
-      "kickoff": "2026-06-28T02:00:00.000Z",
-      "kickoffUnix": 1782612000000,
-      "status": "1H",
+      "round": "Round of 32",
+      "kickoff": "2026-06-28T19:00:00.000Z",
+      "kickoffUnix": 1782673200000,
+      "status": "NS",
       "home": {
-        "code": "ALG",
-        "name": "Algeria",
-        "iso2": "DZ"
+        "code": "ZAF",
+        "name": "South Africa",
+        "iso2": "ZA"
       },
       "away": {
-        "code": "AUT",
-        "name": "Austria",
-        "iso2": "AT"
+        "code": "CAN",
+        "name": "Canada",
+        "iso2": "CA"
       }
     },
     "lastFinished": {
       "round": "Group Stage",
-      "kickoff": "2026-06-27T23:30:00.000Z",
-      "kickoffUnix": 1782603000000,
+      "kickoff": "2026-06-28T02:00:00.000Z",
+      "kickoffUnix": 1782612000000,
       "status": "FT",
       "home": {
-        "code": "DRC",
-        "name": "DR Congo",
-        "iso2": "CD",
+        "code": "ALG",
+        "name": "Algeria",
+        "iso2": "DZ",
         "goals": 3
       },
       "away": {
-        "code": "UZB",
-        "name": "Uzbekistan",
-        "iso2": "UZ",
-        "goals": 1
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT",
+        "goals": 3
       }
     }
   },
@@ -85,8 +85,8 @@
           "pot": 1,
           "odds": "9/2",
           "matched": true,
-          "status": "Group H — 1st (7 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group H",
@@ -110,8 +110,8 @@
           "pot": 2,
           "odds": "1000/1",
           "matched": true,
-          "status": "Group A — 2nd (4 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group A",
@@ -140,8 +140,8 @@
           "pot": 1,
           "odds": "50/1",
           "matched": true,
-          "status": "Group C — 2nd (7 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group C",
@@ -165,8 +165,8 @@
           "pot": 2,
           "odds": "300/1",
           "matched": true,
-          "status": "Group G — 2nd (5 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group G",
@@ -195,8 +195,8 @@
           "pot": 1,
           "odds": "20/1",
           "matched": true,
-          "status": "Group F — 1st (7 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group F",
@@ -220,9 +220,9 @@
           "pot": 2,
           "odds": "400/1",
           "matched": true,
-          "status": "Group J — 3rd (4 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group J",
             "rank": 3,
@@ -230,11 +230,11 @@
             "w": 1,
             "d": 1,
             "l": 1,
-            "gf": 4,
-            "ga": 6,
+            "gf": 5,
+            "ga": 7,
             "pts": 4
           },
-          "goalsConceded": 6,
+          "goalsConceded": 7,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -250,8 +250,8 @@
           "pot": 1,
           "odds": "80/1",
           "matched": true,
-          "status": "Group B — 1st (7 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group B",
@@ -275,9 +275,9 @@
           "pot": 2,
           "odds": "500/1",
           "matched": true,
-          "status": "Group A — 3rd (3 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group A",
             "rank": 3,
@@ -305,8 +305,8 @@
           "pot": 1,
           "odds": "66/1",
           "matched": true,
-          "status": "Group D — 1st (6 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group D",
@@ -330,9 +330,9 @@
           "pot": 2,
           "odds": "1000/1",
           "matched": true,
-          "status": "Group H — 4th (2 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group H",
             "rank": 4,
@@ -360,8 +360,8 @@
           "pot": 1,
           "odds": "100/1",
           "matched": true,
-          "status": "Group E — 3rd (4 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group E",
@@ -385,9 +385,9 @@
           "pot": 2,
           "odds": "1000/1",
           "matched": true,
-          "status": "Group B — 4th (1 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group B",
             "rank": 4,
@@ -415,8 +415,8 @@
           "pot": 1,
           "odds": "33/1",
           "matched": true,
-          "status": "Group G — 1st (5 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group G",
@@ -440,9 +440,9 @@
           "pot": 2,
           "odds": "2000/1",
           "matched": true,
-          "status": "Group E — 4th (1 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group E",
             "rank": 4,
@@ -470,8 +470,8 @@
           "pot": 1,
           "odds": "10/1",
           "matched": true,
-          "status": "Group K — 2nd (5 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group K",
@@ -495,8 +495,8 @@
           "pot": 2,
           "odds": "2000/1",
           "matched": true,
-          "status": "Group H — 2nd (3 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group H",
@@ -525,8 +525,8 @@
           "pot": 1,
           "odds": "14/1",
           "matched": true,
-          "status": "Group E — 1st (6 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group E",
@@ -550,9 +550,9 @@
           "pot": 2,
           "odds": "500/1",
           "matched": true,
-          "status": "Group G — 3rd (3 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group G",
             "rank": 3,
@@ -580,8 +580,8 @@
           "pot": 1,
           "odds": "25/1",
           "matched": true,
-          "status": "Group I — 2nd (6 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group I",
@@ -605,9 +605,9 @@
           "pot": 2,
           "odds": "1500/1",
           "matched": true,
-          "status": "Group K — 4th (0 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group K",
             "rank": 4,
@@ -635,8 +635,8 @@
           "pot": 1,
           "odds": "150/1",
           "matched": true,
-          "status": "Group B — 2nd (4 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group B",
@@ -660,9 +660,9 @@
           "pot": 2,
           "odds": "2500/1",
           "matched": true,
-          "status": "Group J — 4th (0 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group J",
             "rank": 4,
@@ -671,10 +671,10 @@
             "d": 0,
             "l": 3,
             "gf": 3,
-            "ga": 7,
+            "ga": 8,
             "pts": 0
           },
-          "goalsConceded": 7,
+          "goalsConceded": 8,
           "redCards": 0,
           "ownGoals": 1
         }
@@ -690,9 +690,9 @@
           "pot": 1,
           "odds": "80/1",
           "matched": true,
-          "status": "Group D — 4th (3 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group D",
             "rank": 4,
@@ -715,9 +715,9 @@
           "pot": 2,
           "odds": "300/1",
           "matched": true,
-          "status": "Group A — 4th (1 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group A",
             "rank": 4,
@@ -745,8 +745,8 @@
           "pot": 1,
           "odds": "125/1",
           "matched": true,
-          "status": "Group F — 3rd (4 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group F",
@@ -770,9 +770,9 @@
           "pot": 2,
           "odds": "1500/1",
           "matched": true,
-          "status": "Group G — 4th (1 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group G",
             "rank": 4,
@@ -800,8 +800,8 @@
           "pot": 1,
           "odds": "33/1",
           "matched": true,
-          "status": "Group K — 1st (7 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group K",
@@ -825,8 +825,8 @@
           "pot": 2,
           "odds": "400/1",
           "matched": true,
-          "status": "Group L — 3rd (4 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group L",
@@ -855,8 +855,8 @@
           "pot": 1,
           "odds": "8/1",
           "matched": true,
-          "status": "Group C — 1st (7 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group C",
@@ -880,9 +880,9 @@
           "pot": 2,
           "odds": "1500/1",
           "matched": true,
-          "status": "Group L — 4th (0 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group L",
             "rank": 4,
@@ -910,8 +910,8 @@
           "pot": 1,
           "odds": "50/1",
           "matched": true,
-          "status": "Group F — 2nd (5 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group F",
@@ -935,8 +935,8 @@
           "pot": 2,
           "odds": "750/1",
           "matched": true,
-          "status": "Group K — 3rd (4 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group K",
@@ -965,9 +965,9 @@
           "pot": 1,
           "odds": "150/1",
           "matched": true,
-          "status": "Group J — 2nd (4 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group J",
             "rank": 2,
@@ -975,11 +975,11 @@
             "w": 1,
             "d": 1,
             "l": 1,
-            "gf": 5,
-            "ga": 5,
+            "gf": 6,
+            "ga": 6,
             "pts": 4
           },
-          "goalsConceded": 5,
+          "goalsConceded": 6,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -990,9 +990,9 @@
           "pot": 2,
           "odds": "250/1",
           "matched": true,
-          "status": "Group C — 3rd (3 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group C",
             "rank": 3,
@@ -1020,8 +1020,8 @@
           "pot": 1,
           "odds": "80/1",
           "matched": true,
-          "status": "Group A — 1st (9 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group A",
@@ -1045,8 +1045,8 @@
           "pot": 2,
           "odds": "300/1",
           "matched": true,
-          "status": "Group E — 2nd (6 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group E",
@@ -1075,8 +1075,8 @@
           "pot": 1,
           "odds": "80/1",
           "matched": true,
-          "status": "Group L — 2nd (6 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group L",
@@ -1100,8 +1100,8 @@
           "pot": 2,
           "odds": "150/1",
           "matched": true,
-          "status": "Group D — 3rd (4 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group D",
@@ -1130,8 +1130,8 @@
           "pot": 1,
           "odds": "5/1",
           "matched": true,
-          "status": "Group I — 1st (9 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group I",
@@ -1155,9 +1155,9 @@
           "pot": 2,
           "odds": "500/1",
           "matched": true,
-          "status": "Group F — 4th (0 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group F",
             "rank": 4,
@@ -1185,8 +1185,8 @@
           "pot": 1,
           "odds": "125/1",
           "matched": true,
-          "status": "Group I — 3rd (3 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group I",
@@ -1210,8 +1210,8 @@
           "pot": 2,
           "odds": "250/1",
           "matched": true,
-          "status": "Group B — 3rd (4 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group B",
@@ -1240,8 +1240,8 @@
           "pot": 1,
           "odds": "6/1",
           "matched": true,
-          "status": "Group L — 1st (7 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group L",
@@ -1265,9 +1265,9 @@
           "pot": 2,
           "odds": "1500/1",
           "matched": true,
-          "status": "Group I — 4th (0 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group I",
             "rank": 4,
@@ -1295,8 +1295,8 @@
           "pot": 1,
           "odds": "8/1",
           "matched": true,
-          "status": "Group J — 1st (9 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group J",
@@ -1305,7 +1305,7 @@
             "w": 3,
             "d": 0,
             "l": 0,
-            "gf": 7,
+            "gf": 8,
             "ga": 1,
             "pts": 9
           },
@@ -1320,9 +1320,9 @@
           "pot": 2,
           "odds": "3000/1",
           "matched": true,
-          "status": "Group C — 4th (0 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group C",
             "rank": 4,
@@ -1350,9 +1350,9 @@
           "pot": 1,
           "odds": "66/1",
           "matched": true,
-          "status": "Group H — 3rd (2 pts)",
-          "statusKind": "group",
-          "alive": true,
+          "status": "Eliminated — Group Stage",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group H",
             "rank": 3,
@@ -1375,8 +1375,8 @@
           "pot": 2,
           "odds": "500/1",
           "matched": true,
-          "status": "Group D — 2nd (4 pts)",
-          "statusKind": "group",
+          "status": "Into the Round of 32",
+          "statusKind": "through",
           "alive": true,
           "group": {
             "group": "Group D",
@@ -1452,6 +1452,13 @@
         "name": "Jordan",
         "iso2": "JO",
         "player": "Joe Clayton",
+        "value": 8
+      },
+      {
+        "code": "ALG",
+        "name": "Algeria",
+        "iso2": "DZ",
+        "player": "Bob Gibson",
         "value": 7
       },
       {
@@ -1469,10 +1476,10 @@
         "value": 7
       },
       {
-        "code": "ALG",
-        "name": "Algeria",
-        "iso2": "DZ",
-        "player": "Bob Gibson",
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT",
+        "player": "Paul Mitchell",
         "value": 6
       },
       {
@@ -1495,13 +1502,6 @@
         "iso2": "SN",
         "player": "Sam Lowerson",
         "value": 6
-      },
-      {
-        "code": "AUT",
-        "name": "Austria",
-        "iso2": "AT",
-        "player": "Paul Mitchell",
-        "value": 5
       },
       {
         "code": "CRO",
@@ -3011,9 +3011,9 @@
           "w": 3,
           "d": 0,
           "l": 0,
-          "gf": 7,
+          "gf": 8,
           "ga": 1,
-          "gd": 6,
+          "gd": 7,
           "pts": 9
         },
         {
@@ -3026,8 +3026,8 @@
           "w": 1,
           "d": 1,
           "l": 1,
-          "gf": 5,
-          "ga": 5,
+          "gf": 6,
+          "ga": 6,
           "gd": 0,
           "pts": 4
         },
@@ -3041,8 +3041,8 @@
           "w": 1,
           "d": 1,
           "l": 1,
-          "gf": 4,
-          "ga": 6,
+          "gf": 5,
+          "ga": 7,
           "gd": -2,
           "pts": 4
         },
@@ -3057,8 +3057,8 @@
           "d": 0,
           "l": 3,
           "gf": 3,
-          "ga": 7,
-          "gd": -4,
+          "ga": 8,
+          "gd": -5,
           "pts": 0
         }
       ]
@@ -3269,7 +3269,7 @@
       "group": "Group J",
       "played": 3,
       "gd": -2,
-      "gf": 4,
+      "gf": 5,
       "pts": 4,
       "qualifying": true
     },
@@ -5626,14 +5626,14 @@
       "date": "2026-06-28T02:00:00.000Z",
       "ts": 1782612000000,
       "round": "Group J",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "ALG",
         "name": "Algeria",
         "iso2": "DZ",
         "player": "Bob Gibson",
-        "score": 2,
+        "score": 3,
         "winner": false
       },
       "away": {
@@ -5641,7 +5641,7 @@
         "name": "Austria",
         "iso2": "AT",
         "player": "Paul Mitchell",
-        "score": 2,
+        "score": 3,
         "winner": false
       }
     },
@@ -5649,8 +5649,8 @@
       "date": "2026-06-28T02:00:00.000Z",
       "ts": 1782612000000,
       "round": "Group J",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "JOR",
         "name": "Jordan",
@@ -5664,8 +5664,8 @@
         "name": "Argentina",
         "iso2": "AR",
         "player": "Tom Clayton",
-        "score": 2,
-        "winner": false
+        "score": 3,
+        "winner": true
       }
     },
     {
@@ -6595,7 +6595,7 @@
           }
         ],
         "points": 9,
-        "gd": 0
+        "gd": 1
       },
       {
         "player": "Sam King",
@@ -6842,7 +6842,7 @@
           }
         ],
         "points": 4,
-        "gd": 1
+        "gd": 0
       },
       {
         "player": "Laura Harrison",
@@ -6902,13 +6902,13 @@
         "gf": 2
       },
       {
-        "code": "PAN",
-        "name": "Panama",
-        "iso2": "PA",
-        "player": "Me Julie",
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
         "pts": 0,
-        "gd": -4,
-        "gf": 0
+        "gd": -5,
+        "gf": 3
       }
     ],
     "englandKnockedOutBy": {
@@ -6964,6 +6964,14 @@
         "score": 25
       },
       {
+        "player": "Joe Clayton",
+        "conceded": 11,
+        "losses": 4,
+        "yellows": 9,
+        "reds": 0,
+        "score": 24
+      },
+      {
         "player": "Flora Curry",
         "conceded": 9,
         "losses": 2,
@@ -6980,14 +6988,6 @@
         "score": 22
       },
       {
-        "player": "Joe Clayton",
-        "conceded": 10,
-        "losses": 4,
-        "yellows": 6,
-        "reds": 0,
-        "score": 20
-      },
-      {
         "player": "Tom Clayton",
         "conceded": 9,
         "losses": 3,
@@ -7002,6 +7002,14 @@
         "yellows": 10,
         "reds": 1,
         "score": 20
+      },
+      {
+        "player": "Paul Mitchell",
+        "conceded": 10,
+        "losses": 3,
+        "yellows": 6,
+        "reds": 0,
+        "score": 19
       },
       {
         "player": "Sam King",
@@ -7028,14 +7036,6 @@
         "score": 18
       },
       {
-        "player": "Paul Mitchell",
-        "conceded": 9,
-        "losses": 3,
-        "yellows": 5,
-        "reds": 0,
-        "score": 17
-      },
-      {
         "player": "Jess Forshaw",
         "conceded": 7,
         "losses": 1,
@@ -7060,6 +7060,14 @@
         "score": 15
       },
       {
+        "player": "Bob Gibson",
+        "conceded": 11,
+        "losses": 1,
+        "yellows": 1,
+        "reds": 0,
+        "score": 13
+      },
+      {
         "player": "Ali Taylor",
         "conceded": 6,
         "losses": 0,
@@ -7074,14 +7082,6 @@
         "yellows": 6,
         "reds": 0,
         "score": 13
-      },
-      {
-        "player": "Bob Gibson",
-        "conceded": 10,
-        "losses": 1,
-        "yellows": 1,
-        "reds": 0,
-        "score": 12
       },
       {
         "player": "Guy Curry",
@@ -7130,6 +7130,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 98,
-    "scrapedAt": "2026-06-28T03:30:07.946521+00:00"
+    "scrapedAt": "2026-06-28T04:00:10.330168+00:00"
   }
 }

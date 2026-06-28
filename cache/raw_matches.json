@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-28T03:30:07.946521+00:00",
+  "fetchedAt": "2026-06-28T04:00:10.330168+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -850,45 +850,59 @@
       "id": 15186747,
       "round": "Group Stage",
       "startTimestamp": 1782612000,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Algeria",
-        "score": 2,
-        "winner": null
+        "score": 3,
+        "winner": false
       },
       "away": {
         "name": "Austria",
-        "score": 2,
-        "winner": null
+        "score": 3,
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Austria": 1
+      },
+      "fastestGoal": {
+        "minute": 28,
+        "addedTime": null,
+        "scorer": "Marko Arnautović",
+        "team": "Austria"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186734,
       "round": "Group Stage",
       "startTimestamp": 1782612000,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Jordan",
         "score": 1,
-        "winner": null
+        "winner": false
       },
       "away": {
         "name": "Argentina",
-        "score": 2,
-        "winner": null
+        "score": 3,
+        "winner": true
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Jordan": 3
+      },
+      "fastestGoal": {
+        "minute": 19,
+        "addedTime": null,
+        "scorer": "Giovani Lo Celso",
+        "team": "Argentina"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186783,
@@ -3143,7 +3157,7 @@
       "w": 3,
       "d": 0,
       "l": 0,
-      "gf": 7,
+      "gf": 8,
       "ga": 1,
       "pts": 9
     },
@@ -3155,8 +3169,8 @@
       "w": 1,
       "d": 1,
       "l": 1,
-      "gf": 5,
-      "ga": 5,
+      "gf": 6,
+      "ga": 6,
       "pts": 4
     },
     {
@@ -3167,8 +3181,8 @@
       "w": 1,
       "d": 1,
       "l": 1,
-      "gf": 4,
-      "ga": 6,
+      "gf": 5,
+      "ga": 7,
       "pts": 4
     },
     {
@@ -3180,7 +3194,7 @@
       "d": 0,
       "l": 3,
       "gf": 3,
-      "ga": 7,
+      "ga": 8,
       "pts": 0
     },
     {
