@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T21:00:09.382Z",
+  "lastUpdated": "2026-06-28T21:30:08.358Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -635,7 +635,7 @@
           "pot": 1,
           "odds": "150/1",
           "matched": true,
-          "status": "Won Round of 32 — awaiting next round",
+          "status": "Into the Round of 16",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -3776,11 +3776,11 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Round of 32 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Canada",
+              "code": "CAN",
+              "iso2": "CA",
+              "player": "Joe Clayton",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
@@ -6158,10 +6158,10 @@
       "status": "NS",
       "finished": false,
       "home": {
-        "code": null,
-        "name": "W73",
-        "iso2": null,
-        "player": null,
+        "code": "CAN",
+        "name": "Canada",
+        "iso2": "CA",
+        "player": "Joe Clayton",
         "score": null,
         "winner": false
       },
@@ -8063,6 +8063,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 103,
-    "scrapedAt": "2026-06-28T21:00:08.856597+00:00"
+    "scrapedAt": "2026-06-28T21:30:08.278317+00:00"
   }
 }

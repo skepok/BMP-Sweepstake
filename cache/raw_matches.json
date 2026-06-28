@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-28T21:00:08.856597+00:00",
+  "fetchedAt": "2026-06-28T21:30:08.278317+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -2525,7 +2525,7 @@
       "startTimestamp": 1783184400,
       "status": "notstarted",
       "home": {
-        "name": "W73",
+        "name": "Canada",
         "score": null,
         "winner": null
       },
@@ -3792,9 +3792,9 @@
           "kickoff": 1783184400,
           "participants": [
             {
-              "name": "W73",
-              "code": "W73",
-              "placeholder": true,
+              "name": "Canada",
+              "code": "CAN",
+              "placeholder": false,
               "winner": false
             },
             {
