@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-28T00:00:08.635554+00:00",
+  "fetchedAt": "2026-06-28T01:30:08.688864+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -858,7 +858,7 @@
       "status": "inprogress",
       "home": {
         "name": "DR Congo",
-        "score": 0,
+        "score": 3,
         "winner": null
       },
       "away": {
@@ -877,23 +877,25 @@
       "id": 15186696,
       "round": "Group Stage",
       "startTimestamp": 1782603000,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Colombia",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "away": {
         "name": "Portugal",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
+      "yellowCards": {
+        "Colombia": 1
+      },
       "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186904,
@@ -3257,28 +3259,28 @@
       "pts": 5
     },
     {
-      "team": "Uzbekistan",
+      "team": "DR Congo",
       "group": "Group K",
       "rank": 3,
       "played": 3,
       "w": 1,
-      "d": 0,
-      "l": 2,
-      "gf": 2,
-      "ga": 8,
-      "pts": 3
+      "d": 1,
+      "l": 1,
+      "gf": 4,
+      "ga": 3,
+      "pts": 4
     },
     {
-      "team": "DR Congo",
+      "team": "Uzbekistan",
       "group": "Group K",
       "rank": 4,
       "played": 3,
       "w": 0,
-      "d": 1,
-      "l": 2,
-      "gf": 1,
-      "ga": 3,
-      "pts": 1
+      "d": 0,
+      "l": 3,
+      "gf": 2,
+      "ga": 11,
+      "pts": 0
     },
     {
       "team": "England",
@@ -3537,9 +3539,9 @@
               "winner": false
             },
             {
-              "name": "3C/3E/3F/3H/3I",
-              "code": "3C3",
-              "placeholder": true,
+              "name": "Ecuador",
+              "code": "ECU",
+              "placeholder": false,
               "winner": false
             }
           ]
