@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T15:19:04.689Z",
+  "lastUpdated": "2026-06-28T19:30:07.545Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Round of 32",
       "kickoff": "2026-06-28T19:00:00.000Z",
       "kickoffUnix": 1782673200000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "ZAF",
         "name": "South Africa",
@@ -3408,7 +3408,7 @@
           {
             "label": null,
             "kickoff": "2026-06-28T19:00:00.000Z",
-            "status": "NS",
+            "status": "1H",
             "finished": false,
             "home": {
               "name": "South Africa",
@@ -4423,29 +4423,6 @@
         "iso2": "TN",
         "player": "Sam King",
         "score": 1,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-15T16:00:00.000Z",
-      "ts": 1781539200000,
-      "round": "Group H",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "ESP",
-        "name": "Spain",
-        "iso2": "ES",
-        "player": "Adam Wright",
-        "score": 0,
-        "winner": false
-      },
-      "away": {
-        "code": "CPV",
-        "name": "Cape Verde",
-        "iso2": "CV",
-        "player": "Guy Curry",
-        "score": 0,
         "winner": false
       }
     },
@@ -5810,14 +5787,14 @@
       "date": "2026-06-28T19:00:00.000Z",
       "ts": 1782673200000,
       "round": "Round of 32",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "ZAF",
         "name": "South Africa",
         "iso2": "ZA",
         "player": "Adam Wright",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -5825,7 +5802,7 @@
         "name": "Canada",
         "iso2": "CA",
         "player": "Joe Clayton",
-        "score": null,
+        "score": 0,
         "winner": false
       }
     },
@@ -7201,9 +7178,9 @@
         "player": "Adam Wright",
         "conceded": 3,
         "losses": 1,
-        "yellows": 7,
+        "yellows": 6,
         "reds": 2,
-        "score": 15
+        "score": 14
       },
       {
         "player": "Ali Taylor",
@@ -7222,14 +7199,6 @@
         "score": 13
       },
       {
-        "player": "Guy Curry",
-        "conceded": 3,
-        "losses": 0,
-        "yellows": 8,
-        "reds": 0,
-        "score": 11
-      },
-      {
         "player": "Matt Deacock",
         "conceded": 3,
         "losses": 1,
@@ -7244,6 +7213,14 @@
         "yellows": 6,
         "reds": 1,
         "score": 11
+      },
+      {
+        "player": "Guy Curry",
+        "conceded": 3,
+        "losses": 0,
+        "yellows": 7,
+        "reds": 0,
+        "score": 10
       }
     ],
     "fastestGoal": {
@@ -7275,10 +7252,9 @@
       "l": 0,
       "gf": 5,
       "ga": 0,
-      "yellows": 2,
+      "yellows": 1,
       "reds": 0,
       "form": [
-        "D",
         "W",
         "W"
       ]
@@ -7530,10 +7506,9 @@
       "l": 0,
       "gf": 2,
       "ga": 2,
-      "yellows": 4,
+      "yellows": 3,
       "reds": 0,
       "form": [
-        "D",
         "D",
         "D"
       ]
@@ -8085,7 +8060,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 104,
-    "scrapedAt": "2026-06-28T07:30:13.911746+00:00"
+    "matches": 103,
+    "scrapedAt": "2026-06-28T19:30:07.454749+00:00"
   }
 }

@@ -1,37 +1,10 @@
 {
-  "fetchedAt": "2026-06-28T07:30:13.911746+00:00",
+  "fetchedAt": "2026-06-28T19:30:07.454749+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186770,
-      "round": "Group Stage",
-      "startTimestamp": 1782172800,
-      "status": "finished",
-      "home": {
-        "name": "Norway",
-        "score": 3,
-        "winner": true
-      },
-      "away": {
-        "name": "Senegal",
-        "score": 2,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": {
-        "minute": 43,
-        "addedTime": null,
-        "scorer": "Marcus Pedersen",
-        "team": "Norway"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186740,
       "round": "Group Stage",
@@ -905,29 +878,26 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186783,
-      "round": "Group Stage",
-      "startTimestamp": 1781539200,
-      "status": "finished",
+      "id": 12813000,
+      "round": "Round of 32",
+      "startTimestamp": 1782673200,
+      "status": "inprogress",
       "home": {
-        "name": "Spain",
+        "name": "South Africa",
         "score": 0,
-        "winner": false
+        "winner": null
       },
       "away": {
-        "name": "Cabo Verde",
+        "name": "Canada",
         "score": 0,
-        "winner": false
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {
-        "Spain": 1,
-        "Cabo Verde": 1
-      },
+      "yellowCards": {},
       "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
       "id": 15186837,
@@ -1817,6 +1787,33 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186770,
+      "round": "Group Stage",
+      "startTimestamp": 1782172800,
+      "status": "finished",
+      "home": {
+        "name": "Norway",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "name": "Senegal",
+        "score": 2,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {},
+      "fastestGoal": {
+        "minute": 43,
+        "addedTime": null,
+        "scorer": "Marcus Pedersen",
+        "team": "Norway"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -2184,28 +2181,6 @@
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
-    },
-    {
-      "id": 12813000,
-      "round": "Round of 32",
-      "startTimestamp": 1782673200,
-      "status": "notstarted",
-      "home": {
-        "name": "South Africa",
-        "score": null,
-        "winner": null
-      },
-      "away": {
-        "name": "Canada",
-        "score": null,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 12813012,
