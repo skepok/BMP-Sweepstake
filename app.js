@@ -390,15 +390,17 @@
     const lamA = clamp(avg * atk(A) * def(B));
     const lamB = clamp(avg * atk(B) * def(A));
     let win = 0; let draw = 0; let loss = 0; let btts = 0; let over = 0; let tot = 0;
+    let best = -1; let bestX = 0; let bestY = 0;
     for (let x = 0; x <= 8; x++) for (let y = 0; y <= 8; y++) {
       const p = pois(x, lamA) * pois(y, lamB); tot += p;
       if (x > y) win += p; else if (x === y) draw += p; else loss += p;
       if (x >= 1 && y >= 1) btts += p;
       if (x + y >= 3) over += p;
+      if (p > best) { best = p; bestX = x; bestY = y; }
     }
     win /= tot; draw /= tot; loss /= tot; btts /= tot; over /= tot;
-    const rate = (t) => (t.yellows + t.reds) / t.played;
-    return { win, draw, loss, btts, over, under: 1 - over, expCards: rate(A) + rate(B) };
+    const yPerGame = (t) => t.yellows / t.played;
+    return { win, draw, loss, btts, over, under: 1 - over, homeYellows: yPerGame(A), awayYellows: yPerGame(B), mostLikely: `${bestX}–${bestY}` };
   }
 
   function openMatchModal(m) {
@@ -409,30 +411,52 @@
       <div class="modal-teams"><span>${teamLine(m.home)}</span><span class="modal-v">v</span><span>${teamLine(m.away)}</span></div>`;
     const pc = (x) => Math.round(x * 100);
 
-    if (m.home.placeholder || m.away.placeholder || !m.home.code || !m.away.code) {
+    // Per-team form + group record (shown whenever both teams are known).
+    const ts = APP && APP.teamStats;
+    const formPills = (arr) => (arr && arr.length)
+      ? `<span class="mf-pills">${arr.map((r) => `<span class="pill pill-${r}">${r}</span>`).join('')}</span>`
+      : `<span class="mf-pills mf-none">—</span>`;
+    const teamForm = (t) => {
+      const s = ts && ts[t.code];
+      if (!s) return '';
+      return `<div class="mf-team">
+        <span class="mf-name">${flag(t.iso2)} ${esc(t.name)}</span>
+        <span class="mf-rec">Group: ${s.w}W ${s.d}D ${s.l}L · ${s.gf}–${s.ga}</span>
+        ${formPills(s.form)}
+      </div>`;
+    };
+
+    const known = !(m.home.placeholder || m.away.placeholder || !m.home.code || !m.away.code);
+
+    if (!known) {
       html += `<p class="modal-note">Teams not decided yet — the odds appear once both are known.</p>`;
-    } else if (m.finished) {
-      html += `<p class="modal-result">Full time &nbsp;${m.home.score}–${m.away.score}</p>`;
     } else {
-      const o = computeOdds(m.home.code, m.away.code);
-      if (!o) {
-        html += `<p class="modal-note">Not enough group-stage data yet for an estimate.</p>`;
+      html += `<div class="modal-form">${teamForm(m.home)}${teamForm(m.away)}</div>`;
+      if (m.finished) {
+        html += `<p class="modal-result">Full time &nbsp;${m.home.score}–${m.away.score}</p>`;
       } else {
-        html += `<p class="modal-sub">Estimated from group-stage form — just for fun, not real odds.</p>
-          <div class="odds-block">
-            <div class="odds-key"><span>${esc(m.home.name)} win</span><span>Draw</span><span>${esc(m.away.name)} win</span></div>
-            <div class="odds-bar">
-              <span class="ob-w" style="width:${pc(o.win)}%">${pc(o.win)}%</span>
-              <span class="ob-d" style="width:${pc(o.draw)}%">${pc(o.draw)}%</span>
-              <span class="ob-l" style="width:${pc(o.loss)}%">${pc(o.loss)}%</span>
+        const o = computeOdds(m.home.code, m.away.code);
+        if (!o) {
+          html += `<p class="modal-note">Not enough group-stage data yet for an estimate.</p>`;
+        } else {
+          html += `<p class="modal-sub">Estimated from group-stage form — just for fun, not real odds.</p>
+            <p class="modal-likely">Most likely score: <strong>${esc(o.mostLikely)}</strong></p>
+            <div class="odds-block">
+              <div class="odds-key"><span>${esc(m.home.name)} win</span><span>Draw</span><span>${esc(m.away.name)} win</span></div>
+              <div class="odds-bar">
+                <span class="ob-w" style="width:${pc(o.win)}%">${pc(o.win)}%</span>
+                <span class="ob-d" style="width:${pc(o.draw)}%">${pc(o.draw)}%</span>
+                <span class="ob-l" style="width:${pc(o.loss)}%">${pc(o.loss)}%</span>
+              </div>
             </div>
-          </div>
-          <div class="odds-rows">
-            <div class="odds-row"><span>Both teams to score</span><strong>${pc(o.btts)}%</strong></div>
-            <div class="odds-row"><span>Over 2.5 goals</span><strong>${pc(o.over)}%</strong></div>
-            <div class="odds-row"><span>Under 2.5 goals</span><strong>${pc(o.under)}%</strong></div>
-            <div class="odds-row"><span>Expected cards</span><strong>${o.expCards.toFixed(1)}</strong></div>
-          </div>`;
+            <div class="odds-rows">
+              <div class="odds-row"><span>Both teams to score</span><strong>${pc(o.btts)}%</strong></div>
+              <div class="odds-row"><span>Over 2.5 goals</span><strong>${pc(o.over)}%</strong></div>
+              <div class="odds-row"><span>Under 2.5 goals</span><strong>${pc(o.under)}%</strong></div>
+              <div class="odds-row"><span>${esc(m.home.name)} — avg yellows 🟨</span><strong>${o.homeYellows.toFixed(1)}</strong></div>
+              <div class="odds-row"><span>${esc(m.away.name)} — avg yellows 🟨</span><strong>${o.awayYellows.toFixed(1)}</strong></div>
+            </div>`;
+        }
       }
     }
     body.innerHTML = html;

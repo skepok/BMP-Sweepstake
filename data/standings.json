@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T15:09:54.454Z",
+  "lastUpdated": "2026-06-28T15:19:04.689Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -7270,433 +7270,817 @@
       "name": "Spain",
       "iso2": "ES",
       "played": 3,
+      "w": 2,
+      "d": 1,
+      "l": 0,
       "gf": 5,
       "ga": 0,
       "yellows": 2,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "D",
+        "W",
+        "W"
+      ]
     },
     "ZAF": {
       "name": "South Africa",
       "iso2": "ZA",
       "played": 3,
+      "w": 1,
+      "d": 1,
+      "l": 1,
       "gf": 2,
       "ga": 3,
       "yellows": 5,
-      "reds": 2
+      "reds": 2,
+      "form": [
+        "L",
+        "D",
+        "W"
+      ]
     },
     "MOR": {
       "name": "Morocco",
       "iso2": "MA",
       "played": 3,
+      "w": 2,
+      "d": 1,
+      "l": 0,
       "gf": 6,
       "ga": 3,
       "yellows": 1,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "D",
+        "W",
+        "W"
+      ]
     },
     "EGY": {
       "name": "Egypt",
       "iso2": "EG",
       "played": 3,
+      "w": 1,
+      "d": 2,
+      "l": 0,
       "gf": 5,
       "ga": 3,
       "yellows": 6,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "D",
+        "W",
+        "D"
+      ]
     },
     "NLD": {
       "name": "Netherlands",
       "iso2": "NL",
       "played": 3,
+      "w": 2,
+      "d": 1,
+      "l": 0,
       "gf": 10,
       "ga": 4,
       "yellows": 3,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "D",
+        "W",
+        "W"
+      ]
     },
     "ALG": {
       "name": "Algeria",
       "iso2": "DZ",
       "played": 3,
+      "w": 1,
+      "d": 1,
+      "l": 1,
       "gf": 5,
       "ga": 7,
       "yellows": 1,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "L",
+        "W",
+        "D"
+      ]
     },
     "SWI": {
       "name": "Switzerland",
       "iso2": "CH",
       "played": 3,
+      "w": 2,
+      "d": 1,
+      "l": 0,
       "gf": 7,
       "ga": 3,
       "yellows": 3,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "D",
+        "W",
+        "W"
+      ]
     },
     "KOR": {
       "name": "South Korea",
       "iso2": "KR",
       "played": 3,
+      "w": 1,
+      "d": 0,
+      "l": 2,
       "gf": 2,
       "ga": 3,
       "yellows": 4,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "W",
+        "L",
+        "L"
+      ]
     },
     "USA": {
       "name": "USA",
       "iso2": "US",
       "played": 3,
+      "w": 2,
+      "d": 0,
+      "l": 1,
       "gf": 8,
       "ga": 4,
       "yellows": 5,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "W",
+        "W",
+        "L"
+      ]
     },
     "KSA": {
       "name": "Saudi Arabia",
       "iso2": "SA",
       "played": 3,
+      "w": 0,
+      "d": 2,
+      "l": 1,
       "gf": 1,
       "ga": 5,
       "yellows": 6,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "D",
+        "L",
+        "D"
+      ]
     },
     "ECU": {
       "name": "Ecuador",
       "iso2": "EC",
       "played": 3,
+      "w": 1,
+      "d": 1,
+      "l": 1,
       "gf": 2,
       "ga": 2,
       "yellows": 5,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "L",
+        "D",
+        "W"
+      ]
     },
     "QAT": {
       "name": "Qatar",
       "iso2": "QA",
       "played": 3,
+      "w": 0,
+      "d": 1,
+      "l": 2,
       "gf": 2,
       "ga": 10,
       "yellows": 4,
-      "reds": 2
+      "reds": 2,
+      "form": [
+        "D",
+        "L",
+        "L"
+      ]
     },
     "BEL": {
       "name": "Belgium",
       "iso2": "BE",
       "played": 3,
+      "w": 1,
+      "d": 2,
+      "l": 0,
       "gf": 6,
       "ga": 2,
       "yellows": 3,
-      "reds": 1
+      "reds": 1,
+      "form": [
+        "D",
+        "D",
+        "W"
+      ]
     },
     "CUW": {
       "name": "Curacao",
       "iso2": "CW",
       "played": 3,
+      "w": 0,
+      "d": 1,
+      "l": 2,
       "gf": 1,
       "ga": 9,
       "yellows": 7,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "L",
+        "D",
+        "L"
+      ]
     },
     "POR": {
       "name": "Portugal",
       "iso2": "PT",
       "played": 3,
+      "w": 1,
+      "d": 2,
+      "l": 0,
       "gf": 6,
       "ga": 1,
       "yellows": 4,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "D",
+        "W",
+        "D"
+      ]
     },
     "CPV": {
       "name": "Cape Verde",
       "iso2": "CV",
       "played": 3,
+      "w": 0,
+      "d": 3,
+      "l": 0,
       "gf": 2,
       "ga": 2,
       "yellows": 4,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "D",
+        "D",
+        "D"
+      ]
     },
     "GER": {
       "name": "Germany",
       "iso2": "DE",
       "played": 3,
+      "w": 2,
+      "d": 0,
+      "l": 1,
       "gf": 10,
       "ga": 4,
       "yellows": 1,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "W",
+        "W",
+        "L"
+      ]
     },
     "IRN": {
       "name": "Iran",
       "iso2": "IR",
       "played": 3,
+      "w": 0,
+      "d": 3,
+      "l": 0,
       "gf": 3,
       "ga": 3,
       "yellows": 6,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "D",
+        "D",
+        "D"
+      ]
     },
     "NOR": {
       "name": "Norway",
       "iso2": "NO",
       "played": 3,
+      "w": 2,
+      "d": 0,
+      "l": 1,
       "gf": 8,
       "ga": 7,
       "yellows": 1,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "W",
+        "W",
+        "L"
+      ]
     },
     "UZB": {
       "name": "Uzbekistan",
       "iso2": "UZ",
       "played": 3,
+      "w": 0,
+      "d": 0,
+      "l": 3,
       "gf": 2,
       "ga": 11,
       "yellows": 4,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "L",
+        "L",
+        "L"
+      ]
     },
     "CAN": {
       "name": "Canada",
       "iso2": "CA",
       "played": 3,
+      "w": 1,
+      "d": 1,
+      "l": 1,
       "gf": 8,
       "ga": 3,
       "yellows": 5,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "D",
+        "W",
+        "L"
+      ]
     },
     "JOR": {
       "name": "Jordan",
       "iso2": "JO",
       "played": 3,
+      "w": 0,
+      "d": 0,
+      "l": 3,
       "gf": 3,
       "ga": 8,
       "yellows": 4,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "L",
+        "L",
+        "L"
+      ]
     },
     "TUR": {
       "name": "Turkey",
       "iso2": "TR",
       "played": 3,
+      "w": 1,
+      "d": 0,
+      "l": 2,
       "gf": 3,
       "ga": 5,
       "yellows": 3,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "L",
+        "L",
+        "W"
+      ]
     },
     "CZE": {
       "name": "Czechia",
       "iso2": "CZ",
       "played": 3,
+      "w": 0,
+      "d": 1,
+      "l": 2,
       "gf": 2,
       "ga": 6,
       "yellows": 1,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "L",
+        "D",
+        "L"
+      ]
     },
     "SWE": {
       "name": "Sweden",
       "iso2": "SE",
       "played": 3,
+      "w": 1,
+      "d": 1,
+      "l": 1,
       "gf": 7,
       "ga": 7,
       "yellows": 5,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "W",
+        "L",
+        "D"
+      ]
     },
     "NZL": {
       "name": "New Zealand",
       "iso2": "NZ",
       "played": 3,
+      "w": 0,
+      "d": 1,
+      "l": 2,
       "gf": 4,
       "ga": 10,
       "yellows": 4,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "D",
+        "L",
+        "L"
+      ]
     },
     "COL": {
       "name": "Colombia",
       "iso2": "CO",
       "played": 3,
+      "w": 2,
+      "d": 1,
+      "l": 0,
       "gf": 4,
       "ga": 1,
       "yellows": 4,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "W",
+        "W",
+        "D"
+      ]
     },
     "GHA": {
       "name": "Ghana",
       "iso2": "GH",
       "played": 3,
+      "w": 1,
+      "d": 1,
+      "l": 1,
       "gf": 2,
       "ga": 2,
       "yellows": 3,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "W",
+        "D",
+        "L"
+      ]
     },
     "BRA": {
       "name": "Brazil",
       "iso2": "BR",
       "played": 3,
+      "w": 2,
+      "d": 1,
+      "l": 0,
       "gf": 7,
       "ga": 1,
       "yellows": 5,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "D",
+        "W",
+        "W"
+      ]
     },
     "PAN": {
       "name": "Panama",
       "iso2": "PA",
       "played": 3,
+      "w": 0,
+      "d": 0,
+      "l": 3,
       "gf": 0,
       "ga": 4,
       "yellows": 5,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "L",
+        "L",
+        "L"
+      ]
     },
     "JAP": {
       "name": "Japan",
       "iso2": "JP",
       "played": 3,
+      "w": 1,
+      "d": 2,
+      "l": 0,
       "gf": 7,
       "ga": 3,
       "yellows": 1,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "D",
+        "W",
+        "D"
+      ]
     },
     "DRC": {
       "name": "DR Congo",
       "iso2": "CD",
       "played": 3,
+      "w": 1,
+      "d": 1,
+      "l": 1,
       "gf": 4,
       "ga": 3,
       "yellows": 5,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "D",
+        "L",
+        "W"
+      ]
     },
     "AUT": {
       "name": "Austria",
       "iso2": "AT",
       "played": 3,
+      "w": 1,
+      "d": 1,
+      "l": 1,
       "gf": 6,
       "ga": 6,
       "yellows": 4,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "W",
+        "L",
+        "D"
+      ]
     },
     "SCO": {
       "name": "Scotland",
       "iso2": "GB-SCT",
       "played": 3,
+      "w": 1,
+      "d": 0,
+      "l": 2,
       "gf": 1,
       "ga": 4,
       "yellows": 5,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "W",
+        "L",
+        "L"
+      ]
     },
     "MEX": {
       "name": "Mexico",
       "iso2": "MX",
       "played": 3,
+      "w": 3,
+      "d": 0,
+      "l": 0,
       "gf": 6,
       "ga": 0,
       "yellows": 2,
-      "reds": 1
+      "reds": 1,
+      "form": [
+        "W",
+        "W",
+        "W"
+      ]
     },
     "CIV": {
       "name": "Ivory Coast",
       "iso2": "CI",
       "played": 3,
+      "w": 2,
+      "d": 0,
+      "l": 1,
       "gf": 4,
       "ga": 2,
       "yellows": 4,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "W",
+        "L",
+        "W"
+      ]
     },
     "CRO": {
       "name": "Croatia",
       "iso2": "HR",
       "played": 3,
+      "w": 2,
+      "d": 0,
+      "l": 1,
       "gf": 5,
       "ga": 5,
       "yellows": 2,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "L",
+        "W",
+        "W"
+      ]
     },
     "PAR": {
       "name": "Paraguay",
       "iso2": "PY",
       "played": 3,
+      "w": 1,
+      "d": 1,
+      "l": 1,
       "gf": 2,
       "ga": 4,
       "yellows": 7,
-      "reds": 1
+      "reds": 1,
+      "form": [
+        "L",
+        "W",
+        "D"
+      ]
     },
     "FRA": {
       "name": "France",
       "iso2": "FR",
       "played": 3,
+      "w": 3,
+      "d": 0,
+      "l": 0,
       "gf": 10,
       "ga": 2,
       "yellows": 1,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "W",
+        "W",
+        "W"
+      ]
     },
     "TUN": {
       "name": "Tunisia",
       "iso2": "TN",
       "played": 3,
+      "w": 0,
+      "d": 0,
+      "l": 3,
       "gf": 2,
       "ga": 12,
       "yellows": 1,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "L",
+        "L",
+        "L"
+      ]
     },
     "SEN": {
       "name": "Senegal",
       "iso2": "SN",
       "played": 3,
+      "w": 1,
+      "d": 0,
+      "l": 2,
       "gf": 8,
       "ga": 6,
       "yellows": 2,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "L",
+        "L",
+        "W"
+      ]
     },
     "BIH": {
       "name": "Bosnia-Herzegovina",
       "iso2": "BA",
       "played": 3,
+      "w": 1,
+      "d": 1,
+      "l": 1,
       "gf": 5,
       "ga": 6,
       "yellows": 6,
-      "reds": 1
+      "reds": 1,
+      "form": [
+        "D",
+        "L",
+        "W"
+      ]
     },
     "ENG": {
       "name": "England",
       "iso2": "GB-ENG",
       "played": 3,
+      "w": 2,
+      "d": 1,
+      "l": 0,
       "gf": 6,
       "ga": 2,
       "yellows": 2,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "W",
+        "D",
+        "W"
+      ]
     },
     "IRQ": {
       "name": "Iraq",
       "iso2": "IQ",
       "played": 3,
+      "w": 0,
+      "d": 0,
+      "l": 3,
       "gf": 1,
       "ga": 12,
       "yellows": 4,
-      "reds": 1
+      "reds": 1,
+      "form": [
+        "L",
+        "L",
+        "L"
+      ]
     },
     "ARG": {
       "name": "Argentina",
       "iso2": "AR",
       "played": 3,
+      "w": 3,
+      "d": 0,
+      "l": 0,
       "gf": 8,
       "ga": 1,
       "yellows": 2,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "W",
+        "W",
+        "W"
+      ]
     },
     "HTI": {
       "name": "Haiti",
       "iso2": "HT",
       "played": 3,
+      "w": 0,
+      "d": 0,
+      "l": 3,
       "gf": 2,
       "ga": 8,
       "yellows": 7,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "L",
+        "L",
+        "L"
+      ]
     },
     "URY": {
       "name": "Uruguay",
       "iso2": "UY",
       "played": 3,
+      "w": 0,
+      "d": 2,
+      "l": 1,
       "gf": 3,
       "ga": 4,
       "yellows": 5,
-      "reds": 1
+      "reds": 1,
+      "form": [
+        "D",
+        "D",
+        "L"
+      ]
     },
     "AUS": {
       "name": "Australia",
       "iso2": "AU",
       "played": 3,
+      "w": 1,
+      "d": 1,
+      "l": 1,
       "gf": 2,
       "ga": 2,
       "yellows": 5,
-      "reds": 0
+      "reds": 0,
+      "form": [
+        "W",
+        "L",
+        "D"
+      ]
     }
   },
   "meta": {

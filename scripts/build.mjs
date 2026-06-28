@@ -450,14 +450,28 @@ async function writeStandings({ players, teamByCode, fixtures, standings, events
   // ---- cashless / bragging-rights prizes ----------------------------------
   const eventTotals = aggregateEvents(events); // group-stage red / own goal / yellow totals by code
 
+  // Recent form (last 5 finished results, chronological) per team, across the tournament.
+  const formByCode = {};
+  for (const f of enriched) {
+    if (!f.finished) continue;
+    for (const sideKey of ['home', 'away']) {
+      const me = f[sideKey]; const opp = f[sideKey === 'home' ? 'away' : 'home'];
+      if (!me.code) continue;
+      const result = me.winner === true ? 'W' : (opp.winner === true ? 'L' : 'D');
+      (formByCode[me.code] = formByCode[me.code] || []).push({ ts: f.ts, result });
+    }
+  }
+
   // Per-team group-stage stats for the match-odds modal (by code).
   const teamStats = {};
   for (const p of players.players) for (const t of p.teams) {
     const g = groupByCode.get(t.code);
     teamStats[t.code] = {
       name: t.name, iso2: t.iso2,
-      played: g ? g.played : 0, gf: g ? g.gf : 0, ga: g ? g.ga : 0,
+      played: g ? g.played : 0, w: g ? g.w : 0, d: g ? g.d : 0, l: g ? g.l : 0,
+      gf: g ? g.gf : 0, ga: g ? g.ga : 0,
       yellows: eventTotals.yellow[t.code] || 0, reds: eventTotals.red[t.code] || 0,
+      form: (formByCode[t.code] || []).sort((a, b) => a.ts - b.ts).slice(-5).map((x) => x.result),
     };
   }
 
