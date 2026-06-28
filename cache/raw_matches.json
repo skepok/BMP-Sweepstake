@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-28T02:30:08.480349+00:00",
+  "fetchedAt": "2026-06-28T03:00:08.100782+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -853,7 +853,7 @@
       "status": "inprogress",
       "home": {
         "name": "Algeria",
-        "score": 0,
+        "score": 1,
         "winner": null
       },
       "away": {
@@ -880,7 +880,7 @@
       },
       "away": {
         "name": "Argentina",
-        "score": 1,
+        "score": 2,
         "winner": null
       },
       "redCards": {},
@@ -3143,7 +3143,7 @@
       "w": 3,
       "d": 0,
       "l": 0,
-      "gf": 6,
+      "gf": 7,
       "ga": 0,
       "pts": 9
     },
@@ -3152,12 +3152,12 @@
       "group": "Group J",
       "rank": 2,
       "played": 3,
-      "w": 2,
-      "d": 0,
+      "w": 1,
+      "d": 1,
       "l": 1,
       "gf": 4,
-      "ga": 3,
-      "pts": 6
+      "ga": 4,
+      "pts": 4
     },
     {
       "team": "Algeria",
@@ -3165,11 +3165,11 @@
       "rank": 3,
       "played": 3,
       "w": 1,
-      "d": 0,
-      "l": 2,
-      "gf": 2,
+      "d": 1,
+      "l": 1,
+      "gf": 3,
       "ga": 5,
-      "pts": 3
+      "pts": 4
     },
     {
       "team": "Jordan",
@@ -3180,7 +3180,7 @@
       "d": 0,
       "l": 3,
       "gf": 2,
-      "ga": 6,
+      "ga": 7,
       "pts": 0
     },
     {

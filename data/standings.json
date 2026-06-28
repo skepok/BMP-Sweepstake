@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T02:30:08.564Z",
+  "lastUpdated": "2026-06-28T03:00:08.186Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -220,7 +220,7 @@
           "pot": 2,
           "odds": "400/1",
           "matched": true,
-          "status": "Group J — 3rd (3 pts)",
+          "status": "Group J — 3rd (4 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
@@ -228,11 +228,11 @@
             "rank": 3,
             "played": 3,
             "w": 1,
-            "d": 0,
-            "l": 2,
-            "gf": 2,
+            "d": 1,
+            "l": 1,
+            "gf": 3,
             "ga": 5,
-            "pts": 3
+            "pts": 4
           },
           "goalsConceded": 5,
           "redCards": 0,
@@ -671,10 +671,10 @@
             "d": 0,
             "l": 3,
             "gf": 2,
-            "ga": 6,
+            "ga": 7,
             "pts": 0
           },
-          "goalsConceded": 6,
+          "goalsConceded": 7,
           "redCards": 0,
           "ownGoals": 1
         }
@@ -965,21 +965,21 @@
           "pot": 1,
           "odds": "150/1",
           "matched": true,
-          "status": "Group J — 2nd (6 pts)",
+          "status": "Group J — 2nd (4 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group J",
             "rank": 2,
             "played": 3,
-            "w": 2,
-            "d": 0,
+            "w": 1,
+            "d": 1,
             "l": 1,
             "gf": 4,
-            "ga": 3,
-            "pts": 6
+            "ga": 4,
+            "pts": 4
           },
-          "goalsConceded": 3,
+          "goalsConceded": 4,
           "redCards": 0,
           "ownGoals": 0
         },
@@ -1305,7 +1305,7 @@
             "w": 3,
             "d": 0,
             "l": 0,
-            "gf": 6,
+            "gf": 7,
             "ga": 0,
             "pts": 9
           },
@@ -1448,6 +1448,13 @@
         "value": 8
       },
       {
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
+        "value": 7
+      },
+      {
         "code": "NOR",
         "name": "Norway",
         "iso2": "NO",
@@ -1473,13 +1480,6 @@
         "name": "Czechia",
         "iso2": "CZ",
         "player": "Laura Harrison",
-        "value": 6
-      },
-      {
-        "code": "JOR",
-        "name": "Jordan",
-        "iso2": "JO",
-        "player": "Joe Clayton",
         "value": 6
       },
       {
@@ -1516,6 +1516,13 @@
         "iso2": "TR",
         "player": "Laura Harrison",
         "value": 5
+      },
+      {
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT",
+        "player": "Paul Mitchell",
+        "value": 4
       },
       {
         "code": "GER",
@@ -1565,13 +1572,6 @@
         "iso2": "US",
         "player": "Flora Curry",
         "value": 4
-      },
-      {
-        "code": "AUT",
-        "name": "Austria",
-        "iso2": "AT",
-        "player": "Paul Mitchell",
-        "value": 3
       },
       {
         "code": "CAN",
@@ -3011,9 +3011,9 @@
           "w": 3,
           "d": 0,
           "l": 0,
-          "gf": 6,
+          "gf": 7,
           "ga": 0,
-          "gd": 6,
+          "gd": 7,
           "pts": 9
         },
         {
@@ -3023,13 +3023,13 @@
           "player": "Paul Mitchell",
           "rank": 2,
           "played": 3,
-          "w": 2,
-          "d": 0,
+          "w": 1,
+          "d": 1,
           "l": 1,
           "gf": 4,
-          "ga": 3,
-          "gd": 1,
-          "pts": 6
+          "ga": 4,
+          "gd": 0,
+          "pts": 4
         },
         {
           "code": "ALG",
@@ -3039,12 +3039,12 @@
           "rank": 3,
           "played": 3,
           "w": 1,
-          "d": 0,
-          "l": 2,
-          "gf": 2,
+          "d": 1,
+          "l": 1,
+          "gf": 3,
           "ga": 5,
-          "gd": -3,
-          "pts": 3
+          "gd": -2,
+          "pts": 4
         },
         {
           "code": "JOR",
@@ -3057,8 +3057,8 @@
           "d": 0,
           "l": 3,
           "gf": 2,
-          "ga": 6,
-          "gd": -4,
+          "ga": 7,
+          "gd": -5,
           "pts": 0
         }
       ]
@@ -3262,6 +3262,19 @@
     },
     {
       "pos": 6,
+      "code": "ALG",
+      "name": "Algeria",
+      "iso2": "DZ",
+      "player": "Bob Gibson",
+      "group": "Group J",
+      "played": 3,
+      "gd": -2,
+      "gf": 3,
+      "pts": 4,
+      "qualifying": true
+    },
+    {
+      "pos": 7,
       "code": "PAR",
       "name": "Paraguay",
       "iso2": "PY",
@@ -3274,7 +3287,7 @@
       "qualifying": true
     },
     {
-      "pos": 7,
+      "pos": 8,
       "code": "SEN",
       "name": "Senegal",
       "iso2": "SN",
@@ -3287,7 +3300,7 @@
       "qualifying": true
     },
     {
-      "pos": 8,
+      "pos": 9,
       "code": "IRN",
       "name": "Iran",
       "iso2": "IR",
@@ -3297,10 +3310,10 @@
       "gd": 0,
       "gf": 3,
       "pts": 3,
-      "qualifying": true
+      "qualifying": false
     },
     {
-      "pos": 9,
+      "pos": 10,
       "code": "KOR",
       "name": "South Korea",
       "iso2": "KR",
@@ -3308,19 +3321,6 @@
       "group": "Group A",
       "played": 3,
       "gd": -1,
-      "gf": 2,
-      "pts": 3,
-      "qualifying": false
-    },
-    {
-      "pos": 10,
-      "code": "ALG",
-      "name": "Algeria",
-      "iso2": "DZ",
-      "player": "Bob Gibson",
-      "group": "Group J",
-      "played": 3,
-      "gd": -3,
       "gf": 2,
       "pts": 3,
       "qualifying": false
@@ -5633,7 +5633,7 @@
         "name": "Algeria",
         "iso2": "DZ",
         "player": "Bob Gibson",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "away": {
@@ -5664,7 +5664,7 @@
         "name": "Argentina",
         "iso2": "AR",
         "player": "Tom Clayton",
-        "score": 1,
+        "score": 2,
         "winner": false
       }
     },
@@ -6465,6 +6465,25 @@
         "gd": 4
       },
       {
+        "player": "Bob Gibson",
+        "teams": [
+          {
+            "code": "NLD",
+            "name": "Netherlands",
+            "iso2": "NL",
+            "pts": 7
+          },
+          {
+            "code": "ALG",
+            "name": "Algeria",
+            "iso2": "DZ",
+            "pts": 4
+          }
+        ],
+        "points": 11,
+        "gd": 4
+      },
+      {
         "player": "Matt Deacock",
         "teams": [
           {
@@ -6481,25 +6500,6 @@
           }
         ],
         "points": 11,
-        "gd": 3
-      },
-      {
-        "player": "Bob Gibson",
-        "teams": [
-          {
-            "code": "NLD",
-            "name": "Netherlands",
-            "iso2": "NL",
-            "pts": 7
-          },
-          {
-            "code": "ALG",
-            "name": "Algeria",
-            "iso2": "DZ",
-            "pts": 3
-          }
-        ],
-        "points": 10,
         "gd": 3
       },
       {
@@ -6595,26 +6595,7 @@
           }
         ],
         "points": 9,
-        "gd": 0
-      },
-      {
-        "player": "Paul Mitchell",
-        "teams": [
-          {
-            "code": "AUT",
-            "name": "Austria",
-            "iso2": "AT",
-            "pts": 6
-          },
-          {
-            "code": "SCO",
-            "name": "Scotland",
-            "iso2": "GB-SCT",
-            "pts": 3
-          }
-        ],
-        "points": 9,
-        "gd": -2
+        "gd": 1
       },
       {
         "player": "Sam King",
@@ -6710,6 +6691,25 @@
         ],
         "points": 7,
         "gd": 1
+      },
+      {
+        "player": "Paul Mitchell",
+        "teams": [
+          {
+            "code": "AUT",
+            "name": "Austria",
+            "iso2": "AT",
+            "pts": 4
+          },
+          {
+            "code": "SCO",
+            "name": "Scotland",
+            "iso2": "GB-SCT",
+            "pts": 3
+          }
+        ],
+        "points": 7,
+        "gd": -3
       },
       {
         "player": "Scott Rosseter",
@@ -6842,7 +6842,7 @@
           }
         ],
         "points": 4,
-        "gd": 1
+        "gd": 0
       },
       {
         "player": "Laura Harrison",
@@ -6902,13 +6902,13 @@
         "gf": 2
       },
       {
-        "code": "PAN",
-        "name": "Panama",
-        "iso2": "PA",
-        "player": "Me Julie",
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
         "pts": 0,
-        "gd": -4,
-        "gf": 0
+        "gd": -5,
+        "gf": 2
       }
     ],
     "englandKnockedOutBy": {
@@ -6980,20 +6980,20 @@
         "score": 22
       },
       {
+        "player": "Joe Clayton",
+        "conceded": 10,
+        "losses": 4,
+        "yellows": 6,
+        "reds": 0,
+        "score": 20
+      },
+      {
         "player": "Tom Gibbons",
         "conceded": 6,
         "losses": 2,
         "yellows": 10,
         "reds": 1,
         "score": 20
-      },
-      {
-        "player": "Joe Clayton",
-        "conceded": 9,
-        "losses": 4,
-        "yellows": 6,
-        "reds": 0,
-        "score": 19
       },
       {
         "player": "Tom Clayton",
@@ -7028,18 +7028,18 @@
         "score": 18
       },
       {
+        "player": "Paul Mitchell",
+        "conceded": 8,
+        "losses": 3,
+        "yellows": 5,
+        "reds": 0,
+        "score": 16
+      },
+      {
         "player": "Jess Forshaw",
         "conceded": 7,
         "losses": 1,
         "yellows": 7,
-        "reds": 0,
-        "score": 15
-      },
-      {
-        "player": "Paul Mitchell",
-        "conceded": 7,
-        "losses": 3,
-        "yellows": 5,
         "reds": 0,
         "score": 15
       },
@@ -7078,10 +7078,10 @@
       {
         "player": "Bob Gibson",
         "conceded": 9,
-        "losses": 2,
+        "losses": 1,
         "yellows": 1,
         "reds": 0,
-        "score": 12
+        "score": 11
       },
       {
         "player": "Guy Curry",
@@ -7130,6 +7130,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 98,
-    "scrapedAt": "2026-06-28T02:30:08.480349+00:00"
+    "scrapedAt": "2026-06-28T03:00:08.100782+00:00"
   }
 }
