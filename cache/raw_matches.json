@@ -1,69 +1,10 @@
 {
-  "fetchedAt": "2026-06-28T02:00:09.342676+00:00",
+  "fetchedAt": "2026-06-28T02:30:08.480349+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186502,
-      "round": "Group Stage",
-      "startTimestamp": 1782147600,
-      "status": "finished",
-      "home": {
-        "name": "Argentina",
-        "score": 2,
-        "winner": true
-      },
-      "away": {
-        "name": "Austria",
-        "score": 0,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "Argentina": 2,
-        "Austria": 2
-      },
-      "fastestGoal": {
-        "minute": 38,
-        "addedTime": null,
-        "scorer": "Lionel Messi",
-        "team": "Argentina"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
-    {
-      "id": 15186769,
-      "round": "Group Stage",
-      "startTimestamp": 1782162000,
-      "status": "finished",
-      "home": {
-        "name": "France",
-        "score": 3,
-        "winner": true
-      },
-      "away": {
-        "name": "Iraq",
-        "score": 0,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "Iraq": 1
-      },
-      "fastestGoal": {
-        "minute": 14,
-        "addedTime": null,
-        "scorer": "Kylian Mbappé",
-        "team": "France"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186770,
       "round": "Group Stage",
@@ -906,63 +847,48 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186904,
+      "id": 15186747,
       "round": "Group Stage",
-      "startTimestamp": 1781478000,
-      "status": "finished",
+      "startTimestamp": 1782612000,
+      "status": "inprogress",
       "home": {
-        "name": "Côte d'Ivoire",
-        "score": 1,
-        "winner": true
+        "name": "Algeria",
+        "score": 0,
+        "winner": null
       },
       "away": {
-        "name": "Ecuador",
-        "score": 0,
-        "winner": false
+        "name": "Austria",
+        "score": 1,
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {
-        "Ecuador": 1,
-        "Côte d'Ivoire": 3
-      },
-      "fastestGoal": {
-        "minute": 90,
-        "addedTime": null,
-        "scorer": "Amad Diallo",
-        "team": "Côte d'Ivoire"
-      },
+      "yellowCards": {},
+      "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
-      "id": 15186951,
+      "id": 15186734,
       "round": "Group Stage",
-      "startTimestamp": 1781488800,
-      "status": "finished",
+      "startTimestamp": 1782612000,
+      "status": "inprogress",
       "home": {
-        "name": "Sweden",
-        "score": 5,
-        "winner": true
+        "name": "Jordan",
+        "score": 0,
+        "winner": null
       },
       "away": {
-        "name": "Tunisia",
+        "name": "Argentina",
         "score": 1,
-        "winner": false
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {
-        "Tunisia": 1
-      },
-      "fastestGoal": {
-        "minute": 7,
-        "addedTime": null,
-        "scorer": "Yasin Ayari",
-        "team": "Sweden"
-      },
+      "yellowCards": {},
+      "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
       "id": 15186783,
@@ -1818,6 +1744,65 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186502,
+      "round": "Group Stage",
+      "startTimestamp": 1782147600,
+      "status": "finished",
+      "home": {
+        "name": "Argentina",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "name": "Austria",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Argentina": 2,
+        "Austria": 2
+      },
+      "fastestGoal": {
+        "minute": 38,
+        "addedTime": null,
+        "scorer": "Lionel Messi",
+        "team": "Argentina"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186769,
+      "round": "Group Stage",
+      "startTimestamp": 1782162000,
+      "status": "finished",
+      "home": {
+        "name": "France",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "name": "Iraq",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Iraq": 1
+      },
+      "fastestGoal": {
+        "minute": 14,
+        "addedTime": null,
+        "scorer": "Kylian Mbappé",
+        "team": "France"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -2011,50 +1996,6 @@
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
-    },
-    {
-      "id": 15186734,
-      "round": "Group Stage",
-      "startTimestamp": 1782612000,
-      "status": "notstarted",
-      "home": {
-        "name": "Jordan",
-        "score": 0,
-        "winner": null
-      },
-      "away": {
-        "name": "Argentina",
-        "score": 0,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
-    },
-    {
-      "id": 15186747,
-      "round": "Group Stage",
-      "startTimestamp": 1782612000,
-      "status": "notstarted",
-      "home": {
-        "name": "Algeria",
-        "score": null,
-        "winner": null
-      },
-      "away": {
-        "name": "Austria",
-        "score": null,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 12813000,
@@ -3198,48 +3139,48 @@
       "team": "Argentina",
       "group": "Group J",
       "rank": 1,
-      "played": 2,
-      "w": 2,
+      "played": 3,
+      "w": 3,
       "d": 0,
       "l": 0,
-      "gf": 5,
+      "gf": 6,
       "ga": 0,
-      "pts": 6
+      "pts": 9
     },
     {
       "team": "Austria",
       "group": "Group J",
       "rank": 2,
-      "played": 2,
-      "w": 1,
+      "played": 3,
+      "w": 2,
       "d": 0,
       "l": 1,
-      "gf": 3,
+      "gf": 4,
       "ga": 3,
-      "pts": 3
+      "pts": 6
     },
     {
       "team": "Algeria",
       "group": "Group J",
       "rank": 3,
-      "played": 2,
+      "played": 3,
       "w": 1,
       "d": 0,
-      "l": 1,
+      "l": 2,
       "gf": 2,
-      "ga": 4,
+      "ga": 5,
       "pts": 3
     },
     {
       "team": "Jordan",
       "group": "Group J",
       "rank": 4,
-      "played": 2,
+      "played": 3,
       "w": 0,
       "d": 0,
-      "l": 2,
+      "l": 3,
       "gf": 2,
-      "ga": 5,
+      "ga": 6,
       "pts": 0
     },
     {

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T02:00:09.419Z",
+  "lastUpdated": "2026-06-28T02:30:08.564Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,16 +41,16 @@
       "round": "Group Stage",
       "kickoff": "2026-06-28T02:00:00.000Z",
       "kickoffUnix": 1782612000000,
-      "status": "NS",
+      "status": "1H",
       "home": {
-        "code": "JOR",
-        "name": "Jordan",
-        "iso2": "JO"
+        "code": "ALG",
+        "name": "Algeria",
+        "iso2": "DZ"
       },
       "away": {
-        "code": "ARG",
-        "name": "Argentina",
-        "iso2": "AR"
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT"
       }
     },
     "lastFinished": {
@@ -226,15 +226,15 @@
           "group": {
             "group": "Group J",
             "rank": 3,
-            "played": 2,
+            "played": 3,
             "w": 1,
             "d": 0,
-            "l": 1,
+            "l": 2,
             "gf": 2,
-            "ga": 4,
+            "ga": 5,
             "pts": 3
           },
-          "goalsConceded": 4,
+          "goalsConceded": 5,
           "redCards": 0,
           "ownGoals": 0
         }
@@ -666,15 +666,15 @@
           "group": {
             "group": "Group J",
             "rank": 4,
-            "played": 2,
+            "played": 3,
             "w": 0,
             "d": 0,
-            "l": 2,
+            "l": 3,
             "gf": 2,
-            "ga": 5,
+            "ga": 6,
             "pts": 0
           },
-          "goalsConceded": 5,
+          "goalsConceded": 6,
           "redCards": 0,
           "ownGoals": 1
         }
@@ -965,19 +965,19 @@
           "pot": 1,
           "odds": "150/1",
           "matched": true,
-          "status": "Group J — 2nd (3 pts)",
+          "status": "Group J — 2nd (6 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group J",
             "rank": 2,
-            "played": 2,
-            "w": 1,
+            "played": 3,
+            "w": 2,
             "d": 0,
             "l": 1,
-            "gf": 3,
+            "gf": 4,
             "ga": 3,
-            "pts": 3
+            "pts": 6
           },
           "goalsConceded": 3,
           "redCards": 0,
@@ -1295,19 +1295,19 @@
           "pot": 1,
           "odds": "8/1",
           "matched": true,
-          "status": "Group J — 1st (6 pts)",
+          "status": "Group J — 1st (9 pts)",
           "statusKind": "group",
           "alive": true,
           "group": {
             "group": "Group J",
             "rank": 1,
-            "played": 2,
-            "w": 2,
+            "played": 3,
+            "w": 3,
             "d": 0,
             "l": 0,
-            "gf": 5,
+            "gf": 6,
             "ga": 0,
-            "pts": 6
+            "pts": 9
           },
           "goalsConceded": 0,
           "redCards": 0,
@@ -1476,6 +1476,13 @@
         "value": 6
       },
       {
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
+        "value": 6
+      },
+      {
         "code": "SEN",
         "name": "Senegal",
         "iso2": "SN",
@@ -1483,17 +1490,17 @@
         "value": 6
       },
       {
+        "code": "ALG",
+        "name": "Algeria",
+        "iso2": "DZ",
+        "player": "Bob Gibson",
+        "value": 5
+      },
+      {
         "code": "CRO",
         "name": "Croatia",
         "iso2": "HR",
         "player": "Robin Parish",
-        "value": 5
-      },
-      {
-        "code": "JOR",
-        "name": "Jordan",
-        "iso2": "JO",
-        "player": "Joe Clayton",
         "value": 5
       },
       {
@@ -1509,13 +1516,6 @@
         "iso2": "TR",
         "player": "Laura Harrison",
         "value": 5
-      },
-      {
-        "code": "ALG",
-        "name": "Algeria",
-        "iso2": "DZ",
-        "player": "Bob Gibson",
-        "value": 4
       },
       {
         "code": "GER",
@@ -3007,14 +3007,14 @@
           "iso2": "AR",
           "player": "Tom Clayton",
           "rank": 1,
-          "played": 2,
-          "w": 2,
+          "played": 3,
+          "w": 3,
           "d": 0,
           "l": 0,
-          "gf": 5,
+          "gf": 6,
           "ga": 0,
-          "gd": 5,
-          "pts": 6
+          "gd": 6,
+          "pts": 9
         },
         {
           "code": "AUT",
@@ -3022,14 +3022,14 @@
           "iso2": "AT",
           "player": "Paul Mitchell",
           "rank": 2,
-          "played": 2,
-          "w": 1,
+          "played": 3,
+          "w": 2,
           "d": 0,
           "l": 1,
-          "gf": 3,
+          "gf": 4,
           "ga": 3,
-          "gd": 0,
-          "pts": 3
+          "gd": 1,
+          "pts": 6
         },
         {
           "code": "ALG",
@@ -3037,13 +3037,13 @@
           "iso2": "DZ",
           "player": "Bob Gibson",
           "rank": 3,
-          "played": 2,
+          "played": 3,
           "w": 1,
           "d": 0,
-          "l": 1,
+          "l": 2,
           "gf": 2,
-          "ga": 4,
-          "gd": -2,
+          "ga": 5,
+          "gd": -3,
           "pts": 3
         },
         {
@@ -3052,13 +3052,13 @@
           "iso2": "JO",
           "player": "Joe Clayton",
           "rank": 4,
-          "played": 2,
+          "played": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
+          "l": 3,
           "gf": 2,
-          "ga": 5,
-          "gd": -3,
+          "ga": 6,
+          "gd": -4,
           "pts": 0
         }
       ]
@@ -3319,8 +3319,8 @@
       "iso2": "DZ",
       "player": "Bob Gibson",
       "group": "Group J",
-      "played": 2,
-      "gd": -2,
+      "played": 3,
+      "gd": -3,
       "gf": 2,
       "pts": 3,
       "qualifying": false
@@ -4284,52 +4284,6 @@
         "name": "Morocco",
         "iso2": "MA",
         "player": "Ali Taylor",
-        "score": 1,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-14T23:00:00.000Z",
-      "ts": 1781478000000,
-      "round": "Group E",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "CIV",
-        "name": "Ivory Coast",
-        "iso2": "CI",
-        "player": "Robbie Godowski",
-        "score": 1,
-        "winner": true
-      },
-      "away": {
-        "code": "ECU",
-        "name": "Ecuador",
-        "iso2": "EC",
-        "player": "Frank Dunn",
-        "score": 0,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-15T02:00:00.000Z",
-      "ts": 1781488800000,
-      "round": "Group F",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "SWE",
-        "name": "Sweden",
-        "iso2": "SE",
-        "player": "Madi Farrow-Dunn",
-        "score": 5,
-        "winner": true
-      },
-      "away": {
-        "code": "TUN",
-        "name": "Tunisia",
-        "iso2": "TN",
-        "player": "Sam King",
         "score": 1,
         "winner": false
       }
@@ -5672,7 +5626,30 @@
       "date": "2026-06-28T02:00:00.000Z",
       "ts": 1782612000000,
       "round": "Group J",
-      "status": "NS",
+      "status": "1H",
+      "finished": false,
+      "home": {
+        "code": "ALG",
+        "name": "Algeria",
+        "iso2": "DZ",
+        "player": "Bob Gibson",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT",
+        "player": "Paul Mitchell",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-28T02:00:00.000Z",
+      "ts": 1782612000000,
+      "round": "Group J",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "JOR",
@@ -5687,30 +5664,7 @@
         "name": "Argentina",
         "iso2": "AR",
         "player": "Tom Clayton",
-        "score": 0,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-28T02:00:00.000Z",
-      "ts": 1782612000000,
-      "round": "Group J",
-      "status": "NS",
-      "finished": false,
-      "home": {
-        "code": "ALG",
-        "name": "Algeria",
-        "iso2": "DZ",
-        "player": "Bob Gibson",
-        "score": null,
-        "winner": false
-      },
-      "away": {
-        "code": "AUT",
-        "name": "Austria",
-        "iso2": "AT",
-        "player": "Paul Mitchell",
-        "score": null,
+        "score": 1,
         "winner": false
       }
     },
@@ -6546,7 +6500,7 @@
           }
         ],
         "points": 10,
-        "gd": 4
+        "gd": 3
       },
       {
         "player": "Elizabeth Swords",
@@ -6623,6 +6577,44 @@
         ],
         "points": 9,
         "gd": 5
+      },
+      {
+        "player": "Tom Clayton",
+        "teams": [
+          {
+            "code": "ARG",
+            "name": "Argentina",
+            "iso2": "AR",
+            "pts": 9
+          },
+          {
+            "code": "HTI",
+            "name": "Haiti",
+            "iso2": "HT",
+            "pts": 0
+          }
+        ],
+        "points": 9,
+        "gd": 0
+      },
+      {
+        "player": "Paul Mitchell",
+        "teams": [
+          {
+            "code": "AUT",
+            "name": "Austria",
+            "iso2": "AT",
+            "pts": 6
+          },
+          {
+            "code": "SCO",
+            "name": "Scotland",
+            "iso2": "GB-SCT",
+            "pts": 3
+          }
+        ],
+        "points": 9,
+        "gd": -2
       },
       {
         "player": "Sam King",
@@ -6739,25 +6731,6 @@
         "gd": -7
       },
       {
-        "player": "Tom Clayton",
-        "teams": [
-          {
-            "code": "ARG",
-            "name": "Argentina",
-            "iso2": "AR",
-            "pts": 6
-          },
-          {
-            "code": "HTI",
-            "name": "Haiti",
-            "iso2": "HT",
-            "pts": 0
-          }
-        ],
-        "points": 6,
-        "gd": -1
-      },
-      {
         "player": "Tom Gibbons",
         "teams": [
           {
@@ -6775,25 +6748,6 @@
         ],
         "points": 6,
         "gd": -1
-      },
-      {
-        "player": "Paul Mitchell",
-        "teams": [
-          {
-            "code": "AUT",
-            "name": "Austria",
-            "iso2": "AT",
-            "pts": 3
-          },
-          {
-            "code": "SCO",
-            "name": "Scotland",
-            "iso2": "GB-SCT",
-            "pts": 3
-          }
-        ],
-        "points": 6,
-        "gd": -3
       },
       {
         "player": "Fred Dunn",
@@ -6888,7 +6842,7 @@
           }
         ],
         "points": 4,
-        "gd": 2
+        "gd": 1
       },
       {
         "player": "Laura Harrison",
@@ -6970,19 +6924,19 @@
         "score": 29
       },
       {
-        "player": "Frank Dunn",
-        "conceded": 12,
-        "losses": 3,
-        "yellows": 9,
-        "reds": 2,
-        "score": 28
-      },
-      {
         "player": "Jimena Barillas",
         "conceded": 18,
         "losses": 4,
         "yellows": 5,
         "reds": 0,
+        "score": 27
+      },
+      {
+        "player": "Frank Dunn",
+        "conceded": 12,
+        "losses": 3,
+        "yellows": 8,
+        "reds": 2,
         "score": 27
       },
       {
@@ -7034,10 +6988,10 @@
         "score": 20
       },
       {
-        "player": "Sam King",
-        "conceded": 14,
-        "losses": 3,
-        "yellows": 2,
+        "player": "Joe Clayton",
+        "conceded": 9,
+        "losses": 4,
+        "yellows": 6,
         "reds": 0,
         "score": 19
       },
@@ -7048,6 +7002,14 @@
         "yellows": 8,
         "reds": 0,
         "score": 19
+      },
+      {
+        "player": "Sam King",
+        "conceded": 14,
+        "losses": 3,
+        "yellows": 1,
+        "reds": 0,
+        "score": 18
       },
       {
         "player": "Laura Harrison",
@@ -7064,14 +7026,6 @@
         "yellows": 10,
         "reds": 0,
         "score": 18
-      },
-      {
-        "player": "Joe Clayton",
-        "conceded": 8,
-        "losses": 3,
-        "yellows": 6,
-        "reds": 0,
-        "score": 17
       },
       {
         "player": "Jess Forshaw",
@@ -7122,6 +7076,14 @@
         "score": 13
       },
       {
+        "player": "Bob Gibson",
+        "conceded": 9,
+        "losses": 2,
+        "yellows": 1,
+        "reds": 0,
+        "score": 12
+      },
+      {
         "player": "Guy Curry",
         "conceded": 3,
         "losses": 0,
@@ -7141,17 +7103,9 @@
         "player": "Robbie Godowski",
         "conceded": 2,
         "losses": 1,
-        "yellows": 6,
+        "yellows": 3,
         "reds": 1,
-        "score": 11
-      },
-      {
-        "player": "Bob Gibson",
-        "conceded": 8,
-        "losses": 1,
-        "yellows": 1,
-        "reds": 0,
-        "score": 10
+        "score": 8
       }
     ],
     "fastestGoal": {
@@ -7175,7 +7129,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 100,
-    "scrapedAt": "2026-06-28T02:00:09.342676+00:00"
+    "matches": 98,
+    "scrapedAt": "2026-06-28T02:30:08.480349+00:00"
   }
 }
