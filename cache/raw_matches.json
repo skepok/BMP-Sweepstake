@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-28T04:00:10.330168+00:00",
+  "fetchedAt": "2026-06-28T04:30:08.228509+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -2242,7 +2242,7 @@
         "winner": null
       },
       "away": {
-        "name": "2J",
+        "name": "Austria",
         "score": null,
         "winner": null
       },
@@ -2286,7 +2286,7 @@
         "winner": null
       },
       "away": {
-        "name": "3E/3F/3G/3I/3J",
+        "name": "Algeria",
         "score": null,
         "winner": null
       },
@@ -3407,9 +3407,9 @@
               "winner": false
             },
             {
-              "name": "2J",
-              "code": "2J",
-              "placeholder": true,
+              "name": "Austria",
+              "code": "AUT",
+              "placeholder": false,
               "winner": false
             }
           ]
@@ -3578,9 +3578,9 @@
               "winner": false
             },
             {
-              "name": "3E/3F/3G/3I/3J",
-              "code": "3E3",
-              "placeholder": true,
+              "name": "Algeria",
+              "code": "DZA",
+              "placeholder": false,
               "winner": false
             }
           ]
