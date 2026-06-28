@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-28T01:30:08.688864+00:00",
+  "fetchedAt": "2026-06-28T02:00:09.342676+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -855,23 +855,31 @@
       "id": 15186717,
       "round": "Group Stage",
       "startTimestamp": 1782603000,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "DR Congo",
         "score": 3,
-        "winner": null
+        "winner": true
       },
       "away": {
         "name": "Uzbekistan",
         "score": 1,
-        "winner": null
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "DR Congo": 3,
+        "Uzbekistan": 2
+      },
+      "fastestGoal": {
+        "minute": 10,
+        "addedTime": null,
+        "scorer": "Eldor Shomurodov",
+        "team": "Uzbekistan"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186696,
@@ -2011,12 +2019,12 @@
       "status": "notstarted",
       "home": {
         "name": "Jordan",
-        "score": null,
+        "score": 0,
         "winner": null
       },
       "away": {
         "name": "Argentina",
-        "score": null,
+        "score": 0,
         "winner": null
       },
       "redCards": {},
@@ -2213,7 +2221,7 @@
         "winner": null
       },
       "away": {
-        "name": "3E/3H/3I/3J/3K",
+        "name": "DR Congo",
         "score": null,
         "winner": null
       },
@@ -2235,7 +2243,7 @@
         "winner": null
       },
       "away": {
-        "name": "3A/3E/3H/3I/3J",
+        "name": "Senegal",
         "score": null,
         "winner": null
       },
@@ -2296,7 +2304,7 @@
       "startTimestamp": 1783033200,
       "status": "notstarted",
       "home": {
-        "name": "2K",
+        "name": "Portugal",
         "score": null,
         "winner": null
       },
@@ -2384,7 +2392,7 @@
       "startTimestamp": 1783128600,
       "status": "notstarted",
       "home": {
-        "name": "1K",
+        "name": "Colombia",
         "score": null,
         "winner": null
       },
@@ -3419,9 +3427,9 @@
           "kickoff": 1783033200,
           "participants": [
             {
-              "name": "2K",
-              "code": "2K",
-              "placeholder": true,
+              "name": "Portugal",
+              "code": "POR",
+              "placeholder": false,
               "winner": false
             },
             {
@@ -3482,9 +3490,9 @@
               "winner": false
             },
             {
-              "name": "3A/3E/3H/3I/3J",
-              "code": "3A3",
-              "placeholder": true,
+              "name": "Senegal",
+              "code": "SEN",
+              "placeholder": false,
               "winner": false
             }
           ]
@@ -3558,9 +3566,9 @@
               "winner": false
             },
             {
-              "name": "3E/3H/3I/3J/3K",
-              "code": "3E3",
-              "placeholder": true,
+              "name": "DR Congo",
+              "code": "DCO",
+              "placeholder": false,
               "winner": false
             }
           ]
@@ -3628,9 +3636,9 @@
           "kickoff": 1783128600,
           "participants": [
             {
-              "name": "1K",
-              "code": "1K",
-              "placeholder": true,
+              "name": "Colombia",
+              "code": "COL",
+              "placeholder": false,
               "winner": false
             },
             {

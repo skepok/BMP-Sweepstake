@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T01:30:08.783Z",
+  "lastUpdated": "2026-06-28T02:00:09.419Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,18 +39,18 @@
   "banner": {
     "nextFixture": {
       "round": "Group Stage",
-      "kickoff": "2026-06-27T23:30:00.000Z",
-      "kickoffUnix": 1782603000000,
-      "status": "1H",
+      "kickoff": "2026-06-28T02:00:00.000Z",
+      "kickoffUnix": 1782612000000,
+      "status": "NS",
       "home": {
-        "code": "DRC",
-        "name": "DR Congo",
-        "iso2": "CD"
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO"
       },
       "away": {
-        "code": "UZB",
-        "name": "Uzbekistan",
-        "iso2": "UZ"
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR"
       }
     },
     "lastFinished": {
@@ -59,16 +59,16 @@
       "kickoffUnix": 1782603000000,
       "status": "FT",
       "home": {
-        "code": "COL",
-        "name": "Colombia",
-        "iso2": "CO",
-        "goals": 0
+        "code": "DRC",
+        "name": "DR Congo",
+        "iso2": "CD",
+        "goals": 3
       },
       "away": {
-        "code": "POR",
-        "name": "Portugal",
-        "iso2": "PT",
-        "goals": 0
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "iso2": "UZ",
+        "goals": 1
       }
     }
   },
@@ -3459,11 +3459,11 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Runner-up Group K",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Portugal",
+              "code": "POR",
+              "iso2": "PT",
+              "player": "Guy Curry",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
@@ -3540,11 +3540,11 @@
               "winner": false
             },
             "away": {
-              "name": "3rd: A/E/H/I/J",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Senegal",
+              "code": "SEN",
+              "iso2": "SN",
+              "player": "Sam Lowerson",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -3636,11 +3636,11 @@
               "winner": false
             },
             "away": {
-              "name": "3rd: E/H/I/J/K",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "DR Congo",
+              "code": "DRC",
+              "iso2": "CD",
+              "player": "Nick Foulkes",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -3723,11 +3723,11 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Winner Group K",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Colombia",
+              "code": "COL",
+              "iso2": "CO",
+              "player": "Matt Deacock",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
@@ -5626,15 +5626,15 @@
       "date": "2026-06-27T23:30:00.000Z",
       "ts": 1782603000000,
       "round": "Group K",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "DRC",
         "name": "DR Congo",
         "iso2": "CD",
         "player": "Nick Foulkes",
         "score": 3,
-        "winner": false
+        "winner": true
       },
       "away": {
         "code": "UZB",
@@ -5679,7 +5679,7 @@
         "name": "Jordan",
         "iso2": "JO",
         "player": "Joe Clayton",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -5687,7 +5687,7 @@
         "name": "Argentina",
         "iso2": "AR",
         "player": "Tom Clayton",
-        "score": null,
+        "score": 0,
         "winner": false
       }
     },
@@ -5890,10 +5890,10 @@
         "winner": false
       },
       "away": {
-        "code": null,
-        "name": "3E/3H/3I/3J/3K",
-        "iso2": null,
-        "player": null,
+        "code": "DRC",
+        "name": "DR Congo",
+        "iso2": "CD",
+        "player": "Nick Foulkes",
         "score": null,
         "winner": false
       }
@@ -5913,10 +5913,10 @@
         "winner": false
       },
       "away": {
-        "code": null,
-        "name": "3A/3E/3H/3I/3J",
-        "iso2": null,
-        "player": null,
+        "code": "SEN",
+        "name": "Senegal",
+        "iso2": "SN",
+        "player": "Sam Lowerson",
         "score": null,
         "winner": false
       }
@@ -5974,10 +5974,10 @@
       "status": "NS",
       "finished": false,
       "home": {
-        "code": null,
-        "name": "2K",
-        "iso2": null,
-        "player": null,
+        "code": "POR",
+        "name": "Portugal",
+        "iso2": "PT",
+        "player": "Guy Curry",
         "score": null,
         "winner": false
       },
@@ -6066,10 +6066,10 @@
       "status": "NS",
       "finished": false,
       "home": {
-        "code": null,
-        "name": "1K",
-        "iso2": null,
-        "player": null,
+        "code": "COL",
+        "name": "Colombia",
+        "iso2": "CO",
+        "player": "Matt Deacock",
         "score": null,
         "winner": false
       },
@@ -6981,9 +6981,9 @@
         "player": "Jimena Barillas",
         "conceded": 18,
         "losses": 4,
-        "yellows": 3,
+        "yellows": 5,
         "reds": 0,
-        "score": 25
+        "score": 27
       },
       {
         "player": "Scott Rosseter",
@@ -7114,6 +7114,14 @@
         "score": 13
       },
       {
+        "player": "Nick Foulkes",
+        "conceded": 6,
+        "losses": 1,
+        "yellows": 6,
+        "reds": 0,
+        "score": 13
+      },
+      {
         "player": "Guy Curry",
         "conceded": 3,
         "losses": 0,
@@ -7144,14 +7152,6 @@
         "yellows": 1,
         "reds": 0,
         "score": 10
-      },
-      {
-        "player": "Nick Foulkes",
-        "conceded": 6,
-        "losses": 1,
-        "yellows": 3,
-        "reds": 0,
-        "score": 10
       }
     ],
     "fastestGoal": {
@@ -7176,6 +7176,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 100,
-    "scrapedAt": "2026-06-28T01:30:08.688864+00:00"
+    "scrapedAt": "2026-06-28T02:00:09.342676+00:00"
   }
 }
