@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-28T19:30:07.454749+00:00",
+  "fetchedAt": "2026-06-28T21:00:08.856597+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -881,23 +881,30 @@
       "id": 12813000,
       "round": "Round of 32",
       "startTimestamp": 1782673200,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "South Africa",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "away": {
         "name": "Canada",
-        "score": 0,
-        "winner": null
+        "score": 1,
+        "winner": true
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Canada": 2
+      },
+      "fastestGoal": {
+        "minute": 90,
+        "addedTime": 2,
+        "scorer": "Stephen Eustaquio",
+        "team": "Canada"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186837,
@@ -3502,7 +3509,7 @@
               "name": "Canada",
               "code": "CAN",
               "placeholder": false,
-              "winner": false
+              "winner": true
             }
           ]
         },

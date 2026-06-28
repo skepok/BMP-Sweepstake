@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-06-28T19:30:07.545Z",
+  "lastUpdated": "2026-06-28T21:00:09.382Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
   "groupStageComplete": true,
-  "knockoutsStarted": false,
+  "knockoutsStarted": true,
   "prizes": {
     "total": 240,
     "currency": "GBP",
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 32",
+      "kickoff": "2026-06-29T17:00:00.000Z",
+      "kickoffUnix": 1782752400000,
+      "status": "NS",
+      "home": {
+        "code": "BRA",
+        "name": "Brazil",
+        "iso2": "BR"
+      },
+      "away": {
+        "code": "JAP",
+        "name": "Japan",
+        "iso2": "JP"
+      }
+    },
+    "lastFinished": {
+      "round": "Round of 32",
       "kickoff": "2026-06-28T19:00:00.000Z",
       "kickoffUnix": 1782673200000,
-      "status": "1H",
+      "status": "FT",
       "home": {
         "code": "ZAF",
         "name": "South Africa",
-        "iso2": "ZA"
+        "iso2": "ZA",
+        "goals": 0
       },
       "away": {
         "code": "CAN",
         "name": "Canada",
-        "iso2": "CA"
-      }
-    },
-    "lastFinished": {
-      "round": "Group Stage",
-      "kickoff": "2026-06-28T02:00:00.000Z",
-      "kickoffUnix": 1782612000000,
-      "status": "FT",
-      "home": {
-        "code": "ALG",
-        "name": "Algeria",
-        "iso2": "DZ",
-        "goals": 3
-      },
-      "away": {
-        "code": "AUT",
-        "name": "Austria",
-        "iso2": "AT",
-        "goals": 3
+        "iso2": "CA",
+        "goals": 1
       }
     }
   },
@@ -110,9 +110,9 @@
           "pot": 2,
           "odds": "1000/1",
           "matched": true,
-          "status": "Into the Round of 32",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 32",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group A",
             "rank": 2,
@@ -635,7 +635,7 @@
           "pot": 1,
           "odds": "150/1",
           "matched": true,
-          "status": "Into the Round of 32",
+          "status": "Won Round of 32 — awaiting next round",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -3408,15 +3408,15 @@
           {
             "label": null,
             "kickoff": "2026-06-28T19:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "South Africa",
               "code": "ZAF",
               "iso2": "ZA",
               "player": "Adam Wright",
               "placeholder": false,
-              "score": null,
+              "score": 0,
               "winner": false
             },
             "away": {
@@ -3425,8 +3425,8 @@
               "iso2": "CA",
               "player": "Joe Clayton",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 1,
+              "winner": true
             }
           },
           {
@@ -5787,8 +5787,8 @@
       "date": "2026-06-28T19:00:00.000Z",
       "ts": 1782673200000,
       "round": "Round of 32",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "ZAF",
         "name": "South Africa",
@@ -5802,8 +5802,8 @@
         "name": "Canada",
         "iso2": "CA",
         "player": "Joe Clayton",
-        "score": 0,
-        "winner": false
+        "score": 1,
+        "winner": true
       }
     },
     {
@@ -7273,7 +7273,8 @@
       "form": [
         "L",
         "D",
-        "W"
+        "W",
+        "L"
       ]
     },
     "MOR": {
@@ -7595,7 +7596,8 @@
       "form": [
         "D",
         "W",
-        "L"
+        "L",
+        "W"
       ]
     },
     "JOR": {
@@ -8061,6 +8063,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 103,
-    "scrapedAt": "2026-06-28T19:30:07.454749+00:00"
+    "scrapedAt": "2026-06-28T21:00:08.856597+00:00"
   }
 }
