@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-29T17:30:06.497861+00:00",
+  "fetchedAt": "2026-06-29T18:30:06.042836+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -883,7 +883,7 @@
       "status": "inprogress",
       "home": {
         "name": "Brazil",
-        "score": 0,
+        "score": 1,
         "winner": null
       },
       "away": {

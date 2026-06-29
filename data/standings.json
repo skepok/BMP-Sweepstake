@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T17:30:06.583Z",
+  "lastUpdated": "2026-06-29T18:30:06.608Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -5817,7 +5817,7 @@
         "name": "Brazil",
         "iso2": "BR",
         "player": "Me Julie",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "away": {
@@ -8063,6 +8063,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 103,
-    "scrapedAt": "2026-06-29T17:30:06.497861+00:00"
+    "scrapedAt": "2026-06-29T18:30:06.042836+00:00"
   }
 }
