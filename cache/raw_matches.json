@@ -1,40 +1,10 @@
 {
-  "fetchedAt": "2026-06-29T10:01:19.922923+00:00",
+  "fetchedAt": "2026-06-29T17:30:06.497861+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186740,
-      "round": "Group Stage",
-      "startTimestamp": 1782183600,
-      "status": "finished",
-      "home": {
-        "name": "Jordan",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "name": "Algeria",
-        "score": 2,
-        "winner": true
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "Jordan": 1,
-        "Algeria": 1
-      },
-      "fastestGoal": {
-        "minute": 36,
-        "addedTime": null,
-        "scorer": "Nizar Al-Rashdan",
-        "team": "Jordan"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186858,
       "round": "Group Stage",
@@ -907,41 +877,26 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186837,
-      "round": "Group Stage",
-      "startTimestamp": 1781550000,
-      "status": "finished",
+      "id": 12813012,
+      "round": "Round of 32",
+      "startTimestamp": 1782752400,
+      "status": "inprogress",
       "home": {
-        "name": "Belgium",
-        "score": 1,
-        "winner": false
+        "name": "Brazil",
+        "score": 0,
+        "winner": null
       },
       "away": {
-        "name": "Egypt",
+        "name": "Japan",
         "score": 1,
-        "winner": false
+        "winner": null
       },
       "redCards": {},
-      "ownGoals": {
-        "Egypt": 1
-      },
-      "yellowCards": {
-        "Belgium": 2,
-        "Egypt": 2
-      },
-      "fastestGoal": {
-        "minute": 20,
-        "addedTime": null,
-        "scorer": "Emam Ashour",
-        "team": "Egypt"
-      },
-      "fastestOwnGoal": {
-        "minute": 66,
-        "addedTime": null,
-        "scorer": "Mohamed Hany",
-        "team": "Egypt"
-      },
-      "incidentsFetched": true
+      "ownGoals": {},
+      "yellowCards": {},
+      "fastestGoal": null,
+      "fastestOwnGoal": null,
+      "incidentsFetched": false
     },
     {
       "id": 15186811,
@@ -1821,6 +1776,36 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186740,
+      "round": "Group Stage",
+      "startTimestamp": 1782183600,
+      "status": "finished",
+      "home": {
+        "name": "Jordan",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Algeria",
+        "score": 2,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Jordan": 1,
+        "Algeria": 1
+      },
+      "fastestGoal": {
+        "minute": 36,
+        "addedTime": null,
+        "scorer": "Nizar Al-Rashdan",
+        "team": "Jordan"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -2213,28 +2198,6 @@
       "fastestGoal": null,
       "fastestOwnGoal": null,
       "incidentsFetched": true
-    },
-    {
-      "id": 12813012,
-      "round": "Round of 32",
-      "startTimestamp": 1782752400,
-      "status": "notstarted",
-      "home": {
-        "name": "Brazil",
-        "score": null,
-        "winner": null
-      },
-      "away": {
-        "name": "Japan",
-        "score": null,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 12813014,

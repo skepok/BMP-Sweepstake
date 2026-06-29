@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T10:01:20.025Z",
+  "lastUpdated": "2026-06-29T17:30:06.583Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Round of 32",
       "kickoff": "2026-06-29T17:00:00.000Z",
       "kickoffUnix": 1782752400000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "BRA",
         "name": "Brazil",
@@ -181,7 +181,7 @@
           },
           "goalsConceded": 3,
           "redCards": 0,
-          "ownGoals": 1
+          "ownGoals": 0
         }
       ]
     },
@@ -2089,13 +2089,6 @@
         "value": 1
       },
       {
-        "code": "EGY",
-        "name": "Egypt",
-        "iso2": "EG",
-        "player": "Ali Taylor",
-        "value": 1
-      },
-      {
         "code": "IRQ",
         "name": "Iraq",
         "iso2": "IQ",
@@ -2247,6 +2240,13 @@
         "name": "Ecuador",
         "iso2": "EC",
         "player": "Frank Dunn",
+        "value": 0
+      },
+      {
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "player": "Ali Taylor",
         "value": 0
       },
       {
@@ -3552,7 +3552,7 @@
           {
             "label": null,
             "kickoff": "2026-06-29T17:00:00.000Z",
-            "status": "NS",
+            "status": "1H",
             "finished": false,
             "home": {
               "name": "Brazil",
@@ -4446,29 +4446,6 @@
         "iso2": "CV",
         "player": "Guy Curry",
         "score": 0,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-15T19:00:00.000Z",
-      "ts": 1781550000000,
-      "round": "Group G",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "BEL",
-        "name": "Belgium",
-        "iso2": "BE",
-        "player": "Fred Dunn",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "code": "EGY",
-        "name": "Egypt",
-        "iso2": "EG",
-        "player": "Ali Taylor",
-        "score": 1,
         "winner": false
       }
     },
@@ -5833,14 +5810,14 @@
       "date": "2026-06-29T17:00:00.000Z",
       "ts": 1782752400000,
       "round": "Round of 32",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "BRA",
         "name": "Brazil",
         "iso2": "BR",
         "player": "Me Julie",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -5848,7 +5825,7 @@
         "name": "Japan",
         "iso2": "JP",
         "player": "Nick Foulkes",
-        "score": null,
+        "score": 1,
         "winner": false
       }
     },
@@ -7094,20 +7071,20 @@
         "score": 25
       },
       {
-        "player": "Fred Dunn",
-        "conceded": 11,
-        "losses": 2,
-        "yellows": 10,
-        "reds": 1,
-        "score": 25
-      },
-      {
         "player": "Joe Clayton",
         "conceded": 11,
         "losses": 4,
         "yellows": 9,
         "reds": 0,
         "score": 24
+      },
+      {
+        "player": "Fred Dunn",
+        "conceded": 11,
+        "losses": 2,
+        "yellows": 8,
+        "reds": 1,
+        "score": 23
       },
       {
         "player": "Paul Mitchell",
@@ -7206,20 +7183,20 @@
         "score": 15
       },
       {
-        "player": "Ali Taylor",
-        "conceded": 6,
-        "losses": 0,
-        "yellows": 7,
-        "reds": 0,
-        "score": 13
-      },
-      {
         "player": "Nick Foulkes",
         "conceded": 6,
         "losses": 1,
         "yellows": 6,
         "reds": 0,
         "score": 13
+      },
+      {
+        "player": "Ali Taylor",
+        "conceded": 6,
+        "losses": 0,
+        "yellows": 5,
+        "reds": 0,
+        "score": 11
       },
       {
         "player": "Guy Curry",
@@ -7327,10 +7304,9 @@
       "l": 0,
       "gf": 5,
       "ga": 3,
-      "yellows": 6,
+      "yellows": 4,
       "reds": 0,
       "form": [
-        "D",
         "W",
         "D"
       ]
@@ -7480,10 +7456,9 @@
       "l": 0,
       "gf": 6,
       "ga": 2,
-      "yellows": 3,
+      "yellows": 1,
       "reds": 1,
       "form": [
-        "D",
         "D",
         "W"
       ]
@@ -8087,7 +8062,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 104,
-    "scrapedAt": "2026-06-29T10:01:19.922923+00:00"
+    "matches": 103,
+    "scrapedAt": "2026-06-29T17:30:06.497861+00:00"
   }
 }
