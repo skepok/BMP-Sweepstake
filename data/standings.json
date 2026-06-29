@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T22:00:06.869Z",
+  "lastUpdated": "2026-06-29T23:30:06.929Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 32",
-      "kickoff": "2026-06-29T20:30:00.000Z",
-      "kickoffUnix": 1782765000000,
-      "status": "1H",
+      "kickoff": "2026-06-30T01:00:00.000Z",
+      "kickoffUnix": 1782781200000,
+      "status": "NS",
       "home": {
-        "code": "GER",
-        "name": "Germany",
-        "iso2": "DE"
+        "code": "NLD",
+        "name": "Netherlands",
+        "iso2": "NL"
       },
       "away": {
-        "code": "PAR",
-        "name": "Paraguay",
-        "iso2": "PY"
+        "code": "MOR",
+        "name": "Morocco",
+        "iso2": "MA"
       }
     },
     "lastFinished": {
       "round": "Round of 32",
-      "kickoff": "2026-06-29T17:00:00.000Z",
-      "kickoffUnix": 1782752400000,
+      "kickoff": "2026-06-29T20:30:00.000Z",
+      "kickoffUnix": 1782765000000,
       "status": "FT",
       "home": {
-        "code": "BRA",
-        "name": "Brazil",
-        "iso2": "BR",
-        "goals": 2
+        "code": "GER",
+        "name": "Germany",
+        "iso2": "DE",
+        "goals": 4
       },
       "away": {
-        "code": "JAP",
-        "name": "Japan",
-        "iso2": "JP",
-        "goals": 1
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "goals": 5
       }
     }
   },
@@ -525,9 +525,9 @@
           "pot": 1,
           "odds": "14/1",
           "matched": true,
-          "status": "Into the Round of 32",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 32",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group E",
             "rank": 1,
@@ -1100,7 +1100,7 @@
           "pot": 2,
           "odds": "150/1",
           "matched": true,
-          "status": "Into the Round of 32",
+          "status": "Won Round of 32 — awaiting next round",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -3360,15 +3360,15 @@
           {
             "label": null,
             "kickoff": "2026-06-29T20:30:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "Germany",
               "code": "GER",
               "iso2": "DE",
               "player": "Jess Forshaw",
               "placeholder": false,
-              "score": null,
+              "score": 4,
               "winner": false
             },
             "away": {
@@ -3377,8 +3377,8 @@
               "iso2": "PY",
               "player": "Robin Parish",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 5,
+              "winner": true
             }
           },
           {
@@ -5810,14 +5810,14 @@
       "date": "2026-06-29T20:30:00.000Z",
       "ts": 1782765000000,
       "round": "Round of 32",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "GER",
         "name": "Germany",
         "iso2": "DE",
         "player": "Jess Forshaw",
-        "score": 1,
+        "score": 4,
         "winner": false
       },
       "away": {
@@ -5825,8 +5825,8 @@
         "name": "Paraguay",
         "iso2": "PY",
         "player": "Robin Parish",
-        "score": 1,
-        "winner": false
+        "score": 5,
+        "winner": true
       }
     },
     {
@@ -7504,6 +7504,7 @@
       "form": [
         "W",
         "W",
+        "L",
         "L"
       ]
     },
@@ -7864,7 +7865,8 @@
       "form": [
         "L",
         "W",
-        "D"
+        "D",
+        "W"
       ]
     },
     "FRA": {
@@ -8040,6 +8042,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-06-29T22:00:06.793140+00:00"
+    "scrapedAt": "2026-06-29T23:30:06.841599+00:00"
   }
 }

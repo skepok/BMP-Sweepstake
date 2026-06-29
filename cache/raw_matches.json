@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-29T22:00:06.793140+00:00",
+  "fetchedAt": "2026-06-29T23:30:06.841599+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -873,23 +873,31 @@
       "id": 12813014,
       "round": "Round of 32",
       "startTimestamp": 1782765000,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Germany",
-        "score": 1,
-        "winner": null
+        "score": 4,
+        "winner": false
       },
       "away": {
         "name": "Paraguay",
-        "score": 1,
-        "winner": null
+        "score": 5,
+        "winner": true
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Paraguay": 3,
+        "Germany": 3
+      },
+      "fastestGoal": {
+        "minute": 42,
+        "addedTime": null,
+        "scorer": "Julio Enciso",
+        "team": "Paraguay"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186832,
@@ -3438,7 +3446,7 @@
               "name": "Paraguay",
               "code": "PAR",
               "placeholder": false,
-              "winner": false
+              "winner": true
             }
           ]
         },
