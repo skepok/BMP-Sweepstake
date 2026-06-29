@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-29T19:00:06.615059+00:00",
+  "fetchedAt": "2026-06-29T19:30:07.074746+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -880,23 +880,31 @@
       "id": 12813012,
       "round": "Round of 32",
       "startTimestamp": 1782752400,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Brazil",
         "score": 2,
-        "winner": null
+        "winner": true
       },
       "away": {
         "name": "Japan",
         "score": 1,
-        "winner": null
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Japan": 3,
+        "Brazil": 2
+      },
+      "fastestGoal": {
+        "minute": 29,
+        "addedTime": null,
+        "scorer": "Kaishu Sano",
+        "team": "Japan"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186811,
@@ -2557,7 +2565,7 @@
       "startTimestamp": 1783281600,
       "status": "notstarted",
       "home": {
-        "name": "W76",
+        "name": "Brazil",
         "score": null,
         "winner": null
       },
@@ -3605,7 +3613,7 @@
               "name": "Brazil",
               "code": "BRA",
               "placeholder": false,
-              "winner": false
+              "winner": true
             },
             {
               "name": "Japan",
@@ -3837,9 +3845,9 @@
           "kickoff": 1783281600,
           "participants": [
             {
-              "name": "W76",
-              "code": "W76",
-              "placeholder": true,
+              "name": "Brazil",
+              "code": "BRA",
+              "placeholder": false,
               "winner": false
             },
             {

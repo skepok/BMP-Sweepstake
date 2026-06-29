@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T19:00:06.690Z",
+  "lastUpdated": "2026-06-29T19:30:07.164Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,35 +39,35 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 32",
-      "kickoff": "2026-06-29T17:00:00.000Z",
-      "kickoffUnix": 1782752400000,
-      "status": "1H",
+      "kickoff": "2026-06-29T20:30:00.000Z",
+      "kickoffUnix": 1782765000000,
+      "status": "NS",
       "home": {
-        "code": "BRA",
-        "name": "Brazil",
-        "iso2": "BR"
+        "code": "GER",
+        "name": "Germany",
+        "iso2": "DE"
       },
       "away": {
-        "code": "JAP",
-        "name": "Japan",
-        "iso2": "JP"
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY"
       }
     },
     "lastFinished": {
       "round": "Round of 32",
-      "kickoff": "2026-06-28T19:00:00.000Z",
-      "kickoffUnix": 1782673200000,
+      "kickoff": "2026-06-29T17:00:00.000Z",
+      "kickoffUnix": 1782752400000,
       "status": "FT",
       "home": {
-        "code": "ZAF",
-        "name": "South Africa",
-        "iso2": "ZA",
-        "goals": 0
+        "code": "BRA",
+        "name": "Brazil",
+        "iso2": "BR",
+        "goals": 2
       },
       "away": {
-        "code": "CAN",
-        "name": "Canada",
-        "iso2": "CA",
+        "code": "JAP",
+        "name": "Japan",
+        "iso2": "JP",
         "goals": 1
       }
     }
@@ -855,7 +855,7 @@
           "pot": 1,
           "odds": "8/1",
           "matched": true,
-          "status": "Into the Round of 32",
+          "status": "Into the Round of 16",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -910,9 +910,9 @@
           "pot": 1,
           "odds": "50/1",
           "matched": true,
-          "status": "Into the Round of 32",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 32",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group F",
             "rank": 2,
@@ -3552,16 +3552,16 @@
           {
             "label": null,
             "kickoff": "2026-06-29T17:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "Brazil",
               "code": "BRA",
               "iso2": "BR",
               "player": "Me Julie",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 2,
+              "winner": true
             },
             "away": {
               "name": "Japan",
@@ -3569,7 +3569,7 @@
               "iso2": "JP",
               "player": "Nick Foulkes",
               "placeholder": false,
-              "score": null,
+              "score": 1,
               "winner": false
             }
           },
@@ -3848,11 +3848,11 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Round of 32 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Brazil",
+              "code": "BRA",
+              "iso2": "BR",
+              "player": "Me Julie",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
@@ -5810,15 +5810,15 @@
       "date": "2026-06-29T17:00:00.000Z",
       "ts": 1782752400000,
       "round": "Round of 32",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "BRA",
         "name": "Brazil",
         "iso2": "BR",
         "player": "Me Julie",
         "score": 2,
-        "winner": false
+        "winner": true
       },
       "away": {
         "code": "JAP",
@@ -6204,10 +6204,10 @@
       "status": "NS",
       "finished": false,
       "home": {
-        "code": null,
-        "name": "W76",
-        "iso2": null,
-        "player": null,
+        "code": "BRA",
+        "name": "Brazil",
+        "iso2": "BR",
+        "player": "Me Julie",
         "score": null,
         "winner": false
       },
@@ -7733,6 +7733,7 @@
       "form": [
         "D",
         "W",
+        "W",
         "W"
       ]
     },
@@ -7767,7 +7768,8 @@
       "form": [
         "D",
         "W",
-        "D"
+        "D",
+        "L"
       ]
     },
     "DRC": {
@@ -8063,6 +8065,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 103,
-    "scrapedAt": "2026-06-29T19:00:06.615059+00:00"
+    "scrapedAt": "2026-06-29T19:30:07.074746+00:00"
   }
 }
