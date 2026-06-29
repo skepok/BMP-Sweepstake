@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T21:30:06.561Z",
+  "lastUpdated": "2026-06-29T22:00:06.869Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -5817,7 +5817,7 @@
         "name": "Germany",
         "iso2": "DE",
         "player": "Jess Forshaw",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "away": {
@@ -8040,6 +8040,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-06-29T21:30:06.477536+00:00"
+    "scrapedAt": "2026-06-29T22:00:06.793140+00:00"
   }
 }
