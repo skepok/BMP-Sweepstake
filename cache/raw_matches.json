@@ -1,47 +1,10 @@
 {
-  "fetchedAt": "2026-06-29T19:30:07.074746+00:00",
+  "fetchedAt": "2026-06-29T21:00:05.697208+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186858,
-      "round": "Group Stage",
-      "startTimestamp": 1782234000,
-      "status": "finished",
-      "home": {
-        "name": "Portugal",
-        "score": 5,
-        "winner": true
-      },
-      "away": {
-        "name": "Uzbekistan",
-        "score": 0,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {
-        "Uzbekistan": 1
-      },
-      "yellowCards": {
-        "Portugal": 1,
-        "Uzbekistan": 1
-      },
-      "fastestGoal": {
-        "minute": 6,
-        "addedTime": null,
-        "scorer": "Cristiano Ronaldo",
-        "team": "Portugal"
-      },
-      "fastestOwnGoal": {
-        "minute": 60,
-        "addedTime": null,
-        "scorer": "Abduvokhid Nematov",
-        "team": "Uzbekistan"
-      },
-      "incidentsFetched": true
-    },
     {
       "id": 15186672,
       "round": "Group Stage",
@@ -907,33 +870,26 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186811,
-      "round": "Group Stage",
-      "startTimestamp": 1781560800,
-      "status": "finished",
+      "id": 12813014,
+      "round": "Round of 32",
+      "startTimestamp": 1782765000,
+      "status": "inprogress",
       "home": {
-        "name": "Saudi Arabia",
-        "score": 1,
-        "winner": false
+        "name": "Germany",
+        "score": 0,
+        "winner": null
       },
       "away": {
-        "name": "Uruguay",
-        "score": 1,
-        "winner": false
+        "name": "Paraguay",
+        "score": 0,
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {
-        "Saudi Arabia": 1
-      },
-      "fastestGoal": {
-        "minute": 41,
-        "addedTime": null,
-        "scorer": "Abdulelah Al-Amri",
-        "team": "Saudi Arabia"
-      },
+      "yellowCards": {},
+      "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
       "id": 15186832,
@@ -1814,6 +1770,43 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186858,
+      "round": "Group Stage",
+      "startTimestamp": 1782234000,
+      "status": "finished",
+      "home": {
+        "name": "Portugal",
+        "score": 5,
+        "winner": true
+      },
+      "away": {
+        "name": "Uzbekistan",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Uzbekistan": 1
+      },
+      "yellowCards": {
+        "Portugal": 1,
+        "Uzbekistan": 1
+      },
+      "fastestGoal": {
+        "minute": 6,
+        "addedTime": null,
+        "scorer": "Cristiano Ronaldo",
+        "team": "Portugal"
+      },
+      "fastestOwnGoal": {
+        "minute": 60,
+        "addedTime": null,
+        "scorer": "Abduvokhid Nematov",
+        "team": "Uzbekistan"
+      },
+      "incidentsFetched": true
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -2206,28 +2199,6 @@
       "fastestGoal": null,
       "fastestOwnGoal": null,
       "incidentsFetched": true
-    },
-    {
-      "id": 12813014,
-      "round": "Round of 32",
-      "startTimestamp": 1782765000,
-      "status": "notstarted",
-      "home": {
-        "name": "Germany",
-        "score": null,
-        "winner": null
-      },
-      "away": {
-        "name": "Paraguay",
-        "score": null,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 12812998,

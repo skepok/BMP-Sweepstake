@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T19:30:07.164Z",
+  "lastUpdated": "2026-06-29T21:00:05.778Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Round of 32",
       "kickoff": "2026-06-29T20:30:00.000Z",
       "kickoffUnix": 1782765000000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "GER",
         "name": "Germany",
@@ -3360,7 +3360,7 @@
           {
             "label": null,
             "kickoff": "2026-06-29T20:30:00.000Z",
-            "status": "NS",
+            "status": "1H",
             "finished": false,
             "home": {
               "name": "Germany",
@@ -4446,29 +4446,6 @@
         "iso2": "CV",
         "player": "Guy Curry",
         "score": 0,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-15T22:00:00.000Z",
-      "ts": 1781560800000,
-      "round": "Group H",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "KSA",
-        "name": "Saudi Arabia",
-        "iso2": "SA",
-        "player": "Flora Curry",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "code": "URY",
-        "name": "Uruguay",
-        "iso2": "UY",
-        "player": "Tom Gibbons",
-        "score": 1,
         "winner": false
       }
     },
@@ -5833,14 +5810,14 @@
       "date": "2026-06-29T20:30:00.000Z",
       "ts": 1782765000000,
       "round": "Round of 32",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "GER",
         "name": "Germany",
         "iso2": "DE",
         "player": "Jess Forshaw",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -5848,7 +5825,7 @@
         "name": "Paraguay",
         "iso2": "PY",
         "player": "Robin Parish",
-        "score": null,
+        "score": 0,
         "winner": false
       }
     },
@@ -7095,20 +7072,20 @@
         "score": 22
       },
       {
-        "player": "Flora Curry",
-        "conceded": 9,
-        "losses": 2,
-        "yellows": 11,
-        "reds": 0,
-        "score": 22
-      },
-      {
         "player": "Robin Parish",
         "conceded": 9,
         "losses": 2,
         "yellows": 9,
         "reds": 1,
         "score": 22
+      },
+      {
+        "player": "Flora Curry",
+        "conceded": 9,
+        "losses": 2,
+        "yellows": 10,
+        "reds": 0,
+        "score": 21
       },
       {
         "player": "Tom Clayton",
@@ -7405,10 +7382,9 @@
       "l": 1,
       "gf": 1,
       "ga": 5,
-      "yellows": 6,
+      "yellows": 5,
       "reds": 0,
       "form": [
-        "D",
         "L",
         "D"
       ]
@@ -8040,7 +8016,6 @@
       "reds": 1,
       "form": [
         "D",
-        "D",
         "L"
       ]
     },
@@ -8064,7 +8039,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 103,
-    "scrapedAt": "2026-06-29T19:30:07.074746+00:00"
+    "matches": 102,
+    "scrapedAt": "2026-06-29T21:00:05.697208+00:00"
   }
 }
