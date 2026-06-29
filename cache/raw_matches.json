@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-29T21:00:05.697208+00:00",
+  "fetchedAt": "2026-06-29T21:30:06.477536+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -881,7 +881,7 @@
       },
       "away": {
         "name": "Paraguay",
-        "score": 0,
+        "score": 1,
         "winner": null
       },
       "redCards": {},
