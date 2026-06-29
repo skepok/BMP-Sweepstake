@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T21:30:08.358Z",
+  "lastUpdated": "2026-06-29T07:30:10.531Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -4427,6 +4427,29 @@
       }
     },
     {
+      "date": "2026-06-15T16:00:00.000Z",
+      "ts": 1781539200000,
+      "round": "Group H",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "ESP",
+        "name": "Spain",
+        "iso2": "ES",
+        "player": "Adam Wright",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "CPV",
+        "name": "Cape Verde",
+        "iso2": "CV",
+        "player": "Guy Curry",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
       "date": "2026-06-15T19:00:00.000Z",
       "ts": 1781550000000,
       "round": "Group G",
@@ -7178,9 +7201,9 @@
         "player": "Adam Wright",
         "conceded": 3,
         "losses": 1,
-        "yellows": 6,
+        "yellows": 7,
         "reds": 2,
-        "score": 14
+        "score": 15
       },
       {
         "player": "Ali Taylor",
@@ -7199,6 +7222,14 @@
         "score": 13
       },
       {
+        "player": "Guy Curry",
+        "conceded": 3,
+        "losses": 0,
+        "yellows": 8,
+        "reds": 0,
+        "score": 11
+      },
+      {
         "player": "Matt Deacock",
         "conceded": 3,
         "losses": 1,
@@ -7213,14 +7244,6 @@
         "yellows": 6,
         "reds": 1,
         "score": 11
-      },
-      {
-        "player": "Guy Curry",
-        "conceded": 3,
-        "losses": 0,
-        "yellows": 7,
-        "reds": 0,
-        "score": 10
       }
     ],
     "fastestGoal": {
@@ -7252,9 +7275,10 @@
       "l": 0,
       "gf": 5,
       "ga": 0,
-      "yellows": 1,
+      "yellows": 2,
       "reds": 0,
       "form": [
+        "D",
         "W",
         "W"
       ]
@@ -7507,9 +7531,10 @@
       "l": 0,
       "gf": 2,
       "ga": 2,
-      "yellows": 3,
+      "yellows": 4,
       "reds": 0,
       "form": [
+        "D",
         "D",
         "D"
       ]
@@ -8062,7 +8087,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 103,
-    "scrapedAt": "2026-06-28T21:30:08.278317+00:00"
+    "matches": 104,
+    "scrapedAt": "2026-06-29T07:30:10.435120+00:00"
   }
 }

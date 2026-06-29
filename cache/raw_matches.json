@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-28T21:30:08.278317+00:00",
+  "fetchedAt": "2026-06-29T07:30:10.435120+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -2186,6 +2186,31 @@
         "scorer": "Yasin Ayari",
         "team": "Sweden"
       },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186783,
+      "round": "Group Stage",
+      "startTimestamp": 1781539200,
+      "status": "finished",
+      "home": {
+        "name": "Spain",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "name": "Cabo Verde",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Spain": 1,
+        "Cabo Verde": 1
+      },
+      "fastestGoal": null,
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
