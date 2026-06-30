@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T03:00:06.137Z",
+  "lastUpdated": "2026-06-30T04:00:07.373Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 32",
-      "kickoff": "2026-06-30T01:00:00.000Z",
-      "kickoffUnix": 1782781200000,
-      "status": "1H",
+      "kickoff": "2026-06-30T17:00:00.000Z",
+      "kickoffUnix": 1782838800000,
+      "status": "NS",
       "home": {
-        "code": "NLD",
-        "name": "Netherlands",
-        "iso2": "NL"
+        "code": "CIV",
+        "name": "Ivory Coast",
+        "iso2": "CI"
       },
       "away": {
-        "code": "MOR",
-        "name": "Morocco",
-        "iso2": "MA"
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO"
       }
     },
     "lastFinished": {
       "round": "Round of 32",
-      "kickoff": "2026-06-29T20:30:00.000Z",
-      "kickoffUnix": 1782765000000,
+      "kickoff": "2026-06-30T01:00:00.000Z",
+      "kickoffUnix": 1782781200000,
       "status": "FT",
       "home": {
-        "code": "GER",
-        "name": "Germany",
-        "iso2": "DE",
-        "goals": 4
+        "code": "NLD",
+        "name": "Netherlands",
+        "iso2": "NL",
+        "goals": 3
       },
       "away": {
-        "code": "PAR",
-        "name": "Paraguay",
-        "iso2": "PY",
-        "goals": 5
+        "code": "MOR",
+        "name": "Morocco",
+        "iso2": "MA",
+        "goals": 4
       }
     }
   },
@@ -140,7 +140,7 @@
           "pot": 1,
           "odds": "50/1",
           "matched": true,
-          "status": "Into the Round of 32",
+          "status": "Into the Round of 16",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -195,9 +195,9 @@
           "pot": 1,
           "odds": "20/1",
           "matched": true,
-          "status": "Into the Round of 32",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 32",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group F",
             "rank": 1,
@@ -3432,15 +3432,15 @@
           {
             "label": null,
             "kickoff": "2026-06-30T01:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "Netherlands",
               "code": "NLD",
               "iso2": "NL",
               "player": "Bob Gibson",
               "placeholder": false,
-              "score": null,
+              "score": 3,
               "winner": false
             },
             "away": {
@@ -3449,8 +3449,8 @@
               "iso2": "MA",
               "player": "Ali Taylor",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 4,
+              "winner": true
             }
           },
           {
@@ -5810,14 +5810,14 @@
       "date": "2026-06-30T01:00:00.000Z",
       "ts": 1782781200000,
       "round": "Round of 32",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "NLD",
         "name": "Netherlands",
         "iso2": "NL",
         "player": "Bob Gibson",
-        "score": 1,
+        "score": 3,
         "winner": false
       },
       "away": {
@@ -5825,8 +5825,8 @@
         "name": "Morocco",
         "iso2": "MA",
         "player": "Ali Taylor",
-        "score": 1,
-        "winner": false
+        "score": 4,
+        "winner": true
       }
     },
     {
@@ -6120,10 +6120,10 @@
         "winner": false
       },
       "away": {
-        "code": null,
-        "name": "W75",
-        "iso2": null,
-        "player": null,
+        "code": "MOR",
+        "name": "Morocco",
+        "iso2": "MA",
+        "player": "Ali Taylor",
         "score": null,
         "winner": false
       }
@@ -7246,6 +7246,7 @@
       "form": [
         "D",
         "W",
+        "W",
         "W"
       ]
     },
@@ -7279,7 +7280,8 @@
       "form": [
         "D",
         "W",
-        "W"
+        "W",
+        "L"
       ]
     },
     "ALG": {
@@ -8017,6 +8019,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 101,
-    "scrapedAt": "2026-06-30T03:00:06.049958+00:00"
+    "scrapedAt": "2026-06-30T04:00:07.282746+00:00"
   }
 }

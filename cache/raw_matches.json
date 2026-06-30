@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-30T03:00:06.049958+00:00",
+  "fetchedAt": "2026-06-30T04:00:07.282746+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -878,23 +878,30 @@
       "id": 12812998,
       "round": "Round of 32",
       "startTimestamp": 1782781200,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Netherlands",
-        "score": 1,
-        "winner": null
+        "score": 3,
+        "winner": false
       },
       "away": {
         "name": "Morocco",
-        "score": 1,
-        "winner": null
+        "score": 4,
+        "winner": true
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Morocco": 1
+      },
+      "fastestGoal": {
+        "minute": 72,
+        "addedTime": null,
+        "scorer": "Cody Gakpo",
+        "team": "Netherlands"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186501,
@@ -2476,7 +2483,7 @@
         "winner": null
       },
       "away": {
-        "name": "W75",
+        "name": "Morocco",
         "score": null,
         "winner": null
       },
@@ -3474,7 +3481,7 @@
               "name": "Morocco",
               "code": "MAR",
               "placeholder": false,
-              "winner": false
+              "winner": true
             }
           ]
         },
