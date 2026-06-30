@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-30T22:00:06.054505+00:00",
+  "fetchedAt": "2026-06-30T22:30:06.576092+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -879,7 +879,7 @@
       "status": "inprogress",
       "home": {
         "name": "France",
-        "score": 1,
+        "score": 2,
         "winner": null
       },
       "away": {
