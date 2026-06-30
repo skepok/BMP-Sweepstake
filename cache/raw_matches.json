@@ -1,40 +1,10 @@
 {
-  "fetchedAt": "2026-06-30T21:00:06.632042+00:00",
+  "fetchedAt": "2026-06-30T21:30:05.983911+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186713,
-      "round": "Group Stage",
-      "startTimestamp": 1782266400,
-      "status": "finished",
-      "home": {
-        "name": "Colombia",
-        "score": 1,
-        "winner": true
-      },
-      "away": {
-        "name": "DR Congo",
-        "score": 0,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "Colombia": 2,
-        "DR Congo": 1
-      },
-      "fastestGoal": {
-        "minute": 76,
-        "addedTime": null,
-        "scorer": "Daniel Muñoz",
-        "team": "Colombia"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186829,
       "round": "Group Stage",
@@ -903,40 +873,26 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186773,
-      "round": "Group Stage",
-      "startTimestamp": 1781647200,
-      "status": "finished",
+      "id": 12812995,
+      "round": "Round of 32",
+      "startTimestamp": 1782853200,
+      "status": "inprogress",
       "home": {
-        "name": "Iraq",
-        "score": 1,
-        "winner": false
+        "name": "France",
+        "score": 0,
+        "winner": null
       },
       "away": {
-        "name": "Norway",
-        "score": 4,
-        "winner": true
+        "name": "Sweden",
+        "score": 0,
+        "winner": null
       },
       "redCards": {},
-      "ownGoals": {
-        "Iraq": 1
-      },
-      "yellowCards": {
-        "Iraq": 1
-      },
-      "fastestGoal": {
-        "minute": 29,
-        "addedTime": null,
-        "scorer": "Erling Haaland",
-        "team": "Norway"
-      },
-      "fastestOwnGoal": {
-        "minute": 90,
-        "addedTime": 6,
-        "scorer": "Aymen Hussein",
-        "team": "Iraq"
-      },
-      "incidentsFetched": true
+      "ownGoals": {},
+      "yellowCards": {},
+      "fastestGoal": null,
+      "fastestOwnGoal": null,
+      "incidentsFetched": false
     },
     {
       "id": 15186854,
@@ -1817,6 +1773,36 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186713,
+      "round": "Group Stage",
+      "startTimestamp": 1782266400,
+      "status": "finished",
+      "home": {
+        "name": "Colombia",
+        "score": 1,
+        "winner": true
+      },
+      "away": {
+        "name": "DR Congo",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Colombia": 2,
+        "DR Congo": 1
+      },
+      "fastestGoal": {
+        "minute": 76,
+        "addedTime": null,
+        "scorer": "Daniel Muñoz",
+        "team": "Colombia"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -2304,28 +2290,6 @@
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
-    },
-    {
-      "id": 12812995,
-      "round": "Round of 32",
-      "startTimestamp": 1782853200,
-      "status": "notstarted",
-      "home": {
-        "name": "France",
-        "score": 0,
-        "winner": null
-      },
-      "away": {
-        "name": "Sweden",
-        "score": 0,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 12813001,

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T21:00:06.720Z",
+  "lastUpdated": "2026-06-30T21:30:06.075Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Round of 32",
       "kickoff": "2026-06-30T21:00:00.000Z",
       "kickoffUnix": 1782853200000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "FRA",
         "name": "France",
@@ -1281,7 +1281,7 @@
           },
           "goalsConceded": 12,
           "redCards": 1,
-          "ownGoals": 1
+          "ownGoals": 0
         }
       ]
     },
@@ -2096,13 +2096,6 @@
         "value": 1
       },
       {
-        "code": "IRQ",
-        "name": "Iraq",
-        "iso2": "IQ",
-        "player": "Scott Rosseter",
-        "value": 1
-      },
-      {
         "code": "JOR",
         "name": "Jordan",
         "iso2": "JO",
@@ -2289,6 +2282,13 @@
         "name": "Iran",
         "iso2": "IR",
         "player": "Jess Forshaw",
+        "value": 0
+      },
+      {
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "player": "Scott Rosseter",
         "value": 0
       },
       {
@@ -3384,7 +3384,7 @@
           {
             "label": null,
             "kickoff": "2026-06-30T21:00:00.000Z",
-            "status": "NS",
+            "status": "1H",
             "finished": false,
             "home": {
               "name": "France",
@@ -4516,29 +4516,6 @@
         "player": "Madi Farrow-Dunn",
         "score": 2,
         "winner": false
-      }
-    },
-    {
-      "date": "2026-06-16T22:00:00.000Z",
-      "ts": 1781647200000,
-      "round": "Group I",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "IRQ",
-        "name": "Iraq",
-        "iso2": "IQ",
-        "player": "Scott Rosseter",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "code": "NOR",
-        "name": "Norway",
-        "iso2": "NO",
-        "player": "Jimena Barillas",
-        "score": 4,
-        "winner": true
       }
     },
     {
@@ -5902,7 +5879,7 @@
       "date": "2026-06-30T21:00:00.000Z",
       "ts": 1782853200000,
       "round": "Round of 32",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "FRA",
@@ -7055,14 +7032,6 @@
         "score": 27
       },
       {
-        "player": "Scott Rosseter",
-        "conceded": 14,
-        "losses": 3,
-        "yellows": 6,
-        "reds": 1,
-        "score": 25
-      },
-      {
         "player": "Sam Lowerson",
         "conceded": 12,
         "losses": 3,
@@ -7077,6 +7046,14 @@
         "yellows": 10,
         "reds": 1,
         "score": 25
+      },
+      {
+        "player": "Scott Rosseter",
+        "conceded": 14,
+        "losses": 3,
+        "yellows": 5,
+        "reds": 1,
+        "score": 24
       },
       {
         "player": "Joe Clayton",
@@ -7566,7 +7543,6 @@
       "reds": 0,
       "form": [
         "W",
-        "W",
         "L",
         "W"
       ]
@@ -7991,10 +7967,9 @@
       "l": 3,
       "gf": 1,
       "ga": 12,
-      "yellows": 4,
+      "yellows": 3,
       "reds": 1,
       "form": [
-        "L",
         "L",
         "L"
       ]
@@ -8070,7 +8045,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 103,
-    "scrapedAt": "2026-06-30T21:00:06.632042+00:00"
+    "matches": 102,
+    "scrapedAt": "2026-06-30T21:30:05.983911+00:00"
   }
 }
