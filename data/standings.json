@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T04:00:07.373Z",
+  "lastUpdated": "2026-06-30T04:30:06.025Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -3785,11 +3785,11 @@
               "winner": false
             },
             "away": {
-              "name": "Round of 32 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Morocco",
+              "code": "MOR",
+              "iso2": "MA",
+              "player": "Ali Taylor",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -8019,6 +8019,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 101,
-    "scrapedAt": "2026-06-30T04:00:07.282746+00:00"
+    "scrapedAt": "2026-06-30T04:30:05.940370+00:00"
   }
 }

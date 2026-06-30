@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-30T04:00:07.282746+00:00",
+  "fetchedAt": "2026-06-30T04:30:05.940370+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -3751,9 +3751,9 @@
               "winner": false
             },
             {
-              "name": "W75",
-              "code": "W75",
-              "placeholder": true,
+              "name": "Morocco",
+              "code": "MAR",
+              "placeholder": false,
               "winner": false
             }
           ]
