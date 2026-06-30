@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T19:00:07.506Z",
+  "lastUpdated": "2026-06-30T19:30:06.196Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -580,7 +580,7 @@
           "pot": 1,
           "odds": "25/1",
           "matched": true,
-          "status": "Won Round of 32 — awaiting next round",
+          "status": "Into the Round of 16",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -3857,11 +3857,11 @@
               "winner": false
             },
             "away": {
-              "name": "Round of 32 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Norway",
+              "code": "NOR",
+              "iso2": "NO",
+              "player": "Jimena Barillas",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -6212,10 +6212,10 @@
         "winner": false
       },
       "away": {
-        "code": null,
-        "name": "W78",
-        "iso2": null,
-        "player": null,
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO",
+        "player": "Jimena Barillas",
         "score": null,
         "winner": false
       }
@@ -8071,6 +8071,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 103,
-    "scrapedAt": "2026-06-30T19:00:07.415007+00:00"
+    "scrapedAt": "2026-06-30T19:30:06.121566+00:00"
   }
 }

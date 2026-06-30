@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-30T19:00:07.415007+00:00",
+  "fetchedAt": "2026-06-30T19:30:06.121566+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -2602,7 +2602,7 @@
         "winner": null
       },
       "away": {
-        "name": "W78",
+        "name": "Norway",
         "score": null,
         "winner": null
       },
@@ -3883,9 +3883,9 @@
               "winner": false
             },
             {
-              "name": "W78",
-              "code": "W78",
-              "placeholder": true,
+              "name": "Norway",
+              "code": "NOR",
+              "placeholder": false,
               "winner": false
             }
           ]
