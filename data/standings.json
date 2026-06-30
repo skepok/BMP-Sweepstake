@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T18:00:06.896Z",
+  "lastUpdated": "2026-06-30T19:00:07.506Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 32",
-      "kickoff": "2026-06-30T17:00:00.000Z",
-      "kickoffUnix": 1782838800000,
-      "status": "1H",
+      "kickoff": "2026-06-30T21:00:00.000Z",
+      "kickoffUnix": 1782853200000,
+      "status": "NS",
       "home": {
-        "code": "CIV",
-        "name": "Ivory Coast",
-        "iso2": "CI"
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR"
       },
       "away": {
-        "code": "NOR",
-        "name": "Norway",
-        "iso2": "NO"
+        "code": "SWE",
+        "name": "Sweden",
+        "iso2": "SE"
       }
     },
     "lastFinished": {
       "round": "Round of 32",
-      "kickoff": "2026-06-30T01:00:00.000Z",
-      "kickoffUnix": 1782781200000,
+      "kickoff": "2026-06-30T17:00:00.000Z",
+      "kickoffUnix": 1782838800000,
       "status": "FT",
       "home": {
-        "code": "NLD",
-        "name": "Netherlands",
-        "iso2": "NL",
-        "goals": 3
+        "code": "CIV",
+        "name": "Ivory Coast",
+        "iso2": "CI",
+        "goals": 1
       },
       "away": {
-        "code": "MOR",
-        "name": "Morocco",
-        "iso2": "MA",
-        "goals": 4
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO",
+        "goals": 2
       }
     }
   },
@@ -580,7 +580,7 @@
           "pot": 1,
           "odds": "25/1",
           "matched": true,
-          "status": "Into the Round of 32",
+          "status": "Won Round of 32 — awaiting next round",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -1045,9 +1045,9 @@
           "pot": 2,
           "odds": "300/1",
           "matched": true,
-          "status": "Into the Round of 32",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 32",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group E",
             "rank": 2,
@@ -3576,15 +3576,15 @@
           {
             "label": null,
             "kickoff": "2026-06-30T17:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "Ivory Coast",
               "code": "CIV",
               "iso2": "CI",
               "player": "Robbie Godowski",
               "placeholder": false,
-              "score": null,
+              "score": 1,
               "winner": false
             },
             "away": {
@@ -3593,8 +3593,8 @@
               "iso2": "NO",
               "player": "Jimena Barillas",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 2,
+              "winner": true
             }
           },
           {
@@ -5879,14 +5879,14 @@
       "date": "2026-06-30T17:00:00.000Z",
       "ts": 1782838800000,
       "round": "Round of 32",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "CIV",
         "name": "Ivory Coast",
         "iso2": "CI",
         "player": "Robbie Godowski",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "away": {
@@ -5894,8 +5894,8 @@
         "name": "Norway",
         "iso2": "NO",
         "player": "Jimena Barillas",
-        "score": 1,
-        "winner": false
+        "score": 2,
+        "winner": true
       }
     },
     {
@@ -7567,7 +7567,8 @@
       "form": [
         "W",
         "W",
-        "L"
+        "L",
+        "W"
       ]
     },
     "UZB": {
@@ -7859,7 +7860,8 @@
       "form": [
         "W",
         "L",
-        "W"
+        "W",
+        "L"
       ]
     },
     "CRO": {
@@ -8069,6 +8071,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 103,
-    "scrapedAt": "2026-06-30T18:00:06.823934+00:00"
+    "scrapedAt": "2026-06-30T19:00:07.415007+00:00"
   }
 }

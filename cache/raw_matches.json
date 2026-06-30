@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-30T18:00:06.823934+00:00",
+  "fetchedAt": "2026-06-30T19:00:07.415007+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -877,23 +877,30 @@
       "id": 12812989,
       "round": "Round of 32",
       "startTimestamp": 1782838800,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Côte d'Ivoire",
-        "score": 0,
-        "winner": null
+        "score": 1,
+        "winner": false
       },
       "away": {
         "name": "Norway",
-        "score": 1,
-        "winner": null
+        "score": 2,
+        "winner": true
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Norway": 1
+      },
+      "fastestGoal": {
+        "minute": 39,
+        "addedTime": null,
+        "scorer": "Antonio Nusa",
+        "team": "Norway"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186773,
@@ -3663,7 +3670,7 @@
               "name": "Norway",
               "code": "NOR",
               "placeholder": false,
-              "winner": false
+              "winner": true
             }
           ]
         },
