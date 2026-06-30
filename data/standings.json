@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T17:30:06.690Z",
+  "lastUpdated": "2026-06-30T18:00:06.896Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -5894,7 +5894,7 @@
         "name": "Norway",
         "iso2": "NO",
         "player": "Jimena Barillas",
-        "score": 0,
+        "score": 1,
         "winner": false
       }
     },
@@ -8069,6 +8069,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 103,
-    "scrapedAt": "2026-06-30T17:30:05.687140+00:00"
+    "scrapedAt": "2026-06-30T18:00:06.823934+00:00"
   }
 }
