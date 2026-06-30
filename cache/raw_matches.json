@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-30T19:30:06.121566+00:00",
+  "fetchedAt": "2026-06-30T21:00:06.632042+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -2312,12 +2312,12 @@
       "status": "notstarted",
       "home": {
         "name": "France",
-        "score": null,
+        "score": 0,
         "winner": null
       },
       "away": {
         "name": "Sweden",
-        "score": null,
+        "score": 0,
         "winner": null
       },
       "redCards": {},

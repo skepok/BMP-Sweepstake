@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T19:30:06.196Z",
+  "lastUpdated": "2026-06-30T21:00:06.720Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -5909,7 +5909,7 @@
         "name": "France",
         "iso2": "FR",
         "player": "Sam King",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -5917,7 +5917,7 @@
         "name": "Sweden",
         "iso2": "SE",
         "player": "Madi Farrow-Dunn",
-        "score": null,
+        "score": 0,
         "winner": false
       }
     },
@@ -8071,6 +8071,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 103,
-    "scrapedAt": "2026-06-30T19:30:06.121566+00:00"
+    "scrapedAt": "2026-06-30T21:00:06.632042+00:00"
   }
 }
