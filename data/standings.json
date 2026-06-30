@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T04:30:06.025Z",
+  "lastUpdated": "2026-06-30T07:30:10.285Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -181,7 +181,7 @@
           },
           "goalsConceded": 3,
           "redCards": 0,
-          "ownGoals": 0
+          "ownGoals": 1
         }
       ]
     },
@@ -2089,6 +2089,13 @@
         "value": 1
       },
       {
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "player": "Ali Taylor",
+        "value": 1
+      },
+      {
         "code": "IRQ",
         "name": "Iraq",
         "iso2": "IQ",
@@ -2240,13 +2247,6 @@
         "name": "Ecuador",
         "iso2": "EC",
         "player": "Frank Dunn",
-        "value": 0
-      },
-      {
-        "code": "EGY",
-        "name": "Egypt",
-        "iso2": "EG",
-        "player": "Ali Taylor",
         "value": 0
       },
       {
@@ -4446,6 +4446,75 @@
         "iso2": "CV",
         "player": "Guy Curry",
         "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-15T19:00:00.000Z",
+      "ts": 1781550000000,
+      "round": "Group G",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE",
+        "player": "Fred Dunn",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "player": "Ali Taylor",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-15T22:00:00.000Z",
+      "ts": 1781560800000,
+      "round": "Group H",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "iso2": "SA",
+        "player": "Flora Curry",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "URY",
+        "name": "Uruguay",
+        "iso2": "UY",
+        "player": "Tom Gibbons",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-16T01:00:00.000Z",
+      "ts": 1781571600000,
+      "round": "Group G",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "IRN",
+        "name": "Iran",
+        "iso2": "IR",
+        "player": "Jess Forshaw",
+        "score": 2,
+        "winner": false
+      },
+      "away": {
+        "code": "NZL",
+        "name": "New Zealand",
+        "iso2": "NZ",
+        "player": "Madi Farrow-Dunn",
+        "score": 2,
         "winner": false
       }
     },
@@ -7025,20 +7094,20 @@
         "score": 25
       },
       {
+        "player": "Fred Dunn",
+        "conceded": 11,
+        "losses": 2,
+        "yellows": 10,
+        "reds": 1,
+        "score": 25
+      },
+      {
         "player": "Joe Clayton",
         "conceded": 11,
         "losses": 4,
         "yellows": 9,
         "reds": 0,
         "score": 24
-      },
-      {
-        "player": "Fred Dunn",
-        "conceded": 11,
-        "losses": 2,
-        "yellows": 8,
-        "reds": 1,
-        "score": 23
       },
       {
         "player": "Paul Mitchell",
@@ -7049,20 +7118,20 @@
         "score": 22
       },
       {
+        "player": "Flora Curry",
+        "conceded": 9,
+        "losses": 2,
+        "yellows": 11,
+        "reds": 0,
+        "score": 22
+      },
+      {
         "player": "Robin Parish",
         "conceded": 9,
         "losses": 2,
         "yellows": 9,
         "reds": 1,
         "score": 22
-      },
-      {
-        "player": "Flora Curry",
-        "conceded": 9,
-        "losses": 2,
-        "yellows": 10,
-        "reds": 0,
-        "score": 21
       },
       {
         "player": "Tom Clayton",
@@ -7113,6 +7182,14 @@
         "score": 16
       },
       {
+        "player": "Jess Forshaw",
+        "conceded": 7,
+        "losses": 1,
+        "yellows": 7,
+        "reds": 0,
+        "score": 15
+      },
+      {
         "player": "Elizabeth Swords",
         "conceded": 6,
         "losses": 2,
@@ -7129,12 +7206,12 @@
         "score": 15
       },
       {
-        "player": "Jess Forshaw",
-        "conceded": 7,
-        "losses": 1,
-        "yellows": 6,
+        "player": "Ali Taylor",
+        "conceded": 6,
+        "losses": 0,
+        "yellows": 7,
         "reds": 0,
-        "score": 14
+        "score": 13
       },
       {
         "player": "Nick Foulkes",
@@ -7143,14 +7220,6 @@
         "yellows": 6,
         "reds": 0,
         "score": 13
-      },
-      {
-        "player": "Ali Taylor",
-        "conceded": 6,
-        "losses": 0,
-        "yellows": 5,
-        "reds": 0,
-        "score": 11
       },
       {
         "player": "Guy Curry",
@@ -7259,9 +7328,10 @@
       "l": 0,
       "gf": 5,
       "ga": 3,
-      "yellows": 4,
+      "yellows": 6,
       "reds": 0,
       "form": [
+        "D",
         "W",
         "D"
       ]
@@ -7361,9 +7431,10 @@
       "l": 1,
       "gf": 1,
       "ga": 5,
-      "yellows": 5,
+      "yellows": 6,
       "reds": 0,
       "form": [
+        "D",
         "L",
         "D"
       ]
@@ -7411,9 +7482,10 @@
       "l": 0,
       "gf": 6,
       "ga": 2,
-      "yellows": 1,
+      "yellows": 3,
       "reds": 1,
       "form": [
+        "D",
         "D",
         "W"
       ]
@@ -7496,9 +7568,10 @@
       "l": 0,
       "gf": 3,
       "ga": 3,
-      "yellows": 5,
+      "yellows": 6,
       "reds": 0,
       "form": [
+        "D",
         "D",
         "D"
       ]
@@ -7635,6 +7708,7 @@
       "yellows": 4,
       "reds": 0,
       "form": [
+        "D",
         "L",
         "L"
       ]
@@ -7995,6 +8069,7 @@
       "reds": 1,
       "form": [
         "D",
+        "D",
         "L"
       ]
     },
@@ -8018,7 +8093,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 101,
-    "scrapedAt": "2026-06-30T04:30:05.940370+00:00"
+    "matches": 104,
+    "scrapedAt": "2026-06-30T07:30:10.200387+00:00"
   }
 }

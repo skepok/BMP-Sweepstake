@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-30T04:30:05.940370+00:00",
+  "fetchedAt": "2026-06-30T07:30:10.200387+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -2205,6 +2205,101 @@
         "Cabo Verde": 1
       },
       "fastestGoal": null,
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186837,
+      "round": "Group Stage",
+      "startTimestamp": 1781550000,
+      "status": "finished",
+      "home": {
+        "name": "Belgium",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Egypt",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Egypt": 1
+      },
+      "yellowCards": {
+        "Belgium": 2,
+        "Egypt": 2
+      },
+      "fastestGoal": {
+        "minute": 20,
+        "addedTime": null,
+        "scorer": "Emam Ashour",
+        "team": "Egypt"
+      },
+      "fastestOwnGoal": {
+        "minute": 66,
+        "addedTime": null,
+        "scorer": "Mohamed Hany",
+        "team": "Egypt"
+      },
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186811,
+      "round": "Group Stage",
+      "startTimestamp": 1781560800,
+      "status": "finished",
+      "home": {
+        "name": "Saudi Arabia",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Uruguay",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Saudi Arabia": 1
+      },
+      "fastestGoal": {
+        "minute": 41,
+        "addedTime": null,
+        "scorer": "Abdulelah Al-Amri",
+        "team": "Saudi Arabia"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186832,
+      "round": "Group Stage",
+      "startTimestamp": 1781571600,
+      "status": "finished",
+      "home": {
+        "name": "Iran",
+        "score": 2,
+        "winner": false
+      },
+      "away": {
+        "name": "New Zealand",
+        "score": 2,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Iran": 1
+      },
+      "fastestGoal": {
+        "minute": 7,
+        "addedTime": null,
+        "scorer": "Elijah Just",
+        "team": "New Zealand"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
