@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T21:30:06.075Z",
+  "lastUpdated": "2026-06-30T22:00:06.154Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -5886,7 +5886,7 @@
         "name": "France",
         "iso2": "FR",
         "player": "Sam King",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "away": {
@@ -8046,6 +8046,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-06-30T21:30:05.983911+00:00"
+    "scrapedAt": "2026-06-30T22:00:06.054505+00:00"
   }
 }
