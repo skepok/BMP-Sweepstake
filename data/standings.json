@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T01:00:05.634Z",
+  "lastUpdated": "2026-06-30T01:30:06.528Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Round of 32",
       "kickoff": "2026-06-30T01:00:00.000Z",
       "kickoffUnix": 1782781200000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "NLD",
         "name": "Netherlands",
@@ -3432,7 +3432,7 @@
           {
             "label": null,
             "kickoff": "2026-06-30T01:00:00.000Z",
-            "status": "NS",
+            "status": "1H",
             "finished": false,
             "home": {
               "name": "Netherlands",
@@ -4446,29 +4446,6 @@
         "iso2": "CV",
         "player": "Guy Curry",
         "score": 0,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-16T01:00:00.000Z",
-      "ts": 1781571600000,
-      "round": "Group G",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "IRN",
-        "name": "Iran",
-        "iso2": "IR",
-        "player": "Jess Forshaw",
-        "score": 2,
-        "winner": false
-      },
-      "away": {
-        "code": "NZL",
-        "name": "New Zealand",
-        "iso2": "NZ",
-        "player": "Madi Farrow-Dunn",
-        "score": 2,
         "winner": false
       }
     },
@@ -5833,7 +5810,7 @@
       "date": "2026-06-30T01:00:00.000Z",
       "ts": 1782781200000,
       "round": "Round of 32",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "NLD",
@@ -7136,14 +7113,6 @@
         "score": 16
       },
       {
-        "player": "Jess Forshaw",
-        "conceded": 7,
-        "losses": 1,
-        "yellows": 7,
-        "reds": 0,
-        "score": 15
-      },
-      {
         "player": "Elizabeth Swords",
         "conceded": 6,
         "losses": 2,
@@ -7158,6 +7127,14 @@
         "yellows": 7,
         "reds": 2,
         "score": 15
+      },
+      {
+        "player": "Jess Forshaw",
+        "conceded": 7,
+        "losses": 1,
+        "yellows": 6,
+        "reds": 0,
+        "score": 14
       },
       {
         "player": "Nick Foulkes",
@@ -7517,10 +7494,9 @@
       "l": 0,
       "gf": 3,
       "ga": 3,
-      "yellows": 6,
+      "yellows": 5,
       "reds": 0,
       "form": [
-        "D",
         "D",
         "D"
       ]
@@ -7657,7 +7633,6 @@
       "yellows": 4,
       "reds": 0,
       "form": [
-        "D",
         "L",
         "L"
       ]
@@ -8041,7 +8016,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 102,
-    "scrapedAt": "2026-06-30T01:00:05.549317+00:00"
+    "matches": 101,
+    "scrapedAt": "2026-06-30T01:30:06.445494+00:00"
   }
 }
