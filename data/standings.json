@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T22:30:06.664Z",
+  "lastUpdated": "2026-06-30T23:00:07.423Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 32",
-      "kickoff": "2026-06-30T21:00:00.000Z",
-      "kickoffUnix": 1782853200000,
-      "status": "1H",
+      "kickoff": "2026-07-01T01:00:00.000Z",
+      "kickoffUnix": 1782867600000,
+      "status": "NS",
       "home": {
-        "code": "FRA",
-        "name": "France",
-        "iso2": "FR"
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX"
       },
       "away": {
-        "code": "SWE",
-        "name": "Sweden",
-        "iso2": "SE"
+        "code": "ECU",
+        "name": "Ecuador",
+        "iso2": "EC"
       }
     },
     "lastFinished": {
       "round": "Round of 32",
-      "kickoff": "2026-06-30T17:00:00.000Z",
-      "kickoffUnix": 1782838800000,
+      "kickoff": "2026-06-30T21:00:00.000Z",
+      "kickoffUnix": 1782853200000,
       "status": "FT",
       "home": {
-        "code": "CIV",
-        "name": "Ivory Coast",
-        "iso2": "CI",
-        "goals": 1
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR",
+        "goals": 3
       },
       "away": {
-        "code": "NOR",
-        "name": "Norway",
-        "iso2": "NO",
-        "goals": 2
+        "code": "SWE",
+        "name": "Sweden",
+        "iso2": "SE",
+        "goals": 0
       }
     }
   },
@@ -745,9 +745,9 @@
           "pot": 1,
           "odds": "125/1",
           "matched": true,
-          "status": "Into the Round of 32",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 32",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group F",
             "rank": 3,
@@ -1130,7 +1130,7 @@
           "pot": 1,
           "odds": "5/1",
           "matched": true,
-          "status": "Into the Round of 32",
+          "status": "Into the Round of 16",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -3384,16 +3384,16 @@
           {
             "label": null,
             "kickoff": "2026-06-30T21:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "France",
               "code": "FRA",
               "iso2": "FR",
               "player": "Sam King",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 3,
+              "winner": true
             },
             "away": {
               "name": "Sweden",
@@ -3401,7 +3401,7 @@
               "iso2": "SE",
               "player": "Madi Farrow-Dunn",
               "placeholder": false,
-              "score": null,
+              "score": 0,
               "winner": false
             }
           },
@@ -5879,15 +5879,15 @@
       "date": "2026-06-30T21:00:00.000Z",
       "ts": 1782853200000,
       "round": "Round of 32",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "FRA",
         "name": "France",
         "iso2": "FR",
         "player": "Sam King",
-        "score": 2,
-        "winner": false
+        "score": 3,
+        "winner": true
       },
       "away": {
         "code": "SWE",
@@ -6166,10 +6166,10 @@
         "winner": false
       },
       "away": {
-        "code": null,
-        "name": "W77",
-        "iso2": null,
-        "player": null,
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR",
+        "player": "Sam King",
         "score": null,
         "winner": false
       }
@@ -7647,7 +7647,8 @@
       "form": [
         "W",
         "L",
-        "D"
+        "D",
+        "L"
       ]
     },
     "NZL": {
@@ -7888,6 +7889,7 @@
       "reds": 0,
       "form": [
         "W",
+        "W",
         "W"
       ]
     },
@@ -8046,6 +8048,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-06-30T22:30:06.576092+00:00"
+    "scrapedAt": "2026-06-30T23:00:07.336608+00:00"
   }
 }

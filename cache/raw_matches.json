@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-30T22:30:06.576092+00:00",
+  "fetchedAt": "2026-06-30T23:00:07.336608+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -876,23 +876,28 @@
       "id": 12812995,
       "round": "Round of 32",
       "startTimestamp": 1782853200,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "France",
-        "score": 2,
-        "winner": null
+        "score": 3,
+        "winner": true
       },
       "away": {
         "name": "Sweden",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
-      "fastestGoal": null,
+      "fastestGoal": {
+        "minute": 45,
+        "addedTime": null,
+        "scorer": "Kylian Mbappé",
+        "team": "France"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186854,
@@ -2544,7 +2549,7 @@
         "winner": null
       },
       "away": {
-        "name": "W77",
+        "name": "France",
         "score": null,
         "winner": null
       },
@@ -3476,7 +3481,7 @@
               "name": "France",
               "code": "FRA",
               "placeholder": false,
-              "winner": false
+              "winner": true
             },
             {
               "name": "Sweden",
