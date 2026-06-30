@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T23:30:06.929Z",
+  "lastUpdated": "2026-06-30T00:00:06.271Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -1100,7 +1100,7 @@
           "pot": 2,
           "odds": "150/1",
           "matched": true,
-          "status": "Won Round of 32 — awaiting next round",
+          "status": "Into the Round of 16",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -3752,11 +3752,11 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Round of 32 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Paraguay",
+              "code": "PAR",
+              "iso2": "PY",
+              "player": "Robin Parish",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
@@ -6158,10 +6158,10 @@
       "status": "NS",
       "finished": false,
       "home": {
-        "code": null,
-        "name": "W74",
-        "iso2": null,
-        "player": null,
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "player": "Robin Parish",
         "score": null,
         "winner": false
       },
@@ -8042,6 +8042,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-06-29T23:30:06.841599+00:00"
+    "scrapedAt": "2026-06-30T00:00:06.196324+00:00"
   }
 }

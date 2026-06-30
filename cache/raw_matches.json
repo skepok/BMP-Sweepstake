@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-29T23:30:06.841599+00:00",
+  "fetchedAt": "2026-06-30T00:00:06.196324+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -2522,7 +2522,7 @@
       "startTimestamp": 1783198800,
       "status": "notstarted",
       "home": {
-        "name": "W74",
+        "name": "Paraguay",
         "score": null,
         "winner": null
       },
@@ -3748,9 +3748,9 @@
           "kickoff": 1783198800,
           "participants": [
             {
-              "name": "W74",
-              "code": "W74",
-              "placeholder": true,
+              "name": "Paraguay",
+              "code": "PAR",
+              "placeholder": false,
               "winner": false
             },
             {
