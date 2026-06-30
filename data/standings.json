@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T23:00:07.423Z",
+  "lastUpdated": "2026-06-30T23:30:06.986Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -3761,11 +3761,11 @@
               "winner": false
             },
             "away": {
-              "name": "Round of 32 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "France",
+              "code": "FRA",
+              "iso2": "FR",
+              "player": "Sam King",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -8048,6 +8048,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-06-30T23:00:07.336608+00:00"
+    "scrapedAt": "2026-06-30T23:30:06.889295+00:00"
   }
 }
