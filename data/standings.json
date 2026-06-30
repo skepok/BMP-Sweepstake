@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T01:30:06.528Z",
+  "lastUpdated": "2026-06-30T03:00:06.137Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -5817,7 +5817,7 @@
         "name": "Netherlands",
         "iso2": "NL",
         "player": "Bob Gibson",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "away": {
@@ -5825,7 +5825,7 @@
         "name": "Morocco",
         "iso2": "MA",
         "player": "Ali Taylor",
-        "score": 0,
+        "score": 1,
         "winner": false
       }
     },
@@ -8017,6 +8017,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 101,
-    "scrapedAt": "2026-06-30T01:30:06.445494+00:00"
+    "scrapedAt": "2026-06-30T03:00:06.049958+00:00"
   }
 }

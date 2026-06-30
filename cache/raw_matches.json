@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-30T01:30:06.445494+00:00",
+  "fetchedAt": "2026-06-30T03:00:06.049958+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -881,12 +881,12 @@
       "status": "inprogress",
       "home": {
         "name": "Netherlands",
-        "score": 0,
+        "score": 1,
         "winner": null
       },
       "away": {
         "name": "Morocco",
-        "score": 0,
+        "score": 1,
         "winner": null
       },
       "redCards": {},
