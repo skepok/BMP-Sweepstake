@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T07:30:10.285Z",
+  "lastUpdated": "2026-06-30T17:30:06.690Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Round of 32",
       "kickoff": "2026-06-30T17:00:00.000Z",
       "kickoffUnix": 1782838800000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "CIV",
         "name": "Ivory Coast",
@@ -3576,7 +3576,7 @@
           {
             "label": null,
             "kickoff": "2026-06-30T17:00:00.000Z",
-            "status": "NS",
+            "status": "1H",
             "finished": false,
             "home": {
               "name": "Ivory Coast",
@@ -4515,29 +4515,6 @@
         "iso2": "NZ",
         "player": "Madi Farrow-Dunn",
         "score": 2,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-16T19:00:00.000Z",
-      "ts": 1781636400000,
-      "round": "Group I",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "FRA",
-        "name": "France",
-        "iso2": "FR",
-        "player": "Sam King",
-        "score": 3,
-        "winner": true
-      },
-      "away": {
-        "code": "SEN",
-        "name": "Senegal",
-        "iso2": "SN",
-        "player": "Sam Lowerson",
-        "score": 1,
         "winner": false
       }
     },
@@ -5902,14 +5879,14 @@
       "date": "2026-06-30T17:00:00.000Z",
       "ts": 1782838800000,
       "round": "Round of 32",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "CIV",
         "name": "Ivory Coast",
         "iso2": "CI",
         "player": "Robbie Godowski",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -5917,7 +5894,7 @@
         "name": "Norway",
         "iso2": "NO",
         "player": "Jimena Barillas",
-        "score": null,
+        "score": 0,
         "winner": false
       }
     },
@@ -7933,7 +7910,6 @@
       "reds": 0,
       "form": [
         "W",
-        "W",
         "W"
       ]
     },
@@ -7966,7 +7942,6 @@
       "yellows": 2,
       "reds": 0,
       "form": [
-        "L",
         "L",
         "W"
       ]
@@ -8093,7 +8068,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 104,
-    "scrapedAt": "2026-06-30T07:30:10.200387+00:00"
+    "matches": 103,
+    "scrapedAt": "2026-06-30T17:30:05.687140+00:00"
   }
 }
