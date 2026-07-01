@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T20:00:07.343Z",
+  "lastUpdated": "2026-07-01T20:30:06.098Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Round of 32",
       "kickoff": "2026-07-01T20:00:00.000Z",
       "kickoffUnix": 1782936000000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "BEL",
         "name": "Belgium",
@@ -3528,7 +3528,7 @@
           {
             "label": null,
             "kickoff": "2026-07-01T20:00:00.000Z",
-            "status": "NS",
+            "status": "1H",
             "finished": false,
             "home": {
               "name": "Belgium",
@@ -4565,29 +4565,6 @@
       }
     },
     {
-      "date": "2026-06-17T17:00:00.000Z",
-      "ts": 1781715600000,
-      "round": "Group K",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "POR",
-        "name": "Portugal",
-        "iso2": "PT",
-        "player": "Guy Curry",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "code": "DRC",
-        "name": "DR Congo",
-        "iso2": "CD",
-        "player": "Nick Foulkes",
-        "score": 1,
-        "winner": false
-      }
-    },
-    {
       "date": "2026-06-17T20:00:00.000Z",
       "ts": 1781726400000,
       "round": "Group L",
@@ -5261,29 +5238,6 @@
       "status": "FT",
       "finished": true,
       "home": {
-        "code": "MOR",
-        "name": "Morocco",
-        "iso2": "MA",
-        "player": "Ali Taylor",
-        "score": 4,
-        "winner": true
-      },
-      "away": {
-        "code": "HTI",
-        "name": "Haiti",
-        "iso2": "HT",
-        "player": "Tom Clayton",
-        "score": 2,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-24T22:00:00.000Z",
-      "ts": 1782338400000,
-      "round": "Group C",
-      "status": "FT",
-      "finished": true,
-      "home": {
         "code": "SCO",
         "name": "Scotland",
         "iso2": "GB-SCT",
@@ -5298,6 +5252,29 @@
         "player": "Me Julie",
         "score": 3,
         "winner": true
+      }
+    },
+    {
+      "date": "2026-06-24T22:00:00.000Z",
+      "ts": 1782338400000,
+      "round": "Group C",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "MOR",
+        "name": "Morocco",
+        "iso2": "MA",
+        "player": "Ali Taylor",
+        "score": 4,
+        "winner": true
+      },
+      "away": {
+        "code": "HTI",
+        "name": "Haiti",
+        "iso2": "HT",
+        "player": "Tom Clayton",
+        "score": 2,
+        "winner": false
       }
     },
     {
@@ -5948,7 +5925,7 @@
       "date": "2026-07-01T20:00:00.000Z",
       "ts": 1782936000000,
       "round": "Round of 32",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "BEL",
@@ -5963,7 +5940,7 @@
         "name": "Senegal",
         "iso2": "SN",
         "player": "Sam Lowerson",
-        "score": 0,
+        "score": 1,
         "winner": false
       }
     },
@@ -7171,17 +7148,9 @@
         "player": "Nick Foulkes",
         "conceded": 6,
         "losses": 1,
-        "yellows": 6,
+        "yellows": 5,
         "reds": 0,
-        "score": 13
-      },
-      {
-        "player": "Guy Curry",
-        "conceded": 3,
-        "losses": 0,
-        "yellows": 8,
-        "reds": 0,
-        "score": 11
+        "score": 12
       },
       {
         "player": "Matt Deacock",
@@ -7198,6 +7167,14 @@
         "yellows": 6,
         "reds": 1,
         "score": 11
+      },
+      {
+        "player": "Guy Curry",
+        "conceded": 3,
+        "losses": 0,
+        "yellows": 5,
+        "reds": 0,
+        "score": 8
       }
     ],
     "fastestGoal": {
@@ -7470,10 +7447,9 @@
       "l": 0,
       "gf": 6,
       "ga": 1,
-      "yellows": 4,
+      "yellows": 1,
       "reds": 0,
       "form": [
-        "D",
         "W",
         "D"
       ]
@@ -7764,10 +7740,9 @@
       "l": 1,
       "gf": 4,
       "ga": 3,
-      "yellows": 5,
+      "yellows": 4,
       "reds": 0,
       "form": [
-        "D",
         "L",
         "W",
         "L"
@@ -8051,7 +8026,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 102,
-    "scrapedAt": "2026-07-01T20:00:06.726517+00:00"
+    "matches": 101,
+    "scrapedAt": "2026-07-01T20:30:06.015111+00:00"
   }
 }

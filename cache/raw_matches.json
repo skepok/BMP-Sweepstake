@@ -1,46 +1,10 @@
 {
-  "fetchedAt": "2026-07-01T20:00:06.726517+00:00",
+  "fetchedAt": "2026-07-01T20:30:06.015111+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186864,
-      "round": "Group Stage",
-      "startTimestamp": 1782338400,
-      "status": "finished",
-      "home": {
-        "name": "Morocco",
-        "score": 4,
-        "winner": true
-      },
-      "away": {
-        "name": "Haiti",
-        "score": 2,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {
-        "Morocco": 1
-      },
-      "yellowCards": {
-        "Haiti": 3
-      },
-      "fastestGoal": {
-        "minute": 39,
-        "addedTime": null,
-        "scorer": "Achraf Hakimi",
-        "team": "Morocco"
-      },
-      "fastestOwnGoal": {
-        "minute": 10,
-        "addedTime": null,
-        "scorer": "Yassine Bounou",
-        "team": "Morocco"
-      },
-      "incidentsFetched": true
-    },
     {
       "id": 15186861,
       "round": "Group Stage",
@@ -894,34 +858,26 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186709,
-      "round": "Group Stage",
-      "startTimestamp": 1781715600,
-      "status": "finished",
+      "id": 12813013,
+      "round": "Round of 32",
+      "startTimestamp": 1782936000,
+      "status": "inprogress",
       "home": {
-        "name": "Portugal",
-        "score": 1,
-        "winner": false
+        "name": "Belgium",
+        "score": 0,
+        "winner": null
       },
       "away": {
-        "name": "DR Congo",
+        "name": "Senegal",
         "score": 1,
-        "winner": false
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {
-        "Portugal": 3,
-        "DR Congo": 1
-      },
-      "fastestGoal": {
-        "minute": 6,
-        "addedTime": null,
-        "scorer": "João Neves",
-        "team": "Portugal"
-      },
+      "yellowCards": {},
+      "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
       "id": 15186504,
@@ -1806,6 +1762,42 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186864,
+      "round": "Group Stage",
+      "startTimestamp": 1782338400,
+      "status": "finished",
+      "home": {
+        "name": "Morocco",
+        "score": 4,
+        "winner": true
+      },
+      "away": {
+        "name": "Haiti",
+        "score": 2,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Morocco": 1
+      },
+      "yellowCards": {
+        "Haiti": 3
+      },
+      "fastestGoal": {
+        "minute": 39,
+        "addedTime": null,
+        "scorer": "Achraf Hakimi",
+        "team": "Morocco"
+      },
+      "fastestOwnGoal": {
+        "minute": 10,
+        "addedTime": null,
+        "scorer": "Yassine Bounou",
+        "team": "Morocco"
+      },
+      "incidentsFetched": true
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -2356,28 +2348,6 @@
         "team": "Iraq"
       },
       "incidentsFetched": true
-    },
-    {
-      "id": 12813013,
-      "round": "Round of 32",
-      "startTimestamp": 1782936000,
-      "status": "notstarted",
-      "home": {
-        "name": "Belgium",
-        "score": 0,
-        "winner": null
-      },
-      "away": {
-        "name": "Senegal",
-        "score": 0,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 12812992,
