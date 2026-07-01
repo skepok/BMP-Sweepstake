@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-01T04:00:06.492345+00:00",
+  "fetchedAt": "2026-07-01T04:30:07.855933+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -866,25 +866,32 @@
       "id": 12813001,
       "round": "Round of 32",
       "startTimestamp": 1782871200,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Mexico",
         "score": 2,
-        "winner": null
+        "winner": true
       },
       "away": {
         "name": "Ecuador",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "redCards": {
         "Ecuador": 1
       },
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Ecuador": 3
+      },
+      "fastestGoal": {
+        "minute": 22,
+        "addedTime": null,
+        "scorer": "Julián Quiñones",
+        "team": "Mexico"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186751,
@@ -2563,7 +2570,7 @@
       "startTimestamp": 1783296000,
       "status": "notstarted",
       "home": {
-        "name": "W79",
+        "name": "Mexico",
         "score": null,
         "winner": null
       },
@@ -3627,7 +3634,7 @@
               "name": "Mexico",
               "code": "MEX",
               "placeholder": false,
-              "winner": false
+              "winner": true
             },
             {
               "name": "Ecuador",
@@ -3840,9 +3847,9 @@
           "kickoff": 1783296000,
           "participants": [
             {
-              "name": "W79",
-              "code": "W79",
-              "placeholder": true,
+              "name": "Mexico",
+              "code": "MEX",
+              "placeholder": false,
               "winner": false
             },
             {

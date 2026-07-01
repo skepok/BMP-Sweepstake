@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T03:00:06.554Z",
+  "lastUpdated": "2026-07-01T04:30:07.945Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,35 +39,35 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 32",
-      "kickoff": "2026-07-01T02:00:00.000Z",
-      "kickoffUnix": 1782871200000,
-      "status": "1H",
+      "kickoff": "2026-07-01T16:00:00.000Z",
+      "kickoffUnix": 1782921600000,
+      "status": "NS",
       "home": {
-        "code": "MEX",
-        "name": "Mexico",
-        "iso2": "MX"
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG"
       },
       "away": {
-        "code": "ECU",
-        "name": "Ecuador",
-        "iso2": "EC"
+        "code": "DRC",
+        "name": "DR Congo",
+        "iso2": "CD"
       }
     },
     "lastFinished": {
       "round": "Round of 32",
-      "kickoff": "2026-06-30T21:00:00.000Z",
-      "kickoffUnix": 1782853200000,
+      "kickoff": "2026-07-01T02:00:00.000Z",
+      "kickoffUnix": 1782871200000,
       "status": "FT",
       "home": {
-        "code": "FRA",
-        "name": "France",
-        "iso2": "FR",
-        "goals": 3
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX",
+        "goals": 2
       },
       "away": {
-        "code": "SWE",
-        "name": "Sweden",
-        "iso2": "SE",
+        "code": "ECU",
+        "name": "Ecuador",
+        "iso2": "EC",
         "goals": 0
       }
     }
@@ -360,9 +360,9 @@
           "pot": 1,
           "odds": "100/1",
           "matched": true,
-          "status": "Into the Round of 32",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 32",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group E",
             "rank": 3,
@@ -1020,7 +1020,7 @@
           "pot": 1,
           "odds": "80/1",
           "matched": true,
-          "status": "Into the Round of 32",
+          "status": "Into the Round of 16",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -3600,16 +3600,16 @@
           {
             "label": null,
             "kickoff": "2026-07-01T02:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "Mexico",
               "code": "MEX",
               "iso2": "MX",
               "player": "Robbie Godowski",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 2,
+              "winner": true
             },
             "away": {
               "name": "Ecuador",
@@ -3617,7 +3617,7 @@
               "iso2": "EC",
               "player": "Frank Dunn",
               "placeholder": false,
-              "score": null,
+              "score": 0,
               "winner": false
             }
           },
@@ -3872,11 +3872,11 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Round of 32 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Mexico",
+              "code": "MEX",
+              "iso2": "MX",
+              "player": "Robbie Godowski",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
@@ -5879,15 +5879,15 @@
       "date": "2026-07-01T02:00:00.000Z",
       "ts": 1782871200000,
       "round": "Round of 32",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "MEX",
         "name": "Mexico",
         "iso2": "MX",
         "player": "Robbie Godowski",
         "score": 2,
-        "winner": false
+        "winner": true
       },
       "away": {
         "code": "ECU",
@@ -6181,10 +6181,10 @@
       "status": "NS",
       "finished": false,
       "home": {
-        "code": null,
-        "name": "W79",
-        "iso2": null,
-        "player": null,
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX",
+        "player": "Robbie Godowski",
         "score": null,
         "winner": false
       },
@@ -7383,7 +7383,8 @@
       "form": [
         "L",
         "D",
-        "W"
+        "W",
+        "L"
       ]
     },
     "QAT": {
@@ -7796,6 +7797,7 @@
       "form": [
         "W",
         "W",
+        "W",
         "W"
       ]
     },
@@ -8023,6 +8025,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 101,
-    "scrapedAt": "2026-07-01T03:00:06.471881+00:00"
+    "scrapedAt": "2026-07-01T04:30:07.855933+00:00"
   }
 }
