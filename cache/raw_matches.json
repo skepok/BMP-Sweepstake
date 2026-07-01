@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-01T23:00:09.639345+00:00",
+  "fetchedAt": "2026-07-01T23:30:06.659047+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -3921,9 +3921,9 @@
               "winner": false
             },
             {
-              "name": "W82",
-              "code": "W82",
-              "placeholder": true,
+              "name": "Belgium",
+              "code": "BEL",
+              "placeholder": false,
               "winner": false
             }
           ]
