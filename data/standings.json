@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T18:00:06.775Z",
+  "lastUpdated": "2026-07-01T18:30:07.297Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 32",
-      "kickoff": "2026-07-01T16:00:00.000Z",
-      "kickoffUnix": 1782921600000,
-      "status": "1H",
+      "kickoff": "2026-07-01T20:00:00.000Z",
+      "kickoffUnix": 1782936000000,
+      "status": "NS",
       "home": {
-        "code": "ENG",
-        "name": "England",
-        "iso2": "GB-ENG"
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE"
       },
       "away": {
-        "code": "DRC",
-        "name": "DR Congo",
-        "iso2": "CD"
+        "code": "SEN",
+        "name": "Senegal",
+        "iso2": "SN"
       }
     },
     "lastFinished": {
       "round": "Round of 32",
-      "kickoff": "2026-07-01T02:00:00.000Z",
-      "kickoffUnix": 1782871200000,
+      "kickoff": "2026-07-01T16:00:00.000Z",
+      "kickoffUnix": 1782921600000,
       "status": "FT",
       "home": {
-        "code": "MEX",
-        "name": "Mexico",
-        "iso2": "MX",
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG",
         "goals": 2
       },
       "away": {
-        "code": "ECU",
-        "name": "Ecuador",
-        "iso2": "EC",
-        "goals": 0
+        "code": "DRC",
+        "name": "DR Congo",
+        "iso2": "CD",
+        "goals": 1
       }
     }
   },
@@ -935,9 +935,9 @@
           "pot": 2,
           "odds": "750/1",
           "matched": true,
-          "status": "Into the Round of 32",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 32",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group K",
             "rank": 3,
@@ -1240,7 +1240,7 @@
           "pot": 1,
           "odds": "6/1",
           "matched": true,
-          "status": "Into the Round of 32",
+          "status": "Into the Round of 16",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -3624,16 +3624,16 @@
           {
             "label": null,
             "kickoff": "2026-07-01T16:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "England",
               "code": "ENG",
               "iso2": "GB-ENG",
               "player": "Scott Rosseter",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 2,
+              "winner": true
             },
             "away": {
               "name": "DR Congo",
@@ -3641,7 +3641,7 @@
               "iso2": "CD",
               "player": "Nick Foulkes",
               "placeholder": false,
-              "score": null,
+              "score": 1,
               "winner": false
             }
           },
@@ -3881,11 +3881,11 @@
               "winner": false
             },
             "away": {
-              "name": "Round of 32 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "England",
+              "code": "ENG",
+              "iso2": "GB-ENG",
+              "player": "Scott Rosseter",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -5925,15 +5925,15 @@
       "date": "2026-07-01T16:00:00.000Z",
       "ts": 1782921600000,
       "round": "Round of 32",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "ENG",
         "name": "England",
         "iso2": "GB-ENG",
         "player": "Scott Rosseter",
         "score": 2,
-        "winner": false
+        "winner": true
       },
       "away": {
         "code": "DRC",
@@ -6212,10 +6212,10 @@
         "winner": false
       },
       "away": {
-        "code": null,
-        "name": "W80",
-        "iso2": null,
-        "player": null,
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG",
+        "player": "Scott Rosseter",
         "score": null,
         "winner": false
       }
@@ -7769,7 +7769,8 @@
       "form": [
         "D",
         "L",
-        "W"
+        "W",
+        "L"
       ]
     },
     "AUT": {
@@ -7959,6 +7960,7 @@
       "form": [
         "W",
         "D",
+        "W",
         "W"
       ]
     },
@@ -8050,6 +8052,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-07-01T18:00:06.689390+00:00"
+    "scrapedAt": "2026-07-01T18:30:07.216940+00:00"
   }
 }
