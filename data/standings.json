@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T22:00:05.722Z",
+  "lastUpdated": "2026-07-01T23:00:09.728Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 32",
-      "kickoff": "2026-07-01T20:00:00.000Z",
-      "kickoffUnix": 1782936000000,
-      "status": "1H",
+      "kickoff": "2026-07-02T00:00:00.000Z",
+      "kickoffUnix": 1782950400000,
+      "status": "NS",
       "home": {
-        "code": "BEL",
-        "name": "Belgium",
-        "iso2": "BE"
+        "code": "USA",
+        "name": "USA",
+        "iso2": "US"
       },
       "away": {
-        "code": "SEN",
-        "name": "Senegal",
-        "iso2": "SN"
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA"
       }
     },
     "lastFinished": {
       "round": "Round of 32",
-      "kickoff": "2026-07-01T16:00:00.000Z",
-      "kickoffUnix": 1782921600000,
+      "kickoff": "2026-07-01T20:00:00.000Z",
+      "kickoffUnix": 1782936000000,
       "status": "FT",
       "home": {
-        "code": "ENG",
-        "name": "England",
-        "iso2": "GB-ENG",
-        "goals": 2
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE",
+        "goals": 3
       },
       "away": {
-        "code": "DRC",
-        "name": "DR Congo",
-        "iso2": "CD",
-        "goals": 1
+        "code": "SEN",
+        "name": "Senegal",
+        "iso2": "SN",
+        "goals": 2
       }
     }
   },
@@ -415,7 +415,7 @@
           "pot": 1,
           "odds": "33/1",
           "matched": true,
-          "status": "Into the Round of 32",
+          "status": "Into the Round of 16",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -676,7 +676,7 @@
           },
           "goalsConceded": 8,
           "redCards": 0,
-          "ownGoals": 0
+          "ownGoals": 1
         }
       ]
     },
@@ -1185,9 +1185,9 @@
           "pot": 1,
           "odds": "125/1",
           "matched": true,
-          "status": "Into the Round of 32",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 32",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group I",
             "rank": 3,
@@ -2103,6 +2103,13 @@
         "value": 1
       },
       {
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
+        "value": 1
+      },
+      {
         "code": "MOR",
         "name": "Morocco",
         "iso2": "MA",
@@ -2296,13 +2303,6 @@
         "name": "Japan",
         "iso2": "JP",
         "player": "Nick Foulkes",
-        "value": 0
-      },
-      {
-        "code": "JOR",
-        "name": "Jordan",
-        "iso2": "JO",
-        "player": "Joe Clayton",
         "value": 0
       },
       {
@@ -3528,16 +3528,16 @@
           {
             "label": null,
             "kickoff": "2026-07-01T20:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "Belgium",
               "code": "BEL",
               "iso2": "BE",
               "player": "Fred Dunn",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 3,
+              "winner": true
             },
             "away": {
               "name": "Senegal",
@@ -3545,7 +3545,7 @@
               "iso2": "SN",
               "player": "Sam Lowerson",
               "placeholder": false,
-              "score": null,
+              "score": 2,
               "winner": false
             }
           },
@@ -4562,6 +4562,75 @@
         "player": "Jimena Barillas",
         "score": 4,
         "winner": true
+      }
+    },
+    {
+      "date": "2026-06-17T01:00:00.000Z",
+      "ts": 1781658000000,
+      "round": "Group J",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
+        "player": "Tom Clayton",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "code": "ALG",
+        "name": "Algeria",
+        "iso2": "DZ",
+        "player": "Bob Gibson",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-17T04:00:00.000Z",
+      "ts": 1781668800000,
+      "round": "Group J",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT",
+        "player": "Paul Mitchell",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-17T17:00:00.000Z",
+      "ts": 1781715600000,
+      "round": "Group K",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "POR",
+        "name": "Portugal",
+        "iso2": "PT",
+        "player": "Guy Curry",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "DRC",
+        "name": "DR Congo",
+        "iso2": "CD",
+        "player": "Nick Foulkes",
+        "score": 1,
+        "winner": false
       }
     },
     {
@@ -5925,15 +5994,15 @@
       "date": "2026-07-01T20:00:00.000Z",
       "ts": 1782936000000,
       "round": "Round of 32",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "BEL",
         "name": "Belgium",
         "iso2": "BE",
         "player": "Fred Dunn",
-        "score": 2,
-        "winner": false
+        "score": 3,
+        "winner": true
       },
       "away": {
         "code": "SEN",
@@ -6235,10 +6304,10 @@
         "winner": false
       },
       "away": {
-        "code": null,
-        "name": "W82",
-        "iso2": null,
-        "player": null,
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE",
+        "player": "Fred Dunn",
         "score": null,
         "winner": false
       }
@@ -7041,6 +7110,14 @@
         "score": 24
       },
       {
+        "player": "Paul Mitchell",
+        "conceded": 10,
+        "losses": 3,
+        "yellows": 9,
+        "reds": 0,
+        "score": 22
+      },
+      {
         "player": "Flora Curry",
         "conceded": 9,
         "losses": 2,
@@ -7055,14 +7132,6 @@
         "yellows": 9,
         "reds": 1,
         "score": 22
-      },
-      {
-        "player": "Paul Mitchell",
-        "conceded": 10,
-        "losses": 3,
-        "yellows": 8,
-        "reds": 0,
-        "score": 21
       },
       {
         "player": "Tom Clayton",
@@ -7148,9 +7217,17 @@
         "player": "Nick Foulkes",
         "conceded": 6,
         "losses": 1,
-        "yellows": 5,
+        "yellows": 6,
         "reds": 0,
-        "score": 12
+        "score": 13
+      },
+      {
+        "player": "Guy Curry",
+        "conceded": 3,
+        "losses": 0,
+        "yellows": 8,
+        "reds": 0,
+        "score": 11
       },
       {
         "player": "Matt Deacock",
@@ -7167,14 +7244,6 @@
         "yellows": 6,
         "reds": 1,
         "score": 11
-      },
-      {
-        "player": "Guy Curry",
-        "conceded": 3,
-        "losses": 0,
-        "yellows": 5,
-        "reds": 0,
-        "score": 8
       }
     ],
     "fastestGoal": {
@@ -7297,6 +7366,7 @@
       "yellows": 1,
       "reds": 0,
       "form": [
+        "L",
         "W",
         "D"
       ]
@@ -7418,6 +7488,7 @@
       "form": [
         "D",
         "D",
+        "W",
         "W"
       ]
     },
@@ -7447,9 +7518,10 @@
       "l": 0,
       "gf": 6,
       "ga": 1,
-      "yellows": 1,
+      "yellows": 4,
       "reds": 0,
       "form": [
+        "D",
         "W",
         "D"
       ]
@@ -7571,6 +7643,7 @@
       "yellows": 4,
       "reds": 0,
       "form": [
+        "L",
         "L",
         "L"
       ]
@@ -7740,9 +7813,10 @@
       "l": 1,
       "gf": 4,
       "ga": 3,
-      "yellows": 4,
+      "yellows": 5,
       "reds": 0,
       "form": [
+        "D",
         "L",
         "W",
         "L"
@@ -7757,9 +7831,10 @@
       "l": 1,
       "gf": 6,
       "ga": 6,
-      "yellows": 3,
+      "yellows": 4,
       "reds": 0,
       "form": [
+        "W",
         "L",
         "D"
       ]
@@ -7901,7 +7976,8 @@
       "form": [
         "L",
         "L",
-        "W"
+        "W",
+        "L"
       ]
     },
     "BIH": {
@@ -7969,6 +8045,7 @@
       "reds": 0,
       "form": [
         "W",
+        "W",
         "W"
       ]
     },
@@ -8026,7 +8103,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 101,
-    "scrapedAt": "2026-07-01T22:00:05.635270+00:00"
+    "matches": 104,
+    "scrapedAt": "2026-07-01T23:00:09.639345+00:00"
   }
 }

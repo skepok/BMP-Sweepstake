@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-01T22:00:05.635270+00:00",
+  "fetchedAt": "2026-07-01T23:00:09.639345+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -861,23 +861,31 @@
       "id": 12813013,
       "round": "Round of 32",
       "startTimestamp": 1782936000,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Belgium",
-        "score": 2,
-        "winner": null
+        "score": 3,
+        "winner": true
       },
       "away": {
         "name": "Senegal",
         "score": 2,
-        "winner": null
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Senegal": 1,
+        "Belgium": 2
+      },
+      "fastestGoal": {
+        "minute": 25,
+        "addedTime": null,
+        "scorer": "Habib Diarra",
+        "team": "Senegal"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186504,
@@ -2350,6 +2358,99 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186854,
+      "round": "Group Stage",
+      "startTimestamp": 1781658000,
+      "status": "finished",
+      "home": {
+        "name": "Argentina",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "name": "Algeria",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {},
+      "fastestGoal": {
+        "minute": 17,
+        "addedTime": null,
+        "scorer": "Lionel Messi",
+        "team": "Argentina"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186751,
+      "round": "Group Stage",
+      "startTimestamp": 1781668800,
+      "status": "finished",
+      "home": {
+        "name": "Austria",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "name": "Jordan",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Jordan": 1
+      },
+      "yellowCards": {
+        "Austria": 1
+      },
+      "fastestGoal": {
+        "minute": 21,
+        "addedTime": null,
+        "scorer": "Romano Schmid",
+        "team": "Austria"
+      },
+      "fastestOwnGoal": {
+        "minute": 76,
+        "addedTime": null,
+        "scorer": "Yazan Al-Arab",
+        "team": "Jordan"
+      },
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186709,
+      "round": "Group Stage",
+      "startTimestamp": 1781715600,
+      "status": "finished",
+      "home": {
+        "name": "Portugal",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "DR Congo",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Portugal": 3,
+        "DR Congo": 1
+      },
+      "fastestGoal": {
+        "minute": 6,
+        "addedTime": null,
+        "scorer": "João Neves",
+        "team": "Portugal"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
       "id": 12812992,
       "round": "Round of 32",
       "startTimestamp": 1782950400,
@@ -2624,7 +2725,7 @@
         "winner": null
       },
       "away": {
-        "name": "W82",
+        "name": "Belgium",
         "score": null,
         "winner": null
       },
@@ -3582,7 +3683,7 @@
               "name": "Belgium",
               "code": "BEL",
               "placeholder": false,
-              "winner": false
+              "winner": true
             },
             {
               "name": "Senegal",
