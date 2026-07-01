@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T01:30:06.555Z",
+  "lastUpdated": "2026-07-01T02:30:06.211Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Round of 32",
       "kickoff": "2026-07-01T02:00:00.000Z",
       "kickoffUnix": 1782871200000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "MEX",
         "name": "Mexico",
@@ -3600,7 +3600,7 @@
           {
             "label": null,
             "kickoff": "2026-07-01T02:00:00.000Z",
-            "status": "NS",
+            "status": "1H",
             "finished": false,
             "home": {
               "name": "Mexico",
@@ -4519,29 +4519,6 @@
       }
     },
     {
-      "date": "2026-06-17T01:00:00.000Z",
-      "ts": 1781658000000,
-      "round": "Group J",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "ARG",
-        "name": "Argentina",
-        "iso2": "AR",
-        "player": "Tom Clayton",
-        "score": 3,
-        "winner": true
-      },
-      "away": {
-        "code": "ALG",
-        "name": "Algeria",
-        "iso2": "DZ",
-        "player": "Bob Gibson",
-        "score": 0,
-        "winner": false
-      }
-    },
-    {
       "date": "2026-06-17T04:00:00.000Z",
       "ts": 1781668800000,
       "round": "Group J",
@@ -5215,29 +5192,6 @@
       "status": "FT",
       "finished": true,
       "home": {
-        "code": "BIH",
-        "name": "Bosnia-Herzegovina",
-        "iso2": "BA",
-        "player": "Sam Lowerson",
-        "score": 3,
-        "winner": true
-      },
-      "away": {
-        "code": "QAT",
-        "name": "Qatar",
-        "iso2": "QA",
-        "player": "Frank Dunn",
-        "score": 1,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-24T19:00:00.000Z",
-      "ts": 1782327600000,
-      "round": "Group B",
-      "status": "FT",
-      "finished": true,
-      "home": {
         "code": "SWI",
         "name": "Switzerland",
         "iso2": "CH",
@@ -5250,6 +5204,29 @@
         "name": "Canada",
         "iso2": "CA",
         "player": "Joe Clayton",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-24T19:00:00.000Z",
+      "ts": 1782327600000,
+      "round": "Group B",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "player": "Sam Lowerson",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
         "score": 1,
         "winner": false
       }
@@ -5902,14 +5879,14 @@
       "date": "2026-07-01T02:00:00.000Z",
       "ts": 1782871200000,
       "round": "Round of 32",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "MEX",
         "name": "Mexico",
         "iso2": "MX",
         "player": "Robbie Godowski",
-        "score": null,
+        "score": 1,
         "winner": false
       },
       "away": {
@@ -5917,7 +5894,7 @@
         "name": "Ecuador",
         "iso2": "EC",
         "player": "Frank Dunn",
-        "score": null,
+        "score": 0,
         "winner": false
       }
     },
@@ -7320,7 +7297,6 @@
       "yellows": 1,
       "reds": 0,
       "form": [
-        "L",
         "W",
         "D"
       ]
@@ -7989,7 +7965,6 @@
       "reds": 0,
       "form": [
         "W",
-        "W",
         "W"
       ]
     },
@@ -8047,7 +8022,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 102,
-    "scrapedAt": "2026-07-01T01:30:06.474009+00:00"
+    "matches": 101,
+    "scrapedAt": "2026-07-01T02:30:06.126951+00:00"
   }
 }

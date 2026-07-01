@@ -1,47 +1,10 @@
 {
-  "fetchedAt": "2026-07-01T02:00:05.993829+00:00",
+  "fetchedAt": "2026-07-01T02:30:06.126951+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186829,
-      "round": "Group Stage",
-      "startTimestamp": 1782327600,
-      "status": "finished",
-      "home": {
-        "name": "Bosnia & Herzegovina",
-        "score": 3,
-        "winner": true
-      },
-      "away": {
-        "name": "Qatar",
-        "score": 1,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {
-        "Qatar": 1
-      },
-      "yellowCards": {
-        "Bosnia & Herzegovina": 1,
-        "Qatar": 1
-      },
-      "fastestGoal": {
-        "minute": 29,
-        "addedTime": null,
-        "scorer": "Kerim Alajbegović",
-        "team": "Bosnia & Herzegovina"
-      },
-      "fastestOwnGoal": {
-        "minute": 34,
-        "addedTime": null,
-        "scorer": "Mahmud Abunada",
-        "team": "Qatar"
-      },
-      "incidentsFetched": true
-    },
     {
       "id": 15186821,
       "round": "Group Stage",
@@ -900,31 +863,26 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186854,
-      "round": "Group Stage",
-      "startTimestamp": 1781658000,
-      "status": "finished",
+      "id": 12813001,
+      "round": "Round of 32",
+      "startTimestamp": 1782871200,
+      "status": "inprogress",
       "home": {
-        "name": "Argentina",
-        "score": 3,
-        "winner": true
+        "name": "Mexico",
+        "score": 1,
+        "winner": null
       },
       "away": {
-        "name": "Algeria",
+        "name": "Ecuador",
         "score": 0,
-        "winner": false
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
-      "fastestGoal": {
-        "minute": 17,
-        "addedTime": null,
-        "scorer": "Lionel Messi",
-        "team": "Argentina"
-      },
+      "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
       "id": 15186751,
@@ -1808,6 +1766,43 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186829,
+      "round": "Group Stage",
+      "startTimestamp": 1782327600,
+      "status": "finished",
+      "home": {
+        "name": "Bosnia & Herzegovina",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "name": "Qatar",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Qatar": 1
+      },
+      "yellowCards": {
+        "Bosnia & Herzegovina": 1,
+        "Qatar": 1
+      },
+      "fastestGoal": {
+        "minute": 29,
+        "addedTime": null,
+        "scorer": "Kerim Alajbegović",
+        "team": "Bosnia & Herzegovina"
+      },
+      "fastestOwnGoal": {
+        "minute": 34,
+        "addedTime": null,
+        "scorer": "Mahmud Abunada",
+        "team": "Qatar"
+      },
+      "incidentsFetched": true
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -2295,28 +2290,6 @@
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
-    },
-    {
-      "id": 12813001,
-      "round": "Round of 32",
-      "startTimestamp": 1782871200,
-      "status": "notstarted",
-      "home": {
-        "name": "Mexico",
-        "score": null,
-        "winner": null
-      },
-      "away": {
-        "name": "Ecuador",
-        "score": null,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 12813020,
