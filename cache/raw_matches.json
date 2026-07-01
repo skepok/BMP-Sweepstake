@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-01T04:30:07.855933+00:00",
+  "fetchedAt": "2026-07-01T07:30:07.927107+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -2298,6 +2298,69 @@
         "team": "New Zealand"
       },
       "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186501,
+      "round": "Group Stage",
+      "startTimestamp": 1781636400,
+      "status": "finished",
+      "home": {
+        "name": "France",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "name": "Senegal",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {},
+      "fastestGoal": {
+        "minute": 66,
+        "addedTime": null,
+        "scorer": "Kylian Mbappé",
+        "team": "France"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186773,
+      "round": "Group Stage",
+      "startTimestamp": 1781647200,
+      "status": "finished",
+      "home": {
+        "name": "Iraq",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Norway",
+        "score": 4,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Iraq": 1
+      },
+      "yellowCards": {
+        "Iraq": 1
+      },
+      "fastestGoal": {
+        "minute": 29,
+        "addedTime": null,
+        "scorer": "Erling Haaland",
+        "team": "Norway"
+      },
+      "fastestOwnGoal": {
+        "minute": 90,
+        "addedTime": 6,
+        "scorer": "Aymen Hussein",
+        "team": "Iraq"
+      },
       "incidentsFetched": true
     },
     {

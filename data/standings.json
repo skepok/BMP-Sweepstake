@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T04:30:07.945Z",
+  "lastUpdated": "2026-07-01T07:30:08.014Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -1281,7 +1281,7 @@
           },
           "goalsConceded": 12,
           "redCards": 1,
-          "ownGoals": 0
+          "ownGoals": 1
         }
       ]
     },
@@ -2096,6 +2096,13 @@
         "value": 1
       },
       {
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "player": "Scott Rosseter",
+        "value": 1
+      },
+      {
         "code": "JOR",
         "name": "Jordan",
         "iso2": "JO",
@@ -2282,13 +2289,6 @@
         "name": "Iran",
         "iso2": "IR",
         "player": "Jess Forshaw",
-        "value": 0
-      },
-      {
-        "code": "IRQ",
-        "name": "Iraq",
-        "iso2": "IQ",
-        "player": "Scott Rosseter",
         "value": 0
       },
       {
@@ -4516,6 +4516,52 @@
         "player": "Madi Farrow-Dunn",
         "score": 2,
         "winner": false
+      }
+    },
+    {
+      "date": "2026-06-16T19:00:00.000Z",
+      "ts": 1781636400000,
+      "round": "Group I",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR",
+        "player": "Sam King",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "code": "SEN",
+        "name": "Senegal",
+        "iso2": "SN",
+        "player": "Sam Lowerson",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-16T22:00:00.000Z",
+      "ts": 1781647200000,
+      "round": "Group I",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "player": "Scott Rosseter",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO",
+        "player": "Jimena Barillas",
+        "score": 4,
+        "winner": true
       }
     },
     {
@@ -7009,6 +7055,14 @@
         "score": 27
       },
       {
+        "player": "Scott Rosseter",
+        "conceded": 14,
+        "losses": 3,
+        "yellows": 6,
+        "reds": 1,
+        "score": 25
+      },
+      {
         "player": "Sam Lowerson",
         "conceded": 12,
         "losses": 3,
@@ -7023,14 +7077,6 @@
         "yellows": 10,
         "reds": 1,
         "score": 25
-      },
-      {
-        "player": "Scott Rosseter",
-        "conceded": 14,
-        "losses": 3,
-        "yellows": 5,
-        "reds": 1,
-        "score": 24
       },
       {
         "player": "Joe Clayton",
@@ -7520,6 +7566,7 @@
       "reds": 0,
       "form": [
         "W",
+        "W",
         "L",
         "W"
       ]
@@ -7868,6 +7915,7 @@
       "form": [
         "W",
         "W",
+        "W",
         "W"
       ]
     },
@@ -7900,6 +7948,7 @@
       "yellows": 2,
       "reds": 0,
       "form": [
+        "L",
         "L",
         "W"
       ]
@@ -7947,9 +7996,10 @@
       "l": 3,
       "gf": 1,
       "ga": 12,
-      "yellows": 3,
+      "yellows": 4,
       "reds": 1,
       "form": [
+        "L",
         "L",
         "L"
       ]
@@ -8024,7 +8074,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 101,
-    "scrapedAt": "2026-07-01T04:30:07.855933+00:00"
+    "matches": 103,
+    "scrapedAt": "2026-07-01T07:30:07.927107+00:00"
   }
 }
