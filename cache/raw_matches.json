@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-01T21:30:06.118833+00:00",
+  "fetchedAt": "2026-07-01T22:00:05.635270+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -864,7 +864,7 @@
       "status": "inprogress",
       "home": {
         "name": "Belgium",
-        "score": 0,
+        "score": 2,
         "winner": null
       },
       "away": {

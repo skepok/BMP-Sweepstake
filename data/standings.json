@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T21:30:06.202Z",
+  "lastUpdated": "2026-07-01T22:00:05.722Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -5932,7 +5932,7 @@
         "name": "Belgium",
         "iso2": "BE",
         "player": "Fred Dunn",
-        "score": 0,
+        "score": 2,
         "winner": false
       },
       "away": {
@@ -8027,6 +8027,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 101,
-    "scrapedAt": "2026-07-01T21:30:06.118833+00:00"
+    "scrapedAt": "2026-07-01T22:00:05.635270+00:00"
   }
 }
