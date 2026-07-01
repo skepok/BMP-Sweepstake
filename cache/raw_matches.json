@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-01T18:30:07.216940+00:00",
+  "fetchedAt": "2026-07-01T20:00:06.726517+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -2364,12 +2364,12 @@
       "status": "notstarted",
       "home": {
         "name": "Belgium",
-        "score": null,
+        "score": 0,
         "winner": null
       },
       "away": {
         "name": "Senegal",
-        "score": null,
+        "score": 0,
         "winner": null
       },
       "redCards": {},

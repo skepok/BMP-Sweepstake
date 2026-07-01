@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T18:30:07.297Z",
+  "lastUpdated": "2026-07-01T20:00:07.343Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -5955,7 +5955,7 @@
         "name": "Belgium",
         "iso2": "BE",
         "player": "Fred Dunn",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -5963,7 +5963,7 @@
         "name": "Senegal",
         "iso2": "SN",
         "player": "Sam Lowerson",
-        "score": null,
+        "score": 0,
         "winner": false
       }
     },
@@ -8052,6 +8052,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-07-01T18:30:07.216940+00:00"
+    "scrapedAt": "2026-07-01T20:00:06.726517+00:00"
   }
 }
