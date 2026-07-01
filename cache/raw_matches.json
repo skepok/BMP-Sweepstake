@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-01T03:00:06.471881+00:00",
+  "fetchedAt": "2026-07-01T04:00:06.492345+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -877,7 +877,9 @@
         "score": 0,
         "winner": null
       },
-      "redCards": {},
+      "redCards": {
+        "Ecuador": 1
+      },
       "ownGoals": {},
       "yellowCards": {},
       "fastestGoal": null,
