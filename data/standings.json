@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T20:30:06.098Z",
+  "lastUpdated": "2026-07-01T21:30:06.202Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -5940,7 +5940,7 @@
         "name": "Senegal",
         "iso2": "SN",
         "player": "Sam Lowerson",
-        "score": 1,
+        "score": 2,
         "winner": false
       }
     },
@@ -8027,6 +8027,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 101,
-    "scrapedAt": "2026-07-01T20:30:06.015111+00:00"
+    "scrapedAt": "2026-07-01T21:30:06.118833+00:00"
   }
 }
