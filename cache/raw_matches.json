@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-01T16:30:06.681071+00:00",
+  "fetchedAt": "2026-07-01T18:00:06.689390+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -870,7 +870,7 @@
       "status": "inprogress",
       "home": {
         "name": "England",
-        "score": 0,
+        "score": 2,
         "winner": null
       },
       "away": {

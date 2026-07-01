@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T16:30:06.767Z",
+  "lastUpdated": "2026-07-01T18:00:06.775Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -5932,7 +5932,7 @@
         "name": "England",
         "iso2": "GB-ENG",
         "player": "Scott Rosseter",
-        "score": 0,
+        "score": 2,
         "winner": false
       },
       "away": {
@@ -8050,6 +8050,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-07-01T16:30:06.681071+00:00"
+    "scrapedAt": "2026-07-01T18:00:06.689390+00:00"
   }
 }
