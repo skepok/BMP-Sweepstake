@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-01T02:30:06.126951+00:00",
+  "fetchedAt": "2026-07-01T03:00:06.471881+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -869,7 +869,7 @@
       "status": "inprogress",
       "home": {
         "name": "Mexico",
-        "score": 1,
+        "score": 2,
         "winner": null
       },
       "away": {
