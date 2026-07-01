@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T07:30:08.014Z",
+  "lastUpdated": "2026-07-01T16:30:06.767Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Round of 32",
       "kickoff": "2026-07-01T16:00:00.000Z",
       "kickoffUnix": 1782921600000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "ENG",
         "name": "England",
@@ -676,7 +676,7 @@
           },
           "goalsConceded": 8,
           "redCards": 0,
-          "ownGoals": 1
+          "ownGoals": 0
         }
       ]
     },
@@ -2103,13 +2103,6 @@
         "value": 1
       },
       {
-        "code": "JOR",
-        "name": "Jordan",
-        "iso2": "JO",
-        "player": "Joe Clayton",
-        "value": 1
-      },
-      {
         "code": "MOR",
         "name": "Morocco",
         "iso2": "MA",
@@ -2303,6 +2296,13 @@
         "name": "Japan",
         "iso2": "JP",
         "player": "Nick Foulkes",
+        "value": 0
+      },
+      {
+        "code": "JOR",
+        "name": "Jordan",
+        "iso2": "JO",
+        "player": "Joe Clayton",
         "value": 0
       },
       {
@@ -3624,7 +3624,7 @@
           {
             "label": null,
             "kickoff": "2026-07-01T16:00:00.000Z",
-            "status": "NS",
+            "status": "1H",
             "finished": false,
             "home": {
               "name": "England",
@@ -4565,29 +4565,6 @@
       }
     },
     {
-      "date": "2026-06-17T04:00:00.000Z",
-      "ts": 1781668800000,
-      "round": "Group J",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "AUT",
-        "name": "Austria",
-        "iso2": "AT",
-        "player": "Paul Mitchell",
-        "score": 3,
-        "winner": true
-      },
-      "away": {
-        "code": "JOR",
-        "name": "Jordan",
-        "iso2": "JO",
-        "player": "Joe Clayton",
-        "score": 1,
-        "winner": false
-      }
-    },
-    {
       "date": "2026-06-17T17:00:00.000Z",
       "ts": 1781715600000,
       "round": "Group K",
@@ -5238,29 +5215,6 @@
       "status": "FT",
       "finished": true,
       "home": {
-        "code": "SWI",
-        "name": "Switzerland",
-        "iso2": "CH",
-        "player": "Elizabeth Swords",
-        "score": 2,
-        "winner": true
-      },
-      "away": {
-        "code": "CAN",
-        "name": "Canada",
-        "iso2": "CA",
-        "player": "Joe Clayton",
-        "score": 1,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-24T19:00:00.000Z",
-      "ts": 1782327600000,
-      "round": "Group B",
-      "status": "FT",
-      "finished": true,
-      "home": {
         "code": "BIH",
         "name": "Bosnia-Herzegovina",
         "iso2": "BA",
@@ -5273,6 +5227,29 @@
         "name": "Qatar",
         "iso2": "QA",
         "player": "Frank Dunn",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-24T19:00:00.000Z",
+      "ts": 1782327600000,
+      "round": "Group B",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH",
+        "player": "Elizabeth Swords",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "code": "CAN",
+        "name": "Canada",
+        "iso2": "CA",
+        "player": "Joe Clayton",
         "score": 1,
         "winner": false
       }
@@ -5948,14 +5925,14 @@
       "date": "2026-07-01T16:00:00.000Z",
       "ts": 1782921600000,
       "round": "Round of 32",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "ENG",
         "name": "England",
         "iso2": "GB-ENG",
         "player": "Scott Rosseter",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -5963,7 +5940,7 @@
         "name": "DR Congo",
         "iso2": "CD",
         "player": "Nick Foulkes",
-        "score": null,
+        "score": 1,
         "winner": false
       }
     },
@@ -7087,14 +7064,6 @@
         "score": 24
       },
       {
-        "player": "Paul Mitchell",
-        "conceded": 10,
-        "losses": 3,
-        "yellows": 9,
-        "reds": 0,
-        "score": 22
-      },
-      {
         "player": "Flora Curry",
         "conceded": 9,
         "losses": 2,
@@ -7109,6 +7078,14 @@
         "yellows": 9,
         "reds": 1,
         "score": 22
+      },
+      {
+        "player": "Paul Mitchell",
+        "conceded": 10,
+        "losses": 3,
+        "yellows": 8,
+        "reds": 0,
+        "score": 21
       },
       {
         "player": "Tom Clayton",
@@ -7619,7 +7596,6 @@
       "reds": 0,
       "form": [
         "L",
-        "L",
         "L"
       ]
     },
@@ -7805,10 +7781,9 @@
       "l": 1,
       "gf": 6,
       "ga": 6,
-      "yellows": 4,
+      "yellows": 3,
       "reds": 0,
       "form": [
-        "W",
         "L",
         "D"
       ]
@@ -8074,7 +8049,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 103,
-    "scrapedAt": "2026-07-01T07:30:07.927107+00:00"
+    "matches": 102,
+    "scrapedAt": "2026-07-01T16:30:06.681071+00:00"
   }
 }

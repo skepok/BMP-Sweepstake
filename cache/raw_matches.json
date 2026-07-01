@@ -1,40 +1,10 @@
 {
-  "fetchedAt": "2026-07-01T07:30:07.927107+00:00",
+  "fetchedAt": "2026-07-01T16:30:06.681071+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186821,
-      "round": "Group Stage",
-      "startTimestamp": 1782327600,
-      "status": "finished",
-      "home": {
-        "name": "Switzerland",
-        "score": 2,
-        "winner": true
-      },
-      "away": {
-        "name": "Canada",
-        "score": 1,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "Canada": 2,
-        "Switzerland": 1
-      },
-      "fastestGoal": {
-        "minute": 46,
-        "addedTime": null,
-        "scorer": "Rubén Vargas",
-        "team": "Switzerland"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186864,
       "round": "Group Stage",
@@ -894,40 +864,26 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186751,
-      "round": "Group Stage",
-      "startTimestamp": 1781668800,
-      "status": "finished",
+      "id": 12813020,
+      "round": "Round of 32",
+      "startTimestamp": 1782921600,
+      "status": "inprogress",
       "home": {
-        "name": "Austria",
-        "score": 3,
-        "winner": true
+        "name": "England",
+        "score": 0,
+        "winner": null
       },
       "away": {
-        "name": "Jordan",
+        "name": "DR Congo",
         "score": 1,
-        "winner": false
+        "winner": null
       },
       "redCards": {},
-      "ownGoals": {
-        "Jordan": 1
-      },
-      "yellowCards": {
-        "Austria": 1
-      },
-      "fastestGoal": {
-        "minute": 21,
-        "addedTime": null,
-        "scorer": "Romano Schmid",
-        "team": "Austria"
-      },
-      "fastestOwnGoal": {
-        "minute": 76,
-        "addedTime": null,
-        "scorer": "Yazan Al-Arab",
-        "team": "Jordan"
-      },
-      "incidentsFetched": true
+      "ownGoals": {},
+      "yellowCards": {},
+      "fastestGoal": null,
+      "fastestOwnGoal": null,
+      "incidentsFetched": false
     },
     {
       "id": 15186709,
@@ -1812,6 +1768,36 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186821,
+      "round": "Group Stage",
+      "startTimestamp": 1782327600,
+      "status": "finished",
+      "home": {
+        "name": "Switzerland",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "name": "Canada",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Canada": 2,
+        "Switzerland": 1
+      },
+      "fastestGoal": {
+        "minute": 46,
+        "addedTime": null,
+        "scorer": "Rubén Vargas",
+        "team": "Switzerland"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -2362,28 +2348,6 @@
         "team": "Iraq"
       },
       "incidentsFetched": true
-    },
-    {
-      "id": 12813020,
-      "round": "Round of 32",
-      "startTimestamp": 1782921600,
-      "status": "notstarted",
-      "home": {
-        "name": "England",
-        "score": null,
-        "winner": null
-      },
-      "away": {
-        "name": "DR Congo",
-        "score": null,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 12813013,
