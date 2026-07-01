@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-01T00:30:06.544682+00:00",
+  "fetchedAt": "2026-07-01T01:30:06.474009+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -2299,7 +2299,7 @@
     {
       "id": 12813001,
       "round": "Round of 32",
-      "startTimestamp": 1782867600,
+      "startTimestamp": 1782871200,
       "status": "delayed",
       "home": {
         "name": "Mexico",
@@ -3646,7 +3646,7 @@
         {
           "order": 11,
           "eventId": 12813001,
-          "kickoff": 1782867600,
+          "kickoff": 1782871200,
           "participants": [
             {
               "name": "Mexico",
