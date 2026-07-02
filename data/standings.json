@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T01:00:06.605Z",
+  "lastUpdated": "2026-07-02T02:00:06.216Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -6001,7 +6001,7 @@
         "name": "USA",
         "iso2": "US",
         "player": "Flora Curry",
-        "score": 1,
+        "score": 2,
         "winner": false
       },
       "away": {
@@ -8079,6 +8079,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 103,
-    "scrapedAt": "2026-07-02T01:00:06.518350+00:00"
+    "scrapedAt": "2026-07-02T02:00:06.142205+00:00"
   }
 }

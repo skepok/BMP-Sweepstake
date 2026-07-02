@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-02T01:00:06.518350+00:00",
+  "fetchedAt": "2026-07-02T02:00:06.142205+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -864,7 +864,7 @@
       "status": "inprogress",
       "home": {
         "name": "USA",
-        "score": 1,
+        "score": 2,
         "winner": null
       },
       "away": {
@@ -872,7 +872,9 @@
         "score": 0,
         "winner": null
       },
-      "redCards": {},
+      "redCards": {
+        "USA": 1
+      },
       "ownGoals": {},
       "yellowCards": {},
       "fastestGoal": null,
