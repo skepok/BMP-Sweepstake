@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-02T02:00:06.142205+00:00",
+  "fetchedAt": "2026-07-02T02:30:07.687065+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -861,25 +861,32 @@
       "id": 12812992,
       "round": "Round of 32",
       "startTimestamp": 1782950400,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "USA",
         "score": 2,
-        "winner": null
+        "winner": true
       },
       "away": {
         "name": "Bosnia & Herzegovina",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "redCards": {
         "USA": 1
       },
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Bosnia & Herzegovina": 2
+      },
+      "fastestGoal": {
+        "minute": 45,
+        "addedTime": null,
+        "scorer": "Folarin Balogun",
+        "team": "USA"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186687,
@@ -2695,7 +2702,7 @@
       "startTimestamp": 1783382400,
       "status": "notstarted",
       "home": {
-        "name": "W81",
+        "name": "USA",
         "score": null,
         "winner": null
       },
@@ -3639,7 +3646,7 @@
               "name": "USA",
               "code": "USA",
               "placeholder": false,
-              "winner": false
+              "winner": true
             },
             {
               "name": "Bosnia & Herzegovina",
@@ -3890,9 +3897,9 @@
           "kickoff": 1783382400,
           "participants": [
             {
-              "name": "W81",
-              "code": "W81",
-              "placeholder": true,
+              "name": "USA",
+              "code": "USA",
+              "placeholder": false,
               "winner": false
             },
             {

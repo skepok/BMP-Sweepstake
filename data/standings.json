@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T02:00:06.216Z",
+  "lastUpdated": "2026-07-02T02:30:08.289Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 32",
-      "kickoff": "2026-07-02T00:00:00.000Z",
-      "kickoffUnix": 1782950400000,
-      "status": "1H",
+      "kickoff": "2026-07-02T19:00:00.000Z",
+      "kickoffUnix": 1783018800000,
+      "status": "NS",
       "home": {
-        "code": "USA",
-        "name": "USA",
-        "iso2": "US"
+        "code": "ESP",
+        "name": "Spain",
+        "iso2": "ES"
       },
       "away": {
-        "code": "BIH",
-        "name": "Bosnia-Herzegovina",
-        "iso2": "BA"
+        "code": "AUT",
+        "name": "Austria",
+        "iso2": "AT"
       }
     },
     "lastFinished": {
       "round": "Round of 32",
-      "kickoff": "2026-07-01T20:00:00.000Z",
-      "kickoffUnix": 1782936000000,
+      "kickoff": "2026-07-02T00:00:00.000Z",
+      "kickoffUnix": 1782950400000,
       "status": "FT",
       "home": {
-        "code": "BEL",
-        "name": "Belgium",
-        "iso2": "BE",
-        "goals": 3
+        "code": "USA",
+        "name": "USA",
+        "iso2": "US",
+        "goals": 2
       },
       "away": {
-        "code": "SEN",
-        "name": "Senegal",
-        "iso2": "SN",
-        "goals": 2
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "goals": 0
       }
     }
   },
@@ -305,7 +305,7 @@
           "pot": 1,
           "odds": "66/1",
           "matched": true,
-          "status": "Into the Round of 32",
+          "status": "Into the Round of 16",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -1210,9 +1210,9 @@
           "pot": 2,
           "odds": "250/1",
           "matched": true,
-          "status": "Into the Round of 32",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 32",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group B",
             "rank": 3,
@@ -3504,16 +3504,16 @@
           {
             "label": null,
             "kickoff": "2026-07-02T00:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "USA",
               "code": "USA",
               "iso2": "US",
               "player": "Flora Curry",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 2,
+              "winner": true
             },
             "away": {
               "name": "Bosnia-Herzegovina",
@@ -3521,7 +3521,7 @@
               "iso2": "BA",
               "player": "Sam Lowerson",
               "placeholder": false,
-              "score": null,
+              "score": 0,
               "winner": false
             }
           },
@@ -3824,11 +3824,11 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Round of 32 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "USA",
+              "code": "USA",
+              "iso2": "US",
+              "player": "Flora Curry",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
@@ -5994,15 +5994,15 @@
       "date": "2026-07-02T00:00:00.000Z",
       "ts": 1782950400000,
       "round": "Round of 32",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "USA",
         "name": "USA",
         "iso2": "US",
         "player": "Flora Curry",
         "score": 2,
-        "winner": false
+        "winner": true
       },
       "away": {
         "code": "BIH",
@@ -6273,10 +6273,10 @@
       "status": "NS",
       "finished": false,
       "home": {
-        "code": null,
-        "name": "W81",
-        "iso2": null,
-        "player": null,
+        "code": "USA",
+        "name": "USA",
+        "iso2": "US",
+        "player": "Flora Curry",
         "score": null,
         "winner": false
       },
@@ -7396,7 +7396,8 @@
       "form": [
         "W",
         "W",
-        "L"
+        "L",
+        "W"
       ]
     },
     "KSA": {
@@ -7970,7 +7971,8 @@
       "form": [
         "D",
         "L",
-        "W"
+        "W",
+        "L"
       ]
     },
     "ENG": {
@@ -8079,6 +8081,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 103,
-    "scrapedAt": "2026-07-02T02:00:06.142205+00:00"
+    "scrapedAt": "2026-07-02T02:30:07.687065+00:00"
   }
 }
