@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T23:30:06.749Z",
+  "lastUpdated": "2026-07-02T00:30:06.999Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Round of 32",
       "kickoff": "2026-07-02T00:00:00.000Z",
       "kickoffUnix": 1782950400000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "USA",
         "name": "USA",
@@ -3504,7 +3504,7 @@
           {
             "label": null,
             "kickoff": "2026-07-02T00:00:00.000Z",
-            "status": "NS",
+            "status": "1H",
             "finished": false,
             "home": {
               "name": "USA",
@@ -4634,29 +4634,6 @@
       }
     },
     {
-      "date": "2026-06-17T20:00:00.000Z",
-      "ts": 1781726400000,
-      "round": "Group L",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "ENG",
-        "name": "England",
-        "iso2": "GB-ENG",
-        "player": "Scott Rosseter",
-        "score": 4,
-        "winner": true
-      },
-      "away": {
-        "code": "CRO",
-        "name": "Croatia",
-        "iso2": "HR",
-        "player": "Robin Parish",
-        "score": 2,
-        "winner": false
-      }
-    },
-    {
       "date": "2026-06-17T23:00:00.000Z",
       "ts": 1781737200000,
       "round": "Group L",
@@ -5307,29 +5284,6 @@
       "status": "FT",
       "finished": true,
       "home": {
-        "code": "SCO",
-        "name": "Scotland",
-        "iso2": "GB-SCT",
-        "player": "Paul Mitchell",
-        "score": 0,
-        "winner": false
-      },
-      "away": {
-        "code": "BRA",
-        "name": "Brazil",
-        "iso2": "BR",
-        "player": "Me Julie",
-        "score": 3,
-        "winner": true
-      }
-    },
-    {
-      "date": "2026-06-24T22:00:00.000Z",
-      "ts": 1782338400000,
-      "round": "Group C",
-      "status": "FT",
-      "finished": true,
-      "home": {
         "code": "MOR",
         "name": "Morocco",
         "iso2": "MA",
@@ -5344,6 +5298,29 @@
         "player": "Tom Clayton",
         "score": 2,
         "winner": false
+      }
+    },
+    {
+      "date": "2026-06-24T22:00:00.000Z",
+      "ts": 1782338400000,
+      "round": "Group C",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "SCO",
+        "name": "Scotland",
+        "iso2": "GB-SCT",
+        "player": "Paul Mitchell",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "BRA",
+        "name": "Brazil",
+        "iso2": "BR",
+        "player": "Me Julie",
+        "score": 3,
+        "winner": true
       }
     },
     {
@@ -6017,14 +5994,14 @@
       "date": "2026-07-02T00:00:00.000Z",
       "ts": 1782950400000,
       "round": "Round of 32",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "USA",
         "name": "USA",
         "iso2": "US",
         "player": "Flora Curry",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -6032,7 +6009,7 @@
         "name": "Bosnia-Herzegovina",
         "iso2": "BA",
         "player": "Sam Lowerson",
-        "score": null,
+        "score": 0,
         "winner": false
       }
     },
@@ -7904,7 +7881,6 @@
       "yellows": 2,
       "reds": 0,
       "form": [
-        "L",
         "W",
         "W"
       ]
@@ -8009,7 +7985,6 @@
       "yellows": 2,
       "reds": 0,
       "form": [
-        "W",
         "D",
         "W",
         "W"
@@ -8103,7 +8078,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 104,
-    "scrapedAt": "2026-07-01T23:30:06.659047+00:00"
+    "matches": 103,
+    "scrapedAt": "2026-07-02T00:30:06.911968+00:00"
   }
 }
