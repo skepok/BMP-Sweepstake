@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T22:30:05.942Z",
+  "lastUpdated": "2026-07-03T23:00:09.253Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -400,8 +400,8 @@
             "pts": 1
           },
           "goalsConceded": 10,
-          "redCards": 0,
-          "ownGoals": 1
+          "redCards": 2,
+          "ownGoals": 2
         }
       ]
     },
@@ -1225,7 +1225,7 @@
             "pts": 4
           },
           "goalsConceded": 6,
-          "redCards": 0,
+          "redCards": 1,
           "ownGoals": 0
         }
       ]
@@ -1737,6 +1737,13 @@
     ],
     "redCards": [
       {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
+        "value": 2
+      },
+      {
         "code": "ZAF",
         "name": "South Africa",
         "iso2": "ZA",
@@ -1748,6 +1755,13 @@
         "name": "Belgium",
         "iso2": "BE",
         "player": "Fred Dunn",
+        "value": 1
+      },
+      {
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "player": "Sam Lowerson",
         "value": 1
       },
       {
@@ -1804,13 +1818,6 @@
         "name": "Austria",
         "iso2": "AT",
         "player": "Paul Mitchell",
-        "value": 0
-      },
-      {
-        "code": "BIH",
-        "name": "Bosnia-Herzegovina",
-        "iso2": "BA",
-        "player": "Sam Lowerson",
         "value": 0
       },
       {
@@ -1989,13 +1996,6 @@
         "value": 0
       },
       {
-        "code": "QAT",
-        "name": "Qatar",
-        "iso2": "QA",
-        "player": "Frank Dunn",
-        "value": 0
-      },
-      {
         "code": "KSA",
         "name": "Saudi Arabia",
         "iso2": "SA",
@@ -2075,6 +2075,13 @@
     ],
     "ownGoals": [
       {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
+        "value": 2
+      },
+      {
         "code": "AUS",
         "name": "Australia",
         "iso2": "AU",
@@ -2114,13 +2121,6 @@
         "name": "Paraguay",
         "iso2": "PY",
         "player": "Robin Parish",
-        "value": 1
-      },
-      {
-        "code": "QAT",
-        "name": "Qatar",
-        "iso2": "QA",
-        "player": "Frank Dunn",
         "value": 1
       },
       {
@@ -4680,6 +4680,98 @@
       }
     },
     {
+      "date": "2026-06-18T02:00:00.000Z",
+      "ts": 1781748000000,
+      "round": "Group K",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "iso2": "UZ",
+        "player": "Jimena Barillas",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "COL",
+        "name": "Colombia",
+        "iso2": "CO",
+        "player": "Matt Deacock",
+        "score": 3,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-06-18T16:00:00.000Z",
+      "ts": 1781798400000,
+      "round": "Group A",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "CZE",
+        "name": "Czechia",
+        "iso2": "CZ",
+        "player": "Laura Harrison",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "ZAF",
+        "name": "South Africa",
+        "iso2": "ZA",
+        "player": "Adam Wright",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-18T19:00:00.000Z",
+      "ts": 1781809200000,
+      "round": "Group B",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH",
+        "player": "Elizabeth Swords",
+        "score": 4,
+        "winner": true
+      },
+      "away": {
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "player": "Sam Lowerson",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-18T22:00:00.000Z",
+      "ts": 1781820000000,
+      "round": "Group B",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "CAN",
+        "name": "Canada",
+        "iso2": "CA",
+        "player": "Joe Clayton",
+        "score": 6,
+        "winner": true
+      },
+      "away": {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
       "date": "2026-06-19T01:00:00.000Z",
       "ts": 1781830800000,
       "round": "Group A",
@@ -6970,18 +7062,34 @@
         "score": 29
       },
       {
+        "player": "Frank Dunn",
+        "conceded": 12,
+        "losses": 3,
+        "yellows": 9,
+        "reds": 2,
+        "score": 28
+      },
+      {
         "player": "Jimena Barillas",
         "conceded": 18,
         "losses": 4,
-        "yellows": 4,
+        "yellows": 5,
         "reds": 0,
-        "score": 26
+        "score": 27
       },
       {
         "player": "Scott Rosseter",
         "conceded": 14,
         "losses": 3,
         "yellows": 6,
+        "reds": 1,
+        "score": 25
+      },
+      {
+        "player": "Sam Lowerson",
+        "conceded": 12,
+        "losses": 3,
+        "yellows": 8,
         "reds": 1,
         "score": 25
       },
@@ -6994,20 +7102,12 @@
         "score": 25
       },
       {
-        "player": "Frank Dunn",
-        "conceded": 12,
-        "losses": 3,
-        "yellows": 8,
-        "reds": 0,
-        "score": 23
-      },
-      {
         "player": "Joe Clayton",
         "conceded": 11,
         "losses": 4,
-        "yellows": 8,
+        "yellows": 9,
         "reds": 0,
-        "score": 23
+        "score": 24
       },
       {
         "player": "Paul Mitchell",
@@ -7032,14 +7132,6 @@
         "yellows": 9,
         "reds": 1,
         "score": 22
-      },
-      {
-        "player": "Sam Lowerson",
-        "conceded": 12,
-        "losses": 3,
-        "yellows": 6,
-        "reds": 0,
-        "score": 21
       },
       {
         "player": "Tom Clayton",
@@ -7069,9 +7161,9 @@
         "player": "Laura Harrison",
         "conceded": 11,
         "losses": 4,
-        "yellows": 3,
+        "yellows": 4,
         "reds": 0,
-        "score": 18
+        "score": 19
       },
       {
         "player": "Me Julie",
@@ -7101,9 +7193,17 @@
         "player": "Elizabeth Swords",
         "conceded": 6,
         "losses": 2,
-        "yellows": 6,
+        "yellows": 7,
         "reds": 0,
-        "score": 14
+        "score": 15
+      },
+      {
+        "player": "Adam Wright",
+        "conceded": 3,
+        "losses": 1,
+        "yellows": 7,
+        "reds": 2,
+        "score": 15
       },
       {
         "player": "Ali Taylor",
@@ -7122,18 +7222,18 @@
         "score": 13
       },
       {
-        "player": "Adam Wright",
-        "conceded": 3,
-        "losses": 1,
-        "yellows": 5,
-        "reds": 2,
-        "score": 13
-      },
-      {
         "player": "Guy Curry",
         "conceded": 3,
         "losses": 0,
         "yellows": 8,
+        "reds": 0,
+        "score": 11
+      },
+      {
+        "player": "Matt Deacock",
+        "conceded": 3,
+        "losses": 1,
+        "yellows": 7,
         "reds": 0,
         "score": 11
       },
@@ -7144,14 +7244,6 @@
         "yellows": 6,
         "reds": 1,
         "score": 11
-      },
-      {
-        "player": "Matt Deacock",
-        "conceded": 3,
-        "losses": 1,
-        "yellows": 6,
-        "reds": 0,
-        "score": 10
       }
     ],
     "fastestGoal": {
@@ -7201,10 +7293,11 @@
       "l": 1,
       "gf": 2,
       "ga": 3,
-      "yellows": 3,
+      "yellows": 5,
       "reds": 2,
       "form": [
         "L",
+        "D",
         "W",
         "L"
       ]
@@ -7290,10 +7383,11 @@
       "l": 0,
       "gf": 7,
       "ga": 3,
-      "yellows": 2,
+      "yellows": 3,
       "reds": 0,
       "form": [
         "D",
+        "W",
         "W",
         "W"
       ]
@@ -7377,10 +7471,11 @@
       "l": 2,
       "gf": 2,
       "ga": 10,
-      "yellows": 3,
-      "reds": 0,
+      "yellows": 4,
+      "reds": 2,
       "form": [
         "D",
+        "L",
         "L"
       ]
     },
@@ -7516,9 +7611,10 @@
       "l": 3,
       "gf": 2,
       "ga": 11,
-      "yellows": 3,
+      "yellows": 4,
       "reds": 0,
       "form": [
+        "L",
         "L",
         "L"
       ]
@@ -7532,10 +7628,11 @@
       "l": 1,
       "gf": 8,
       "ga": 3,
-      "yellows": 4,
+      "yellows": 5,
       "reds": 0,
       "form": [
         "D",
+        "W",
         "L",
         "W"
       ]
@@ -7583,10 +7680,11 @@
       "l": 2,
       "gf": 2,
       "ga": 6,
-      "yellows": 0,
+      "yellows": 1,
       "reds": 0,
       "form": [
         "L",
+        "D",
         "L"
       ]
     },
@@ -7634,9 +7732,10 @@
       "l": 0,
       "gf": 4,
       "ga": 1,
-      "yellows": 3,
+      "yellows": 4,
       "reds": 0,
       "form": [
+        "W",
         "W",
         "D"
       ]
@@ -7898,10 +7997,11 @@
       "l": 1,
       "gf": 5,
       "ga": 6,
-      "yellows": 4,
-      "reds": 0,
+      "yellows": 6,
+      "reds": 1,
       "form": [
         "D",
+        "L",
         "W",
         "L"
       ]
@@ -8013,7 +8113,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 100,
-    "scrapedAt": "2026-07-03T22:30:05.855629+00:00"
+    "matches": 104,
+    "scrapedAt": "2026-07-03T23:00:09.170214+00:00"
   }
 }

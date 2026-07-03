@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T22:30:05.855629+00:00",
+  "fetchedAt": "2026-07-03T23:00:09.170214+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -2494,6 +2494,137 @@
         "team": "Ghana"
       },
       "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186722,
+      "round": "Group Stage",
+      "startTimestamp": 1781748000,
+      "status": "finished",
+      "home": {
+        "name": "Uzbekistan",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Colombia",
+        "score": 3,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Uzbekistan": 1,
+        "Colombia": 1
+      },
+      "fastestGoal": {
+        "minute": 40,
+        "addedTime": null,
+        "scorer": "Daniel Muñoz",
+        "team": "Colombia"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186731,
+      "round": "Group Stage",
+      "startTimestamp": 1781798400,
+      "status": "finished",
+      "home": {
+        "name": "Czechia",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "South Africa",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Czechia": 1,
+        "South Africa": 2
+      },
+      "fastestGoal": {
+        "minute": 6,
+        "addedTime": null,
+        "scorer": "Michal Sadílek",
+        "team": "Czechia"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186806,
+      "round": "Group Stage",
+      "startTimestamp": 1781809200,
+      "status": "finished",
+      "home": {
+        "name": "Switzerland",
+        "score": 4,
+        "winner": true
+      },
+      "away": {
+        "name": "Bosnia & Herzegovina",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {
+        "Bosnia & Herzegovina": 1
+      },
+      "ownGoals": {},
+      "yellowCards": {
+        "Switzerland": 1,
+        "Bosnia & Herzegovina": 2
+      },
+      "fastestGoal": {
+        "minute": 74,
+        "addedTime": null,
+        "scorer": "Johan Manzambi",
+        "team": "Switzerland"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186798,
+      "round": "Group Stage",
+      "startTimestamp": 1781820000,
+      "status": "finished",
+      "home": {
+        "name": "Canada",
+        "score": 6,
+        "winner": true
+      },
+      "away": {
+        "name": "Qatar",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {
+        "Qatar": 2
+      },
+      "ownGoals": {
+        "Qatar": 1
+      },
+      "yellowCards": {
+        "Qatar": 1,
+        "Canada": 1
+      },
+      "fastestGoal": {
+        "minute": 16,
+        "addedTime": null,
+        "scorer": "Cyle Larin",
+        "team": "Canada"
+      },
+      "fastestOwnGoal": {
+        "minute": 75,
+        "addedTime": null,
+        "scorer": "Mohamed Naceur Almanai",
+        "team": "Qatar"
+      },
       "incidentsFetched": true
     },
     {
