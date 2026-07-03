@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T21:30:06.851Z",
+  "lastUpdated": "2026-07-03T22:30:05.942Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Round of 32",
       "kickoff": "2026-07-03T22:00:00.000Z",
       "kickoffUnix": 1783116000000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "ARG",
         "name": "Argentina",
@@ -400,8 +400,8 @@
             "pts": 1
           },
           "goalsConceded": 10,
-          "redCards": 2,
-          "ownGoals": 2
+          "redCards": 0,
+          "ownGoals": 1
         }
       ]
     },
@@ -1737,13 +1737,6 @@
     ],
     "redCards": [
       {
-        "code": "QAT",
-        "name": "Qatar",
-        "iso2": "QA",
-        "player": "Frank Dunn",
-        "value": 2
-      },
-      {
         "code": "ZAF",
         "name": "South Africa",
         "iso2": "ZA",
@@ -1996,6 +1989,13 @@
         "value": 0
       },
       {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
+        "value": 0
+      },
+      {
         "code": "KSA",
         "name": "Saudi Arabia",
         "iso2": "SA",
@@ -2075,13 +2075,6 @@
     ],
     "ownGoals": [
       {
-        "code": "QAT",
-        "name": "Qatar",
-        "iso2": "QA",
-        "player": "Frank Dunn",
-        "value": 2
-      },
-      {
         "code": "AUS",
         "name": "Australia",
         "iso2": "AU",
@@ -2121,6 +2114,13 @@
         "name": "Paraguay",
         "iso2": "PY",
         "player": "Robin Parish",
+        "value": 1
+      },
+      {
+        "code": "QAT",
+        "name": "Qatar",
+        "iso2": "QA",
+        "player": "Frank Dunn",
         "value": 1
       },
       {
@@ -3648,7 +3648,7 @@
           {
             "label": null,
             "kickoff": "2026-07-03T22:00:00.000Z",
-            "status": "NS",
+            "status": "1H",
             "finished": false,
             "home": {
               "name": "Argentina",
@@ -4680,29 +4680,6 @@
       }
     },
     {
-      "date": "2026-06-18T22:00:00.000Z",
-      "ts": 1781820000000,
-      "round": "Group B",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "CAN",
-        "name": "Canada",
-        "iso2": "CA",
-        "player": "Joe Clayton",
-        "score": 6,
-        "winner": true
-      },
-      "away": {
-        "code": "QAT",
-        "name": "Qatar",
-        "iso2": "QA",
-        "player": "Frank Dunn",
-        "score": 0,
-        "winner": false
-      }
-    },
-    {
       "date": "2026-06-19T01:00:00.000Z",
       "ts": 1781830800000,
       "round": "Group A",
@@ -5376,29 +5353,6 @@
       "status": "FT",
       "finished": true,
       "home": {
-        "code": "JAP",
-        "name": "Japan",
-        "iso2": "JP",
-        "player": "Nick Foulkes",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "code": "SWE",
-        "name": "Sweden",
-        "iso2": "SE",
-        "player": "Madi Farrow-Dunn",
-        "score": 1,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-25T23:00:00.000Z",
-      "ts": 1782428400000,
-      "round": "Group F",
-      "status": "FT",
-      "finished": true,
-      "home": {
         "code": "TUN",
         "name": "Tunisia",
         "iso2": "TN",
@@ -5413,6 +5367,29 @@
         "player": "Bob Gibson",
         "score": 3,
         "winner": true
+      }
+    },
+    {
+      "date": "2026-06-25T23:00:00.000Z",
+      "ts": 1782428400000,
+      "round": "Group F",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "JAP",
+        "name": "Japan",
+        "iso2": "JP",
+        "player": "Nick Foulkes",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "SWE",
+        "name": "Sweden",
+        "iso2": "SE",
+        "player": "Madi Farrow-Dunn",
+        "score": 1,
+        "winner": false
       }
     },
     {
@@ -6063,14 +6040,14 @@
       "date": "2026-07-03T22:00:00.000Z",
       "ts": 1783116000000,
       "round": "Round of 32",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "ARG",
         "name": "Argentina",
         "iso2": "AR",
         "player": "Tom Clayton",
-        "score": null,
+        "score": 1,
         "winner": false
       },
       "away": {
@@ -6078,7 +6055,7 @@
         "name": "Cape Verde",
         "iso2": "CV",
         "player": "Guy Curry",
-        "score": null,
+        "score": 0,
         "winner": false
       }
     },
@@ -6993,14 +6970,6 @@
         "score": 29
       },
       {
-        "player": "Frank Dunn",
-        "conceded": 12,
-        "losses": 3,
-        "yellows": 9,
-        "reds": 2,
-        "score": 28
-      },
-      {
         "player": "Jimena Barillas",
         "conceded": 18,
         "losses": 4,
@@ -7025,12 +6994,20 @@
         "score": 25
       },
       {
+        "player": "Frank Dunn",
+        "conceded": 12,
+        "losses": 3,
+        "yellows": 8,
+        "reds": 0,
+        "score": 23
+      },
+      {
         "player": "Joe Clayton",
         "conceded": 11,
         "losses": 4,
-        "yellows": 9,
+        "yellows": 8,
         "reds": 0,
-        "score": 24
+        "score": 23
       },
       {
         "player": "Paul Mitchell",
@@ -7400,11 +7377,10 @@
       "l": 2,
       "gf": 2,
       "ga": 10,
-      "yellows": 4,
-      "reds": 2,
+      "yellows": 3,
+      "reds": 0,
       "form": [
         "D",
-        "L",
         "L"
       ]
     },
@@ -7556,11 +7532,10 @@
       "l": 1,
       "gf": 8,
       "ga": 3,
-      "yellows": 5,
+      "yellows": 4,
       "reds": 0,
       "form": [
         "D",
-        "W",
         "L",
         "W"
       ]
@@ -8038,7 +8013,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 101,
-    "scrapedAt": "2026-07-03T21:30:06.762079+00:00"
+    "matches": 100,
+    "scrapedAt": "2026-07-03T22:30:05.855629+00:00"
   }
 }
