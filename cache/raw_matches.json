@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T18:30:06.420797+00:00",
+  "fetchedAt": "2026-07-03T19:30:06.995080+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -864,7 +864,7 @@
       "status": "inprogress",
       "home": {
         "name": "Australia",
-        "score": 0,
+        "score": 1,
         "winner": null
       },
       "away": {

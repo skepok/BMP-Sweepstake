@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T18:30:06.497Z",
+  "lastUpdated": "2026-07-03T19:30:07.072Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -6047,7 +6047,7 @@
         "name": "Australia",
         "iso2": "AU",
         "player": "Tom Gibbons",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "away": {
@@ -8037,6 +8037,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 101,
-    "scrapedAt": "2026-07-03T18:30:06.420797+00:00"
+    "scrapedAt": "2026-07-03T19:30:06.995080+00:00"
   }
 }
