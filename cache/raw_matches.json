@@ -1,99 +1,10 @@
 {
-  "fetchedAt": "2026-07-02T02:30:07.687065+00:00",
+  "fetchedAt": "2026-07-03T06:36:05.098113+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186744,
-      "round": "Group Stage",
-      "startTimestamp": 1782349200,
-      "status": "finished",
-      "home": {
-        "name": "South Africa",
-        "score": 1,
-        "winner": true
-      },
-      "away": {
-        "name": "South Korea",
-        "score": 0,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "South Korea": 1,
-        "South Africa": 1
-      },
-      "fastestGoal": {
-        "minute": 63,
-        "addedTime": null,
-        "scorer": "Thapelo Maseko",
-        "team": "South Africa"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
-    {
-      "id": 15186732,
-      "round": "Group Stage",
-      "startTimestamp": 1782349200,
-      "status": "finished",
-      "home": {
-        "name": "Czechia",
-        "score": 0,
-        "winner": false
-      },
-      "away": {
-        "name": "Mexico",
-        "score": 3,
-        "winner": true
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "Mexico": 1
-      },
-      "fastestGoal": {
-        "minute": 55,
-        "addedTime": null,
-        "scorer": "Mateo Chávez",
-        "team": "Mexico"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
-    {
-      "id": 15186908,
-      "round": "Group Stage",
-      "startTimestamp": 1782417600,
-      "status": "finished",
-      "home": {
-        "name": "Curaçao",
-        "score": 0,
-        "winner": false
-      },
-      "away": {
-        "name": "Côte d'Ivoire",
-        "score": 2,
-        "winner": true
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "Curaçao": 2,
-        "Côte d'Ivoire": 1
-      },
-      "fastestGoal": {
-        "minute": 7,
-        "addedTime": null,
-        "scorer": "Nicolas Pépé",
-        "team": "Côte d'Ivoire"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186907,
       "round": "Group Stage",
@@ -889,91 +800,89 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186687,
-      "round": "Group Stage",
-      "startTimestamp": 1781737200,
+      "id": 12813004,
+      "round": "Round of 32",
+      "startTimestamp": 1783018800,
       "status": "finished",
       "home": {
-        "name": "Ghana",
-        "score": 1,
+        "name": "Spain",
+        "score": 3,
         "winner": true
       },
       "away": {
-        "name": "Panama",
+        "name": "Austria",
         "score": 0,
         "winner": false
       },
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {
-        "Panama": 2,
-        "Ghana": 1
+        "Austria": 1
       },
       "fastestGoal": {
-        "minute": 90,
-        "addedTime": 5,
-        "scorer": "Caleb Yirenkyi",
-        "team": "Ghana"
+        "minute": 36,
+        "addedTime": null,
+        "scorer": "Mikel Oyarzabal",
+        "team": "Spain"
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
     {
-      "id": 15186722,
-      "round": "Group Stage",
-      "startTimestamp": 1781748000,
+      "id": 12812997,
+      "round": "Round of 32",
+      "startTimestamp": 1783033200,
       "status": "finished",
       "home": {
-        "name": "Uzbekistan",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "name": "Colombia",
-        "score": 3,
+        "name": "Portugal",
+        "score": 2,
         "winner": true
       },
+      "away": {
+        "name": "Croatia",
+        "score": 1,
+        "winner": false
+      },
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {
-        "Uzbekistan": 1,
-        "Colombia": 1
+        "Croatia": 2,
+        "Portugal": 1
       },
       "fastestGoal": {
-        "minute": 40,
+        "minute": 53,
         "addedTime": null,
-        "scorer": "Daniel Muñoz",
-        "team": "Colombia"
+        "scorer": "Ivan Perišić",
+        "team": "Croatia"
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
     {
-      "id": 15186731,
-      "round": "Group Stage",
-      "startTimestamp": 1781798400,
+      "id": 12813019,
+      "round": "Round of 32",
+      "startTimestamp": 1783047600,
       "status": "finished",
       "home": {
-        "name": "Czechia",
-        "score": 1,
-        "winner": false
+        "name": "Switzerland",
+        "score": 2,
+        "winner": true
       },
       "away": {
-        "name": "South Africa",
-        "score": 1,
+        "name": "Algeria",
+        "score": 0,
         "winner": false
       },
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {
-        "Czechia": 1,
-        "South Africa": 2
+        "Algeria": 2
       },
       "fastestGoal": {
-        "minute": 6,
+        "minute": 10,
         "addedTime": null,
-        "scorer": "Michal Sadílek",
-        "team": "Czechia"
+        "scorer": "Breel Embolo",
+        "team": "Switzerland"
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
@@ -1810,6 +1719,95 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186744,
+      "round": "Group Stage",
+      "startTimestamp": 1782349200,
+      "status": "finished",
+      "home": {
+        "name": "South Africa",
+        "score": 1,
+        "winner": true
+      },
+      "away": {
+        "name": "South Korea",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "South Korea": 1,
+        "South Africa": 1
+      },
+      "fastestGoal": {
+        "minute": 63,
+        "addedTime": null,
+        "scorer": "Thapelo Maseko",
+        "team": "South Africa"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186732,
+      "round": "Group Stage",
+      "startTimestamp": 1782349200,
+      "status": "finished",
+      "home": {
+        "name": "Czechia",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "name": "Mexico",
+        "score": 3,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Mexico": 1
+      },
+      "fastestGoal": {
+        "minute": 55,
+        "addedTime": null,
+        "scorer": "Mateo Chávez",
+        "team": "Mexico"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186908,
+      "round": "Group Stage",
+      "startTimestamp": 1782417600,
+      "status": "finished",
+      "home": {
+        "name": "Curaçao",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "name": "Côte d'Ivoire",
+        "score": 2,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Curaçao": 2,
+        "Côte d'Ivoire": 1
+      },
+      "fastestGoal": {
+        "minute": 7,
+        "addedTime": null,
+        "scorer": "Nicolas Pépé",
+        "team": "Côte d'Ivoire"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -2455,70 +2453,61 @@
       "incidentsFetched": true
     },
     {
-      "id": 12813004,
-      "round": "Round of 32",
-      "startTimestamp": 1783018800,
-      "status": "notstarted",
+      "id": 15186504,
+      "round": "Group Stage",
+      "startTimestamp": 1781726400,
+      "status": "finished",
       "home": {
-        "name": "Spain",
-        "score": null,
-        "winner": null
-      },
-      "away": {
-        "name": "Austria",
-        "score": null,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
-    },
-    {
-      "id": 12812997,
-      "round": "Round of 32",
-      "startTimestamp": 1783033200,
-      "status": "notstarted",
-      "home": {
-        "name": "Portugal",
-        "score": null,
-        "winner": null
+        "name": "England",
+        "score": 4,
+        "winner": true
       },
       "away": {
         "name": "Croatia",
-        "score": null,
-        "winner": null
+        "score": 2,
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
-      "fastestGoal": null,
+      "fastestGoal": {
+        "minute": 12,
+        "addedTime": null,
+        "scorer": "Harry Kane",
+        "team": "England"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
-      "id": 12813019,
-      "round": "Round of 32",
-      "startTimestamp": 1783047600,
-      "status": "notstarted",
+      "id": 15186687,
+      "round": "Group Stage",
+      "startTimestamp": 1781737200,
+      "status": "finished",
       "home": {
-        "name": "Switzerland",
-        "score": null,
-        "winner": null
+        "name": "Ghana",
+        "score": 1,
+        "winner": true
       },
       "away": {
-        "name": "Algeria",
-        "score": null,
-        "winner": null
+        "name": "Panama",
+        "score": 0,
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Panama": 2,
+        "Ghana": 1
+      },
+      "fastestGoal": {
+        "minute": 90,
+        "addedTime": 5,
+        "scorer": "Caleb Yirenkyi",
+        "team": "Ghana"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 12813018,
@@ -2680,12 +2669,12 @@
       "startTimestamp": 1783364400,
       "status": "notstarted",
       "home": {
-        "name": "W83",
+        "name": "Portugal",
         "score": null,
         "winner": null
       },
       "away": {
-        "name": "W84",
+        "name": "Spain",
         "score": null,
         "winner": null
       },
@@ -2746,7 +2735,7 @@
       "startTimestamp": 1783454400,
       "status": "notstarted",
       "home": {
-        "name": "W85",
+        "name": "Switzerland",
         "score": null,
         "winner": null
       },
@@ -3608,7 +3597,7 @@
               "name": "Portugal",
               "code": "POR",
               "placeholder": false,
-              "winner": false
+              "winner": true
             },
             {
               "name": "Croatia",
@@ -3627,7 +3616,7 @@
               "name": "Spain",
               "code": "ESP",
               "placeholder": false,
-              "winner": false
+              "winner": true
             },
             {
               "name": "Austria",
@@ -3798,7 +3787,7 @@
               "name": "Switzerland",
               "code": "SUI",
               "placeholder": false,
-              "winner": false
+              "winner": true
             },
             {
               "name": "Algeria",
@@ -3878,15 +3867,15 @@
           "kickoff": 1783364400,
           "participants": [
             {
-              "name": "W83",
-              "code": "W83",
-              "placeholder": true,
+              "name": "Portugal",
+              "code": "POR",
+              "placeholder": false,
               "winner": false
             },
             {
-              "name": "W84",
-              "code": "W84",
-              "placeholder": true,
+              "name": "Spain",
+              "code": "ESP",
+              "placeholder": false,
               "winner": false
             }
           ]
@@ -3973,9 +3962,9 @@
           "kickoff": 1783454400,
           "participants": [
             {
-              "name": "W85",
-              "code": "W85",
-              "placeholder": true,
+              "name": "Switzerland",
+              "code": "SUI",
+              "placeholder": false,
               "winner": false
             },
             {
