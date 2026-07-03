@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T06:36:05.098113+00:00",
+  "fetchedAt": "2026-07-03T18:00:06.802325+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -2516,12 +2516,12 @@
       "status": "notstarted",
       "home": {
         "name": "Australia",
-        "score": null,
+        "score": 0,
         "winner": null
       },
       "away": {
         "name": "Egypt",
-        "score": null,
+        "score": 0,
         "winner": null
       },
       "redCards": {},

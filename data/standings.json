@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T06:36:06.184Z",
+  "lastUpdated": "2026-07-03T18:00:06.915Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -6070,7 +6070,7 @@
         "name": "Australia",
         "iso2": "AU",
         "player": "Tom Gibbons",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -6078,7 +6078,7 @@
         "name": "Egypt",
         "iso2": "EG",
         "player": "Ali Taylor",
-        "score": null,
+        "score": 0,
         "winner": false
       }
     },
@@ -8062,6 +8062,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-07-03T06:36:05.098113+00:00"
+    "scrapedAt": "2026-07-03T18:00:06.802325+00:00"
   }
 }
