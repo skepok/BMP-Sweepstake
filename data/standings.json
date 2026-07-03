@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T21:00:08.065Z",
+  "lastUpdated": "2026-07-03T21:30:06.851Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -3905,11 +3905,11 @@
               "winner": false
             },
             "away": {
-              "name": "Round of 32 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Egypt",
+              "code": "EGY",
+              "iso2": "EG",
+              "player": "Ali Taylor",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -8039,6 +8039,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 101,
-    "scrapedAt": "2026-07-03T21:00:07.978248+00:00"
+    "scrapedAt": "2026-07-03T21:30:06.762079+00:00"
   }
 }

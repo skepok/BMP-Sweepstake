@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T21:00:07.978248+00:00",
+  "fetchedAt": "2026-07-03T21:30:06.762079+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -3931,9 +3931,9 @@
               "winner": false
             },
             {
-              "name": "W88",
-              "code": "W88",
-              "placeholder": true,
+              "name": "Egypt",
+              "code": "EGY",
+              "placeholder": false,
               "winner": false
             }
           ]
