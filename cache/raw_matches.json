@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T23:00:09.170214+00:00",
+  "fetchedAt": "2026-07-03T23:30:07.755551+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -875,7 +875,7 @@
       },
       "away": {
         "name": "Cabo Verde",
-        "score": 0,
+        "score": 1,
         "winner": null
       },
       "redCards": {},
