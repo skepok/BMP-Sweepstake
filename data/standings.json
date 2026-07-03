@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T19:30:07.072Z",
+  "lastUpdated": "2026-07-03T21:00:08.065Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 32",
-      "kickoff": "2026-07-03T18:00:00.000Z",
-      "kickoffUnix": 1783101600000,
-      "status": "1H",
+      "kickoff": "2026-07-03T22:00:00.000Z",
+      "kickoffUnix": 1783116000000,
+      "status": "NS",
       "home": {
-        "code": "AUS",
-        "name": "Australia",
-        "iso2": "AU"
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR"
       },
       "away": {
-        "code": "EGY",
-        "name": "Egypt",
-        "iso2": "EG"
+        "code": "CPV",
+        "name": "Cape Verde",
+        "iso2": "CV"
       }
     },
     "lastFinished": {
       "round": "Round of 32",
-      "kickoff": "2026-07-03T03:00:00.000Z",
-      "kickoffUnix": 1783047600000,
+      "kickoff": "2026-07-03T18:00:00.000Z",
+      "kickoffUnix": 1783101600000,
       "status": "FT",
       "home": {
-        "code": "SWI",
-        "name": "Switzerland",
-        "iso2": "CH",
-        "goals": 2
+        "code": "AUS",
+        "name": "Australia",
+        "iso2": "AU",
+        "goals": 3
       },
       "away": {
-        "code": "ALG",
-        "name": "Algeria",
-        "iso2": "DZ",
-        "goals": 0
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "goals": 5
       }
     }
   },
@@ -165,7 +165,7 @@
           "pot": 2,
           "odds": "300/1",
           "matched": true,
-          "status": "Into the Round of 32",
+          "status": "Into the Round of 16",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -1375,9 +1375,9 @@
           "pot": 2,
           "odds": "500/1",
           "matched": true,
-          "status": "Into the Round of 32",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 32",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group D",
             "rank": 2,
@@ -3672,15 +3672,15 @@
           {
             "label": null,
             "kickoff": "2026-07-03T18:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "Australia",
               "code": "AUS",
               "iso2": "AU",
               "player": "Tom Gibbons",
               "placeholder": false,
-              "score": null,
+              "score": 3,
               "winner": false
             },
             "away": {
@@ -3689,8 +3689,8 @@
               "iso2": "EG",
               "player": "Ali Taylor",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 5,
+              "winner": true
             }
           },
           {
@@ -6040,14 +6040,14 @@
       "date": "2026-07-03T18:00:00.000Z",
       "ts": 1783101600000,
       "round": "Round of 32",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "AUS",
         "name": "Australia",
         "iso2": "AU",
         "player": "Tom Gibbons",
-        "score": 1,
+        "score": 3,
         "winner": false
       },
       "away": {
@@ -6055,8 +6055,8 @@
         "name": "Egypt",
         "iso2": "EG",
         "player": "Ali Taylor",
-        "score": 1,
-        "winner": false
+        "score": 5,
+        "winner": true
       }
     },
     {
@@ -6258,10 +6258,10 @@
         "winner": false
       },
       "away": {
-        "code": null,
-        "name": "W88",
-        "iso2": null,
-        "player": null,
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "player": "Ali Taylor",
         "score": null,
         "winner": false
       }
@@ -7264,7 +7264,8 @@
       "form": [
         "D",
         "W",
-        "D"
+        "D",
+        "W"
       ]
     },
     "NLD": {
@@ -8030,13 +8031,14 @@
       "form": [
         "W",
         "L",
-        "D"
+        "D",
+        "L"
       ]
     }
   },
   "meta": {
     "source": "SofaScore",
     "matches": 101,
-    "scrapedAt": "2026-07-03T19:30:06.995080+00:00"
+    "scrapedAt": "2026-07-03T21:00:07.978248+00:00"
   }
 }

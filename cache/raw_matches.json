@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T19:30:06.995080+00:00",
+  "fetchedAt": "2026-07-03T21:00:07.978248+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -861,23 +861,37 @@
       "id": 12813018,
       "round": "Round of 32",
       "startTimestamp": 1783101600,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Australia",
-        "score": 1,
-        "winner": null
+        "score": 3,
+        "winner": false
       },
       "away": {
         "name": "Egypt",
-        "score": 1,
-        "winner": null
+        "score": 5,
+        "winner": true
       },
       "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "ownGoals": {
+        "Egypt": 1
+      },
+      "yellowCards": {
+        "Egypt": 2
+      },
+      "fastestGoal": {
+        "minute": 13,
+        "addedTime": null,
+        "scorer": "Emam Ashour",
+        "team": "Egypt"
+      },
+      "fastestOwnGoal": {
+        "minute": 55,
+        "addedTime": null,
+        "scorer": "Mohamed Hany",
+        "team": "Egypt"
+      },
+      "incidentsFetched": true
     },
     {
       "id": 15186798,
@@ -2686,7 +2700,7 @@
         "winner": null
       },
       "away": {
-        "name": "W88",
+        "name": "Egypt",
         "score": null,
         "winner": null
       },
@@ -3742,7 +3756,7 @@
               "name": "Egypt",
               "code": "EGY",
               "placeholder": false,
-              "winner": false
+              "winner": true
             }
           ]
         },
