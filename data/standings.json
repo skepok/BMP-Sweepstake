@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T18:00:06.915Z",
+  "lastUpdated": "2026-07-03T18:30:06.497Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Round of 32",
       "kickoff": "2026-07-03T18:00:00.000Z",
       "kickoffUnix": 1783101600000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "AUS",
         "name": "Australia",
@@ -1225,7 +1225,7 @@
             "pts": 4
           },
           "goalsConceded": 6,
-          "redCards": 1,
+          "redCards": 0,
           "ownGoals": 0
         }
       ]
@@ -1758,13 +1758,6 @@
         "value": 1
       },
       {
-        "code": "BIH",
-        "name": "Bosnia-Herzegovina",
-        "iso2": "BA",
-        "player": "Sam Lowerson",
-        "value": 1
-      },
-      {
         "code": "IRQ",
         "name": "Iraq",
         "iso2": "IQ",
@@ -1818,6 +1811,13 @@
         "name": "Austria",
         "iso2": "AT",
         "player": "Paul Mitchell",
+        "value": 0
+      },
+      {
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "player": "Sam Lowerson",
         "value": 0
       },
       {
@@ -3672,7 +3672,7 @@
           {
             "label": null,
             "kickoff": "2026-07-03T18:00:00.000Z",
-            "status": "NS",
+            "status": "1H",
             "finished": false,
             "home": {
               "name": "Australia",
@@ -4680,29 +4680,6 @@
       }
     },
     {
-      "date": "2026-06-18T19:00:00.000Z",
-      "ts": 1781809200000,
-      "round": "Group B",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "SWI",
-        "name": "Switzerland",
-        "iso2": "CH",
-        "player": "Elizabeth Swords",
-        "score": 4,
-        "winner": true
-      },
-      "away": {
-        "code": "BIH",
-        "name": "Bosnia-Herzegovina",
-        "iso2": "BA",
-        "player": "Sam Lowerson",
-        "score": 1,
-        "winner": false
-      }
-    },
-    {
       "date": "2026-06-18T22:00:00.000Z",
       "ts": 1781820000000,
       "round": "Group B",
@@ -5353,29 +5330,6 @@
       "status": "FT",
       "finished": true,
       "home": {
-        "code": "ECU",
-        "name": "Ecuador",
-        "iso2": "EC",
-        "player": "Frank Dunn",
-        "score": 2,
-        "winner": true
-      },
-      "away": {
-        "code": "GER",
-        "name": "Germany",
-        "iso2": "DE",
-        "player": "Jess Forshaw",
-        "score": 1,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-25T20:00:00.000Z",
-      "ts": 1782417600000,
-      "round": "Group E",
-      "status": "FT",
-      "finished": true,
-      "home": {
         "code": "CUW",
         "name": "Curacao",
         "iso2": "CW",
@@ -5390,6 +5344,29 @@
         "player": "Robbie Godowski",
         "score": 2,
         "winner": true
+      }
+    },
+    {
+      "date": "2026-06-25T20:00:00.000Z",
+      "ts": 1782417600000,
+      "round": "Group E",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "ECU",
+        "name": "Ecuador",
+        "iso2": "EC",
+        "player": "Frank Dunn",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "code": "GER",
+        "name": "Germany",
+        "iso2": "DE",
+        "player": "Jess Forshaw",
+        "score": 1,
+        "winner": false
       }
     },
     {
@@ -6063,7 +6040,7 @@
       "date": "2026-07-03T18:00:00.000Z",
       "ts": 1783101600000,
       "round": "Round of 32",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "AUS",
@@ -6078,7 +6055,7 @@
         "name": "Egypt",
         "iso2": "EG",
         "player": "Ali Taylor",
-        "score": 0,
+        "score": 1,
         "winner": false
       }
     },
@@ -7040,14 +7017,6 @@
         "score": 25
       },
       {
-        "player": "Sam Lowerson",
-        "conceded": 12,
-        "losses": 3,
-        "yellows": 8,
-        "reds": 1,
-        "score": 25
-      },
-      {
         "player": "Fred Dunn",
         "conceded": 11,
         "losses": 2,
@@ -7086,6 +7055,14 @@
         "yellows": 9,
         "reds": 1,
         "score": 22
+      },
+      {
+        "player": "Sam Lowerson",
+        "conceded": 12,
+        "losses": 3,
+        "yellows": 6,
+        "reds": 0,
+        "score": 21
       },
       {
         "player": "Tom Clayton",
@@ -7147,9 +7124,9 @@
         "player": "Elizabeth Swords",
         "conceded": 6,
         "losses": 2,
-        "yellows": 7,
+        "yellows": 6,
         "reds": 0,
-        "score": 15
+        "score": 14
       },
       {
         "player": "Ali Taylor",
@@ -7203,11 +7180,11 @@
     "fastestGoal": {
       "minute": 2,
       "addedTime": null,
-      "scorer": "Leroy Sané",
-      "team": "Germany",
-      "iso2": "DE",
-      "player": "Jess Forshaw",
-      "match": "Ecuador v Germany"
+      "scorer": "Ismael Saibari",
+      "team": "Morocco",
+      "iso2": "MA",
+      "player": "Ali Taylor",
+      "match": "Scotland v Morocco"
     },
     "fastestOwnGoal": {
       "minute": 3,
@@ -7335,11 +7312,10 @@
       "l": 0,
       "gf": 7,
       "ga": 3,
-      "yellows": 3,
+      "yellows": 2,
       "reds": 0,
       "form": [
         "D",
-        "W",
         "W",
         "W"
       ]
@@ -7946,11 +7922,10 @@
       "l": 1,
       "gf": 5,
       "ga": 6,
-      "yellows": 6,
-      "reds": 1,
+      "yellows": 4,
+      "reds": 0,
       "form": [
         "D",
-        "L",
         "W",
         "L"
       ]
@@ -8061,7 +8036,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 102,
-    "scrapedAt": "2026-07-03T18:00:06.802325+00:00"
+    "matches": 101,
+    "scrapedAt": "2026-07-03T18:30:06.420797+00:00"
   }
 }
