@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-04T23:00:09.667698+00:00",
+  "fetchedAt": "2026-07-04T23:30:07.404971+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -876,23 +876,30 @@
       "id": 12813010,
       "round": "Round of 16",
       "startTimestamp": 1783198800,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Paraguay",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "away": {
         "name": "France",
         "score": 1,
-        "winner": null
+        "winner": true
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "France": 3
+      },
+      "fastestGoal": {
+        "minute": 70,
+        "addedTime": null,
+        "scorer": "Kylian Mbappé",
+        "team": "France"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186856,
@@ -2862,7 +2869,7 @@
       "startTimestamp": 1783627200,
       "status": "notstarted",
       "home": {
-        "name": "W89",
+        "name": "France",
         "score": null,
         "winner": null
       },
@@ -3943,7 +3950,7 @@
               "name": "France",
               "code": "FRA",
               "placeholder": false,
-              "winner": false
+              "winner": true
             }
           ]
         },
@@ -4093,9 +4100,9 @@
           "kickoff": 1783627200,
           "participants": [
             {
-              "name": "W89",
-              "code": "W89",
-              "placeholder": true,
+              "name": "France",
+              "code": "FRA",
+              "placeholder": false,
               "winner": false
             },
             {

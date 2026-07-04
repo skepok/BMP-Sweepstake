@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T23:00:09.760Z",
+  "lastUpdated": "2026-07-04T23:30:07.491Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 16",
-      "kickoff": "2026-07-04T21:00:00.000Z",
-      "kickoffUnix": 1783198800000,
-      "status": "1H",
+      "kickoff": "2026-07-05T20:00:00.000Z",
+      "kickoffUnix": 1783281600000,
+      "status": "NS",
       "home": {
-        "code": "PAR",
-        "name": "Paraguay",
-        "iso2": "PY"
+        "code": "BRA",
+        "name": "Brazil",
+        "iso2": "BR"
       },
       "away": {
-        "code": "FRA",
-        "name": "France",
-        "iso2": "FR"
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO"
       }
     },
     "lastFinished": {
       "round": "Round of 16",
-      "kickoff": "2026-07-04T17:00:00.000Z",
-      "kickoffUnix": 1783184400000,
+      "kickoff": "2026-07-04T21:00:00.000Z",
+      "kickoffUnix": 1783198800000,
       "status": "FT",
       "home": {
-        "code": "CAN",
-        "name": "Canada",
-        "iso2": "CA",
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
         "goals": 0
       },
       "away": {
-        "code": "MOR",
-        "name": "Morocco",
-        "iso2": "MA",
-        "goals": 3
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR",
+        "goals": 1
       }
     }
   },
@@ -1100,9 +1100,9 @@
           "pot": 2,
           "odds": "150/1",
           "matched": true,
-          "status": "Into the Round of 16",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 16",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group D",
             "rank": 3,
@@ -1130,7 +1130,7 @@
           "pot": 1,
           "odds": "5/1",
           "matched": true,
-          "status": "Into the Round of 16",
+          "status": "Into the Quarter-finals",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -3749,15 +3749,15 @@
           {
             "label": null,
             "kickoff": "2026-07-04T21:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "Paraguay",
               "code": "PAR",
               "iso2": "PY",
               "player": "Robin Parish",
               "placeholder": false,
-              "score": null,
+              "score": 0,
               "winner": false
             },
             "away": {
@@ -3766,8 +3766,8 @@
               "iso2": "FR",
               "player": "Sam King",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 1,
+              "winner": true
             }
           },
           {
@@ -3949,11 +3949,11 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Round of 16 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "France",
+              "code": "FRA",
+              "iso2": "FR",
+              "player": "Sam King",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
@@ -6201,8 +6201,8 @@
       "date": "2026-07-04T21:00:00.000Z",
       "ts": 1783198800000,
       "round": "Round of 16",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "PAR",
         "name": "Paraguay",
@@ -6217,7 +6217,7 @@
         "iso2": "FR",
         "player": "Sam King",
         "score": 1,
-        "winner": false
+        "winner": true
       }
     },
     {
@@ -6365,10 +6365,10 @@
       "status": "NS",
       "finished": false,
       "home": {
-        "code": null,
-        "name": "W89",
-        "iso2": null,
-        "player": null,
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR",
+        "player": "Sam King",
         "score": null,
         "winner": false
       },
@@ -7937,7 +7937,8 @@
         "L",
         "W",
         "D",
-        "W"
+        "W",
+        "L"
       ]
     },
     "FRA": {
@@ -7952,6 +7953,7 @@
       "yellows": 1,
       "reds": 0,
       "form": [
+        "W",
         "W",
         "W",
         "W",
@@ -8120,6 +8122,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-07-04T23:00:09.667698+00:00"
+    "scrapedAt": "2026-07-04T23:30:07.404971+00:00"
   }
 }
