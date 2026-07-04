@@ -1,44 +1,10 @@
 {
-  "fetchedAt": "2026-07-04T01:00:07.799769+00:00",
+  "fetchedAt": "2026-07-04T02:00:06.965568+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186973,
-      "round": "Group Stage",
-      "startTimestamp": 1782428400,
-      "status": "finished",
-      "home": {
-        "name": "Tunisia",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "name": "Netherlands",
-        "score": 3,
-        "winner": true
-      },
-      "redCards": {},
-      "ownGoals": {
-        "Tunisia": 1
-      },
-      "yellowCards": {},
-      "fastestGoal": {
-        "minute": 7,
-        "addedTime": null,
-        "scorer": "Brian Brobbey",
-        "team": "Netherlands"
-      },
-      "fastestOwnGoal": {
-        "minute": 3,
-        "addedTime": null,
-        "scorer": "Ellyes Skhiri",
-        "team": "Tunisia"
-      },
-      "incidentsFetched": true
-    },
     {
       "id": 15186891,
       "round": "Group Stage",
@@ -901,33 +867,26 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186490,
-      "round": "Group Stage",
-      "startTimestamp": 1781830800,
-      "status": "finished",
+      "id": 12813011,
+      "round": "Round of 32",
+      "startTimestamp": 1783128600,
+      "status": "inprogress",
       "home": {
-        "name": "Mexico",
+        "name": "Colombia",
         "score": 1,
-        "winner": true
+        "winner": null
       },
       "away": {
-        "name": "South Korea",
+        "name": "Ghana",
         "score": 0,
-        "winner": false
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {
-        "South Korea": 2
-      },
-      "fastestGoal": {
-        "minute": 50,
-        "addedTime": null,
-        "scorer": "Luis Romo",
-        "team": "Mexico"
-      },
+      "yellowCards": {},
+      "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
       "id": 15186878,
@@ -1810,6 +1769,40 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186973,
+      "round": "Group Stage",
+      "startTimestamp": 1782428400,
+      "status": "finished",
+      "home": {
+        "name": "Tunisia",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Netherlands",
+        "score": 3,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Tunisia": 1
+      },
+      "yellowCards": {},
+      "fastestGoal": {
+        "minute": 7,
+        "addedTime": null,
+        "scorer": "Brian Brobbey",
+        "team": "Netherlands"
+      },
+      "fastestOwnGoal": {
+        "minute": 3,
+        "addedTime": null,
+        "scorer": "Ellyes Skhiri",
+        "team": "Tunisia"
+      },
+      "incidentsFetched": true
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -2641,28 +2634,6 @@
         "team": "Qatar"
       },
       "incidentsFetched": true
-    },
-    {
-      "id": 12813011,
-      "round": "Round of 32",
-      "startTimestamp": 1783128600,
-      "status": "notstarted",
-      "home": {
-        "name": "Colombia",
-        "score": null,
-        "winner": null
-      },
-      "away": {
-        "name": "Ghana",
-        "score": null,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 12813009,
