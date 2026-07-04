@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T19:00:07.718Z",
+  "lastUpdated": "2026-07-04T19:30:08.056Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 16",
+      "kickoff": "2026-07-04T21:00:00.000Z",
+      "kickoffUnix": 1783198800000,
+      "status": "NS",
+      "home": {
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY"
+      },
+      "away": {
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR"
+      }
+    },
+    "lastFinished": {
+      "round": "Round of 16",
       "kickoff": "2026-07-04T17:00:00.000Z",
       "kickoffUnix": 1783184400000,
-      "status": "1H",
+      "status": "FT",
       "home": {
         "code": "CAN",
         "name": "Canada",
-        "iso2": "CA"
+        "iso2": "CA",
+        "goals": 0
       },
       "away": {
         "code": "MOR",
         "name": "Morocco",
-        "iso2": "MA"
-      }
-    },
-    "lastFinished": {
-      "round": "Round of 32",
-      "kickoff": "2026-07-04T01:30:00.000Z",
-      "kickoffUnix": 1783128600000,
-      "status": "FT",
-      "home": {
-        "code": "COL",
-        "name": "Colombia",
-        "iso2": "CO",
-        "goals": 1
-      },
-      "away": {
-        "code": "GHA",
-        "name": "Ghana",
-        "iso2": "GH",
-        "goals": 0
+        "iso2": "MA",
+        "goals": 3
       }
     }
   },
@@ -140,7 +140,7 @@
           "pot": 1,
           "odds": "50/1",
           "matched": true,
-          "status": "Into the Round of 16",
+          "status": "Into the Quarter-finals",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -635,9 +635,9 @@
           "pot": 1,
           "odds": "150/1",
           "matched": true,
-          "status": "Into the Round of 16",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 16",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group B",
             "rank": 2,
@@ -3773,15 +3773,15 @@
           {
             "label": null,
             "kickoff": "2026-07-04T17:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "Canada",
               "code": "CAN",
               "iso2": "CA",
               "player": "Joe Clayton",
               "placeholder": false,
-              "score": null,
+              "score": 0,
               "winner": false
             },
             "away": {
@@ -3790,8 +3790,8 @@
               "iso2": "MA",
               "player": "Ali Taylor",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 3,
+              "winner": true
             }
           },
           {
@@ -3958,11 +3958,11 @@
               "winner": false
             },
             "away": {
-              "name": "Round of 16 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Morocco",
+              "code": "MOR",
+              "iso2": "MA",
+              "player": "Ali Taylor",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -6132,8 +6132,8 @@
       "date": "2026-07-04T17:00:00.000Z",
       "ts": 1783184400000,
       "round": "Round of 16",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "CAN",
         "name": "Canada",
@@ -6147,8 +6147,8 @@
         "name": "Morocco",
         "iso2": "MA",
         "player": "Ali Taylor",
-        "score": 2,
-        "winner": false
+        "score": 3,
+        "winner": true
       }
     },
     {
@@ -6327,10 +6327,10 @@
         "winner": false
       },
       "away": {
-        "code": null,
-        "name": "W90",
-        "iso2": null,
-        "player": null,
+        "code": "MOR",
+        "name": "Morocco",
+        "iso2": "MA",
+        "player": "Ali Taylor",
         "score": null,
         "winner": false
       }
@@ -7271,6 +7271,7 @@
         "D",
         "W",
         "W",
+        "W",
         "W"
       ]
     },
@@ -7587,7 +7588,8 @@
         "D",
         "W",
         "L",
-        "W"
+        "W",
+        "L"
       ]
     },
     "JOR": {
@@ -8068,6 +8070,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-07-04T19:00:07.630272+00:00"
+    "scrapedAt": "2026-07-04T19:30:07.975346+00:00"
   }
 }

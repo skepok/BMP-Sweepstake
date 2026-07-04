@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-04T19:00:07.630272+00:00",
+  "fetchedAt": "2026-07-04T19:30:07.975346+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -875,23 +875,31 @@
       "id": 12813009,
       "round": "Round of 16",
       "startTimestamp": 1783184400,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Canada",
         "score": 0,
-        "winner": null
+        "winner": false
       },
       "away": {
         "name": "Morocco",
-        "score": 2,
-        "winner": null
+        "score": 3,
+        "winner": true
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Canada": 4,
+        "Morocco": 4
+      },
+      "fastestGoal": {
+        "minute": 50,
+        "addedTime": null,
+        "scorer": "Azzedine Ounahi",
+        "team": "Morocco"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186859,
@@ -2793,7 +2801,7 @@
         "winner": null
       },
       "away": {
-        "name": "W90",
+        "name": "Morocco",
         "score": null,
         "winner": null
       },
@@ -3888,7 +3896,7 @@
               "name": "Morocco",
               "code": "MAR",
               "placeholder": false,
-              "winner": false
+              "winner": true
             }
           ]
         },
@@ -4025,9 +4033,9 @@
               "winner": false
             },
             {
-              "name": "W90",
-              "code": "W90",
-              "placeholder": true,
+              "name": "Morocco",
+              "code": "MAR",
+              "placeholder": false,
               "winner": false
             }
           ]
