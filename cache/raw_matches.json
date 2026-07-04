@@ -1,39 +1,10 @@
 {
-  "fetchedAt": "2026-07-04T19:30:07.975346+00:00",
+  "fetchedAt": "2026-07-04T21:30:06.856076+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186887,
-      "round": "Group Stage",
-      "startTimestamp": 1782439200,
-      "status": "finished",
-      "home": {
-        "name": "Türkiye",
-        "score": 3,
-        "winner": true
-      },
-      "away": {
-        "name": "USA",
-        "score": 2,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "USA": 1
-      },
-      "fastestGoal": {
-        "minute": 3,
-        "addedTime": null,
-        "scorer": "Auston Trusty",
-        "team": "USA"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186771,
       "round": "Group Stage",
@@ -902,34 +873,26 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186859,
-      "round": "Group Stage",
-      "startTimestamp": 1781906400,
-      "status": "finished",
+      "id": 12813010,
+      "round": "Round of 16",
+      "startTimestamp": 1783198800,
+      "status": "inprogress",
       "home": {
-        "name": "Scotland",
+        "name": "Paraguay",
         "score": 0,
-        "winner": false
+        "winner": null
       },
       "away": {
-        "name": "Morocco",
-        "score": 1,
-        "winner": true
+        "name": "France",
+        "score": 0,
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {
-        "Scotland": 1,
-        "Morocco": 1
-      },
-      "fastestGoal": {
-        "minute": 2,
-        "addedTime": null,
-        "scorer": "Ismael Saibari",
-        "team": "Morocco"
-      },
+      "yellowCards": {},
+      "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
       "id": 15186856,
@@ -1804,6 +1767,35 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186887,
+      "round": "Group Stage",
+      "startTimestamp": 1782439200,
+      "status": "finished",
+      "home": {
+        "name": "Türkiye",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "name": "USA",
+        "score": 2,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "USA": 1
+      },
+      "fastestGoal": {
+        "minute": 3,
+        "addedTime": null,
+        "scorer": "Auston Trusty",
+        "team": "USA"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -2635,28 +2627,6 @@
         "team": "Qatar"
       },
       "incidentsFetched": true
-    },
-    {
-      "id": 12813010,
-      "round": "Round of 16",
-      "startTimestamp": 1783198800,
-      "status": "notstarted",
-      "home": {
-        "name": "Paraguay",
-        "score": null,
-        "winner": null
-      },
-      "away": {
-        "name": "France",
-        "score": null,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 12813006,
