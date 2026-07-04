@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T04:00:07.974Z",
+  "lastUpdated": "2026-07-04T17:30:07.540Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Round of 16",
       "kickoff": "2026-07-04T17:00:00.000Z",
       "kickoffUnix": 1783184400000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "CAN",
         "name": "Canada",
@@ -1391,7 +1391,7 @@
           },
           "goalsConceded": 2,
           "redCards": 0,
-          "ownGoals": 1
+          "ownGoals": 0
         }
       ]
     }
@@ -2082,13 +2082,6 @@
         "value": 2
       },
       {
-        "code": "AUS",
-        "name": "Australia",
-        "iso2": "AU",
-        "player": "Tom Gibbons",
-        "value": 1
-      },
-      {
         "code": "EGY",
         "name": "Egypt",
         "iso2": "EG",
@@ -2163,6 +2156,13 @@
         "name": "Argentina",
         "iso2": "AR",
         "player": "Tom Clayton",
+        "value": 0
+      },
+      {
+        "code": "AUS",
+        "name": "Australia",
+        "iso2": "AU",
+        "player": "Tom Gibbons",
         "value": 0
       },
       {
@@ -3773,7 +3773,7 @@
           {
             "label": null,
             "kickoff": "2026-07-04T17:00:00.000Z",
-            "status": "NS",
+            "status": "1H",
             "finished": false,
             "home": {
               "name": "Canada",
@@ -4772,29 +4772,6 @@
       }
     },
     {
-      "date": "2026-06-19T19:00:00.000Z",
-      "ts": 1781895600000,
-      "round": "Group D",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "USA",
-        "name": "USA",
-        "iso2": "US",
-        "player": "Flora Curry",
-        "score": 2,
-        "winner": true
-      },
-      "away": {
-        "code": "AUS",
-        "name": "Australia",
-        "iso2": "AU",
-        "player": "Tom Gibbons",
-        "score": 0,
-        "winner": false
-      }
-    },
-    {
       "date": "2026-06-19T22:00:00.000Z",
       "ts": 1781906400000,
       "round": "Group C",
@@ -5468,29 +5445,6 @@
       "status": "FT",
       "finished": true,
       "home": {
-        "code": "PAR",
-        "name": "Paraguay",
-        "iso2": "PY",
-        "player": "Robin Parish",
-        "score": 0,
-        "winner": false
-      },
-      "away": {
-        "code": "AUS",
-        "name": "Australia",
-        "iso2": "AU",
-        "player": "Tom Gibbons",
-        "score": 0,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-26T02:00:00.000Z",
-      "ts": 1782439200000,
-      "round": "Group D",
-      "status": "FT",
-      "finished": true,
-      "home": {
         "code": "TUR",
         "name": "Turkey",
         "iso2": "TR",
@@ -5504,6 +5458,29 @@
         "iso2": "US",
         "player": "Flora Curry",
         "score": 2,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-26T02:00:00.000Z",
+      "ts": 1782439200000,
+      "round": "Group D",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "player": "Robin Parish",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "AUS",
+        "name": "Australia",
+        "iso2": "AU",
+        "player": "Tom Gibbons",
+        "score": 0,
         "winner": false
       }
     },
@@ -6155,14 +6132,14 @@
       "date": "2026-07-04T17:00:00.000Z",
       "ts": 1783184400000,
       "round": "Round of 16",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "CAN",
         "name": "Canada",
         "iso2": "CA",
         "player": "Joe Clayton",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -6170,7 +6147,7 @@
         "name": "Morocco",
         "iso2": "MA",
         "player": "Ali Taylor",
-        "score": null,
+        "score": 0,
         "winner": false
       }
     },
@@ -7095,14 +7072,6 @@
         "score": 22
       },
       {
-        "player": "Flora Curry",
-        "conceded": 9,
-        "losses": 2,
-        "yellows": 11,
-        "reds": 0,
-        "score": 22
-      },
-      {
         "player": "Robin Parish",
         "conceded": 9,
         "losses": 2,
@@ -7117,14 +7086,6 @@
         "yellows": 9,
         "reds": 0,
         "score": 21
-      },
-      {
-        "player": "Tom Gibbons",
-        "conceded": 6,
-        "losses": 2,
-        "yellows": 10,
-        "reds": 1,
-        "score": 20
       },
       {
         "player": "Sam King",
@@ -7143,6 +7104,14 @@
         "score": 19
       },
       {
+        "player": "Flora Curry",
+        "conceded": 9,
+        "losses": 2,
+        "yellows": 8,
+        "reds": 0,
+        "score": 19
+      },
+      {
         "player": "Me Julie",
         "conceded": 5,
         "losses": 3,
@@ -7156,6 +7125,14 @@
         "losses": 1,
         "yellows": 4,
         "reds": 0,
+        "score": 16
+      },
+      {
+        "player": "Tom Gibbons",
+        "conceded": 6,
+        "losses": 2,
+        "yellows": 6,
+        "reds": 1,
         "score": 16
       },
       {
@@ -7394,10 +7371,9 @@
       "l": 1,
       "gf": 8,
       "ga": 4,
-      "yellows": 5,
+      "yellows": 2,
       "reds": 0,
       "form": [
-        "W",
         "W",
         "L",
         "W"
@@ -8080,11 +8056,10 @@
       "l": 1,
       "gf": 2,
       "ga": 2,
-      "yellows": 5,
+      "yellows": 1,
       "reds": 0,
       "form": [
         "W",
-        "L",
         "D",
         "L"
       ]
@@ -8092,7 +8067,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 103,
-    "scrapedAt": "2026-07-04T04:00:07.890762+00:00"
+    "matches": 102,
+    "scrapedAt": "2026-07-04T17:30:07.218764+00:00"
   }
 }

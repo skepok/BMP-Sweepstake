@@ -1,35 +1,10 @@
 {
-  "fetchedAt": "2026-07-04T04:00:07.890762+00:00",
+  "fetchedAt": "2026-07-04T17:30:07.218764+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186891,
-      "round": "Group Stage",
-      "startTimestamp": 1782439200,
-      "status": "finished",
-      "home": {
-        "name": "Paraguay",
-        "score": 0,
-        "winner": false
-      },
-      "away": {
-        "name": "Australia",
-        "score": 0,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "Paraguay": 1,
-        "Australia": 1
-      },
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186887,
       "round": "Group Stage",
@@ -897,41 +872,26 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186878,
-      "round": "Group Stage",
-      "startTimestamp": 1781895600,
-      "status": "finished",
+      "id": 12813009,
+      "round": "Round of 16",
+      "startTimestamp": 1783184400,
+      "status": "inprogress",
       "home": {
-        "name": "USA",
-        "score": 2,
-        "winner": true
+        "name": "Canada",
+        "score": 0,
+        "winner": null
       },
       "away": {
-        "name": "Australia",
+        "name": "Morocco",
         "score": 0,
-        "winner": false
+        "winner": null
       },
       "redCards": {},
-      "ownGoals": {
-        "Australia": 1
-      },
-      "yellowCards": {
-        "USA": 3,
-        "Australia": 4
-      },
-      "fastestGoal": {
-        "minute": 43,
-        "addedTime": null,
-        "scorer": "Alexander Freeman",
-        "team": "USA"
-      },
-      "fastestOwnGoal": {
-        "minute": 11,
-        "addedTime": null,
-        "scorer": "Cameron Burgess",
-        "team": "Australia"
-      },
-      "incidentsFetched": true
+      "ownGoals": {},
+      "yellowCards": {},
+      "fastestGoal": null,
+      "fastestOwnGoal": null,
+      "incidentsFetched": false
     },
     {
       "id": 15186859,
@@ -1811,6 +1771,31 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186891,
+      "round": "Group Stage",
+      "startTimestamp": 1782439200,
+      "status": "finished",
+      "home": {
+        "name": "Paraguay",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "name": "Australia",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Paraguay": 1,
+        "Australia": 1
+      },
+      "fastestGoal": null,
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -2642,28 +2627,6 @@
         "team": "Qatar"
       },
       "incidentsFetched": true
-    },
-    {
-      "id": 12813009,
-      "round": "Round of 16",
-      "startTimestamp": 1783184400,
-      "status": "notstarted",
-      "home": {
-        "name": "Canada",
-        "score": null,
-        "winner": null
-      },
-      "away": {
-        "name": "Morocco",
-        "score": null,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 12813010,
