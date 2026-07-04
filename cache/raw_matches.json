@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-04T17:30:07.218764+00:00",
+  "fetchedAt": "2026-07-04T18:30:06.462720+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -883,7 +883,7 @@
       },
       "away": {
         "name": "Morocco",
-        "score": 0,
+        "score": 1,
         "winner": null
       },
       "redCards": {},

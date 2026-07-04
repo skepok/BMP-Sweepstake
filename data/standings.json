@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T17:30:07.540Z",
+  "lastUpdated": "2026-07-04T18:30:06.533Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -6147,7 +6147,7 @@
         "name": "Morocco",
         "iso2": "MA",
         "player": "Ali Taylor",
-        "score": 0,
+        "score": 1,
         "winner": false
       }
     },
@@ -8068,6 +8068,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-07-04T17:30:07.218764+00:00"
+    "scrapedAt": "2026-07-04T18:30:06.462720+00:00"
   }
 }
