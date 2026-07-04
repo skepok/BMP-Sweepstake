@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T21:30:06.944Z",
+  "lastUpdated": "2026-07-04T23:00:09.760Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -1391,7 +1391,7 @@
           },
           "goalsConceded": 2,
           "redCards": 0,
-          "ownGoals": 0
+          "ownGoals": 1
         }
       ]
     }
@@ -2082,6 +2082,13 @@
         "value": 2
       },
       {
+        "code": "AUS",
+        "name": "Australia",
+        "iso2": "AU",
+        "player": "Tom Gibbons",
+        "value": 1
+      },
+      {
         "code": "EGY",
         "name": "Egypt",
         "iso2": "EG",
@@ -2156,13 +2163,6 @@
         "name": "Argentina",
         "iso2": "AR",
         "player": "Tom Clayton",
-        "value": 0
-      },
-      {
-        "code": "AUS",
-        "name": "Australia",
-        "iso2": "AU",
-        "player": "Tom Gibbons",
         "value": 0
       },
       {
@@ -4772,6 +4772,75 @@
       }
     },
     {
+      "date": "2026-06-19T01:00:00.000Z",
+      "ts": 1781830800000,
+      "round": "Group A",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX",
+        "player": "Robbie Godowski",
+        "score": 1,
+        "winner": true
+      },
+      "away": {
+        "code": "KOR",
+        "name": "South Korea",
+        "iso2": "KR",
+        "player": "Elizabeth Swords",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-19T19:00:00.000Z",
+      "ts": 1781895600000,
+      "round": "Group D",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "USA",
+        "name": "USA",
+        "iso2": "US",
+        "player": "Flora Curry",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "code": "AUS",
+        "name": "Australia",
+        "iso2": "AU",
+        "player": "Tom Gibbons",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-19T22:00:00.000Z",
+      "ts": 1781906400000,
+      "round": "Group C",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "SCO",
+        "name": "Scotland",
+        "iso2": "GB-SCT",
+        "player": "Paul Mitchell",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "MOR",
+        "name": "Morocco",
+        "iso2": "MA",
+        "player": "Ali Taylor",
+        "score": 1,
+        "winner": true
+      }
+    },
+    {
       "date": "2026-06-20T00:30:00.000Z",
       "ts": 1781915400000,
       "round": "Group C",
@@ -6147,7 +6216,7 @@
         "name": "France",
         "iso2": "FR",
         "player": "Sam King",
-        "score": 0,
+        "score": 1,
         "winner": false
       }
     },
@@ -7041,6 +7110,22 @@
         "score": 24
       },
       {
+        "player": "Paul Mitchell",
+        "conceded": 10,
+        "losses": 3,
+        "yellows": 9,
+        "reds": 0,
+        "score": 22
+      },
+      {
+        "player": "Flora Curry",
+        "conceded": 9,
+        "losses": 2,
+        "yellows": 11,
+        "reds": 0,
+        "score": 22
+      },
+      {
         "player": "Robin Parish",
         "conceded": 9,
         "losses": 2,
@@ -7049,20 +7134,20 @@
         "score": 22
       },
       {
-        "player": "Paul Mitchell",
-        "conceded": 10,
-        "losses": 3,
-        "yellows": 8,
-        "reds": 0,
-        "score": 21
-      },
-      {
         "player": "Tom Clayton",
         "conceded": 9,
         "losses": 3,
         "yellows": 9,
         "reds": 0,
         "score": 21
+      },
+      {
+        "player": "Tom Gibbons",
+        "conceded": 6,
+        "losses": 2,
+        "yellows": 10,
+        "reds": 1,
+        "score": 20
       },
       {
         "player": "Sam King",
@@ -7077,14 +7162,6 @@
         "conceded": 11,
         "losses": 4,
         "yellows": 4,
-        "reds": 0,
-        "score": 19
-      },
-      {
-        "player": "Flora Curry",
-        "conceded": 9,
-        "losses": 2,
-        "yellows": 8,
         "reds": 0,
         "score": 19
       },
@@ -7105,17 +7182,17 @@
         "score": 16
       },
       {
-        "player": "Tom Gibbons",
-        "conceded": 6,
-        "losses": 2,
-        "yellows": 6,
-        "reds": 1,
-        "score": 16
-      },
-      {
         "player": "Jess Forshaw",
         "conceded": 7,
         "losses": 1,
+        "yellows": 7,
+        "reds": 0,
+        "score": 15
+      },
+      {
+        "player": "Elizabeth Swords",
+        "conceded": 6,
+        "losses": 2,
         "yellows": 7,
         "reds": 0,
         "score": 15
@@ -7129,10 +7206,10 @@
         "score": 15
       },
       {
-        "player": "Elizabeth Swords",
+        "player": "Ali Taylor",
         "conceded": 6,
-        "losses": 2,
-        "yellows": 5,
+        "losses": 0,
+        "yellows": 7,
         "reds": 0,
         "score": 13
       },
@@ -7143,14 +7220,6 @@
         "yellows": 6,
         "reds": 0,
         "score": 13
-      },
-      {
-        "player": "Ali Taylor",
-        "conceded": 6,
-        "losses": 0,
-        "yellows": 6,
-        "reds": 0,
-        "score": 12
       },
       {
         "player": "Guy Curry",
@@ -7242,10 +7311,11 @@
       "l": 0,
       "gf": 6,
       "ga": 3,
-      "yellows": 0,
+      "yellows": 1,
       "reds": 0,
       "form": [
         "D",
+        "W",
         "W",
         "W",
         "W"
@@ -7332,10 +7402,11 @@
       "l": 2,
       "gf": 2,
       "ga": 3,
-      "yellows": 2,
+      "yellows": 4,
       "reds": 0,
       "form": [
         "W",
+        "L",
         "L"
       ]
     },
@@ -7348,9 +7419,10 @@
       "l": 1,
       "gf": 8,
       "ga": 4,
-      "yellows": 2,
+      "yellows": 5,
       "reds": 0,
       "form": [
+        "W",
         "W",
         "L",
         "W"
@@ -7788,10 +7860,11 @@
       "l": 2,
       "gf": 1,
       "ga": 4,
-      "yellows": 4,
+      "yellows": 5,
       "reds": 0,
       "form": [
         "W",
+        "L",
         "L"
       ]
     },
@@ -7807,6 +7880,7 @@
       "yellows": 2,
       "reds": 1,
       "form": [
+        "W",
         "W",
         "W",
         "W"
@@ -8033,10 +8107,11 @@
       "l": 1,
       "gf": 2,
       "ga": 2,
-      "yellows": 1,
+      "yellows": 5,
       "reds": 0,
       "form": [
         "W",
+        "L",
         "D",
         "L"
       ]
@@ -8044,7 +8119,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 101,
-    "scrapedAt": "2026-07-04T21:30:06.856076+00:00"
+    "matches": 104,
+    "scrapedAt": "2026-07-04T23:00:09.667698+00:00"
   }
 }

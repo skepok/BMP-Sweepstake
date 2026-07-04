@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-04T21:30:06.856076+00:00",
+  "fetchedAt": "2026-07-04T23:00:09.667698+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -884,7 +884,7 @@
       },
       "away": {
         "name": "France",
-        "score": 0,
+        "score": 1,
         "winner": null
       },
       "redCards": {},
@@ -2626,6 +2626,102 @@
         "scorer": "Mohamed Naceur Almanai",
         "team": "Qatar"
       },
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186490,
+      "round": "Group Stage",
+      "startTimestamp": 1781830800,
+      "status": "finished",
+      "home": {
+        "name": "Mexico",
+        "score": 1,
+        "winner": true
+      },
+      "away": {
+        "name": "South Korea",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "South Korea": 2
+      },
+      "fastestGoal": {
+        "minute": 50,
+        "addedTime": null,
+        "scorer": "Luis Romo",
+        "team": "Mexico"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186878,
+      "round": "Group Stage",
+      "startTimestamp": 1781895600,
+      "status": "finished",
+      "home": {
+        "name": "USA",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "name": "Australia",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Australia": 1
+      },
+      "yellowCards": {
+        "USA": 3,
+        "Australia": 4
+      },
+      "fastestGoal": {
+        "minute": 43,
+        "addedTime": null,
+        "scorer": "Alexander Freeman",
+        "team": "USA"
+      },
+      "fastestOwnGoal": {
+        "minute": 11,
+        "addedTime": null,
+        "scorer": "Cameron Burgess",
+        "team": "Australia"
+      },
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186859,
+      "round": "Group Stage",
+      "startTimestamp": 1781906400,
+      "status": "finished",
+      "home": {
+        "name": "Scotland",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "name": "Morocco",
+        "score": 1,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Scotland": 1,
+        "Morocco": 1
+      },
+      "fastestGoal": {
+        "minute": 2,
+        "addedTime": null,
+        "scorer": "Ismael Saibari",
+        "team": "Morocco"
+      },
+      "fastestOwnGoal": null,
       "incidentsFetched": true
     },
     {
