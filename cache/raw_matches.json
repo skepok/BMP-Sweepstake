@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-04T00:30:07.045991+00:00",
+  "fetchedAt": "2026-07-04T01:00:07.799769+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -867,23 +867,38 @@
       "id": 12812999,
       "round": "Round of 32",
       "startTimestamp": 1783116000,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Argentina",
-        "score": 2,
-        "winner": null
+        "score": 3,
+        "winner": true
       },
       "away": {
         "name": "Cabo Verde",
         "score": 2,
-        "winner": null
+        "winner": false
       },
       "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "ownGoals": {
+        "Cabo Verde": 1
+      },
+      "yellowCards": {
+        "Argentina": 1,
+        "Cabo Verde": 1
+      },
+      "fastestGoal": {
+        "minute": 29,
+        "addedTime": null,
+        "scorer": "Lionel Messi",
+        "team": "Argentina"
+      },
+      "fastestOwnGoal": {
+        "minute": 111,
+        "addedTime": null,
+        "scorer": "Diney Borges",
+        "team": "Cabo Verde"
+      },
+      "incidentsFetched": true
     },
     {
       "id": 15186490,
@@ -2787,7 +2802,7 @@
       "startTimestamp": 1783440000,
       "status": "notstarted",
       "home": {
-        "name": "W86",
+        "name": "Argentina",
         "score": null,
         "winner": null
       },
@@ -3823,7 +3838,7 @@
               "name": "Argentina",
               "code": "ARG",
               "placeholder": false,
-              "winner": false
+              "winner": true
             },
             {
               "name": "Cabo Verde",
@@ -4017,9 +4032,9 @@
           "kickoff": 1783440000,
           "participants": [
             {
-              "name": "W86",
-              "code": "W86",
-              "placeholder": true,
+              "name": "Argentina",
+              "code": "ARG",
+              "placeholder": false,
               "winner": false
             },
             {

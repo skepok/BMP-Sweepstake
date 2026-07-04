@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T00:30:07.117Z",
+  "lastUpdated": "2026-07-04T01:00:07.887Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 32",
-      "kickoff": "2026-07-03T22:00:00.000Z",
-      "kickoffUnix": 1783116000000,
-      "status": "1H",
+      "kickoff": "2026-07-04T01:30:00.000Z",
+      "kickoffUnix": 1783128600000,
+      "status": "NS",
       "home": {
-        "code": "ARG",
-        "name": "Argentina",
-        "iso2": "AR"
+        "code": "COL",
+        "name": "Colombia",
+        "iso2": "CO"
       },
       "away": {
-        "code": "CPV",
-        "name": "Cape Verde",
-        "iso2": "CV"
+        "code": "GHA",
+        "name": "Ghana",
+        "iso2": "GH"
       }
     },
     "lastFinished": {
       "round": "Round of 32",
-      "kickoff": "2026-07-03T18:00:00.000Z",
-      "kickoffUnix": 1783101600000,
+      "kickoff": "2026-07-03T22:00:00.000Z",
+      "kickoffUnix": 1783116000000,
       "status": "FT",
       "home": {
-        "code": "AUS",
-        "name": "Australia",
-        "iso2": "AU",
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
         "goals": 3
       },
       "away": {
-        "code": "EGY",
-        "name": "Egypt",
-        "iso2": "EG",
-        "goals": 5
+        "code": "CPV",
+        "name": "Cape Verde",
+        "iso2": "CV",
+        "goals": 2
       }
     }
   },
@@ -495,9 +495,9 @@
           "pot": 2,
           "odds": "2000/1",
           "matched": true,
-          "status": "Into the Round of 32",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 32",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group H",
             "rank": 2,
@@ -1295,7 +1295,7 @@
           "pot": 1,
           "odds": "8/1",
           "matched": true,
-          "status": "Into the Round of 32",
+          "status": "Into the Round of 16",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -3648,16 +3648,16 @@
           {
             "label": null,
             "kickoff": "2026-07-03T22:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "Argentina",
               "code": "ARG",
               "iso2": "AR",
               "player": "Tom Clayton",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 3,
+              "winner": true
             },
             "away": {
               "name": "Cape Verde",
@@ -3665,7 +3665,7 @@
               "iso2": "CV",
               "player": "Guy Curry",
               "placeholder": false,
-              "score": null,
+              "score": 2,
               "winner": false
             }
           },
@@ -3896,11 +3896,11 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Round of 32 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Argentina",
+              "code": "ARG",
+              "iso2": "AR",
+              "player": "Tom Clayton",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
@@ -6132,15 +6132,15 @@
       "date": "2026-07-03T22:00:00.000Z",
       "ts": 1783116000000,
       "round": "Round of 32",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "ARG",
         "name": "Argentina",
         "iso2": "AR",
         "player": "Tom Clayton",
-        "score": 2,
-        "winner": false
+        "score": 3,
+        "winner": true
       },
       "away": {
         "code": "CPV",
@@ -6319,10 +6319,10 @@
       "status": "NS",
       "finished": false,
       "home": {
-        "code": null,
-        "name": "W86",
-        "iso2": null,
-        "player": null,
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
+        "player": "Tom Clayton",
         "score": null,
         "winner": false
       },
@@ -7546,7 +7546,8 @@
       "form": [
         "D",
         "D",
-        "D"
+        "D",
+        "L"
       ]
     },
     "GER": {
@@ -8055,6 +8056,7 @@
       "form": [
         "W",
         "W",
+        "W",
         "W"
       ]
     },
@@ -8114,6 +8116,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 104,
-    "scrapedAt": "2026-07-04T00:30:07.045991+00:00"
+    "scrapedAt": "2026-07-04T01:00:07.799769+00:00"
   }
 }
