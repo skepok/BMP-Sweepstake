@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T23:00:09.043Z",
+  "lastUpdated": "2026-07-05T23:30:06.925Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,8 +39,8 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 16",
-      "kickoff": "2026-07-06T00:00:00.000Z",
-      "kickoffUnix": 1783296000000,
+      "kickoff": "2026-07-06T01:00:00.000Z",
+      "kickoffUnix": 1783299600000,
       "status": "NS",
       "home": {
         "code": "MEX",
@@ -3868,7 +3868,7 @@
           },
           {
             "label": null,
-            "kickoff": "2026-07-06T00:00:00.000Z",
+            "kickoff": "2026-07-06T01:00:00.000Z",
             "status": "NS",
             "finished": false,
             "home": {
@@ -6221,8 +6221,8 @@
       }
     },
     {
-      "date": "2026-07-06T00:00:00.000Z",
-      "ts": 1783296000000,
+      "date": "2026-07-06T01:00:00.000Z",
+      "ts": 1783299600000,
       "round": "Round of 16",
       "status": "NS",
       "finished": false,
@@ -8099,6 +8099,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 103,
-    "scrapedAt": "2026-07-05T23:00:08.391088+00:00"
+    "scrapedAt": "2026-07-05T23:30:06.843503+00:00"
   }
 }
