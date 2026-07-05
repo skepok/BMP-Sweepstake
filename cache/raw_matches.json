@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-05T22:00:06.291875+00:00",
+  "fetchedAt": "2026-07-05T22:30:07.636359+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -873,23 +873,30 @@
       "id": 12813006,
       "round": "Round of 16",
       "startTimestamp": 1783281600,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Brazil",
-        "score": 0,
-        "winner": null
+        "score": 1,
+        "winner": false
       },
       "away": {
         "name": "Norway",
         "score": 2,
-        "winner": null
+        "winner": true
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Brazil": 1
+      },
+      "fastestGoal": {
+        "minute": 79,
+        "addedTime": null,
+        "scorer": "Erling Haaland",
+        "team": "Norway"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186879,
@@ -2883,7 +2890,7 @@
       "startTimestamp": 1783803600,
       "status": "notstarted",
       "home": {
-        "name": "W91",
+        "name": "Norway",
         "score": null,
         "winner": null
       },
@@ -3996,7 +4003,7 @@
               "name": "Norway",
               "code": "NOR",
               "placeholder": false,
-              "winner": false
+              "winner": true
             }
           ]
         },
@@ -4108,9 +4115,9 @@
           "kickoff": 1783803600,
           "participants": [
             {
-              "name": "W91",
-              "code": "W91",
-              "placeholder": true,
+              "name": "Norway",
+              "code": "NOR",
+              "placeholder": false,
               "winner": false
             },
             {

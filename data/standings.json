@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T22:00:06.379Z",
+  "lastUpdated": "2026-07-05T22:30:07.720Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 16",
-      "kickoff": "2026-07-05T20:00:00.000Z",
-      "kickoffUnix": 1783281600000,
-      "status": "1H",
+      "kickoff": "2026-07-06T00:00:00.000Z",
+      "kickoffUnix": 1783296000000,
+      "status": "NS",
       "home": {
-        "code": "BRA",
-        "name": "Brazil",
-        "iso2": "BR"
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX"
       },
       "away": {
-        "code": "NOR",
-        "name": "Norway",
-        "iso2": "NO"
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG"
       }
     },
     "lastFinished": {
       "round": "Round of 16",
-      "kickoff": "2026-07-04T21:00:00.000Z",
-      "kickoffUnix": 1783198800000,
+      "kickoff": "2026-07-05T20:00:00.000Z",
+      "kickoffUnix": 1783281600000,
       "status": "FT",
       "home": {
-        "code": "PAR",
-        "name": "Paraguay",
-        "iso2": "PY",
-        "goals": 0
+        "code": "BRA",
+        "name": "Brazil",
+        "iso2": "BR",
+        "goals": 1
       },
       "away": {
-        "code": "FRA",
-        "name": "France",
-        "iso2": "FR",
-        "goals": 1
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO",
+        "goals": 2
       }
     }
   },
@@ -580,7 +580,7 @@
           "pot": 1,
           "odds": "25/1",
           "matched": true,
-          "status": "Into the Round of 16",
+          "status": "Into the Quarter-finals",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -855,9 +855,9 @@
           "pot": 1,
           "odds": "8/1",
           "matched": true,
-          "status": "Into the Round of 16",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 16",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group C",
             "rank": 1,
@@ -3845,15 +3845,15 @@
           {
             "label": null,
             "kickoff": "2026-07-05T20:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "Brazil",
               "code": "BRA",
               "iso2": "BR",
               "player": "Me Julie",
               "placeholder": false,
-              "score": null,
+              "score": 1,
               "winner": false
             },
             "away": {
@@ -3862,8 +3862,8 @@
               "iso2": "NO",
               "player": "Jimena Barillas",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 2,
+              "winner": true
             }
           },
           {
@@ -3997,11 +3997,11 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Round of 16 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Norway",
+              "code": "NOR",
+              "iso2": "NO",
+              "player": "Jimena Barillas",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
@@ -6201,14 +6201,14 @@
       "date": "2026-07-05T20:00:00.000Z",
       "ts": 1783281600000,
       "round": "Round of 16",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "BRA",
         "name": "Brazil",
         "iso2": "BR",
         "player": "Me Julie",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "away": {
@@ -6217,7 +6217,7 @@
         "iso2": "NO",
         "player": "Jimena Barillas",
         "score": 2,
-        "winner": false
+        "winner": true
       }
     },
     {
@@ -6388,10 +6388,10 @@
       "status": "NS",
       "finished": false,
       "home": {
-        "code": null,
-        "name": "W91",
-        "iso2": null,
-        "player": null,
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO",
+        "player": "Jimena Barillas",
         "score": null,
         "winner": false
       },
@@ -7578,6 +7578,7 @@
         "W",
         "W",
         "L",
+        "W",
         "W"
       ]
     },
@@ -7753,7 +7754,8 @@
       "form": [
         "D",
         "W",
-        "W"
+        "W",
+        "L"
       ]
     },
     "PAN": {
@@ -8097,6 +8099,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 103,
-    "scrapedAt": "2026-07-05T22:00:06.291875+00:00"
+    "scrapedAt": "2026-07-05T22:30:07.636359+00:00"
   }
 }
