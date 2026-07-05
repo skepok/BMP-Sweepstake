@@ -1,42 +1,10 @@
 {
-  "fetchedAt": "2026-07-04T23:30:07.404971+00:00",
+  "fetchedAt": "2026-07-05T20:30:06.757651+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186771,
-      "round": "Group Stage",
-      "startTimestamp": 1782500400,
-      "status": "finished",
-      "home": {
-        "name": "Senegal",
-        "score": 5,
-        "winner": true
-      },
-      "away": {
-        "name": "Iraq",
-        "score": 0,
-        "winner": false
-      },
-      "redCards": {
-        "Iraq": 1
-      },
-      "ownGoals": {},
-      "yellowCards": {
-        "Iraq": 2,
-        "Senegal": 2
-      },
-      "fastestGoal": {
-        "minute": 4,
-        "addedTime": null,
-        "scorer": "Habib Diarra",
-        "team": "Senegal"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186537,
       "round": "Group Stage",
@@ -902,34 +870,26 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186856,
-      "round": "Group Stage",
-      "startTimestamp": 1781915400,
-      "status": "finished",
+      "id": 12813006,
+      "round": "Round of 16",
+      "startTimestamp": 1783281600,
+      "status": "inprogress",
       "home": {
         "name": "Brazil",
-        "score": 3,
-        "winner": true
+        "score": 0,
+        "winner": null
       },
       "away": {
-        "name": "Haiti",
+        "name": "Norway",
         "score": 0,
-        "winner": false
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {
-        "Haiti": 3,
-        "Brazil": 1
-      },
-      "fastestGoal": {
-        "minute": 23,
-        "addedTime": null,
-        "scorer": "Matheus Cunha",
-        "team": "Brazil"
-      },
+      "yellowCards": {},
+      "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
       "id": 15186879,
@@ -1798,6 +1758,38 @@
         "addedTime": null,
         "scorer": "Auston Trusty",
         "team": "USA"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186771,
+      "round": "Group Stage",
+      "startTimestamp": 1782500400,
+      "status": "finished",
+      "home": {
+        "name": "Senegal",
+        "score": 5,
+        "winner": true
+      },
+      "away": {
+        "name": "Iraq",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {
+        "Iraq": 1
+      },
+      "ownGoals": {},
+      "yellowCards": {
+        "Iraq": 2,
+        "Senegal": 2
+      },
+      "fastestGoal": {
+        "minute": 4,
+        "addedTime": null,
+        "scorer": "Habib Diarra",
+        "team": "Senegal"
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
@@ -2730,28 +2722,6 @@
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
-    },
-    {
-      "id": 12813006,
-      "round": "Round of 16",
-      "startTimestamp": 1783281600,
-      "status": "notstarted",
-      "home": {
-        "name": "Brazil",
-        "score": null,
-        "winner": null
-      },
-      "away": {
-        "name": "Norway",
-        "score": null,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 12813007,

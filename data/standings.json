@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T23:30:07.491Z",
+  "lastUpdated": "2026-07-05T20:30:06.870Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Round of 16",
       "kickoff": "2026-07-05T20:00:00.000Z",
       "kickoffUnix": 1783281600000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "BRA",
         "name": "Brazil",
@@ -3845,7 +3845,7 @@
           {
             "label": null,
             "kickoff": "2026-07-05T20:00:00.000Z",
-            "status": "NS",
+            "status": "1H",
             "finished": false,
             "home": {
               "name": "Brazil",
@@ -4841,29 +4841,6 @@
       }
     },
     {
-      "date": "2026-06-20T00:30:00.000Z",
-      "ts": 1781915400000,
-      "round": "Group C",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "BRA",
-        "name": "Brazil",
-        "iso2": "BR",
-        "player": "Me Julie",
-        "score": 3,
-        "winner": true
-      },
-      "away": {
-        "code": "HTI",
-        "name": "Haiti",
-        "iso2": "HT",
-        "player": "Tom Clayton",
-        "score": 0,
-        "winner": false
-      }
-    },
-    {
       "date": "2026-06-20T03:00:00.000Z",
       "ts": 1781924400000,
       "round": "Group D",
@@ -5537,29 +5514,6 @@
       "status": "FT",
       "finished": true,
       "home": {
-        "code": "SEN",
-        "name": "Senegal",
-        "iso2": "SN",
-        "player": "Sam Lowerson",
-        "score": 5,
-        "winner": true
-      },
-      "away": {
-        "code": "IRQ",
-        "name": "Iraq",
-        "iso2": "IQ",
-        "player": "Scott Rosseter",
-        "score": 0,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-26T19:00:00.000Z",
-      "ts": 1782500400000,
-      "round": "Group I",
-      "status": "FT",
-      "finished": true,
-      "home": {
         "code": "NOR",
         "name": "Norway",
         "iso2": "NO",
@@ -5574,6 +5528,29 @@
         "player": "Sam King",
         "score": 4,
         "winner": true
+      }
+    },
+    {
+      "date": "2026-06-26T19:00:00.000Z",
+      "ts": 1782500400000,
+      "round": "Group I",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "SEN",
+        "name": "Senegal",
+        "iso2": "SN",
+        "player": "Sam Lowerson",
+        "score": 5,
+        "winner": true
+      },
+      "away": {
+        "code": "IRQ",
+        "name": "Iraq",
+        "iso2": "IQ",
+        "player": "Scott Rosseter",
+        "score": 0,
+        "winner": false
       }
     },
     {
@@ -6224,14 +6201,14 @@
       "date": "2026-07-05T20:00:00.000Z",
       "ts": 1783281600000,
       "round": "Round of 16",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "BRA",
         "name": "Brazil",
         "iso2": "BR",
         "player": "Me Julie",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -6239,7 +6216,7 @@
         "name": "Norway",
         "iso2": "NO",
         "player": "Jimena Barillas",
-        "score": null,
+        "score": 0,
         "winner": false
       }
     },
@@ -7134,14 +7111,6 @@
         "score": 22
       },
       {
-        "player": "Tom Clayton",
-        "conceded": 9,
-        "losses": 3,
-        "yellows": 9,
-        "reds": 0,
-        "score": 21
-      },
-      {
         "player": "Tom Gibbons",
         "conceded": 6,
         "losses": 2,
@@ -7166,12 +7135,20 @@
         "score": 19
       },
       {
+        "player": "Tom Clayton",
+        "conceded": 9,
+        "losses": 3,
+        "yellows": 6,
+        "reds": 0,
+        "score": 18
+      },
+      {
         "player": "Me Julie",
         "conceded": 5,
         "losses": 3,
-        "yellows": 10,
+        "yellows": 9,
         "reds": 0,
-        "score": 18
+        "score": 17
       },
       {
         "player": "Bob Gibson",
@@ -7771,11 +7748,10 @@
       "l": 0,
       "gf": 7,
       "ga": 1,
-      "yellows": 5,
+      "yellows": 4,
       "reds": 0,
       "form": [
         "D",
-        "W",
         "W",
         "W"
       ]
@@ -8075,10 +8051,9 @@
       "l": 3,
       "gf": 2,
       "ga": 8,
-      "yellows": 7,
+      "yellows": 4,
       "reds": 0,
       "form": [
-        "L",
         "L",
         "L"
       ]
@@ -8121,7 +8096,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 104,
-    "scrapedAt": "2026-07-04T23:30:07.404971+00:00"
+    "matches": 103,
+    "scrapedAt": "2026-07-05T20:30:06.757651+00:00"
   }
 }
