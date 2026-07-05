@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-05T22:30:07.636359+00:00",
+  "fetchedAt": "2026-07-05T23:00:08.391088+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -1802,39 +1802,6 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186710,
-      "round": "Group Stage",
-      "startTimestamp": 1781204400,
-      "status": "finished",
-      "home": {
-        "name": "Mexico",
-        "score": 2,
-        "winner": true
-      },
-      "away": {
-        "name": "South Africa",
-        "score": 0,
-        "winner": false
-      },
-      "redCards": {
-        "Mexico": 1,
-        "South Africa": 2
-      },
-      "ownGoals": {},
-      "yellowCards": {
-        "South Africa": 2,
-        "Mexico": 1
-      },
-      "fastestGoal": {
-        "minute": 9,
-        "addedTime": null,
-        "scorer": "Julián Quiñones",
-        "team": "Mexico"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
-    {
       "id": 15186720,
       "round": "Group Stage",
       "startTimestamp": 1781229600,
@@ -2726,6 +2693,36 @@
         "addedTime": null,
         "scorer": "Ismael Saibari",
         "team": "Morocco"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186856,
+      "round": "Group Stage",
+      "startTimestamp": 1781915400,
+      "status": "finished",
+      "home": {
+        "name": "Brazil",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "name": "Haiti",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Haiti": 3,
+        "Brazil": 1
+      },
+      "fastestGoal": {
+        "minute": 23,
+        "addedTime": null,
+        "scorer": "Matheus Cunha",
+        "team": "Brazil"
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T22:30:07.720Z",
+  "lastUpdated": "2026-07-05T23:00:09.043Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -125,7 +125,7 @@
             "pts": 4
           },
           "goalsConceded": 3,
-          "redCards": 2,
+          "redCards": 0,
           "ownGoals": 0
         }
       ]
@@ -1035,7 +1035,7 @@
             "pts": 9
           },
           "goalsConceded": 0,
-          "redCards": 1,
+          "redCards": 0,
           "ownGoals": 0
         },
         {
@@ -1744,13 +1744,6 @@
         "value": 2
       },
       {
-        "code": "ZAF",
-        "name": "South Africa",
-        "iso2": "ZA",
-        "player": "Adam Wright",
-        "value": 2
-      },
-      {
         "code": "BEL",
         "name": "Belgium",
         "iso2": "BE",
@@ -1769,13 +1762,6 @@
         "name": "Iraq",
         "iso2": "IQ",
         "player": "Scott Rosseter",
-        "value": 1
-      },
-      {
-        "code": "MEX",
-        "name": "Mexico",
-        "iso2": "MX",
-        "player": "Robbie Godowski",
         "value": 1
       },
       {
@@ -1954,6 +1940,13 @@
         "value": 0
       },
       {
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX",
+        "player": "Robbie Godowski",
+        "value": 0
+      },
+      {
         "code": "MOR",
         "name": "Morocco",
         "iso2": "MA",
@@ -2014,6 +2007,13 @@
         "name": "Senegal",
         "iso2": "SN",
         "player": "Sam Lowerson",
+        "value": 0
+      },
+      {
+        "code": "ZAF",
+        "name": "South Africa",
+        "iso2": "ZA",
+        "player": "Adam Wright",
         "value": 0
       },
       {
@@ -4151,29 +4151,6 @@
   },
   "fixtures": [
     {
-      "date": "2026-06-11T19:00:00.000Z",
-      "ts": 1781204400000,
-      "round": "Group A",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "MEX",
-        "name": "Mexico",
-        "iso2": "MX",
-        "player": "Robbie Godowski",
-        "score": 2,
-        "winner": true
-      },
-      "away": {
-        "code": "ZAF",
-        "name": "South Africa",
-        "iso2": "ZA",
-        "player": "Adam Wright",
-        "score": 0,
-        "winner": false
-      }
-    },
-    {
       "date": "2026-06-12T02:00:00.000Z",
       "ts": 1781229600000,
       "round": "Group A",
@@ -4838,6 +4815,29 @@
         "player": "Ali Taylor",
         "score": 1,
         "winner": true
+      }
+    },
+    {
+      "date": "2026-06-20T00:30:00.000Z",
+      "ts": 1781915400000,
+      "round": "Group C",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "BRA",
+        "name": "Brazil",
+        "iso2": "BR",
+        "player": "Me Julie",
+        "score": 3,
+        "winner": true
+      },
+      "away": {
+        "code": "HTI",
+        "name": "Haiti",
+        "iso2": "HT",
+        "player": "Tom Clayton",
+        "score": 0,
+        "winner": false
       }
     },
     {
@@ -7111,6 +7111,14 @@
         "score": 22
       },
       {
+        "player": "Tom Clayton",
+        "conceded": 9,
+        "losses": 3,
+        "yellows": 9,
+        "reds": 0,
+        "score": 21
+      },
+      {
         "player": "Tom Gibbons",
         "conceded": 6,
         "losses": 2,
@@ -7135,20 +7143,12 @@
         "score": 19
       },
       {
-        "player": "Tom Clayton",
-        "conceded": 9,
-        "losses": 3,
-        "yellows": 6,
-        "reds": 0,
-        "score": 18
-      },
-      {
         "player": "Me Julie",
         "conceded": 5,
         "losses": 3,
-        "yellows": 9,
+        "yellows": 10,
         "reds": 0,
-        "score": 17
+        "score": 18
       },
       {
         "player": "Bob Gibson",
@@ -7172,14 +7172,6 @@
         "losses": 2,
         "yellows": 7,
         "reds": 0,
-        "score": 15
-      },
-      {
-        "player": "Adam Wright",
-        "conceded": 3,
-        "losses": 1,
-        "yellows": 7,
-        "reds": 2,
         "score": 15
       },
       {
@@ -7215,12 +7207,20 @@
         "score": 11
       },
       {
+        "player": "Adam Wright",
+        "conceded": 3,
+        "losses": 1,
+        "yellows": 5,
+        "reds": 0,
+        "score": 9
+      },
+      {
         "player": "Robbie Godowski",
         "conceded": 2,
         "losses": 1,
-        "yellows": 6,
-        "reds": 1,
-        "score": 11
+        "yellows": 5,
+        "reds": 0,
+        "score": 8
       }
     ],
     "fastestGoal": {
@@ -7270,10 +7270,9 @@
       "l": 1,
       "gf": 2,
       "ga": 3,
-      "yellows": 5,
-      "reds": 2,
+      "yellows": 3,
+      "reds": 0,
       "form": [
-        "L",
         "D",
         "W",
         "L"
@@ -7749,10 +7748,11 @@
       "l": 0,
       "gf": 7,
       "ga": 1,
-      "yellows": 4,
+      "yellows": 5,
       "reds": 0,
       "form": [
         "D",
+        "W",
         "W",
         "W",
         "L"
@@ -7855,10 +7855,9 @@
       "l": 0,
       "gf": 6,
       "ga": 0,
-      "yellows": 2,
-      "reds": 1,
+      "yellows": 1,
+      "reds": 0,
       "form": [
-        "W",
         "W",
         "W",
         "W"
@@ -8053,9 +8052,10 @@
       "l": 3,
       "gf": 2,
       "ga": 8,
-      "yellows": 4,
+      "yellows": 7,
       "reds": 0,
       "form": [
+        "L",
         "L",
         "L"
       ]
@@ -8099,6 +8099,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 103,
-    "scrapedAt": "2026-07-05T22:30:07.636359+00:00"
+    "scrapedAt": "2026-07-05T23:00:08.391088+00:00"
   }
 }
