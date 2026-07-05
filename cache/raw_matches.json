@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-05T20:30:06.757651+00:00",
+  "fetchedAt": "2026-07-05T22:00:06.291875+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -881,7 +881,7 @@
       },
       "away": {
         "name": "Norway",
-        "score": 0,
+        "score": 2,
         "winner": null
       },
       "redCards": {},
