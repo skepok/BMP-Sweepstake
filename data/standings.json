@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T23:30:06.925Z",
+  "lastUpdated": "2026-07-06T01:30:07.535Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Round of 16",
       "kickoff": "2026-07-06T01:00:00.000Z",
       "kickoffUnix": 1783299600000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "MEX",
         "name": "Mexico",
@@ -1115,7 +1115,7 @@
             "pts": 4
           },
           "goalsConceded": 4,
-          "redCards": 1,
+          "redCards": 0,
           "ownGoals": 1
         }
       ]
@@ -1765,13 +1765,6 @@
         "value": 1
       },
       {
-        "code": "PAR",
-        "name": "Paraguay",
-        "iso2": "PY",
-        "player": "Robin Parish",
-        "value": 1
-      },
-      {
         "code": "URY",
         "name": "Uruguay",
         "iso2": "UY",
@@ -1979,6 +1972,13 @@
         "name": "Panama",
         "iso2": "PA",
         "player": "Me Julie",
+        "value": 0
+      },
+      {
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "player": "Robin Parish",
         "value": 0
       },
       {
@@ -3869,7 +3869,7 @@
           {
             "label": null,
             "kickoff": "2026-07-06T01:00:00.000Z",
-            "status": "NS",
+            "status": "1H",
             "finished": false,
             "home": {
               "name": "Mexico",
@@ -4841,29 +4841,6 @@
       }
     },
     {
-      "date": "2026-06-20T03:00:00.000Z",
-      "ts": 1781924400000,
-      "round": "Group D",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "TUR",
-        "name": "Turkey",
-        "iso2": "TR",
-        "player": "Laura Harrison",
-        "score": 0,
-        "winner": false
-      },
-      "away": {
-        "code": "PAR",
-        "name": "Paraguay",
-        "iso2": "PY",
-        "player": "Robin Parish",
-        "score": 1,
-        "winner": true
-      }
-    },
-    {
       "date": "2026-06-20T17:00:00.000Z",
       "ts": 1781974800000,
       "round": "Group F",
@@ -5514,29 +5491,6 @@
       "status": "FT",
       "finished": true,
       "home": {
-        "code": "NOR",
-        "name": "Norway",
-        "iso2": "NO",
-        "player": "Jimena Barillas",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "code": "FRA",
-        "name": "France",
-        "iso2": "FR",
-        "player": "Sam King",
-        "score": 4,
-        "winner": true
-      }
-    },
-    {
-      "date": "2026-06-26T19:00:00.000Z",
-      "ts": 1782500400000,
-      "round": "Group I",
-      "status": "FT",
-      "finished": true,
-      "home": {
         "code": "SEN",
         "name": "Senegal",
         "iso2": "SN",
@@ -5551,6 +5505,29 @@
         "player": "Scott Rosseter",
         "score": 0,
         "winner": false
+      }
+    },
+    {
+      "date": "2026-06-26T19:00:00.000Z",
+      "ts": 1782500400000,
+      "round": "Group I",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "NOR",
+        "name": "Norway",
+        "iso2": "NO",
+        "player": "Jimena Barillas",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR",
+        "player": "Sam King",
+        "score": 4,
+        "winner": true
       }
     },
     {
@@ -6224,14 +6201,14 @@
       "date": "2026-07-06T01:00:00.000Z",
       "ts": 1783299600000,
       "round": "Round of 16",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "MEX",
         "name": "Mexico",
         "iso2": "MX",
         "player": "Robbie Godowski",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -6239,7 +6216,7 @@
         "name": "England",
         "iso2": "GB-ENG",
         "player": "Scott Rosseter",
-        "score": null,
+        "score": 0,
         "winner": false
       }
     },
@@ -7103,14 +7080,6 @@
         "score": 22
       },
       {
-        "player": "Robin Parish",
-        "conceded": 9,
-        "losses": 2,
-        "yellows": 9,
-        "reds": 1,
-        "score": 22
-      },
-      {
         "player": "Tom Clayton",
         "conceded": 9,
         "losses": 3,
@@ -7135,10 +7104,10 @@
         "score": 19
       },
       {
-        "player": "Laura Harrison",
-        "conceded": 11,
-        "losses": 4,
-        "yellows": 4,
+        "player": "Robin Parish",
+        "conceded": 9,
+        "losses": 2,
+        "yellows": 8,
         "reds": 0,
         "score": 19
       },
@@ -7149,6 +7118,14 @@
         "yellows": 10,
         "reds": 0,
         "score": 18
+      },
+      {
+        "player": "Laura Harrison",
+        "conceded": 11,
+        "losses": 4,
+        "yellows": 2,
+        "reds": 0,
+        "score": 17
       },
       {
         "player": "Bob Gibson",
@@ -7226,11 +7203,11 @@
     "fastestGoal": {
       "minute": 2,
       "addedTime": null,
-      "scorer": "Matías Galarza",
-      "team": "Paraguay",
-      "iso2": "PY",
-      "player": "Robin Parish",
-      "match": "Türkiye v Paraguay"
+      "scorer": "Leroy Sané",
+      "team": "Germany",
+      "iso2": "DE",
+      "player": "Jess Forshaw",
+      "match": "Ecuador v Germany"
     },
     "fastestOwnGoal": {
       "minute": 3,
@@ -7643,10 +7620,9 @@
       "l": 2,
       "gf": 3,
       "ga": 5,
-      "yellows": 3,
+      "yellows": 1,
       "reds": 0,
       "form": [
-        "L",
         "L",
         "W"
       ]
@@ -7908,11 +7884,10 @@
       "l": 1,
       "gf": 2,
       "ga": 4,
-      "yellows": 7,
-      "reds": 1,
+      "yellows": 6,
+      "reds": 0,
       "form": [
         "L",
-        "W",
         "D",
         "W",
         "L"
@@ -8098,7 +8073,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 103,
-    "scrapedAt": "2026-07-05T23:30:06.843503+00:00"
+    "matches": 102,
+    "scrapedAt": "2026-07-06T01:30:07.448266+00:00"
   }
 }

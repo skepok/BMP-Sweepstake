@@ -1,40 +1,10 @@
 {
-  "fetchedAt": "2026-07-05T23:30:06.843503+00:00",
+  "fetchedAt": "2026-07-06T01:30:07.448266+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186537,
-      "round": "Group Stage",
-      "startTimestamp": 1782500400,
-      "status": "finished",
-      "home": {
-        "name": "Norway",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "name": "France",
-        "score": 4,
-        "winner": true
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "France": 1,
-        "Norway": 1
-      },
-      "fastestGoal": {
-        "minute": 7,
-        "addedTime": null,
-        "scorer": "Ousmane Dembélé",
-        "team": "France"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186803,
       "round": "Group Stage",
@@ -899,36 +869,26 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186879,
-      "round": "Group Stage",
-      "startTimestamp": 1781924400,
-      "status": "finished",
+      "id": 12813007,
+      "round": "Round of 16",
+      "startTimestamp": 1783299600,
+      "status": "inprogress",
       "home": {
-        "name": "Türkiye",
+        "name": "Mexico",
         "score": 0,
-        "winner": false
+        "winner": null
       },
       "away": {
-        "name": "Paraguay",
-        "score": 1,
-        "winner": true
+        "name": "England",
+        "score": 0,
+        "winner": null
       },
-      "redCards": {
-        "Paraguay": 1
-      },
+      "redCards": {},
       "ownGoals": {},
-      "yellowCards": {
-        "Türkiye": 2,
-        "Paraguay": 1
-      },
-      "fastestGoal": {
-        "minute": 2,
-        "addedTime": null,
-        "scorer": "Matías Galarza",
-        "team": "Paraguay"
-      },
+      "yellowCards": {},
+      "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
       "id": 15186957,
@@ -1797,6 +1757,36 @@
         "addedTime": null,
         "scorer": "Habib Diarra",
         "team": "Senegal"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186537,
+      "round": "Group Stage",
+      "startTimestamp": 1782500400,
+      "status": "finished",
+      "home": {
+        "name": "Norway",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "France",
+        "score": 4,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "France": 1,
+        "Norway": 1
+      },
+      "fastestGoal": {
+        "minute": 7,
+        "addedTime": null,
+        "scorer": "Ousmane Dembélé",
+        "team": "France"
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
@@ -2726,28 +2716,6 @@
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
-    },
-    {
-      "id": 12813007,
-      "round": "Round of 16",
-      "startTimestamp": 1783299600,
-      "status": "delayed",
-      "home": {
-        "name": "Mexico",
-        "score": null,
-        "winner": null
-      },
-      "away": {
-        "name": "England",
-        "score": null,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 12812990,
