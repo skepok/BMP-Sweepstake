@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-06T21:10:38.708050+00:00",
+  "fetchedAt": "2026-07-06T21:30:06.925554+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -4083,9 +4083,9 @@
           "kickoff": 1783710000,
           "participants": [
             {
-              "name": "W93",
-              "code": "W93",
-              "placeholder": true,
+              "name": "Spain",
+              "code": "ESP",
+              "placeholder": false,
               "winner": false
             },
             {

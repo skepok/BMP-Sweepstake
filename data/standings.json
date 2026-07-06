@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T21:10:39.838Z",
+  "lastUpdated": "2026-07-06T21:30:07.031Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -3973,11 +3973,11 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Round of 16 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Spain",
+              "code": "ESP",
+              "iso2": "ES",
+              "player": "Adam Wright",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
@@ -8078,6 +8078,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-07-06T21:10:38.708050+00:00"
+    "scrapedAt": "2026-07-06T21:30:06.925554+00:00"
   }
 }
