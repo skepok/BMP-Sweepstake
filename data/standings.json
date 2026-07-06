@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T03:00:07.415Z",
+  "lastUpdated": "2026-07-06T03:30:07.401Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 16",
-      "kickoff": "2026-07-06T01:00:00.000Z",
-      "kickoffUnix": 1783299600000,
-      "status": "1H",
+      "kickoff": "2026-07-06T19:00:00.000Z",
+      "kickoffUnix": 1783364400000,
+      "status": "NS",
       "home": {
-        "code": "MEX",
-        "name": "Mexico",
-        "iso2": "MX"
+        "code": "POR",
+        "name": "Portugal",
+        "iso2": "PT"
       },
       "away": {
-        "code": "ENG",
-        "name": "England",
-        "iso2": "GB-ENG"
+        "code": "ESP",
+        "name": "Spain",
+        "iso2": "ES"
       }
     },
     "lastFinished": {
       "round": "Round of 16",
-      "kickoff": "2026-07-05T20:00:00.000Z",
-      "kickoffUnix": 1783281600000,
+      "kickoff": "2026-07-06T01:00:00.000Z",
+      "kickoffUnix": 1783299600000,
       "status": "FT",
       "home": {
-        "code": "BRA",
-        "name": "Brazil",
-        "iso2": "BR",
-        "goals": 1
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX",
+        "goals": 2
       },
       "away": {
-        "code": "NOR",
-        "name": "Norway",
-        "iso2": "NO",
-        "goals": 2
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG",
+        "goals": 3
       }
     }
   },
@@ -1020,9 +1020,9 @@
           "pot": 1,
           "odds": "80/1",
           "matched": true,
-          "status": "Into the Round of 16",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 16",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group A",
             "rank": 1,
@@ -1240,7 +1240,7 @@
           "pot": 1,
           "odds": "6/1",
           "matched": true,
-          "status": "Into the Round of 16",
+          "status": "Into the Quarter-finals",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -3869,15 +3869,15 @@
           {
             "label": null,
             "kickoff": "2026-07-06T01:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "Mexico",
               "code": "MEX",
               "iso2": "MX",
               "player": "Robbie Godowski",
               "placeholder": false,
-              "score": null,
+              "score": 2,
               "winner": false
             },
             "away": {
@@ -3886,8 +3886,8 @@
               "iso2": "GB-ENG",
               "player": "Scott Rosseter",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 3,
+              "winner": true
             }
           },
           {
@@ -4006,11 +4006,11 @@
               "winner": false
             },
             "away": {
-              "name": "Round of 16 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "England",
+              "code": "ENG",
+              "iso2": "GB-ENG",
+              "player": "Scott Rosseter",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -6201,8 +6201,8 @@
       "date": "2026-07-06T01:00:00.000Z",
       "ts": 1783299600000,
       "round": "Round of 16",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "MEX",
         "name": "Mexico",
@@ -6217,7 +6217,7 @@
         "iso2": "GB-ENG",
         "player": "Scott Rosseter",
         "score": 3,
-        "winner": false
+        "winner": true
       }
     },
     {
@@ -6373,10 +6373,10 @@
         "winner": false
       },
       "away": {
-        "code": null,
-        "name": "W92",
-        "iso2": null,
-        "player": null,
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG",
+        "player": "Scott Rosseter",
         "score": null,
         "winner": false
       }
@@ -7836,7 +7836,8 @@
       "form": [
         "W",
         "W",
-        "W"
+        "W",
+        "L"
       ]
     },
     "CIV": {
@@ -7980,6 +7981,7 @@
         "W",
         "D",
         "W",
+        "W",
         "W"
       ]
     },
@@ -8074,6 +8076,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-07-06T03:00:07.338168+00:00"
+    "scrapedAt": "2026-07-06T03:30:07.319067+00:00"
   }
 }

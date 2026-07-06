@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-06T03:00:07.338168+00:00",
+  "fetchedAt": "2026-07-06T03:30:07.319067+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -872,25 +872,33 @@
       "id": 12813007,
       "round": "Round of 16",
       "startTimestamp": 1783299600,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Mexico",
         "score": 2,
-        "winner": null
+        "winner": false
       },
       "away": {
         "name": "England",
         "score": 3,
-        "winner": null
+        "winner": true
       },
       "redCards": {
         "England": 1
       },
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Mexico": 2,
+        "England": 4
+      },
+      "fastestGoal": {
+        "minute": 36,
+        "addedTime": null,
+        "scorer": "Jude Bellingham",
+        "team": "England"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186957,
@@ -2862,7 +2870,7 @@
         "winner": null
       },
       "away": {
-        "name": "W92",
+        "name": "England",
         "score": null,
         "winner": null
       },
@@ -3989,7 +3997,7 @@
               "name": "England",
               "code": "ENG",
               "placeholder": false,
-              "winner": false
+              "winner": true
             }
           ]
         },
@@ -4088,9 +4096,9 @@
               "winner": false
             },
             {
-              "name": "W92",
-              "code": "W92",
-              "placeholder": true,
+              "name": "England",
+              "code": "ENG",
+              "placeholder": false,
               "winner": false
             }
           ]
