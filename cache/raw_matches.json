@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-06T21:30:06.925554+00:00",
+  "fetchedAt": "2026-07-06T22:30:09.563432+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -1803,65 +1803,6 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186720,
-      "round": "Group Stage",
-      "startTimestamp": 1781229600,
-      "status": "finished",
-      "home": {
-        "name": "South Korea",
-        "score": 2,
-        "winner": true
-      },
-      "away": {
-        "name": "Czechia",
-        "score": 1,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "South Korea": 1
-      },
-      "fastestGoal": {
-        "minute": 59,
-        "addedTime": null,
-        "scorer": "Ladislav Krejčí",
-        "team": "Czechia"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
-    {
-      "id": 15186836,
-      "round": "Group Stage",
-      "startTimestamp": 1781290800,
-      "status": "finished",
-      "home": {
-        "name": "Canada",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "name": "Bosnia & Herzegovina",
-        "score": 1,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "Bosnia & Herzegovina": 3,
-        "Canada": 2
-      },
-      "fastestGoal": {
-        "minute": 21,
-        "addedTime": null,
-        "scorer": "Jovo Lukić",
-        "team": "Bosnia & Herzegovina"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
-    {
       "id": 15186873,
       "round": "Group Stage",
       "startTimestamp": 1781312400,
@@ -2729,6 +2670,67 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186879,
+      "round": "Group Stage",
+      "startTimestamp": 1781924400,
+      "status": "finished",
+      "home": {
+        "name": "Türkiye",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "name": "Paraguay",
+        "score": 1,
+        "winner": true
+      },
+      "redCards": {
+        "Paraguay": 1
+      },
+      "ownGoals": {},
+      "yellowCards": {
+        "Türkiye": 2,
+        "Paraguay": 1
+      },
+      "fastestGoal": {
+        "minute": 2,
+        "addedTime": null,
+        "scorer": "Matías Galarza",
+        "team": "Paraguay"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186957,
+      "round": "Group Stage",
+      "startTimestamp": 1781974800,
+      "status": "finished",
+      "home": {
+        "name": "Netherlands",
+        "score": 5,
+        "winner": true
+      },
+      "away": {
+        "name": "Sweden",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Sweden": 3
+      },
+      "fastestGoal": {
+        "minute": 5,
+        "addedTime": null,
+        "scorer": "Brian Brobbey",
+        "team": "Netherlands"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -2757,6 +2759,35 @@
         "addedTime": null,
         "scorer": "Julián Quiñones",
         "team": "Mexico"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186720,
+      "round": "Group Stage",
+      "startTimestamp": 1781229600,
+      "status": "finished",
+      "home": {
+        "name": "South Korea",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "name": "Czechia",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "South Korea": 1
+      },
+      "fastestGoal": {
+        "minute": 59,
+        "addedTime": null,
+        "scorer": "Ladislav Krejčí",
+        "team": "Czechia"
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true

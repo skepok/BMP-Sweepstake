@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T21:30:07.031Z",
+  "lastUpdated": "2026-07-06T22:30:09.637Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -1115,7 +1115,7 @@
             "pts": 4
           },
           "goalsConceded": 4,
-          "redCards": 0,
+          "redCards": 1,
           "ownGoals": 1
         }
       ]
@@ -1779,6 +1779,13 @@
         "value": 1
       },
       {
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "player": "Robin Parish",
+        "value": 1
+      },
+      {
         "code": "URY",
         "name": "Uruguay",
         "iso2": "UY",
@@ -1979,13 +1986,6 @@
         "name": "Panama",
         "iso2": "PA",
         "player": "Me Julie",
-        "value": 0
-      },
-      {
-        "code": "PAR",
-        "name": "Paraguay",
-        "iso2": "PY",
-        "player": "Robin Parish",
         "value": 0
       },
       {
@@ -4197,29 +4197,6 @@
       }
     },
     {
-      "date": "2026-06-12T19:00:00.000Z",
-      "ts": 1781290800000,
-      "round": "Group B",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "CAN",
-        "name": "Canada",
-        "iso2": "CA",
-        "player": "Joe Clayton",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "code": "BIH",
-        "name": "Bosnia-Herzegovina",
-        "iso2": "BA",
-        "player": "Sam Lowerson",
-        "score": 1,
-        "winner": false
-      }
-    },
-    {
       "date": "2026-06-13T01:00:00.000Z",
       "ts": 1781312400000,
       "round": "Group D",
@@ -4860,6 +4837,52 @@
         "iso2": "HT",
         "player": "Tom Clayton",
         "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-20T03:00:00.000Z",
+      "ts": 1781924400000,
+      "round": "Group D",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "TUR",
+        "name": "Turkey",
+        "iso2": "TR",
+        "player": "Laura Harrison",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "PAR",
+        "name": "Paraguay",
+        "iso2": "PY",
+        "player": "Robin Parish",
+        "score": 1,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-06-20T17:00:00.000Z",
+      "ts": 1781974800000,
+      "round": "Group F",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "NLD",
+        "name": "Netherlands",
+        "iso2": "NL",
+        "player": "Bob Gibson",
+        "score": 5,
+        "winner": true
+      },
+      "away": {
+        "code": "SWE",
+        "name": "Sweden",
+        "iso2": "SE",
+        "player": "Madi Farrow-Dunn",
+        "score": 1,
         "winner": false
       }
     },
@@ -7008,6 +7031,14 @@
     },
     "okr": [
       {
+        "player": "Madi Farrow-Dunn",
+        "conceded": 17,
+        "losses": 3,
+        "yellows": 9,
+        "reds": 0,
+        "score": 29
+      },
+      {
         "player": "Frank Dunn",
         "conceded": 12,
         "losses": 3,
@@ -7024,26 +7055,10 @@
         "score": 27
       },
       {
-        "player": "Madi Farrow-Dunn",
-        "conceded": 17,
-        "losses": 3,
-        "yellows": 6,
-        "reds": 0,
-        "score": 26
-      },
-      {
         "player": "Scott Rosseter",
         "conceded": 14,
         "losses": 3,
         "yellows": 6,
-        "reds": 1,
-        "score": 25
-      },
-      {
-        "player": "Sam Lowerson",
-        "conceded": 12,
-        "losses": 3,
-        "yellows": 8,
         "reds": 1,
         "score": 25
       },
@@ -7056,12 +7071,20 @@
         "score": 25
       },
       {
+        "player": "Sam Lowerson",
+        "conceded": 12,
+        "losses": 3,
+        "yellows": 5,
+        "reds": 1,
+        "score": 22
+      },
+      {
         "player": "Joe Clayton",
         "conceded": 11,
         "losses": 4,
-        "yellows": 9,
+        "yellows": 7,
         "reds": 0,
-        "score": 24
+        "score": 22
       },
       {
         "player": "Paul Mitchell",
@@ -7077,6 +7100,14 @@
         "losses": 2,
         "yellows": 11,
         "reds": 0,
+        "score": 22
+      },
+      {
+        "player": "Robin Parish",
+        "conceded": 9,
+        "losses": 2,
+        "yellows": 9,
+        "reds": 1,
         "score": 22
       },
       {
@@ -7104,10 +7135,10 @@
         "score": 19
       },
       {
-        "player": "Robin Parish",
-        "conceded": 9,
-        "losses": 2,
-        "yellows": 8,
+        "player": "Laura Harrison",
+        "conceded": 11,
+        "losses": 4,
+        "yellows": 4,
         "reds": 0,
         "score": 19
       },
@@ -7118,14 +7149,6 @@
         "yellows": 10,
         "reds": 0,
         "score": 18
-      },
-      {
-        "player": "Laura Harrison",
-        "conceded": 11,
-        "losses": 4,
-        "yellows": 2,
-        "reds": 0,
-        "score": 17
       },
       {
         "player": "Bob Gibson",
@@ -7307,6 +7330,7 @@
       "reds": 0,
       "form": [
         "D",
+        "W",
         "W",
         "L"
       ]
@@ -7586,10 +7610,9 @@
       "l": 1,
       "gf": 8,
       "ga": 3,
-      "yellows": 5,
+      "yellows": 3,
       "reds": 0,
       "form": [
-        "D",
         "W",
         "L",
         "W",
@@ -7622,9 +7645,10 @@
       "l": 2,
       "gf": 3,
       "ga": 5,
-      "yellows": 1,
+      "yellows": 3,
       "reds": 0,
       "form": [
+        "L",
         "L",
         "W"
       ]
@@ -7655,10 +7679,11 @@
       "l": 1,
       "gf": 7,
       "ga": 7,
-      "yellows": 2,
+      "yellows": 5,
       "reds": 0,
       "form": [
         "W",
+        "L",
         "D",
         "L"
       ]
@@ -7887,10 +7912,11 @@
       "l": 1,
       "gf": 2,
       "ga": 4,
-      "yellows": 6,
-      "reds": 0,
+      "yellows": 7,
+      "reds": 1,
       "form": [
         "L",
+        "W",
         "D",
         "W",
         "L"
@@ -7959,10 +7985,9 @@
       "l": 1,
       "gf": 5,
       "ga": 6,
-      "yellows": 6,
+      "yellows": 3,
       "reds": 1,
       "form": [
-        "D",
         "L",
         "W",
         "L"
@@ -8077,7 +8102,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 102,
-    "scrapedAt": "2026-07-06T21:30:06.925554+00:00"
+    "matches": 103,
+    "scrapedAt": "2026-07-06T22:30:09.563432+00:00"
   }
 }
