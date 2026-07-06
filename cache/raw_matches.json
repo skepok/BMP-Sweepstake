@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-06T02:00:07.079049+00:00",
+  "fetchedAt": "2026-07-06T02:30:06.728926+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -880,10 +880,12 @@
       },
       "away": {
         "name": "England",
-        "score": 2,
+        "score": 3,
         "winner": null
       },
-      "redCards": {},
+      "redCards": {
+        "England": 1
+      },
       "ownGoals": {},
       "yellowCards": {},
       "fastestGoal": null,
