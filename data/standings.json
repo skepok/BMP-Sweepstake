@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T03:30:07.401Z",
+  "lastUpdated": "2026-07-06T21:10:39.838Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 16",
-      "kickoff": "2026-07-06T19:00:00.000Z",
-      "kickoffUnix": 1783364400000,
+      "kickoff": "2026-07-07T00:00:00.000Z",
+      "kickoffUnix": 1783382400000,
       "status": "NS",
       "home": {
-        "code": "POR",
-        "name": "Portugal",
-        "iso2": "PT"
+        "code": "USA",
+        "name": "USA",
+        "iso2": "US"
       },
       "away": {
-        "code": "ESP",
-        "name": "Spain",
-        "iso2": "ES"
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE"
       }
     },
     "lastFinished": {
       "round": "Round of 16",
-      "kickoff": "2026-07-06T01:00:00.000Z",
-      "kickoffUnix": 1783299600000,
+      "kickoff": "2026-07-06T19:00:00.000Z",
+      "kickoffUnix": 1783364400000,
       "status": "FT",
       "home": {
-        "code": "MEX",
-        "name": "Mexico",
-        "iso2": "MX",
-        "goals": 2
+        "code": "POR",
+        "name": "Portugal",
+        "iso2": "PT",
+        "goals": 0
       },
       "away": {
-        "code": "ENG",
-        "name": "England",
-        "iso2": "GB-ENG",
-        "goals": 3
+        "code": "ESP",
+        "name": "Spain",
+        "iso2": "ES",
+        "goals": 1
       }
     }
   },
@@ -85,7 +85,7 @@
           "pot": 1,
           "odds": "9/2",
           "matched": true,
-          "status": "Into the Round of 16",
+          "status": "Into the Quarter-finals",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -125,7 +125,7 @@
             "pts": 4
           },
           "goalsConceded": 3,
-          "redCards": 0,
+          "redCards": 2,
           "ownGoals": 0
         }
       ]
@@ -470,9 +470,9 @@
           "pot": 1,
           "odds": "10/1",
           "matched": true,
-          "status": "Into the Round of 16",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 16",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group K",
             "rank": 2,
@@ -1035,7 +1035,7 @@
             "pts": 9
           },
           "goalsConceded": 0,
-          "redCards": 0,
+          "redCards": 1,
           "ownGoals": 0
         },
         {
@@ -1744,6 +1744,13 @@
         "value": 2
       },
       {
+        "code": "ZAF",
+        "name": "South Africa",
+        "iso2": "ZA",
+        "player": "Adam Wright",
+        "value": 2
+      },
+      {
         "code": "BEL",
         "name": "Belgium",
         "iso2": "BE",
@@ -1762,6 +1769,13 @@
         "name": "Iraq",
         "iso2": "IQ",
         "player": "Scott Rosseter",
+        "value": 1
+      },
+      {
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX",
+        "player": "Robbie Godowski",
         "value": 1
       },
       {
@@ -1933,13 +1947,6 @@
         "value": 0
       },
       {
-        "code": "MEX",
-        "name": "Mexico",
-        "iso2": "MX",
-        "player": "Robbie Godowski",
-        "value": 0
-      },
-      {
         "code": "MOR",
         "name": "Morocco",
         "iso2": "MA",
@@ -2007,13 +2014,6 @@
         "name": "Senegal",
         "iso2": "SN",
         "player": "Sam Lowerson",
-        "value": 0
-      },
-      {
-        "code": "ZAF",
-        "name": "South Africa",
-        "iso2": "ZA",
-        "player": "Adam Wright",
         "value": 0
       },
       {
@@ -3797,15 +3797,15 @@
           {
             "label": null,
             "kickoff": "2026-07-06T19:00:00.000Z",
-            "status": "NS",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "Portugal",
               "code": "POR",
               "iso2": "PT",
               "player": "Guy Curry",
               "placeholder": false,
-              "score": null,
+              "score": 0,
               "winner": false
             },
             "away": {
@@ -3814,8 +3814,8 @@
               "iso2": "ES",
               "player": "Adam Wright",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 1,
+              "winner": true
             }
           },
           {
@@ -4150,6 +4150,29 @@
     ]
   },
   "fixtures": [
+    {
+      "date": "2026-06-11T19:00:00.000Z",
+      "ts": 1781204400000,
+      "round": "Group A",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "MEX",
+        "name": "Mexico",
+        "iso2": "MX",
+        "player": "Robbie Godowski",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "code": "ZAF",
+        "name": "South Africa",
+        "iso2": "ZA",
+        "player": "Adam Wright",
+        "score": 0,
+        "winner": false
+      }
+    },
     {
       "date": "2026-06-12T02:00:00.000Z",
       "ts": 1781229600000,
@@ -4841,29 +4864,6 @@
       }
     },
     {
-      "date": "2026-06-20T17:00:00.000Z",
-      "ts": 1781974800000,
-      "round": "Group F",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "NLD",
-        "name": "Netherlands",
-        "iso2": "NL",
-        "player": "Bob Gibson",
-        "score": 5,
-        "winner": true
-      },
-      "away": {
-        "code": "SWE",
-        "name": "Sweden",
-        "iso2": "SE",
-        "player": "Madi Farrow-Dunn",
-        "score": 1,
-        "winner": false
-      }
-    },
-    {
       "date": "2026-06-20T20:00:00.000Z",
       "ts": 1781985600000,
       "round": "Group E",
@@ -5537,29 +5537,6 @@
       "status": "FT",
       "finished": true,
       "home": {
-        "code": "CPV",
-        "name": "Cape Verde",
-        "iso2": "CV",
-        "player": "Guy Curry",
-        "score": 0,
-        "winner": false
-      },
-      "away": {
-        "code": "KSA",
-        "name": "Saudi Arabia",
-        "iso2": "SA",
-        "player": "Flora Curry",
-        "score": 0,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-27T00:00:00.000Z",
-      "ts": 1782518400000,
-      "round": "Group H",
-      "status": "FT",
-      "finished": true,
-      "home": {
         "code": "URY",
         "name": "Uruguay",
         "iso2": "UY",
@@ -5574,6 +5551,29 @@
         "player": "Adam Wright",
         "score": 1,
         "winner": true
+      }
+    },
+    {
+      "date": "2026-06-27T00:00:00.000Z",
+      "ts": 1782518400000,
+      "round": "Group H",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "CPV",
+        "name": "Cape Verde",
+        "iso2": "CV",
+        "player": "Guy Curry",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "iso2": "SA",
+        "player": "Flora Curry",
+        "score": 0,
+        "winner": false
       }
     },
     {
@@ -6224,14 +6224,14 @@
       "date": "2026-07-06T19:00:00.000Z",
       "ts": 1783364400000,
       "round": "Round of 16",
-      "status": "NS",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "POR",
         "name": "Portugal",
         "iso2": "PT",
         "player": "Guy Curry",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -6239,8 +6239,8 @@
         "name": "Spain",
         "iso2": "ES",
         "player": "Adam Wright",
-        "score": null,
-        "winner": false
+        "score": 1,
+        "winner": true
       }
     },
     {
@@ -6342,10 +6342,10 @@
       "status": "NS",
       "finished": false,
       "home": {
-        "code": null,
-        "name": "W93",
-        "iso2": null,
-        "player": null,
+        "code": "ESP",
+        "name": "Spain",
+        "iso2": "ES",
+        "player": "Adam Wright",
         "score": null,
         "winner": false
       },
@@ -7008,14 +7008,6 @@
     },
     "okr": [
       {
-        "player": "Madi Farrow-Dunn",
-        "conceded": 17,
-        "losses": 3,
-        "yellows": 9,
-        "reds": 0,
-        "score": 29
-      },
-      {
         "player": "Frank Dunn",
         "conceded": 12,
         "losses": 3,
@@ -7030,6 +7022,14 @@
         "yellows": 5,
         "reds": 0,
         "score": 27
+      },
+      {
+        "player": "Madi Farrow-Dunn",
+        "conceded": 17,
+        "losses": 3,
+        "yellows": 6,
+        "reds": 0,
+        "score": 26
       },
       {
         "player": "Scott Rosseter",
@@ -7152,6 +7152,14 @@
         "score": 15
       },
       {
+        "player": "Adam Wright",
+        "conceded": 3,
+        "losses": 1,
+        "yellows": 7,
+        "reds": 2,
+        "score": 15
+      },
+      {
         "player": "Ali Taylor",
         "conceded": 6,
         "losses": 0,
@@ -7184,20 +7192,12 @@
         "score": 11
       },
       {
-        "player": "Adam Wright",
-        "conceded": 3,
-        "losses": 1,
-        "yellows": 5,
-        "reds": 0,
-        "score": 9
-      },
-      {
         "player": "Robbie Godowski",
         "conceded": 2,
         "losses": 1,
-        "yellows": 5,
-        "reds": 0,
-        "score": 8
+        "yellows": 6,
+        "reds": 1,
+        "score": 11
       }
     ],
     "fastestGoal": {
@@ -7235,6 +7235,7 @@
         "D",
         "W",
         "W",
+        "W",
         "W"
       ]
     },
@@ -7247,9 +7248,10 @@
       "l": 1,
       "gf": 2,
       "ga": 3,
-      "yellows": 3,
-      "reds": 0,
+      "yellows": 5,
+      "reds": 2,
       "form": [
+        "L",
         "D",
         "W",
         "L"
@@ -7305,7 +7307,6 @@
       "reds": 0,
       "form": [
         "D",
-        "W",
         "W",
         "L"
       ]
@@ -7483,7 +7484,8 @@
         "D",
         "W",
         "D",
-        "W"
+        "W",
+        "L"
       ]
     },
     "CPV": {
@@ -7653,11 +7655,10 @@
       "l": 1,
       "gf": 7,
       "ga": 7,
-      "yellows": 5,
+      "yellows": 2,
       "reds": 0,
       "form": [
         "W",
-        "L",
         "D",
         "L"
       ]
@@ -7831,9 +7832,10 @@
       "l": 0,
       "gf": 6,
       "ga": 0,
-      "yellows": 1,
-      "reds": 0,
+      "yellows": 2,
+      "reds": 1,
       "form": [
+        "W",
         "W",
         "W",
         "W",
@@ -8076,6 +8078,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-07-06T03:30:07.319067+00:00"
+    "scrapedAt": "2026-07-06T21:10:38.708050+00:00"
   }
 }

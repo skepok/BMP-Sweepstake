@@ -1,35 +1,10 @@
 {
-  "fetchedAt": "2026-07-06T03:30:07.319067+00:00",
+  "fetchedAt": "2026-07-06T21:10:38.708050+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186803,
-      "round": "Group Stage",
-      "startTimestamp": 1782518400,
-      "status": "finished",
-      "home": {
-        "name": "Cabo Verde",
-        "score": 0,
-        "winner": false
-      },
-      "away": {
-        "name": "Saudi Arabia",
-        "score": 0,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "Saudi Arabia": 3,
-        "Cabo Verde": 1
-      },
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186841,
       "round": "Group Stage",
@@ -901,30 +876,31 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186957,
-      "round": "Group Stage",
-      "startTimestamp": 1781974800,
+      "id": 12812990,
+      "round": "Round of 16",
+      "startTimestamp": 1783364400,
       "status": "finished",
       "home": {
-        "name": "Netherlands",
-        "score": 5,
-        "winner": true
+        "name": "Portugal",
+        "score": 0,
+        "winner": false
       },
       "away": {
-        "name": "Sweden",
+        "name": "Spain",
         "score": 1,
-        "winner": false
+        "winner": true
       },
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {
-        "Sweden": 3
+        "Spain": 1,
+        "Portugal": 2
       },
       "fastestGoal": {
-        "minute": 5,
-        "addedTime": null,
-        "scorer": "Brian Brobbey",
-        "team": "Netherlands"
+        "minute": 90,
+        "addedTime": 1,
+        "scorer": "Mikel Merino",
+        "team": "Spain"
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
@@ -1798,6 +1774,31 @@
         "scorer": "Ousmane Dembélé",
         "team": "France"
       },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186803,
+      "round": "Group Stage",
+      "startTimestamp": 1782518400,
+      "status": "finished",
+      "home": {
+        "name": "Cabo Verde",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Saudi Arabia": 3,
+        "Cabo Verde": 1
+      },
+      "fastestGoal": null,
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -2728,26 +2729,37 @@
       "incidentsFetched": true
     },
     {
-      "id": 12812990,
-      "round": "Round of 16",
-      "startTimestamp": 1783364400,
-      "status": "notstarted",
+      "id": 15186710,
+      "round": "Group Stage",
+      "startTimestamp": 1781204400,
+      "status": "finished",
       "home": {
-        "name": "Portugal",
-        "score": null,
-        "winner": null
+        "name": "Mexico",
+        "score": 2,
+        "winner": true
       },
       "away": {
-        "name": "Spain",
-        "score": null,
-        "winner": null
+        "name": "South Africa",
+        "score": 0,
+        "winner": false
       },
-      "redCards": {},
+      "redCards": {
+        "Mexico": 1,
+        "South Africa": 2
+      },
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "South Africa": 2,
+        "Mexico": 1
+      },
+      "fastestGoal": {
+        "minute": 9,
+        "addedTime": null,
+        "scorer": "Julián Quiñones",
+        "team": "Mexico"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 12813002,
@@ -2843,7 +2855,7 @@
       "startTimestamp": 1783710000,
       "status": "notstarted",
       "home": {
-        "name": "W93",
+        "name": "Spain",
         "score": null,
         "winner": null
       },
@@ -3940,7 +3952,7 @@
               "name": "Spain",
               "code": "ESP",
               "placeholder": false,
-              "winner": false
+              "winner": true
             }
           ]
         },
