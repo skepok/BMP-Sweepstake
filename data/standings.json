@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T02:30:06.811Z",
+  "lastUpdated": "2026-07-06T03:00:07.415Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -6208,7 +6208,7 @@
         "name": "Mexico",
         "iso2": "MX",
         "player": "Robbie Godowski",
-        "score": 1,
+        "score": 2,
         "winner": false
       },
       "away": {
@@ -8074,6 +8074,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-07-06T02:30:06.728926+00:00"
+    "scrapedAt": "2026-07-06T03:00:07.338168+00:00"
   }
 }
