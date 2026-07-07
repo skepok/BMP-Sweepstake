@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-07T01:30:08.409386+00:00",
+  "fetchedAt": "2026-07-07T02:00:08.550499+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -877,23 +877,30 @@
       "id": 12813002,
       "round": "Round of 16",
       "startTimestamp": 1783382400,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "USA",
         "score": 1,
-        "winner": null
+        "winner": false
       },
       "away": {
         "name": "Belgium",
-        "score": 3,
-        "winner": null
+        "score": 4,
+        "winner": true
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "USA": 2
+      },
+      "fastestGoal": {
+        "minute": 9,
+        "addedTime": null,
+        "scorer": "Charles De Ketelaere",
+        "team": "Belgium"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186906,
@@ -3975,7 +3982,7 @@
               "name": "Belgium",
               "code": "BEL",
               "placeholder": false,
-              "winner": false
+              "winner": true
             }
           ]
         },

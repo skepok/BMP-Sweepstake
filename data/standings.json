@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T01:30:08.484Z",
+  "lastUpdated": "2026-07-07T02:00:08.637Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 16",
-      "kickoff": "2026-07-07T00:00:00.000Z",
-      "kickoffUnix": 1783382400000,
-      "status": "1H",
+      "kickoff": "2026-07-07T16:00:00.000Z",
+      "kickoffUnix": 1783440000000,
+      "status": "NS",
       "home": {
-        "code": "USA",
-        "name": "USA",
-        "iso2": "US"
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR"
       },
       "away": {
-        "code": "BEL",
-        "name": "Belgium",
-        "iso2": "BE"
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG"
       }
     },
     "lastFinished": {
       "round": "Round of 16",
-      "kickoff": "2026-07-06T19:00:00.000Z",
-      "kickoffUnix": 1783364400000,
+      "kickoff": "2026-07-07T00:00:00.000Z",
+      "kickoffUnix": 1783382400000,
       "status": "FT",
       "home": {
-        "code": "POR",
-        "name": "Portugal",
-        "iso2": "PT",
-        "goals": 0
+        "code": "USA",
+        "name": "USA",
+        "iso2": "US",
+        "goals": 1
       },
       "away": {
-        "code": "ESP",
-        "name": "Spain",
-        "iso2": "ES",
-        "goals": 1
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE",
+        "goals": 4
       }
     }
   },
@@ -305,9 +305,9 @@
           "pot": 1,
           "odds": "66/1",
           "matched": true,
-          "status": "Into the Round of 16",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 16",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group D",
             "rank": 1,
@@ -415,7 +415,7 @@
           "pot": 1,
           "odds": "33/1",
           "matched": true,
-          "status": "Into the Round of 16",
+          "status": "Won Round of 16 — awaiting next round",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -3821,15 +3821,15 @@
           {
             "label": null,
             "kickoff": "2026-07-07T00:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "USA",
               "code": "USA",
               "iso2": "US",
               "player": "Flora Curry",
               "placeholder": false,
-              "score": null,
+              "score": 1,
               "winner": false
             },
             "away": {
@@ -3838,8 +3838,8 @@
               "iso2": "BE",
               "player": "Fred Dunn",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 4,
+              "winner": true
             }
           },
           {
@@ -6247,8 +6247,8 @@
       "date": "2026-07-07T00:00:00.000Z",
       "ts": 1783382400000,
       "round": "Round of 16",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "USA",
         "name": "USA",
@@ -6262,8 +6262,8 @@
         "name": "Belgium",
         "iso2": "BE",
         "player": "Fred Dunn",
-        "score": 3,
-        "winner": false
+        "score": 4,
+        "winner": true
       }
     },
     {
@@ -7380,7 +7380,8 @@
         "W",
         "W",
         "L",
-        "W"
+        "W",
+        "L"
       ]
     },
     "KSA": {
@@ -7449,6 +7450,7 @@
       "form": [
         "D",
         "D",
+        "W",
         "W",
         "W"
       ]
@@ -8078,6 +8080,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-07-07T01:30:08.409386+00:00"
+    "scrapedAt": "2026-07-07T02:00:08.550499+00:00"
   }
 }
