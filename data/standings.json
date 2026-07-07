@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T00:30:08.943Z",
+  "lastUpdated": "2026-07-07T01:00:06.599Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -6254,7 +6254,7 @@
         "name": "USA",
         "iso2": "US",
         "player": "Flora Curry",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "away": {
@@ -6262,7 +6262,7 @@
         "name": "Belgium",
         "iso2": "BE",
         "player": "Fred Dunn",
-        "score": 1,
+        "score": 2,
         "winner": false
       }
     },
@@ -8078,6 +8078,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-07-07T00:30:07.695975+00:00"
+    "scrapedAt": "2026-07-07T01:00:06.508120+00:00"
   }
 }
