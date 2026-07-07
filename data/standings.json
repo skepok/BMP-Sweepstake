@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T18:30:09.091Z",
+  "lastUpdated": "2026-07-07T19:00:07.939Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -4197,6 +4197,29 @@
       }
     },
     {
+      "date": "2026-06-12T19:00:00.000Z",
+      "ts": 1781290800000,
+      "round": "Group B",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "CAN",
+        "name": "Canada",
+        "iso2": "CA",
+        "player": "Joe Clayton",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "iso2": "BA",
+        "player": "Sam Lowerson",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
       "date": "2026-06-13T01:00:00.000Z",
       "ts": 1781312400000,
       "round": "Group D",
@@ -7020,17 +7043,17 @@
         "player": "Sam Lowerson",
         "conceded": 12,
         "losses": 3,
-        "yellows": 5,
+        "yellows": 8,
         "reds": 1,
-        "score": 22
+        "score": 25
       },
       {
         "player": "Joe Clayton",
         "conceded": 11,
         "losses": 4,
-        "yellows": 7,
+        "yellows": 9,
         "reds": 0,
-        "score": 22
+        "score": 24
       },
       {
         "player": "Paul Mitchell",
@@ -7564,9 +7587,10 @@
       "l": 1,
       "gf": 8,
       "ga": 3,
-      "yellows": 3,
+      "yellows": 5,
       "reds": 0,
       "form": [
+        "D",
         "W",
         "L",
         "W",
@@ -7938,9 +7962,10 @@
       "l": 1,
       "gf": 5,
       "ga": 6,
-      "yellows": 3,
+      "yellows": 6,
       "reds": 1,
       "form": [
+        "D",
         "L",
         "W",
         "L"
@@ -8056,7 +8081,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 101,
-    "scrapedAt": "2026-07-07T18:30:09.004046+00:00"
+    "matches": 102,
+    "scrapedAt": "2026-07-07T19:00:07.848088+00:00"
   }
 }

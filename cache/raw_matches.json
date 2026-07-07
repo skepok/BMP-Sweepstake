@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-07T18:30:09.004046+00:00",
+  "fetchedAt": "2026-07-07T19:00:07.848088+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -2794,6 +2794,36 @@
         "addedTime": null,
         "scorer": "Ladislav Krejčí",
         "team": "Czechia"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186836,
+      "round": "Group Stage",
+      "startTimestamp": 1781290800,
+      "status": "finished",
+      "home": {
+        "name": "Canada",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Bosnia & Herzegovina",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Bosnia & Herzegovina": 3,
+        "Canada": 2
+      },
+      "fastestGoal": {
+        "minute": 21,
+        "addedTime": null,
+        "scorer": "Jovo Lukić",
+        "team": "Bosnia & Herzegovina"
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
