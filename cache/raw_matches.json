@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-07T16:30:07.305326+00:00",
+  "fetchedAt": "2026-07-07T18:00:07.151360+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -880,12 +880,12 @@
       "status": "inprogress",
       "home": {
         "name": "Argentina",
-        "score": 0,
+        "score": 3,
         "winner": null
       },
       "away": {
         "name": "Egypt",
-        "score": 1,
+        "score": 2,
         "winner": null
       },
       "redCards": {},

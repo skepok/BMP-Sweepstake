@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T16:30:07.413Z",
+  "lastUpdated": "2026-07-07T18:00:07.235Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -6254,7 +6254,7 @@
         "name": "Argentina",
         "iso2": "AR",
         "player": "Tom Clayton",
-        "score": 0,
+        "score": 3,
         "winner": false
       },
       "away": {
@@ -6262,7 +6262,7 @@
         "name": "Egypt",
         "iso2": "EG",
         "player": "Ali Taylor",
-        "score": 1,
+        "score": 2,
         "winner": false
       }
     },
@@ -8055,6 +8055,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 101,
-    "scrapedAt": "2026-07-07T16:30:07.305326+00:00"
+    "scrapedAt": "2026-07-07T18:00:07.151360+00:00"
   }
 }
