@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T19:00:07.939Z",
+  "lastUpdated": "2026-07-07T20:00:08.200Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -6300,7 +6300,7 @@
         "name": "Switzerland",
         "iso2": "CH",
         "player": "Elizabeth Swords",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -6308,7 +6308,7 @@
         "name": "Colombia",
         "iso2": "CO",
         "player": "Matt Deacock",
-        "score": null,
+        "score": 0,
         "winner": false
       }
     },
@@ -8082,6 +8082,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 102,
-    "scrapedAt": "2026-07-07T19:00:07.848088+00:00"
+    "scrapedAt": "2026-07-07T20:00:08.115086+00:00"
   }
 }
