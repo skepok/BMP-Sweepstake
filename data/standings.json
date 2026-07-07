@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T02:30:07.447Z",
+  "lastUpdated": "2026-07-07T16:30:07.413Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Round of 16",
       "kickoff": "2026-07-07T16:00:00.000Z",
       "kickoffUnix": 1783440000000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "ARG",
         "name": "Argentina",
@@ -3893,7 +3893,7 @@
           {
             "label": null,
             "kickoff": "2026-07-07T16:00:00.000Z",
-            "status": "NS",
+            "status": "1H",
             "finished": false,
             "home": {
               "name": "Argentina",
@@ -4887,29 +4887,6 @@
       }
     },
     {
-      "date": "2026-06-21T00:00:00.000Z",
-      "ts": 1782000000000,
-      "round": "Group E",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "ECU",
-        "name": "Ecuador",
-        "iso2": "EC",
-        "player": "Frank Dunn",
-        "score": 0,
-        "winner": false
-      },
-      "away": {
-        "code": "CUW",
-        "name": "Curacao",
-        "iso2": "CW",
-        "player": "Fred Dunn",
-        "score": 0,
-        "winner": false
-      }
-    },
-    {
       "date": "2026-06-21T04:00:00.000Z",
       "ts": 1782014400000,
       "round": "Group F",
@@ -5583,29 +5560,6 @@
       "status": "FT",
       "finished": true,
       "home": {
-        "code": "NZL",
-        "name": "New Zealand",
-        "iso2": "NZ",
-        "player": "Madi Farrow-Dunn",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "code": "BEL",
-        "name": "Belgium",
-        "iso2": "BE",
-        "player": "Fred Dunn",
-        "score": 5,
-        "winner": true
-      }
-    },
-    {
-      "date": "2026-06-27T03:00:00.000Z",
-      "ts": 1782529200000,
-      "round": "Group G",
-      "status": "FT",
-      "finished": true,
-      "home": {
         "code": "EGY",
         "name": "Egypt",
         "iso2": "EG",
@@ -5620,6 +5574,29 @@
         "player": "Jess Forshaw",
         "score": 1,
         "winner": false
+      }
+    },
+    {
+      "date": "2026-06-27T03:00:00.000Z",
+      "ts": 1782529200000,
+      "round": "Group G",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "NZL",
+        "name": "New Zealand",
+        "iso2": "NZ",
+        "player": "Madi Farrow-Dunn",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "BEL",
+        "name": "Belgium",
+        "iso2": "BE",
+        "player": "Fred Dunn",
+        "score": 5,
+        "winner": true
       }
     },
     {
@@ -6270,14 +6247,14 @@
       "date": "2026-07-07T16:00:00.000Z",
       "ts": 1783440000000,
       "round": "Round of 16",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "ARG",
         "name": "Argentina",
         "iso2": "AR",
         "player": "Tom Clayton",
-        "score": null,
+        "score": 0,
         "winner": false
       },
       "away": {
@@ -6285,7 +6262,7 @@
         "name": "Egypt",
         "iso2": "EG",
         "player": "Ali Taylor",
-        "score": null,
+        "score": 1,
         "winner": false
       }
     },
@@ -7016,14 +6993,6 @@
         "score": 29
       },
       {
-        "player": "Frank Dunn",
-        "conceded": 12,
-        "losses": 3,
-        "yellows": 9,
-        "reds": 2,
-        "score": 28
-      },
-      {
         "player": "Jimena Barillas",
         "conceded": 18,
         "losses": 4,
@@ -7032,18 +7001,18 @@
         "score": 27
       },
       {
+        "player": "Frank Dunn",
+        "conceded": 12,
+        "losses": 3,
+        "yellows": 8,
+        "reds": 2,
+        "score": 27
+      },
+      {
         "player": "Scott Rosseter",
         "conceded": 14,
         "losses": 3,
         "yellows": 6,
-        "reds": 1,
-        "score": 25
-      },
-      {
-        "player": "Fred Dunn",
-        "conceded": 11,
-        "losses": 2,
-        "yellows": 10,
         "reds": 1,
         "score": 25
       },
@@ -7094,6 +7063,14 @@
         "yellows": 9,
         "reds": 0,
         "score": 21
+      },
+      {
+        "player": "Fred Dunn",
+        "conceded": 11,
+        "losses": 2,
+        "yellows": 5,
+        "reds": 1,
+        "score": 20
       },
       {
         "player": "Tom Gibbons",
@@ -7410,11 +7387,10 @@
       "l": 1,
       "gf": 2,
       "ga": 2,
-      "yellows": 5,
+      "yellows": 4,
       "reds": 0,
       "form": [
         "L",
-        "D",
         "W",
         "L"
       ]
@@ -7464,11 +7440,10 @@
       "l": 2,
       "gf": 1,
       "ga": 9,
-      "yellows": 7,
+      "yellows": 2,
       "reds": 0,
       "form": [
         "L",
-        "D",
         "L"
       ]
     },
@@ -8079,7 +8054,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 102,
-    "scrapedAt": "2026-07-07T02:30:07.365335+00:00"
+    "matches": 101,
+    "scrapedAt": "2026-07-07T16:30:07.305326+00:00"
   }
 }

@@ -1,39 +1,10 @@
 {
-  "fetchedAt": "2026-07-07T02:30:07.365335+00:00",
+  "fetchedAt": "2026-07-07T16:30:07.305326+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186822,
-      "round": "Group Stage",
-      "startTimestamp": 1782529200,
-      "status": "finished",
-      "home": {
-        "name": "New Zealand",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "name": "Belgium",
-        "score": 5,
-        "winner": true
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "New Zealand": 2
-      },
-      "fastestGoal": {
-        "minute": 28,
-        "addedTime": null,
-        "scorer": "Leandro Trossard",
-        "team": "Belgium"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186828,
       "round": "Group Stage",
@@ -903,29 +874,26 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186906,
-      "round": "Group Stage",
-      "startTimestamp": 1782000000,
-      "status": "finished",
+      "id": 12812993,
+      "round": "Round of 16",
+      "startTimestamp": 1783440000,
+      "status": "inprogress",
       "home": {
-        "name": "Ecuador",
+        "name": "Argentina",
         "score": 0,
-        "winner": false
+        "winner": null
       },
       "away": {
-        "name": "Curaçao",
-        "score": 0,
-        "winner": false
+        "name": "Egypt",
+        "score": 1,
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {
-        "Curaçao": 5,
-        "Ecuador": 1
-      },
+      "yellowCards": {},
       "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
       "id": 15186963,
@@ -1800,6 +1768,35 @@
         "addedTime": null,
         "scorer": "Alex Baena",
         "team": "Spain"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186822,
+      "round": "Group Stage",
+      "startTimestamp": 1782529200,
+      "status": "finished",
+      "home": {
+        "name": "New Zealand",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Belgium",
+        "score": 5,
+        "winner": true
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "New Zealand": 2
+      },
+      "fastestGoal": {
+        "minute": 28,
+        "addedTime": null,
+        "scorer": "Leandro Trossard",
+        "team": "Belgium"
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
@@ -2793,28 +2790,6 @@
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
-    },
-    {
-      "id": 12812993,
-      "round": "Round of 16",
-      "startTimestamp": 1783440000,
-      "status": "notstarted",
-      "home": {
-        "name": "Argentina",
-        "score": null,
-        "winner": null
-      },
-      "away": {
-        "name": "Egypt",
-        "score": null,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 12812991,
