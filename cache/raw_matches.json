@@ -1,42 +1,10 @@
 {
-  "fetchedAt": "2026-07-06T22:30:09.563432+00:00",
+  "fetchedAt": "2026-07-07T00:30:07.695975+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186841,
-      "round": "Group Stage",
-      "startTimestamp": 1782518400,
-      "status": "finished",
-      "home": {
-        "name": "Uruguay",
-        "score": 0,
-        "winner": false
-      },
-      "away": {
-        "name": "Spain",
-        "score": 1,
-        "winner": true
-      },
-      "redCards": {
-        "Uruguay": 1
-      },
-      "ownGoals": {},
-      "yellowCards": {
-        "Uruguay": 3,
-        "Spain": 1
-      },
-      "fastestGoal": {
-        "minute": 42,
-        "addedTime": null,
-        "scorer": "Alex Baena",
-        "team": "Spain"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186822,
       "round": "Group Stage",
@@ -906,31 +874,26 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186905,
-      "round": "Group Stage",
-      "startTimestamp": 1781985600,
-      "status": "finished",
+      "id": 12813002,
+      "round": "Round of 16",
+      "startTimestamp": 1783382400,
+      "status": "inprogress",
       "home": {
-        "name": "Germany",
-        "score": 2,
-        "winner": true
+        "name": "USA",
+        "score": 0,
+        "winner": null
       },
       "away": {
-        "name": "Côte d'Ivoire",
+        "name": "Belgium",
         "score": 1,
-        "winner": false
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
-      "fastestGoal": {
-        "minute": 30,
-        "addedTime": null,
-        "scorer": "Franck Kessié",
-        "team": "Côte d'Ivoire"
-      },
+      "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
       "id": 15186906,
@@ -1799,6 +1762,38 @@
         "Cabo Verde": 1
       },
       "fastestGoal": null,
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186841,
+      "round": "Group Stage",
+      "startTimestamp": 1782518400,
+      "status": "finished",
+      "home": {
+        "name": "Uruguay",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "name": "Spain",
+        "score": 1,
+        "winner": true
+      },
+      "redCards": {
+        "Uruguay": 1
+      },
+      "ownGoals": {},
+      "yellowCards": {
+        "Uruguay": 3,
+        "Spain": 1
+      },
+      "fastestGoal": {
+        "minute": 42,
+        "addedTime": null,
+        "scorer": "Alex Baena",
+        "team": "Spain"
+      },
       "fastestOwnGoal": null,
       "incidentsFetched": true
     },
@@ -2791,28 +2786,6 @@
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
-    },
-    {
-      "id": 12813002,
-      "round": "Round of 16",
-      "startTimestamp": 1783382400,
-      "status": "notstarted",
-      "home": {
-        "name": "USA",
-        "score": null,
-        "winner": null
-      },
-      "away": {
-        "name": "Belgium",
-        "score": null,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 12812993,
