@@ -1,40 +1,10 @@
 {
-  "fetchedAt": "2026-07-07T20:00:08.115086+00:00",
+  "fetchedAt": "2026-07-07T20:30:07.386490+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186828,
-      "round": "Group Stage",
-      "startTimestamp": 1782529200,
-      "status": "finished",
-      "home": {
-        "name": "Egypt",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "name": "Iran",
-        "score": 1,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "Iran": 4,
-        "Egypt": 3
-      },
-      "fastestGoal": {
-        "minute": 5,
-        "addedTime": null,
-        "scorer": "Mahmoud Saber",
-        "team": "Egypt"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186624,
       "round": "Group Stage",
@@ -903,31 +873,26 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186963,
-      "round": "Group Stage",
-      "startTimestamp": 1782014400,
-      "status": "finished",
+      "id": 12812991,
+      "round": "Round of 16",
+      "startTimestamp": 1783454400,
+      "status": "inprogress",
       "home": {
-        "name": "Tunisia",
+        "name": "Switzerland",
         "score": 0,
-        "winner": false
+        "winner": null
       },
       "away": {
-        "name": "Japan",
-        "score": 4,
-        "winner": true
+        "name": "Colombia",
+        "score": 0,
+        "winner": null
       },
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {},
-      "fastestGoal": {
-        "minute": 4,
-        "addedTime": null,
-        "scorer": "Daichi Kamada",
-        "team": "Japan"
-      },
+      "fastestGoal": null,
       "fastestOwnGoal": null,
-      "incidentsFetched": true
+      "incidentsFetched": false
     },
     {
       "id": 15186840,
@@ -1804,6 +1769,36 @@
         "addedTime": null,
         "scorer": "Leandro Trossard",
         "team": "Belgium"
+      },
+      "fastestOwnGoal": null,
+      "incidentsFetched": true
+    },
+    {
+      "id": 15186828,
+      "round": "Group Stage",
+      "startTimestamp": 1782529200,
+      "status": "finished",
+      "home": {
+        "name": "Egypt",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "name": "Iran",
+        "score": 1,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {},
+      "yellowCards": {
+        "Iran": 4,
+        "Egypt": 3
+      },
+      "fastestGoal": {
+        "minute": 5,
+        "addedTime": null,
+        "scorer": "Mahmoud Saber",
+        "team": "Egypt"
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
@@ -2827,28 +2822,6 @@
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
-    },
-    {
-      "id": 12812991,
-      "round": "Round of 16",
-      "startTimestamp": 1783454400,
-      "status": "notstarted",
-      "home": {
-        "name": "Switzerland",
-        "score": 0,
-        "winner": null
-      },
-      "away": {
-        "name": "Colombia",
-        "score": 0,
-        "winner": null
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
-      "fastestOwnGoal": null,
-      "incidentsFetched": false
     },
     {
       "id": 12813016,

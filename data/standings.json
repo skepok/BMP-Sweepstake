@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T20:00:08.200Z",
+  "lastUpdated": "2026-07-07T20:30:07.469Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -41,7 +41,7 @@
       "round": "Round of 16",
       "kickoff": "2026-07-07T20:00:00.000Z",
       "kickoffUnix": 1783454400000,
-      "status": "NS",
+      "status": "1H",
       "home": {
         "code": "SWI",
         "name": "Switzerland",
@@ -3917,7 +3917,7 @@
           {
             "label": null,
             "kickoff": "2026-07-07T20:00:00.000Z",
-            "status": "NS",
+            "status": "1H",
             "finished": false,
             "home": {
               "name": "Switzerland",
@@ -4910,29 +4910,6 @@
       }
     },
     {
-      "date": "2026-06-21T04:00:00.000Z",
-      "ts": 1782014400000,
-      "round": "Group F",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "TUN",
-        "name": "Tunisia",
-        "iso2": "TN",
-        "player": "Sam King",
-        "score": 0,
-        "winner": false
-      },
-      "away": {
-        "code": "JAP",
-        "name": "Japan",
-        "iso2": "JP",
-        "player": "Nick Foulkes",
-        "score": 4,
-        "winner": true
-      }
-    },
-    {
       "date": "2026-06-21T16:00:00.000Z",
       "ts": 1782057600000,
       "round": "Group H",
@@ -5583,29 +5560,6 @@
       "status": "FT",
       "finished": true,
       "home": {
-        "code": "EGY",
-        "name": "Egypt",
-        "iso2": "EG",
-        "player": "Ali Taylor",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "code": "IRN",
-        "name": "Iran",
-        "iso2": "IR",
-        "player": "Jess Forshaw",
-        "score": 1,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-27T03:00:00.000Z",
-      "ts": 1782529200000,
-      "round": "Group G",
-      "status": "FT",
-      "finished": true,
-      "home": {
         "code": "NZL",
         "name": "New Zealand",
         "iso2": "NZ",
@@ -5620,6 +5574,29 @@
         "player": "Fred Dunn",
         "score": 5,
         "winner": true
+      }
+    },
+    {
+      "date": "2026-06-27T03:00:00.000Z",
+      "ts": 1782529200000,
+      "round": "Group G",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "player": "Ali Taylor",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "IRN",
+        "name": "Iran",
+        "iso2": "IR",
+        "player": "Jess Forshaw",
+        "score": 1,
+        "winner": false
       }
     },
     {
@@ -6293,7 +6270,7 @@
       "date": "2026-07-07T20:00:00.000Z",
       "ts": 1783454400000,
       "round": "Round of 16",
-      "status": "NS",
+      "status": "1H",
       "finished": false,
       "home": {
         "code": "SWI",
@@ -7768,7 +7745,6 @@
       "reds": 0,
       "form": [
         "D",
-        "W",
         "D",
         "L"
       ]
@@ -7931,7 +7907,6 @@
       "reds": 0,
       "form": [
         "L",
-        "L",
         "L"
       ]
     },
@@ -8081,7 +8056,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 102,
-    "scrapedAt": "2026-07-07T20:00:08.115086+00:00"
+    "matches": 101,
+    "scrapedAt": "2026-07-07T20:30:07.386490+00:00"
   }
 }
