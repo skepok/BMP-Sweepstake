@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T18:00:07.235Z",
+  "lastUpdated": "2026-07-07T18:30:09.091Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -39,36 +39,36 @@
   "banner": {
     "nextFixture": {
       "round": "Round of 16",
-      "kickoff": "2026-07-07T16:00:00.000Z",
-      "kickoffUnix": 1783440000000,
-      "status": "1H",
+      "kickoff": "2026-07-07T20:00:00.000Z",
+      "kickoffUnix": 1783454400000,
+      "status": "NS",
       "home": {
-        "code": "ARG",
-        "name": "Argentina",
-        "iso2": "AR"
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH"
       },
       "away": {
-        "code": "EGY",
-        "name": "Egypt",
-        "iso2": "EG"
+        "code": "COL",
+        "name": "Colombia",
+        "iso2": "CO"
       }
     },
     "lastFinished": {
       "round": "Round of 16",
-      "kickoff": "2026-07-07T00:00:00.000Z",
-      "kickoffUnix": 1783382400000,
+      "kickoff": "2026-07-07T16:00:00.000Z",
+      "kickoffUnix": 1783440000000,
       "status": "FT",
       "home": {
-        "code": "USA",
-        "name": "USA",
-        "iso2": "US",
-        "goals": 1
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
+        "goals": 3
       },
       "away": {
-        "code": "BEL",
-        "name": "Belgium",
-        "iso2": "BE",
-        "goals": 4
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "goals": 2
       }
     }
   },
@@ -165,9 +165,9 @@
           "pot": 2,
           "odds": "300/1",
           "matched": true,
-          "status": "Into the Round of 16",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 16",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group G",
             "rank": 2,
@@ -1295,7 +1295,7 @@
           "pot": 1,
           "odds": "8/1",
           "matched": true,
-          "status": "Into the Round of 16",
+          "status": "Into the Quarter-finals",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -3893,16 +3893,16 @@
           {
             "label": null,
             "kickoff": "2026-07-07T16:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "Argentina",
               "code": "ARG",
               "iso2": "AR",
               "player": "Tom Clayton",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 3,
+              "winner": true
             },
             "away": {
               "name": "Egypt",
@@ -3910,7 +3910,7 @@
               "iso2": "EG",
               "player": "Ali Taylor",
               "placeholder": false,
-              "score": null,
+              "score": 2,
               "winner": false
             }
           },
@@ -4021,11 +4021,11 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Round of 16 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Argentina",
+              "code": "ARG",
+              "iso2": "AR",
+              "player": "Tom Clayton",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
@@ -6247,15 +6247,15 @@
       "date": "2026-07-07T16:00:00.000Z",
       "ts": 1783440000000,
       "round": "Round of 16",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "ARG",
         "name": "Argentina",
         "iso2": "AR",
         "player": "Tom Clayton",
         "score": 3,
-        "winner": false
+        "winner": true
       },
       "away": {
         "code": "EGY",
@@ -6365,10 +6365,10 @@
       "status": "NS",
       "finished": false,
       "home": {
-        "code": null,
-        "name": "W95",
-        "iso2": null,
-        "player": null,
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
+        "player": "Tom Clayton",
         "score": null,
         "winner": false
       },
@@ -7268,7 +7268,8 @@
         "D",
         "W",
         "D",
-        "W"
+        "W",
+        "L"
       ]
     },
     "NLD": {
@@ -7996,6 +7997,7 @@
         "W",
         "W",
         "W",
+        "W",
         "W"
       ]
     },
@@ -8055,6 +8057,6 @@
   "meta": {
     "source": "SofaScore",
     "matches": 101,
-    "scrapedAt": "2026-07-07T18:00:07.151360+00:00"
+    "scrapedAt": "2026-07-07T18:30:09.004046+00:00"
   }
 }

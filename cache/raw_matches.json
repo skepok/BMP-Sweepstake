@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-07T18:00:07.151360+00:00",
+  "fetchedAt": "2026-07-07T18:30:09.004046+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -877,23 +877,30 @@
       "id": 12812993,
       "round": "Round of 16",
       "startTimestamp": 1783440000,
-      "status": "inprogress",
+      "status": "finished",
       "home": {
         "name": "Argentina",
         "score": 3,
-        "winner": null
+        "winner": true
       },
       "away": {
         "name": "Egypt",
         "score": 2,
-        "winner": null
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Egypt": 5
+      },
+      "fastestGoal": {
+        "minute": 15,
+        "addedTime": null,
+        "scorer": "Yasser Ibrahim",
+        "team": "Egypt"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 15186963,
@@ -2885,7 +2892,7 @@
       "startTimestamp": 1783818000,
       "status": "notstarted",
       "home": {
-        "name": "W95",
+        "name": "Argentina",
         "score": null,
         "winner": null
       },
@@ -4008,7 +4015,7 @@
               "name": "Argentina",
               "code": "ARG",
               "placeholder": false,
-              "winner": false
+              "winner": true
             },
             {
               "name": "Egypt",
@@ -4107,9 +4114,9 @@
           "kickoff": 1783818000,
           "participants": [
             {
-              "name": "W95",
-              "code": "W95",
-              "placeholder": true,
+              "name": "Argentina",
+              "code": "ARG",
+              "placeholder": false,
               "winner": false
             },
             {
