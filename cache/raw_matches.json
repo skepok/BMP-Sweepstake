@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-07T02:00:08.550499+00:00",
+  "fetchedAt": "2026-07-07T02:30:07.365335+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
@@ -2871,7 +2871,7 @@
         "winner": null
       },
       "away": {
-        "name": "W94",
+        "name": "Belgium",
         "score": null,
         "winner": null
       },
@@ -4100,9 +4100,9 @@
               "winner": false
             },
             {
-              "name": "W94",
-              "code": "W94",
-              "placeholder": true,
+              "name": "Belgium",
+              "code": "BEL",
+              "placeholder": false,
               "winner": false
             }
           ]
