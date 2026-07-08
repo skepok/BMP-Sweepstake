@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T20:30:07.469Z",
+  "lastUpdated": "2026-07-08T13:36:36.702Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -38,37 +38,37 @@
   },
   "banner": {
     "nextFixture": {
-      "round": "Round of 16",
-      "kickoff": "2026-07-07T20:00:00.000Z",
-      "kickoffUnix": 1783454400000,
-      "status": "1H",
+      "round": "Quarter-finals",
+      "kickoff": "2026-07-09T20:00:00.000Z",
+      "kickoffUnix": 1783627200000,
+      "status": "NS",
       "home": {
-        "code": "SWI",
-        "name": "Switzerland",
-        "iso2": "CH"
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR"
       },
       "away": {
-        "code": "COL",
-        "name": "Colombia",
-        "iso2": "CO"
+        "code": "MOR",
+        "name": "Morocco",
+        "iso2": "MA"
       }
     },
     "lastFinished": {
       "round": "Round of 16",
-      "kickoff": "2026-07-07T16:00:00.000Z",
-      "kickoffUnix": 1783440000000,
+      "kickoff": "2026-07-07T20:00:00.000Z",
+      "kickoffUnix": 1783454400000,
       "status": "FT",
       "home": {
-        "code": "ARG",
-        "name": "Argentina",
-        "iso2": "AR",
-        "goals": 3
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH",
+        "goals": 4
       },
       "away": {
-        "code": "EGY",
-        "name": "Egypt",
-        "iso2": "EG",
-        "goals": 2
+        "code": "COL",
+        "name": "Colombia",
+        "iso2": "CO",
+        "goals": 3
       }
     }
   },
@@ -250,7 +250,7 @@
           "pot": 1,
           "odds": "80/1",
           "matched": true,
-          "status": "Into the Round of 16",
+          "status": "Into the Quarter-finals",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -800,9 +800,9 @@
           "pot": 1,
           "odds": "33/1",
           "matched": true,
-          "status": "Into the Round of 16",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Round of 16",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group K",
             "rank": 1,
@@ -3917,16 +3917,16 @@
           {
             "label": null,
             "kickoff": "2026-07-07T20:00:00.000Z",
-            "status": "1H",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "Switzerland",
               "code": "SWI",
               "iso2": "CH",
               "player": "Elizabeth Swords",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 4,
+              "winner": true
             },
             "away": {
               "name": "Colombia",
@@ -3934,7 +3934,7 @@
               "iso2": "CO",
               "player": "Matt Deacock",
               "placeholder": false,
-              "score": null,
+              "score": 3,
               "winner": false
             }
           }
@@ -4030,11 +4030,11 @@
               "winner": false
             },
             "away": {
-              "name": "Round of 16 winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Switzerland",
+              "code": "SWI",
+              "iso2": "CH",
+              "player": "Elizabeth Swords",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -4261,29 +4261,6 @@
         "name": "Switzerland",
         "iso2": "CH",
         "player": "Elizabeth Swords",
-        "score": 1,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-06-13T22:00:00.000Z",
-      "ts": 1781388000000,
-      "round": "Group C",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "BRA",
-        "name": "Brazil",
-        "iso2": "BR",
-        "player": "Me Julie",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "code": "MOR",
-        "name": "Morocco",
-        "iso2": "MA",
-        "player": "Ali Taylor",
         "score": 1,
         "winner": false
       }
@@ -4907,6 +4884,75 @@
         "player": "Madi Farrow-Dunn",
         "score": 1,
         "winner": false
+      }
+    },
+    {
+      "date": "2026-06-20T20:00:00.000Z",
+      "ts": 1781985600000,
+      "round": "Group E",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "GER",
+        "name": "Germany",
+        "iso2": "DE",
+        "player": "Jess Forshaw",
+        "score": 2,
+        "winner": true
+      },
+      "away": {
+        "code": "CIV",
+        "name": "Ivory Coast",
+        "iso2": "CI",
+        "player": "Robbie Godowski",
+        "score": 1,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-21T00:00:00.000Z",
+      "ts": 1782000000000,
+      "round": "Group E",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "ECU",
+        "name": "Ecuador",
+        "iso2": "EC",
+        "player": "Frank Dunn",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "CUW",
+        "name": "Curacao",
+        "iso2": "CW",
+        "player": "Fred Dunn",
+        "score": 0,
+        "winner": false
+      }
+    },
+    {
+      "date": "2026-06-21T04:00:00.000Z",
+      "ts": 1782014400000,
+      "round": "Group F",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "TUN",
+        "name": "Tunisia",
+        "iso2": "TN",
+        "player": "Sam King",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "JAP",
+        "name": "Japan",
+        "iso2": "JP",
+        "player": "Nick Foulkes",
+        "score": 4,
+        "winner": true
       }
     },
     {
@@ -6270,22 +6316,22 @@
       "date": "2026-07-07T20:00:00.000Z",
       "ts": 1783454400000,
       "round": "Round of 16",
-      "status": "1H",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "SWI",
         "name": "Switzerland",
         "iso2": "CH",
         "player": "Elizabeth Swords",
-        "score": 0,
-        "winner": false
+        "score": 4,
+        "winner": true
       },
       "away": {
         "code": "COL",
         "name": "Colombia",
         "iso2": "CO",
         "player": "Matt Deacock",
-        "score": 0,
+        "score": 3,
         "winner": false
       }
     },
@@ -6373,10 +6419,10 @@
         "winner": false
       },
       "away": {
-        "code": null,
-        "name": "W96",
-        "iso2": null,
-        "player": null,
+        "code": "SWI",
+        "name": "Switzerland",
+        "iso2": "CH",
+        "player": "Elizabeth Swords",
         "score": null,
         "winner": false
       }
@@ -6993,19 +7039,19 @@
         "score": 29
       },
       {
+        "player": "Frank Dunn",
+        "conceded": 12,
+        "losses": 3,
+        "yellows": 9,
+        "reds": 2,
+        "score": 28
+      },
+      {
         "player": "Jimena Barillas",
         "conceded": 18,
         "losses": 4,
         "yellows": 5,
         "reds": 0,
-        "score": 27
-      },
-      {
-        "player": "Frank Dunn",
-        "conceded": 12,
-        "losses": 3,
-        "yellows": 8,
-        "reds": 2,
         "score": 27
       },
       {
@@ -7021,6 +7067,14 @@
         "conceded": 12,
         "losses": 3,
         "yellows": 8,
+        "reds": 1,
+        "score": 25
+      },
+      {
+        "player": "Fred Dunn",
+        "conceded": 11,
+        "losses": 2,
+        "yellows": 10,
         "reds": 1,
         "score": 25
       },
@@ -7065,14 +7119,6 @@
         "score": 21
       },
       {
-        "player": "Fred Dunn",
-        "conceded": 11,
-        "losses": 2,
-        "yellows": 5,
-        "reds": 1,
-        "score": 20
-      },
-      {
         "player": "Tom Gibbons",
         "conceded": 6,
         "losses": 2,
@@ -7097,18 +7143,18 @@
         "score": 19
       },
       {
-        "player": "Me Julie",
-        "conceded": 5,
-        "losses": 3,
-        "yellows": 10,
-        "reds": 0,
-        "score": 18
-      },
-      {
         "player": "Bob Gibson",
         "conceded": 11,
         "losses": 1,
         "yellows": 4,
+        "reds": 0,
+        "score": 16
+      },
+      {
+        "player": "Me Julie",
+        "conceded": 5,
+        "losses": 3,
+        "yellows": 8,
         "reds": 0,
         "score": 16
       },
@@ -7246,7 +7292,6 @@
       "yellows": 1,
       "reds": 0,
       "form": [
-        "D",
         "W",
         "W",
         "W",
@@ -7323,6 +7368,7 @@
         "D",
         "W",
         "W",
+        "W",
         "W"
       ]
     },
@@ -7388,10 +7434,11 @@
       "l": 1,
       "gf": 2,
       "ga": 2,
-      "yellows": 4,
+      "yellows": 5,
       "reds": 0,
       "form": [
         "L",
+        "D",
         "W",
         "L"
       ]
@@ -7441,10 +7488,11 @@
       "l": 2,
       "gf": 1,
       "ga": 9,
-      "yellows": 2,
+      "yellows": 7,
       "reds": 0,
       "form": [
         "L",
+        "D",
         "L"
       ]
     },
@@ -7497,6 +7545,7 @@
       "yellows": 1,
       "reds": 0,
       "form": [
+        "W",
         "W",
         "L",
         "L"
@@ -7675,7 +7724,8 @@
         "W",
         "W",
         "D",
-        "W"
+        "W",
+        "L"
       ]
     },
     "GHA": {
@@ -7705,10 +7755,9 @@
       "l": 0,
       "gf": 7,
       "ga": 1,
-      "yellows": 5,
+      "yellows": 3,
       "reds": 0,
       "form": [
-        "D",
         "W",
         "W",
         "W",
@@ -7745,6 +7794,7 @@
       "reds": 0,
       "form": [
         "D",
+        "W",
         "D",
         "L"
       ]
@@ -7834,6 +7884,7 @@
       "reds": 0,
       "form": [
         "W",
+        "L",
         "W",
         "L"
       ]
@@ -7906,6 +7957,7 @@
       "yellows": 1,
       "reds": 0,
       "form": [
+        "L",
         "L",
         "L"
       ]
@@ -8056,7 +8108,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 101,
-    "scrapedAt": "2026-07-07T20:30:07.386490+00:00"
+    "matches": 103,
+    "scrapedAt": "2026-07-08T13:36:36.603512+00:00"
   }
 }
