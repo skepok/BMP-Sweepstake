@@ -1,40 +1,10 @@
 {
-  "fetchedAt": "2026-07-08T13:36:36.603512+00:00",
+  "fetchedAt": "2026-07-10T07:57:10.669238+00:00",
   "source": "SofaScore",
   "season": 2026,
   "uniqueTournament": 16,
   "seasonId": "58210",
   "matches": [
-    {
-      "id": 15186624,
-      "round": "Group Stage",
-      "startTimestamp": 1782594000,
-      "status": "finished",
-      "home": {
-        "name": "Croatia",
-        "score": 2,
-        "winner": true
-      },
-      "away": {
-        "name": "Ghana",
-        "score": 1,
-        "winner": false
-      },
-      "redCards": {},
-      "ownGoals": {},
-      "yellowCards": {
-        "Ghana": 1,
-        "Croatia": 1
-      },
-      "fastestGoal": {
-        "minute": 31,
-        "addedTime": null,
-        "scorer": "Petar Sučić",
-        "team": "Croatia"
-      },
-      "fastestOwnGoal": null,
-      "incidentsFetched": true
-    },
     {
       "id": 15186676,
       "round": "Group Stage",
@@ -898,39 +868,32 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186840,
-      "round": "Group Stage",
-      "startTimestamp": 1782057600,
+      "id": 12813016,
+      "round": "Quarter-finals",
+      "startTimestamp": 1783627200,
       "status": "finished",
       "home": {
-        "name": "Spain",
-        "score": 4,
+        "name": "France",
+        "score": 2,
         "winner": true
       },
       "away": {
-        "name": "Saudi Arabia",
+        "name": "Morocco",
         "score": 0,
         "winner": false
       },
       "redCards": {},
-      "ownGoals": {
-        "Saudi Arabia": 1
-      },
+      "ownGoals": {},
       "yellowCards": {
-        "Saudi Arabia": 2
+        "Morocco": 1
       },
       "fastestGoal": {
-        "minute": 10,
+        "minute": 60,
         "addedTime": null,
-        "scorer": "Lamine Yamal",
-        "team": "Spain"
+        "scorer": "Kylian Mbappé",
+        "team": "France"
       },
-      "fastestOwnGoal": {
-        "minute": 49,
-        "addedTime": null,
-        "scorer": "Hassan Tambakti",
-        "team": "Saudi Arabia"
-      },
+      "fastestOwnGoal": null,
       "incidentsFetched": true
     },
     {
@@ -1807,31 +1770,31 @@
       "incidentsFetched": true
     },
     {
-      "id": 15186853,
+      "id": 15186624,
       "round": "Group Stage",
-      "startTimestamp": 1781398800,
+      "startTimestamp": 1782594000,
       "status": "finished",
       "home": {
-        "name": "Haiti",
-        "score": 0,
-        "winner": false
+        "name": "Croatia",
+        "score": 2,
+        "winner": true
       },
       "away": {
-        "name": "Scotland",
+        "name": "Ghana",
         "score": 1,
-        "winner": true
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
       "yellowCards": {
-        "Scotland": 3,
-        "Haiti": 1
+        "Ghana": 1,
+        "Croatia": 1
       },
       "fastestGoal": {
-        "minute": 28,
+        "minute": 31,
         "addedTime": null,
-        "scorer": "John McGinn",
-        "team": "Scotland"
+        "scorer": "Petar Sučić",
+        "team": "Croatia"
       },
       "fastestOwnGoal": null,
       "incidentsFetched": true
@@ -2711,6 +2674,42 @@
       "incidentsFetched": true
     },
     {
+      "id": 15186840,
+      "round": "Group Stage",
+      "startTimestamp": 1782057600,
+      "status": "finished",
+      "home": {
+        "name": "Spain",
+        "score": 4,
+        "winner": true
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "score": 0,
+        "winner": false
+      },
+      "redCards": {},
+      "ownGoals": {
+        "Saudi Arabia": 1
+      },
+      "yellowCards": {
+        "Saudi Arabia": 2
+      },
+      "fastestGoal": {
+        "minute": 10,
+        "addedTime": null,
+        "scorer": "Lamine Yamal",
+        "team": "Spain"
+      },
+      "fastestOwnGoal": {
+        "minute": 49,
+        "addedTime": null,
+        "scorer": "Hassan Tambakti",
+        "team": "Saudi Arabia"
+      },
+      "incidentsFetched": true
+    },
+    {
       "id": 15186710,
       "round": "Group Stage",
       "startTimestamp": 1781204400,
@@ -2877,26 +2876,33 @@
       "incidentsFetched": true
     },
     {
-      "id": 12813016,
-      "round": "Quarter-finals",
-      "startTimestamp": 1783627200,
-      "status": "notstarted",
+      "id": 15186850,
+      "round": "Group Stage",
+      "startTimestamp": 1781388000,
+      "status": "finished",
       "home": {
-        "name": "France",
-        "score": null,
-        "winner": null
+        "name": "Brazil",
+        "score": 1,
+        "winner": false
       },
       "away": {
         "name": "Morocco",
-        "score": null,
-        "winner": null
+        "score": 1,
+        "winner": false
       },
       "redCards": {},
       "ownGoals": {},
-      "yellowCards": {},
-      "fastestGoal": null,
+      "yellowCards": {
+        "Brazil": 2
+      },
+      "fastestGoal": {
+        "minute": 21,
+        "addedTime": null,
+        "scorer": "Ismael Saibari",
+        "team": "Morocco"
+      },
       "fastestOwnGoal": null,
-      "incidentsFetched": false
+      "incidentsFetched": true
     },
     {
       "id": 12812994,
@@ -2970,7 +2976,7 @@
       "startTimestamp": 1784055600,
       "status": "notstarted",
       "home": {
-        "name": "W97",
+        "name": "France",
         "score": null,
         "winner": null
       },
@@ -4116,7 +4122,7 @@
               "name": "France",
               "code": "FRA",
               "placeholder": false,
-              "winner": false
+              "winner": true
             },
             {
               "name": "Morocco",
@@ -4196,9 +4202,9 @@
           "kickoff": 1784055600,
           "participants": [
             {
-              "name": "W97",
-              "code": "W97",
-              "placeholder": true,
+              "name": "France",
+              "code": "FRA",
+              "placeholder": false,
               "winner": false
             },
             {
