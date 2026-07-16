@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T07:29:01.053Z",
+  "lastUpdated": "2026-07-16T06:15:43.315Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -38,9 +38,9 @@
   },
   "banner": {
     "nextFixture": {
-      "round": "Semi-finals",
-      "kickoff": "2026-07-14T19:00:00.000Z",
-      "kickoffUnix": 1784055600000,
+      "round": "3rd Place Play-off",
+      "kickoff": "2026-07-18T21:00:00.000Z",
+      "kickoffUnix": 1784408400000,
       "status": "NS",
       "home": {
         "code": "FRA",
@@ -48,27 +48,27 @@
         "iso2": "FR"
       },
       "away": {
-        "code": "ESP",
-        "name": "Spain",
-        "iso2": "ES"
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG"
       }
     },
     "lastFinished": {
-      "round": "Quarter-finals",
-      "kickoff": "2026-07-12T01:00:00.000Z",
-      "kickoffUnix": 1783818000000,
+      "round": "Semi-finals",
+      "kickoff": "2026-07-15T19:00:00.000Z",
+      "kickoffUnix": 1784142000000,
       "status": "FT",
       "home": {
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG",
+        "goals": 1
+      },
+      "away": {
         "code": "ARG",
         "name": "Argentina",
         "iso2": "AR",
-        "goals": 3
-      },
-      "away": {
-        "code": "SWI",
-        "name": "Switzerland",
-        "iso2": "CH",
-        "goals": 1
+        "goals": 2
       }
     }
   },
@@ -85,7 +85,7 @@
           "pot": 1,
           "odds": "9/2",
           "matched": true,
-          "status": "Into the Semi-finals",
+          "status": "Into the Final",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -1130,9 +1130,9 @@
           "pot": 1,
           "odds": "5/1",
           "matched": true,
-          "status": "Into the Semi-finals",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Semi-finals",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group I",
             "rank": 1,
@@ -1240,9 +1240,9 @@
           "pot": 1,
           "odds": "6/1",
           "matched": true,
-          "status": "Into the Semi-finals",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Eliminated — Semi-finals",
+          "statusKind": "eliminated",
+          "alive": false,
           "group": {
             "group": "Group L",
             "rank": 1,
@@ -1295,7 +1295,7 @@
           "pot": 1,
           "odds": "8/1",
           "matched": true,
-          "status": "Into the Semi-finals",
+          "status": "Into the Final",
           "statusKind": "through",
           "alive": true,
           "group": {
@@ -4047,15 +4047,15 @@
           {
             "label": null,
             "kickoff": "2026-07-14T19:00:00.000Z",
-            "status": "NS",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "France",
               "code": "FRA",
               "iso2": "FR",
               "player": "Sam King",
               "placeholder": false,
-              "score": null,
+              "score": 0,
               "winner": false
             },
             "away": {
@@ -4064,22 +4064,22 @@
               "iso2": "ES",
               "player": "Adam Wright",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 2,
+              "winner": true
             }
           },
           {
             "label": null,
             "kickoff": "2026-07-15T19:00:00.000Z",
-            "status": "NS",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "England",
               "code": "ENG",
               "iso2": "GB-ENG",
               "player": "Scott Rosseter",
               "placeholder": false,
-              "score": null,
+              "score": 1,
               "winner": false
             },
             "away": {
@@ -4088,8 +4088,8 @@
               "iso2": "AR",
               "player": "Tom Clayton",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 2,
+              "winner": true
             }
           }
         ]
@@ -4103,20 +4103,20 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Semi-final winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Spain",
+              "code": "ESP",
+              "iso2": "ES",
+              "player": "Adam Wright",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
             "away": {
-              "name": "Semi-final winner",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "Argentina",
+              "code": "ARG",
+              "iso2": "AR",
+              "player": "Tom Clayton",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -4127,20 +4127,20 @@
             "status": "NS",
             "finished": false,
             "home": {
-              "name": "Semi-final loser",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "France",
+              "code": "FRA",
+              "iso2": "FR",
+              "player": "Sam King",
+              "placeholder": false,
               "score": null,
               "winner": false
             },
             "away": {
-              "name": "Semi-final loser",
-              "code": null,
-              "iso2": null,
-              "player": null,
-              "placeholder": true,
+              "name": "England",
+              "code": "ENG",
+              "iso2": "GB-ENG",
+              "player": "Scott Rosseter",
+              "placeholder": false,
               "score": null,
               "winner": false
             }
@@ -5045,6 +5045,29 @@
         "player": "Guy Curry",
         "score": 2,
         "winner": false
+      }
+    },
+    {
+      "date": "2026-06-22T01:00:00.000Z",
+      "ts": 1782090000000,
+      "round": "Group G",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "NZL",
+        "name": "New Zealand",
+        "iso2": "NZ",
+        "player": "Madi Farrow-Dunn",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "EGY",
+        "name": "Egypt",
+        "iso2": "EG",
+        "player": "Ali Taylor",
+        "score": 3,
+        "winner": true
       }
     },
     {
@@ -6431,6 +6454,52 @@
       "date": "2026-07-14T19:00:00.000Z",
       "ts": 1784055600000,
       "round": "Semi-finals",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "FRA",
+        "name": "France",
+        "iso2": "FR",
+        "player": "Sam King",
+        "score": 0,
+        "winner": false
+      },
+      "away": {
+        "code": "ESP",
+        "name": "Spain",
+        "iso2": "ES",
+        "player": "Adam Wright",
+        "score": 2,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-07-15T19:00:00.000Z",
+      "ts": 1784142000000,
+      "round": "Semi-finals",
+      "status": "FT",
+      "finished": true,
+      "home": {
+        "code": "ENG",
+        "name": "England",
+        "iso2": "GB-ENG",
+        "player": "Scott Rosseter",
+        "score": 1,
+        "winner": false
+      },
+      "away": {
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
+        "player": "Tom Clayton",
+        "score": 2,
+        "winner": true
+      }
+    },
+    {
+      "date": "2026-07-18T21:00:00.000Z",
+      "ts": 1784408400000,
+      "round": "3rd Place Play-off",
       "status": "NS",
       "finished": false,
       "home": {
@@ -6442,56 +6511,10 @@
         "winner": false
       },
       "away": {
-        "code": "ESP",
-        "name": "Spain",
-        "iso2": "ES",
-        "player": "Adam Wright",
-        "score": null,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-07-15T19:00:00.000Z",
-      "ts": 1784142000000,
-      "round": "Semi-finals",
-      "status": "NS",
-      "finished": false,
-      "home": {
         "code": "ENG",
         "name": "England",
         "iso2": "GB-ENG",
         "player": "Scott Rosseter",
-        "score": null,
-        "winner": false
-      },
-      "away": {
-        "code": "ARG",
-        "name": "Argentina",
-        "iso2": "AR",
-        "player": "Tom Clayton",
-        "score": null,
-        "winner": false
-      }
-    },
-    {
-      "date": "2026-07-18T21:00:00.000Z",
-      "ts": 1784408400000,
-      "round": "3rd Place Play-off",
-      "status": "NS",
-      "finished": false,
-      "home": {
-        "code": null,
-        "name": "L101",
-        "iso2": null,
-        "player": null,
-        "score": null,
-        "winner": false
-      },
-      "away": {
-        "code": null,
-        "name": "L102",
-        "iso2": null,
-        "player": null,
         "score": null,
         "winner": false
       }
@@ -6503,18 +6526,18 @@
       "status": "NS",
       "finished": false,
       "home": {
-        "code": null,
-        "name": "W101",
-        "iso2": null,
-        "player": null,
+        "code": "ESP",
+        "name": "Spain",
+        "iso2": "ES",
+        "player": "Adam Wright",
         "score": null,
         "winner": false
       },
       "away": {
-        "code": null,
-        "name": "W102",
-        "iso2": null,
-        "player": null,
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
+        "player": "Tom Clayton",
         "score": null,
         "winner": false
       }
@@ -7027,9 +7050,25 @@
       }
     ],
     "englandKnockedOutBy": {
-      "state": "alive"
+      "state": "ko",
+      "round": "Semi-finals",
+      "score": "1–2",
+      "team": {
+        "code": "ARG",
+        "name": "Argentina",
+        "iso2": "AR",
+        "player": "Tom Clayton"
+      }
     },
     "okr": [
+      {
+        "player": "Madi Farrow-Dunn",
+        "conceded": 17,
+        "losses": 3,
+        "yellows": 9,
+        "reds": 0,
+        "score": 29
+      },
       {
         "player": "Frank Dunn",
         "conceded": 12,
@@ -7043,14 +7082,6 @@
         "conceded": 18,
         "losses": 4,
         "yellows": 5,
-        "reds": 0,
-        "score": 27
-      },
-      {
-        "player": "Madi Farrow-Dunn",
-        "conceded": 17,
-        "losses": 3,
-        "yellows": 7,
         "reds": 0,
         "score": 27
       },
@@ -7183,20 +7214,20 @@
         "score": 15
       },
       {
+        "player": "Ali Taylor",
+        "conceded": 6,
+        "losses": 0,
+        "yellows": 7,
+        "reds": 0,
+        "score": 13
+      },
+      {
         "player": "Nick Foulkes",
         "conceded": 6,
         "losses": 1,
         "yellows": 6,
         "reds": 0,
         "score": 13
-      },
-      {
-        "player": "Ali Taylor",
-        "conceded": 6,
-        "losses": 0,
-        "yellows": 6,
-        "reds": 0,
-        "score": 12
       },
       {
         "player": "Guy Curry",
@@ -7308,10 +7339,11 @@
       "l": 0,
       "gf": 5,
       "ga": 3,
-      "yellows": 5,
+      "yellows": 6,
       "reds": 0,
       "form": [
         "D",
+        "W",
         "D",
         "W",
         "L"
@@ -7701,10 +7733,11 @@
       "l": 2,
       "gf": 4,
       "ga": 10,
-      "yellows": 2,
+      "yellows": 4,
       "reds": 0,
       "form": [
         "D",
+        "L",
         "L"
       ]
     },
@@ -7942,7 +7975,7 @@
         "W",
         "W",
         "W",
-        "W"
+        "L"
       ]
     },
     "TUN": {
@@ -8010,11 +8043,11 @@
       "yellows": 2,
       "reds": 0,
       "form": [
-        "D",
         "W",
         "W",
         "W",
-        "W"
+        "W",
+        "L"
       ]
     },
     "IRQ": {
@@ -8108,7 +8141,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 103,
-    "scrapedAt": "2026-07-12T07:28:59.272971+00:00"
+    "matches": 104,
+    "scrapedAt": "2026-07-16T06:15:42.263019+00:00"
   }
 }
