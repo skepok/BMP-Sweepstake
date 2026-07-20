@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T06:15:43.315Z",
+  "lastUpdated": "2026-07-20T08:00:57.880Z",
   "source": "SofaScore",
   "season": 2026,
   "leagueId": 1,
@@ -37,43 +37,38 @@
     ]
   },
   "banner": {
-    "nextFixture": {
-      "round": "3rd Place Play-off",
-      "kickoff": "2026-07-18T21:00:00.000Z",
-      "kickoffUnix": 1784408400000,
-      "status": "NS",
-      "home": {
-        "code": "FRA",
-        "name": "France",
-        "iso2": "FR"
-      },
-      "away": {
-        "code": "ENG",
-        "name": "England",
-        "iso2": "GB-ENG"
-      }
-    },
+    "nextFixture": null,
     "lastFinished": {
-      "round": "Semi-finals",
-      "kickoff": "2026-07-15T19:00:00.000Z",
-      "kickoffUnix": 1784142000000,
+      "round": "Final",
+      "kickoff": "2026-07-19T19:00:00.000Z",
+      "kickoffUnix": 1784487600000,
       "status": "FT",
       "home": {
-        "code": "ENG",
-        "name": "England",
-        "iso2": "GB-ENG",
+        "code": "ESP",
+        "name": "Spain",
+        "iso2": "ES",
         "goals": 1
       },
       "away": {
         "code": "ARG",
         "name": "Argentina",
         "iso2": "AR",
-        "goals": 2
+        "goals": 0
       }
     }
   },
-  "champion": null,
-  "runnerUp": null,
+  "champion": {
+    "code": "ESP",
+    "name": "Spain",
+    "iso2": "ES",
+    "player": "Adam Wright"
+  },
+  "runnerUp": {
+    "code": "ARG",
+    "name": "Argentina",
+    "iso2": "AR",
+    "player": "Tom Clayton"
+  },
   "players": [
     {
       "name": "Adam Wright",
@@ -85,8 +80,8 @@
           "pot": 1,
           "odds": "9/2",
           "matched": true,
-          "status": "Into the Final",
-          "statusKind": "through",
+          "status": "Champion 🏆",
+          "statusKind": "champion",
           "alive": true,
           "group": {
             "group": "Group H",
@@ -1130,7 +1125,7 @@
           "pot": 1,
           "odds": "5/1",
           "matched": true,
-          "status": "Eliminated — Semi-finals",
+          "status": "4th place",
           "statusKind": "eliminated",
           "alive": false,
           "group": {
@@ -1240,7 +1235,7 @@
           "pot": 1,
           "odds": "6/1",
           "matched": true,
-          "status": "Eliminated — Semi-finals",
+          "status": "3rd place 🥉",
           "statusKind": "eliminated",
           "alive": false,
           "group": {
@@ -1295,9 +1290,9 @@
           "pot": 1,
           "odds": "8/1",
           "matched": true,
-          "status": "Into the Final",
-          "statusKind": "through",
-          "alive": true,
+          "status": "Runner-up 🥈",
+          "statusKind": "runnerup",
+          "alive": false,
           "group": {
             "group": "Group J",
             "rank": 1,
@@ -4100,16 +4095,16 @@
           {
             "label": "Final",
             "kickoff": "2026-07-19T19:00:00.000Z",
-            "status": "NS",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "Spain",
               "code": "ESP",
               "iso2": "ES",
               "player": "Adam Wright",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 1,
+              "winner": true
             },
             "away": {
               "name": "Argentina",
@@ -4117,22 +4112,22 @@
               "iso2": "AR",
               "player": "Tom Clayton",
               "placeholder": false,
-              "score": null,
+              "score": 0,
               "winner": false
             }
           },
           {
             "label": "3rd place play-off",
             "kickoff": "2026-07-18T21:00:00.000Z",
-            "status": "NS",
-            "finished": false,
+            "status": "FT",
+            "finished": true,
             "home": {
               "name": "France",
               "code": "FRA",
               "iso2": "FR",
               "player": "Sam King",
               "placeholder": false,
-              "score": null,
+              "score": 4,
               "winner": false
             },
             "away": {
@@ -4141,8 +4136,8 @@
               "iso2": "GB-ENG",
               "player": "Scott Rosseter",
               "placeholder": false,
-              "score": null,
-              "winner": false
+              "score": 6,
+              "winner": true
             }
           }
         ]
@@ -5137,29 +5132,6 @@
         "player": "Sam Lowerson",
         "score": 2,
         "winner": false
-      }
-    },
-    {
-      "date": "2026-06-23T03:00:00.000Z",
-      "ts": 1782183600000,
-      "round": "Group J",
-      "status": "FT",
-      "finished": true,
-      "home": {
-        "code": "JOR",
-        "name": "Jordan",
-        "iso2": "JO",
-        "player": "Joe Clayton",
-        "score": 1,
-        "winner": false
-      },
-      "away": {
-        "code": "ALG",
-        "name": "Algeria",
-        "iso2": "DZ",
-        "player": "Bob Gibson",
-        "score": 2,
-        "winner": true
       }
     },
     {
@@ -6500,14 +6472,14 @@
       "date": "2026-07-18T21:00:00.000Z",
       "ts": 1784408400000,
       "round": "3rd Place Play-off",
-      "status": "NS",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "FRA",
         "name": "France",
         "iso2": "FR",
         "player": "Sam King",
-        "score": null,
+        "score": 4,
         "winner": false
       },
       "away": {
@@ -6515,30 +6487,30 @@
         "name": "England",
         "iso2": "GB-ENG",
         "player": "Scott Rosseter",
-        "score": null,
-        "winner": false
+        "score": 6,
+        "winner": true
       }
     },
     {
       "date": "2026-07-19T19:00:00.000Z",
       "ts": 1784487600000,
       "round": "Final",
-      "status": "NS",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "home": {
         "code": "ESP",
         "name": "Spain",
         "iso2": "ES",
         "player": "Adam Wright",
-        "score": null,
-        "winner": false
+        "score": 1,
+        "winner": true
       },
       "away": {
         "code": "ARG",
         "name": "Argentina",
         "iso2": "AR",
         "player": "Tom Clayton",
-        "score": null,
+        "score": 0,
         "winner": false
       }
     }
@@ -7113,9 +7085,9 @@
         "player": "Joe Clayton",
         "conceded": 11,
         "losses": 4,
-        "yellows": 9,
+        "yellows": 8,
         "reds": 0,
-        "score": 24
+        "score": 23
       },
       {
         "player": "Paul Mitchell",
@@ -7185,9 +7157,9 @@
         "player": "Bob Gibson",
         "conceded": 11,
         "losses": 1,
-        "yellows": 4,
+        "yellows": 3,
         "reds": 0,
-        "score": 16
+        "score": 15
       },
       {
         "player": "Jess Forshaw",
@@ -7376,11 +7348,10 @@
       "l": 1,
       "gf": 5,
       "ga": 7,
-      "yellows": 1,
+      "yellows": 0,
       "reds": 0,
       "form": [
         "L",
-        "W",
         "D",
         "L"
       ]
@@ -7664,10 +7635,9 @@
       "l": 3,
       "gf": 3,
       "ga": 8,
-      "yellows": 4,
+      "yellows": 3,
       "reds": 0,
       "form": [
-        "L",
         "L",
         "L"
       ]
@@ -7974,7 +7944,7 @@
         "W",
         "W",
         "W",
-        "W",
+        "L",
         "L"
       ]
     },
@@ -8046,8 +8016,8 @@
         "W",
         "W",
         "W",
-        "W",
-        "L"
+        "L",
+        "W"
       ]
     },
     "IRQ": {
@@ -8083,7 +8053,7 @@
         "W",
         "W",
         "W",
-        "W"
+        "L"
       ]
     },
     "HTI": {
@@ -8141,7 +8111,7 @@
   },
   "meta": {
     "source": "SofaScore",
-    "matches": 104,
-    "scrapedAt": "2026-07-16T06:15:42.263019+00:00"
+    "matches": 103,
+    "scrapedAt": "2026-07-20T08:00:50.095935+00:00"
   }
 }
